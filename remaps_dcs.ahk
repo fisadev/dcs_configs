@@ -181,3 +181,9 @@ ShowTaskbar() {
     Sleep 200
     RecoverDCS(dcs_was_active)
     Return
+
+
+;Kill the desktop, which sometimes hangs and prevents WMR from switching modes.
+!^Numpad8 Up::
+    Runwait, taskkill /im DesktopView.exe /f
+    Return
