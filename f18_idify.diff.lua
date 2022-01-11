@@ -34,6 +34,14 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d120pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+			["name"] = "Catapult Hook-Up",
+		},
 		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
