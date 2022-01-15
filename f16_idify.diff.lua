@@ -5,6 +5,12 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN22",
 				},
+				[2] = {
+					["key"] = "JOY_BTN22",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
 			},
 			["name"] = "Kneeboard ON/OFF",
 		},
@@ -12,6 +18,12 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN24",
+				},
+				[2] = {
+					["key"] = "JOY_BTN24",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
 				},
 			},
 			["name"] = "Kneeboard Next Page",
@@ -64,6 +76,12 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN23",
+				},
+				[2] = {
+					["key"] = "JOY_BTN23",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
 				},
 			},
 			["name"] = "Kneeboard Previous Page",
