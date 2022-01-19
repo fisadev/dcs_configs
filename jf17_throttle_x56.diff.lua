@@ -345,6 +345,22 @@ local diff = {
 			},
 			["name"] = "Radio Mode Selector - SET",
 		},
+		["d3066pnilunilcd33vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "AAR Switch - OFF",
+		},
+		["d3066pnilunilcd33vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "AAR Switch - ALL",
+		},
 		["d3235pnilunilcd35vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
