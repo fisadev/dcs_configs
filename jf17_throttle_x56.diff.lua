@@ -37,6 +37,32 @@ local diff = {
 				},
 			},
 		},
+		["a2033cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_RX",
+				},
+			},
+			["name"] = "TDC Slew Horizontal",
+		},
+		["a2034cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_RY",
+				},
+			},
+			["name"] = "TDC Slew Vertical",
+		},
 		["a2090cdnil"] = {
 			["added"] = {
 				[1] = {
@@ -153,6 +179,14 @@ local diff = {
 			},
 			["name"] = "T4_Press: IFF Interrogation Start/Stop",
 		},
+		["d10083pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "T5_Press: Lock Target",
+		},
 		["d10102pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -255,7 +289,7 @@ local diff = {
 		["d3041pnilunilcd38vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN7",
 					["reformers"] = {
 						[1] = "JOY_BTN21",
 					},
@@ -266,7 +300,7 @@ local diff = {
 		["d3041pnilunilcd38vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN6",
 					["reformers"] = {
 						[1] = "JOY_BTN21",
 					},
@@ -277,7 +311,7 @@ local diff = {
 		["d3042pnilunilcd38vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN9",
 					["reformers"] = {
 						[1] = "JOY_BTN21",
 					},
@@ -288,7 +322,7 @@ local diff = {
 		["d3042pnilunilcd38vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN8",
 					["reformers"] = {
 						[1] = "JOY_BTN21",
 					},
@@ -299,7 +333,7 @@ local diff = {
 		["d3049pnilunilcd24vd0.2vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN10",
 					["reformers"] = {
 						[1] = "JOY_BTN21",
 					},
@@ -310,7 +344,7 @@ local diff = {
 		["d3049pnilunilcd24vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN11",
 					["reformers"] = {
 						[1] = "JOY_BTN21",
 					},

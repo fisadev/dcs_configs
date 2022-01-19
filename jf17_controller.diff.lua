@@ -34,6 +34,22 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d10053pnilu10053cdnilvd1vpnilvu0"] = {
+			["name"] = "S3: Weapon Launch",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+		},
+		["d10054pnilu10054cdnilvd1vpnilvu0"] = {
+			["name"] = "S4: Fire Main Gun",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+		},
 		["d13pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {

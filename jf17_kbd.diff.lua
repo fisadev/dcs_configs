@@ -1,5 +1,21 @@
 local diff = {
 	["keyDiffs"] = {
+		["d10003pnilu10004cdnilvdnilvpnilvunil"] = {
+			["name"] = "Aircraft Pitch Down",
+			["removed"] = {
+				[1] = {
+					["key"] = "Up",
+				},
+			},
+		},
+		["d10005pnilu10006cdnilvdnilvpnilvunil"] = {
+			["name"] = "Aircraft Pitch Up",
+			["removed"] = {
+				[1] = {
+					["key"] = "Down",
+				},
+			},
+		},
 		["d10017pnilunilcd32vdnilvpnilvunil"] = {
 			["name"] = "Landing Gear Up/Down",
 			["removed"] = {
@@ -35,6 +51,14 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "=",
+				},
+			},
+		},
+		["d10052pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "S2_Press: Unlock Target/DGFT BS Wide Narrow Switch",
+			["removed"] = {
+				[1] = {
+					["key"] = "Back",
 				},
 			},
 		},
@@ -105,14 +129,6 @@ local diff = {
 				},
 			},
 		},
-		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "NumEnter",
-				},
-			},
-			["name"] = "Kneeboard ON/OFF",
-		},
 		["d15pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -139,22 +155,6 @@ local diff = {
 					["key"] = "Num0",
 				},
 			},
-		},
-		["d3001pnilunilcd100vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "Num+",
-				},
-			},
-			["name"] = "Kneeboard Next Page",
-		},
-		["d3002pnilunilcd100vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "Num-",
-				},
-			},
-			["name"] = "Kneeboard Previous Page",
 		},
 		["d341pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -325,6 +325,22 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "Num5",
+				},
+			},
+		},
+		["dnilp39u289cdnilvdnilvpnilvunil"] = {
+			["name"] = "Zoom in slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "Num*",
+				},
+			},
+		},
+		["dnilp40u290cdnilvdnilvpnilvunil"] = {
+			["name"] = "Zoom out slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "Num/",
 				},
 			},
 		},

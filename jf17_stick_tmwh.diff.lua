@@ -100,7 +100,7 @@ local diff = {
 		["d10048pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN15",
 				},
 			},
 			["name"] = "S2_Forward: INTC Increase Range/DGFT BS Submode",
@@ -108,7 +108,7 @@ local diff = {
 		["d10049pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN17",
 				},
 			},
 			["name"] = "S2_Backward: INTC Decrease Range/DGFT VERT Submode",
@@ -116,7 +116,7 @@ local diff = {
 		["d10050pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "S2_Left: INTC RWS/TWS/VS Switch/DGFT SA",
@@ -124,7 +124,7 @@ local diff = {
 		["d10051pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "S2_Right: INTC Change Azimth Range/DGFT HA",
@@ -133,9 +133,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN9",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
 				},
 			},
 			["name"] = "S2_Press: Unlock Target/DGFT BS Wide Narrow Switch",
@@ -147,6 +144,11 @@ local diff = {
 				},
 			},
 			["name"] = "S4: Fire Main Gun",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
 		},
 		["d10055pnilu10055cdnilvd1vpnilvu0"] = {
 			["added"] = {
@@ -176,9 +178,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN8",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
 				},
 			},
 			["name"] = "T1_Forward: BVR - INTC Mode",
@@ -187,15 +186,11 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN7",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
 				},
 				[2] = {
 					["key"] = "JOY_BTN7",
 					["reformers"] = {
 						[1] = "JOY_BTN21",
-						[2] = "LCtrl",
 					},
 				},
 			},
@@ -205,20 +200,17 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN10",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
 				},
 			},
 			["name"] = "T1_Backward: AG - Air-To-Ground Mode",
 		},
-		["d10083pnilunilcdnilvdnilvpnilvunil"] = {
+		["d10098pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN19",
+					["key"] = "JOY_BTN1",
 				},
 			},
-			["name"] = "T5_Press: Lock Target",
+			["name"] = "Laser Designator On/Off",
 		},
 		["d3256pnilunilcd0vd1vpnilvunil"] = {
 			["added"] = {
@@ -273,38 +265,6 @@ local diff = {
 				},
 			},
 			["name"] = "S6_Right: Trim Roll Right",
-		},
-		["dnilp10077u10079cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "T5_Up: TDC Up",
-		},
-		["dnilp10078u10079cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN17",
-				},
-			},
-			["name"] = "T5_Down: TDC Down",
-		},
-		["dnilp10080u10082cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN18",
-				},
-			},
-			["name"] = "T5_Left: TDC Left",
-		},
-		["dnilp10081u10082cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN16",
-				},
-			},
-			["name"] = "T5_Right: TDC Right",
 		},
 		["dnilp10092unilcdnilvdnilvpnilvunil"] = {
 			["added"] = {

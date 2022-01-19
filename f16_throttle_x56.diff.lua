@@ -119,6 +119,32 @@ local diff = {
 			},
 			["name"] = "ANT ELEV Knob",
 		},
+		["a3046cd16"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_RY",
+				},
+			},
+			["name"] = "RDR CURSOR Switch - Y axis",
+		},
+		["a3047cd16"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_RX",
+				},
+			},
+			["name"] = "RDR CURSOR Switch - X axis",
+		},
 	},
 	["keyDiffs"] = {
 		["d3001pnilunilcd2vd0vpnilvunil"] = {

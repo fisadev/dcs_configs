@@ -166,6 +166,17 @@ local diff = {
 			},
 			["name"] = "WPN REL Button - Depress",
 		},
+		["d3029pnilu3029cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
+				},
+			},
+			["name"] = "UNCAGE Switch",
+		},
 		["d3030pnilunilcd16vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -198,38 +209,6 @@ local diff = {
 				},
 			},
 			["name"] = "DOGFIGHT/Missile Override Switch - DOGFIGHT",
-		},
-		["d3035pnilu3035cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Up",
-		},
-		["d3036pnilu3036cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN17",
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Down",
-		},
-		["d3037pnilu3037cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN18",
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Left",
-		},
-		["d3038pnilu3038cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN16",
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Right",
 		},
 		["d3256pnilunilcd0vd1vpnilvunil"] = {
 			["added"] = {

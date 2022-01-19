@@ -64,6 +64,32 @@ local diff = {
 			},
 			["name"] = "UFC COMM 2 Volume Control Knob",
 		},
+		["a3043cd13"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_RY",
+				},
+			},
+			["name"] = "Throttle Designator Controller - Vertical Axis",
+		},
+		["a3044cd13"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_RX",
+				},
+			},
+			["name"] = "Throttle Designator Controller - Horizontal Axis",
+		},
 	},
 	["keyDiffs"] = {
 		["d3001pnilu3001cd12vd1vpnilvu0"] = {
@@ -227,6 +253,14 @@ local diff = {
 				},
 			},
 			["name"] = "FLAP Switch - Up",
+		},
+		["d3023pnilu3023cd13vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "Throttle Designator Controller - Depress",
 		},
 		["d3027pnilu3027cd13vd0.2vpnilvu0"] = {
 			["added"] = {
