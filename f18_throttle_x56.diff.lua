@@ -131,6 +131,22 @@ local diff = {
 			},
 			["name"] = "OBOGS Control Switch - ON",
 		},
+		["d3001pnilunilcd66vd0.1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "ALQ-165 ECM Mode Switch - STBY",
+		},
+		["d3001pnilunilcd66vd0.4vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "ALQ-165 ECM Mode Switch - XMIT",
+		},
 		["d3002pnilu3002cd2vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -161,16 +177,21 @@ local diff = {
 			},
 			["name"] = "FCS RESET Button",
 		},
-		["d3003pnilu3003cd6vd1vpnilvu0"] = {
+		["d3004pnilunilcd54vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+			},
+			["name"] = "DISPENSER Switch - Down",
+		},
+		["d3004pnilunilcd54vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN8",
 				},
-				[2] = {
-					["key"] = "JOY_BTN9",
-				},
 			},
-			["name"] = "Fuel Dump Switch - ON/OFF",
+			["name"] = "DISPENSER Switch - Up",
 		},
 		["d3006pnilu3006cd12vd1vpnilvu0"] = {
 			["added"] = {
@@ -197,7 +218,7 @@ local diff = {
 		["d3007pnilunilcd6vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN13",
 				},
 			},
 			["name"] = "Probe Control Switch - Down",
@@ -205,7 +226,7 @@ local diff = {
 		["d3007pnilunilcd6vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN12",
 				},
 			},
 			["name"] = "Probe Control Switch - Up",
@@ -220,6 +241,22 @@ local diff = {
 				},
 			},
 			["name"] = "Engine Crank Switch - LEFT",
+		},
+		["d3015pnilunilcd23vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
+			["name"] = "Selective Jettison Knob - CCW",
+		},
+		["d3015pnilunilcd23vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN15",
+				},
+			},
+			["name"] = "Selective Jettison Knob - CW",
 		},
 		["d3016pnilu3016cd12vd1vpnilvu0"] = {
 			["added"] = {
@@ -374,10 +411,10 @@ local diff = {
 		["d3042pnilunilcd13vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN7",
 				},
 				[2] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "Exterior Lights Switch - ON/OFF",
