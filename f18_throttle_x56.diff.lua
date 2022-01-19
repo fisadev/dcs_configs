@@ -100,6 +100,12 @@ local diff = {
 						[1] = "JOY_BTN21",
 					},
 				},
+				[2] = {
+					["key"] = "JOY_BTN7",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
 			},
 			["name"] = "APU Control Switch - ON/OFF",
 		},
@@ -125,17 +131,6 @@ local diff = {
 			},
 			["name"] = "OBOGS Control Switch - ON",
 		},
-		["d3002pnilu3002cd12vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
-			},
-			["name"] = "Engine Crank Switch - Cycle Left",
-		},
 		["d3002pnilu3002cd2vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -154,17 +149,6 @@ local diff = {
 				},
 			},
 			["name"] = "Dispense Button",
-		},
-		["d3003pnilu3003cd12vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
-			},
-			["name"] = "Engine Crank Switch - Cycle Right",
 		},
 		["d3003pnilu3003cd2vd1vpnilvu0"] = {
 			["added"] = {
@@ -225,6 +209,39 @@ local diff = {
 				},
 			},
 			["name"] = "Probe Control Switch - Up",
+		},
+		["d3015pnilu3015cd12vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN34",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "Engine Crank Switch - LEFT",
+		},
+		["d3016pnilu3016cd12vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN36",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "Engine Crank Switch - RIGHT",
+		},
+		["d3016pnilunilcd12vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN35",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "Engine Crank Switch - OFF",
 		},
 		["d3017pnilunilcd2vd-1vpnilvunil"] = {
 			["added"] = {
@@ -357,15 +374,15 @@ local diff = {
 		["d3042pnilunilcd13vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
+					["key"] = "JOY_BTN10",
+				},
+				[2] = {
+					["key"] = "JOY_BTN11",
 				},
 			},
 			["name"] = "Exterior Lights Switch - ON/OFF",
 		},
-		["d313pnilu311cdnilvd1vpnilvu1"] = {
+		["d311pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN8",
@@ -374,9 +391,9 @@ local diff = {
 					},
 				},
 			},
-			["name"] = "Throttle (Left) - OFF/IDLE",
+			["name"] = "Throttle (Left) - IDLE",
 		},
-		["d314pnilu312cdnilvd1vpnilvu1"] = {
+		["d312pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN10",
@@ -385,7 +402,29 @@ local diff = {
 					},
 				},
 			},
-			["name"] = "Throttle (Right) - OFF/IDLE",
+			["name"] = "Throttle (Right) - IDLE",
+		},
+		["d313pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "Throttle (Left) - OFF",
+		},
+		["d314pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "Throttle (Right) - OFF",
 		},
 		["d430pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
