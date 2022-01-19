@@ -180,6 +180,28 @@ local diff = {
 			},
 			["name"] = "MAL & IND LTS Test Button",
 		},
+		["d3002pnilunilcd35vd0.3vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN36",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "IFF MASTER Knob - NORM",
+		},
+		["d3002pnilunilcd35vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN34",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "IFF MASTER Knob - OFF",
+		},
 		["d3003pnilu3003cd2vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -216,7 +238,7 @@ local diff = {
 		["d3008pnilunilcd4vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN17",
+					["key"] = "JOY_BTN13",
 				},
 			},
 			["name"] = "AIR REFUEL Switch - CLOSE",
@@ -224,7 +246,7 @@ local diff = {
 		["d3008pnilunilcd4vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN12",
 				},
 			},
 			["name"] = "AIR REFUEL Switch - OPEN",
@@ -243,7 +265,7 @@ local diff = {
 		["d3012pnilu3012cd2vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN15",
 				},
 			},
 			["name"] = "Autopilot PITCH Switch - Down",
@@ -284,7 +306,7 @@ local diff = {
 		["d3013pnilu3013cd2vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN14",
 				},
 			},
 			["name"] = "Autopilot PITCH Switch - Up",
@@ -304,6 +326,22 @@ local diff = {
 				},
 			},
 			["name"] = "Countermeasures Management Switch - Aft",
+		},
+		["d3015pnilunilcd11vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+				},
+			},
+			["name"] = "MASTER Switch - CCW",
+		},
+		["d3015pnilunilcd11vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN7",
+				},
+			},
+			["name"] = "MASTER Switch - CW",
 		},
 		["d3016pnilu3016cd16vd-1vpnilvu0"] = {
 			["added"] = {
@@ -372,14 +410,6 @@ local diff = {
 			},
 			["name"] = "Transmit Switch - IFF IN",
 		},
-		["d3030pnilu3030cd17vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN8",
-				},
-			},
-			["name"] = "ICP DED Increment/Decrement Switch - Increment",
-		},
 		["d3031pnilu3031cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -387,14 +417,6 @@ local diff = {
 				},
 			},
 			["name"] = "SPD BRK Switch - Aft/EXTEND (Momentary)",
-		},
-		["d3031pnilu3031cd17vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-				},
-			},
-			["name"] = "ICP DED Increment/Decrement Switch - Decrement",
 		},
 		["d3031pnilunilcd16vd1vpnilvunil"] = {
 			["added"] = {
@@ -404,21 +426,21 @@ local diff = {
 			},
 			["name"] = "SPD BRK Switch - Fwd/RETRACT",
 		},
-		["d3034pnilu3034cd17vd1vpnilvu0"] = {
+		["d3033pnilunilcd2vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN17",
 				},
 			},
-			["name"] = "ICP Data Control Switch - UP",
+			["name"] = "Autopilot ROLL Switch - Down",
 		},
-		["d3035pnilu3035cd17vd-1vpnilvu0"] = {
+		["d3033pnilunilcd2vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN16",
 				},
 			},
-			["name"] = "ICP Data Control Switch - DOWN",
+			["name"] = "Autopilot ROLL Switch - Up",
 		},
 		["d3039pnilu3039cd16vd1vpnilvu0"] = {
 			["added"] = {
