@@ -169,10 +169,7 @@ local diff = {
 		["d3029pnilu3029cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "UNCAGE Switch",
@@ -180,10 +177,7 @@ local diff = {
 		["d3030pnilunilcd16vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
+					["key"] = "JOY_BTN15",
 				},
 			},
 			["name"] = "DOGFIGHT/Missile Override Switch - MISSILE OVERRIDE",
@@ -191,10 +185,7 @@ local diff = {
 		["d3030pnilunilcd16vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "DOGFIGHT/Missile Override Switch - CENTER",
@@ -202,10 +193,7 @@ local diff = {
 		["d3030pnilunilcd16vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
+					["key"] = "JOY_BTN17",
 				},
 			},
 			["name"] = "DOGFIGHT/Missile Override Switch - DOGFIGHT",

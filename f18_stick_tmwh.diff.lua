@@ -141,9 +141,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN15",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
 				},
 			},
 			["name"] = "Radar Elevation Control - Up",
@@ -152,9 +149,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN17",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
 				},
 			},
 			["name"] = "Radar Elevation Control - Down",
@@ -162,17 +156,7 @@ local diff = {
 		["d3031pnilu3031cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN2",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-						[2] = "LCtrl",
-					},
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "Cage/Uncage Button",

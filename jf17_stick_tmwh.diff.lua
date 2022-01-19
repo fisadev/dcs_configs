@@ -100,7 +100,7 @@ local diff = {
 		["d10048pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN7",
 				},
 			},
 			["name"] = "S2_Forward: INTC Increase Range/DGFT BS Submode",
@@ -108,7 +108,7 @@ local diff = {
 		["d10049pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN17",
+					["key"] = "JOY_BTN9",
 				},
 			},
 			["name"] = "S2_Backward: INTC Decrease Range/DGFT VERT Submode",
@@ -116,7 +116,7 @@ local diff = {
 		["d10050pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN18",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "S2_Left: INTC RWS/TWS/VS Switch/DGFT SA",
@@ -124,7 +124,7 @@ local diff = {
 		["d10051pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "S2_Right: INTC Change Azimth Range/DGFT HA",
@@ -132,7 +132,7 @@ local diff = {
 		["d10052pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "S2_Press: Unlock Target/DGFT BS Wide Narrow Switch",
@@ -177,7 +177,7 @@ local diff = {
 		["d10062pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN15",
 				},
 			},
 			["name"] = "T1_Forward: BVR - INTC Mode",
@@ -185,10 +185,10 @@ local diff = {
 		["d10063pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN16",
 				},
 				[2] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN16",
 					["reformers"] = {
 						[1] = "JOY_BTN21",
 					},
@@ -199,7 +199,7 @@ local diff = {
 		["d10064pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN17",
 				},
 			},
 			["name"] = "T1_Backward: AG - Air-To-Ground Mode",
