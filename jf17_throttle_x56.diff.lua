@@ -214,7 +214,7 @@ local diff = {
 		["d3030pnilunilcd35vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN7",
 				},
 			},
 			["name"] = "EFCS Switch - AUTO",
@@ -222,37 +222,10 @@ local diff = {
 		["d3030pnilunilcd35vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
-				},
-			},
-			["name"] = "EFCS Switch - EFCS",
-		},
-		["d3032pnilunilcd35vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "Direct Mode Switch - OFF",
-		},
-		["d3032pnilunilcd35vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN14",
-				},
-			},
-			["name"] = "Direct Mode Switch - ON",
-		},
-		["d3033pnilunilcd35vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN7",
-				},
-				[2] = {
 					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "BIT Button - Pushdown",
+			["name"] = "EFCS Switch - EFCS",
 		},
 		["d3037pnilunilcd35vd0vpnilvunil"] = {
 			["added"] = {
@@ -333,7 +306,10 @@ local diff = {
 		["d3049pnilunilcd24vd0.2vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN35",
+				},
+				[2] = {
+					["key"] = "JOY_BTN35",
 					["reformers"] = {
 						[1] = "JOY_BTN21",
 					},
@@ -344,13 +320,46 @@ local diff = {
 		["d3049pnilunilcd24vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN34",
+				},
+				[2] = {
+					["key"] = "JOY_BTN34",
 					["reformers"] = {
 						[1] = "JOY_BTN21",
 					},
 				},
 			},
 			["name"] = "Radio Mode Selector - OFF",
+		},
+		["d3049pnilunilcd24vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN36",
+				},
+				[2] = {
+					["key"] = "JOY_BTN36",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "Radio Mode Selector - SET",
+		},
+		["d3235pnilunilcd35vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN15",
+				},
+			},
+			["name"] = "Deploy/Jettison Parachute - Cut",
+		},
+		["d3235pnilunilcd35vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
+			["name"] = "Deploy/Jettison Parachute - Deploy",
 		},
 		["dnilp10025unilcd35vdnilvpnilvunil"] = {
 			["added"] = {
