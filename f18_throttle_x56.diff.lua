@@ -131,13 +131,13 @@ local diff = {
 			},
 			["name"] = "OBOGS Control Switch - ON",
 		},
-		["d3001pnilunilcd66vd0.1vpnilvunil"] = {
+		["d3001pnilunilcd66vd0.3vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN11",
 				},
 			},
-			["name"] = "ALQ-165 ECM Mode Switch - STBY",
+			["name"] = "ALQ-165 ECM Mode Switch - REC",
 		},
 		["d3001pnilunilcd66vd0.4vpnilvunil"] = {
 			["added"] = {
