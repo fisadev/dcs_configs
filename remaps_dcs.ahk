@@ -31,7 +31,7 @@ WMRinHeadsetMode() {
 
 ;Detect wether DCS is running and in focus, and we assume it's always in VR mode
 DcsActive() {
-    Return WinActive("Digital Combat Simulator")
+    Return WinActive("DCS")
 }
 
 ;Detect wether the taskbar is visible
@@ -67,7 +67,7 @@ TaskbarSound() {
 EscapeDCS() {
     dcs_was_active := false
     if DcsActive() {
-        WinActivate, SteamVR Status
+        winActivate, ahk_class Progman
         dcs_was_active := true
     } else {
         dcs_was_active := false
@@ -78,8 +78,7 @@ EscapeDCS() {
 ;Go back to DCS if it was active
 RecoverDCS(dcs_was_active) {
     if (dcs_was_active) {
-        WinActivate, Digital Combat Simulator
-        WinMinimize, SteamVR Status
+        WinActivate, DCS
     }
     Return
 }
