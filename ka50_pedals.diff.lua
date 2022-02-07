@@ -21,7 +21,7 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.03,
+							[1] = 0.14,
 						},
 						["deadzone"] = 0.08,
 						["invert"] = false,
@@ -41,6 +41,37 @@ local diff = {
 					["key"] = "JOY_Z",
 				},
 			},
+		},
+		["a2101cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
+					["key"] = "JOY_X",
+				},
+				[2] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "Wheel Brake",
 		},
 	},
 	["keyDiffs"] = {

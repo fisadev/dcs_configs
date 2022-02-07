@@ -329,6 +329,22 @@ local diff = {
 			},
 			["name"] = "Countermeasures Management Switch - Fwd",
 		},
+		["d3014pnilunilcd66vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+			},
+			["name"] = "ECM Power Switch - Down",
+		},
+		["d3014pnilunilcd66vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN8",
+				},
+			},
+			["name"] = "ECM Power Switch - Up",
+		},
 		["d3015pnilu3015cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -340,7 +356,7 @@ local diff = {
 		["d3015pnilunilcd11vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN7",
 				},
 			},
 			["name"] = "MASTER Switch - CCW",
@@ -348,10 +364,26 @@ local diff = {
 		["d3015pnilunilcd11vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "MASTER Switch - CW",
+		},
+		["d3015pnilunilcd66vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "ECM XMIT Switch - Down",
+		},
+		["d3015pnilunilcd66vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "ECM XMIT Switch - Up",
 		},
 		["d3016pnilu3016cd16vd-1vpnilvu0"] = {
 			["added"] = {
@@ -457,6 +489,12 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN2",
 				},
+				[2] = {
+					["key"] = "JOY_BTN2",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
 			},
 			["name"] = "ENABLE Switch - Depress",
 		},
@@ -469,7 +507,7 @@ local diff = {
 					},
 				},
 			},
-			["name"] = "THROTTLE - IDLE",
+			["name"] = "Throttle - IDLE",
 		},
 		["d313pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {

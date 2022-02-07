@@ -41,7 +41,7 @@ local diff = {
 		["d103pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN15",
 				},
 			},
 			["name"] = "Shkval Narrow View 23x",
@@ -49,17 +49,12 @@ local diff = {
 		["d104pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN17",
 				},
 			},
 			["name"] = "Shkval Wide View 7x",
 		},
 		["d1589pnilu1590cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN18",
-				},
-			},
 			["name"] = "SPU-9 PTT (call radio menu)",
 			["removed"] = {
 				[1] = {
@@ -80,10 +75,26 @@ local diff = {
 				},
 			},
 		},
+		["d364pnilu365cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN8",
+				},
+			},
+			["name"] = "UV-26 Start dispensing",
+		},
+		["d366pnilu367cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "UV-26 Stop dispensing",
+		},
 		["d412pnilu414cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "TV Target frame Increase size",
@@ -91,7 +102,7 @@ local diff = {
 		["d413pnilu414cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "TV Target frame Decrease size",
@@ -103,50 +114,6 @@ local diff = {
 				},
 			},
 			["name"] = "Lock target",
-		},
-		["d511pnilu380cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN10",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
-				},
-			},
-			["name"] = "Spot light left",
-		},
-		["d512pnilu380cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN8",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
-				},
-			},
-			["name"] = "Spot light right",
-		},
-		["d513pnilu515cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN7",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
-				},
-			},
-			["name"] = "Spot light up",
-		},
-		["d514pnilu515cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-					["reformers"] = {
-						[1] = "LCtrl",
-					},
-				},
-			},
-			["name"] = "Spot light down",
 		},
 		["d538pnilu297cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -164,18 +131,64 @@ local diff = {
 				},
 			},
 		},
-		["d833pnilu834cdnilvdnilvpnilvunil"] = {
-			["added"] = {
+		["d74p74u75cdnilvdnilvpnilvunil"] = {
+			["name"] = "Wheel brake (press and hold)",
+			["removed"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN4",
 				},
 			},
+		},
+		["d824pnilu381cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "Weapon selection inward stations",
+		},
+		["d825pnilu381cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
+			["name"] = "Weapon selection outward stations",
+		},
+		["d826pnilu382cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "Weapon selection all stations",
+		},
+		["d827pnilu382cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "Weapon selection A-A mode",
+		},
+		["d833pnilu834cdnilvdnilvpnilvunil"] = {
 			["name"] = "Cockpit gauges illumination (stick)",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN12",
 				},
 			},
+		},
+		["d855pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
+				},
+			},
+			["name"] = "Wheel brake parking",
 		},
 		["d92pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "KU-31 Shkval center",
@@ -189,6 +202,9 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
+				},
+				[2] = {
+					["key"] = "JOY_BTN4",
 				},
 			},
 			["name"] = "Trim Control",

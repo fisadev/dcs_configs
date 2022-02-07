@@ -83,10 +83,18 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d1589pnilu1590cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN27",
+				},
+			},
+			["name"] = "SPU-9 PTT (call radio menu)",
+		},
 		["d309pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN6",
 					["reformers"] = {
 						[1] = "JOY_BTN21",
 					},
@@ -102,6 +110,22 @@ local diff = {
 				},
 			},
 		},
+		["d378pnilu799cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "Button Targeting mode reset",
+		},
+		["d392pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "Laser standby On/Off switch",
+		},
 		["d506pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -113,7 +137,7 @@ local diff = {
 		["d507pnilu508cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN27",
+					["key"] = "JOY_BTN24",
 				},
 			},
 			["name"] = "Engage Descent Mode",
@@ -126,6 +150,70 @@ local diff = {
 				},
 			},
 		},
+		["d511pnilu380cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN23",
+				},
+			},
+			["name"] = "Spot light left",
+		},
+		["d512pnilu380cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN21",
+				},
+			},
+			["name"] = "Spot light right",
+		},
+		["d513pnilu515cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "Spot light up",
+		},
+		["d514pnilu515cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN22",
+				},
+			},
+			["name"] = "Spot light down",
+		},
+		["d526pnilu795cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+				},
+			},
+			["name"] = "Button Automatic turn on target mode",
+		},
+		["d527pnilu796cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+			},
+			["name"] = "Button Ground moving target",
+		},
+		["d528pnilu797cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN7",
+				},
+			},
+			["name"] = "Button Airborne target",
+		},
+		["d529pnilu798cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN8",
+				},
+			},
+			["name"] = "Button Head-on airborne target aspect",
+		},
 		["d537pnilu385cdnilvdnilvpnilvunil"] = {
 			["name"] = "Hover On/Off",
 			["removed"] = {
@@ -136,6 +224,14 @@ local diff = {
 					},
 				},
 			},
+		},
+		["d630pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
+			["name"] = "SPU-9 Radio communicator selector",
 		},
 		["d68pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -159,37 +255,13 @@ local diff = {
 			},
 			["name"] = "Cockpit door open/close",
 		},
-		["d824pnilu381cdnilvdnilvpnilvunil"] = {
+		["d833pnilu834cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN22",
+					["key"] = "JOY_BTN2",
 				},
 			},
-			["name"] = "Weapon selection inward stations",
-		},
-		["d825pnilu381cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN20",
-				},
-			},
-			["name"] = "Weapon selection outward stations",
-		},
-		["d826pnilu382cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN23",
-				},
-			},
-			["name"] = "Weapon selection all stations",
-		},
-		["d827pnilu382cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN21",
-				},
-			},
-			["name"] = "Weapon selection A-A mode",
+			["name"] = "Cockpit gauges illumination (stick)",
 		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["name"] = "Gun fire",
@@ -214,6 +286,14 @@ local diff = {
 				},
 			},
 			["name"] = "Readjust Free Turbine RPM to Low",
+		},
+		["d856pnilu857cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "Collective Clutch Lock/Release Button",
 		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
 			["name"] = "Trim Control",

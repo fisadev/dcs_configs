@@ -103,6 +103,46 @@ local diff = {
 				},
 			},
 		},
+		["d590pnilu301cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+			},
+			["name"] = "Autopilot Bank hold",
+		},
+		["d591pnilu302cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "Autopilot Heading hold",
+		},
+		["d592pnilu303cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+			["name"] = "Autopilot Pitch hold",
+		},
+		["d593pnilu304cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+				},
+			},
+			["name"] = "Autopilot Altitude hold",
+		},
+		["d594pnilu305cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+			["name"] = "Autopilot Director control",
+		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["name"] = "Gun fire",
 			["removed"] = {
@@ -110,6 +150,120 @@ local diff = {
 					["key"] = "JOY_BTN1",
 				},
 			},
+		},
+		["d891pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "Power plant, hydraulics, EKRAN self-test systems switch cover",
+		},
+		["d892pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "Power plant, hydraulics, EKRAN self-test systems switch",
+		},
+		["d895pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+				[2] = {
+					["key"] = "JOY_BTN7",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "LWS L-140 power switch",
+		},
+		["d896pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "CMD UV-26 power switch cover",
+		},
+		["d897pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN8",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "CMD UV-26 power switch",
+		},
+		["d900pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+				[2] = {
+					["key"] = "JOY_BTN6",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "INU power switch",
+		},
+		["d944pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+			["name"] = "Autopilot Desired heading - Desired track",
+		},
+		["d947pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN15",
+				},
+				[2] = {
+					["key"] = "JOY_BTN15",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "Rocket and gun pods ballistics data settings selector Right",
+		},
+		["d948pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+				[2] = {
+					["key"] = "JOY_BTN16",
+					["reformers"] = {
+						[1] = "JOY_BTN21",
+					},
+				},
+			},
+			["name"] = "Rocket and gun pods ballistics data settings selector Left",
 		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
 			["name"] = "Trim Control",
