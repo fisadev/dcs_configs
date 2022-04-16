@@ -54,22 +54,6 @@ local diff = {
 				},
 			},
 		},
-		["d2503pnilu2503cdnilvd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "Up",
-				},
-			},
-			["name"] = "as mouse wheel forward",
-		},
-		["d2504pnilu2504cdnilvd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "Down",
-				},
-			},
-			["name"] = "as mouse wheel backward",
-		},
 		["d50pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Multiplayer chat - mode Allies",
 			["removed"] = {
