@@ -1,40 +1,70 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["changed"] = {
+			["added"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = -0.05,
+							[1] = 0,
+							[2] = 0.06,
+							[3] = 0.2,
+							[4] = 0.3,
+							[5] = 0.4,
+							[6] = 0.5,
+							[7] = 0.6,
+							[8] = 0.7,
+							[9] = 0.8,
+							[10] = 0.9,
+							[11] = 1,
 						},
 						["deadzone"] = 0,
 						["invert"] = false,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "Pitch",
-		},
-		["a2002cdnil"] = {
-			["changed"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = -0.05,
-						},
-						["deadzone"] = 0,
-						["invert"] = false,
-						["saturationX"] = 1,
+						["saturationX"] = 0.67,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
 					["key"] = "JOY_X",
 				},
 			},
+			["name"] = "Pitch",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+		},
+		["a2002cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+							[2] = 0.05,
+							[3] = 0.2,
+							[4] = 0.3,
+							[5] = 0.4,
+							[6] = 0.5,
+							[7] = 0.6,
+							[8] = 0.7,
+							[9] = 0.8,
+							[10] = 0.9,
+							[11] = 1,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 0.65,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Y",
+				},
+			},
 			["name"] = "Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
 		},
 		["a2003cdnil"] = {
 			["name"] = "Rudder",
