@@ -5,10 +5,10 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.15,
+							[1] = 0.1,
 						},
 						["deadzone"] = 0.03,
-						["invert"] = false,
+						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
 						["slider"] = false,
@@ -23,10 +23,10 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.15,
+							[1] = 0.1,
 						},
 						["deadzone"] = 0.03,
-						["invert"] = false,
+						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
 						["slider"] = false,
@@ -53,6 +53,17 @@ local diff = {
 				},
 			},
 			["name"] = "Shkval Wide View 7x",
+		},
+		["d109pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_D",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
+				},
+			},
+			["name"] = "Helmet-mounted system On/Off",
 		},
 		["d1589pnilu1590cdnilvdnilvpnilvunil"] = {
 			["name"] = "SPU-9 PTT (call radio menu)",
