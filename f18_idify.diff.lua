@@ -72,10 +72,13 @@ local diff = {
 						[1] = "JOY_BTN21",
 					},
 				},
+				[2] = {
+					["key"] = "JOY_BTN17",
+				},
 			},
 			["name"] = "Canopy Control Switch - OPEN",
 		},
-		["d3001pnilunilcd67vd1vpnilvunil"] = {
+		["d3001pnilunilcd68vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN24",
@@ -97,6 +100,9 @@ local diff = {
 						[1] = "JOY_BTN21",
 					},
 				},
+				[2] = {
+					["key"] = "JOY_BTN18",
+				},
 			},
 			["name"] = "Canopy Control Switch - CLOSE",
 		},
@@ -107,6 +113,9 @@ local diff = {
 					["reformers"] = {
 						[1] = "JOY_BTN21",
 					},
+				},
+				[2] = {
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "INS Switch - CCW",
@@ -119,10 +128,13 @@ local diff = {
 						[1] = "JOY_BTN21",
 					},
 				},
+				[2] = {
+					["key"] = "JOY_BTN15",
+				},
 			},
 			["name"] = "INS Switch - CW",
 		},
-		["d3002pnilunilcd67vd1vpnilvunil"] = {
+		["d3002pnilunilcd68vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN23",
@@ -144,6 +156,9 @@ local diff = {
 						[1] = "JOY_BTN21",
 					},
 				},
+				[2] = {
+					["key"] = "JOY_BTN20",
+				},
 			},
 			["name"] = "RADAR Switch - CCW",
 		},
@@ -154,6 +169,9 @@ local diff = {
 					["reformers"] = {
 						[1] = "JOY_BTN21",
 					},
+				},
+				[2] = {
+					["key"] = "JOY_BTN19",
 				},
 			},
 			["name"] = "RADAR Switch - CW",
@@ -181,6 +199,9 @@ local diff = {
 					["reformers"] = {
 						[1] = "JOY_BTN21",
 					},
+				},
+				[2] = {
+					["key"] = "JOY_BTN13",
 				},
 			},
 			["name"] = "FCS BIT Switch",
