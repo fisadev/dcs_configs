@@ -21,11 +21,11 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.29,
+							[1] = 0.39,
 						},
 						["deadzone"] = 0.04,
 						["invert"] = false,
-						["saturationX"] = 0.69,
+						["saturationX"] = 0.79,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},

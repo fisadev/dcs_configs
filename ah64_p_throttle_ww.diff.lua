@@ -42,7 +42,7 @@ local diff = {
 							[11] = 1,
 						},
 						["deadzone"] = 0,
-						["invert"] = false,
+						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
 						["slider"] = true,
@@ -72,6 +72,24 @@ local diff = {
 				},
 			},
 			["name"] = "VCP IHADSS BRT Control Knob",
+		},
+		["a3035cd3"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_RZ",
+				},
+			},
+			["name"] = "VCP SYM BRT Control Knob",
 		},
 		["a3042cd25"] = {
 			["added"] = {
@@ -133,10 +151,42 @@ local diff = {
 			},
 			["name"] = "Power Lever Step (Right) - Decrease",
 		},
+		["d179pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "Communication menu",
+		},
+		["d3002pnilunilcd7vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN93",
+				},
+			},
+			["name"] = "Parking Brake Handle - Stow",
+		},
+		["d3002pnilunilcd7vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN95",
+				},
+			},
+			["name"] = "Parking Brake Handle - Pull",
+		},
+		["d3009pnilu3009cd5vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN96",
+				},
+			},
+			["name"] = "TAIL WHEEL Pushbutton - LOCK/UNLOCK",
+		},
 		["d3017pnilu3017cd25vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN14",
 				},
 			},
 			["name"] = "PTT/RTS Switch - RADIO/Left (call radio menu)",
@@ -144,7 +194,7 @@ local diff = {
 		["d3018pnilu3018cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "PTT/RTS Switch - ICS/Right (call radio menu)",
@@ -160,7 +210,7 @@ local diff = {
 		["d3023pnilunilcd3vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN95",
+					["key"] = "JOY_BTN79",
 				},
 			},
 			["name"] = "PLT NVS MODE Switch - OFF",
@@ -168,7 +218,7 @@ local diff = {
 		["d3023pnilunilcd3vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN94",
+					["key"] = "JOY_BTN78",
 				},
 			},
 			["name"] = "PLT NVS MODE Switch - NORM",
@@ -176,10 +226,18 @@ local diff = {
 		["d3023pnilunilcd3vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN93",
+					["key"] = "JOY_BTN77",
 				},
 			},
 			["name"] = "PLT NVS MODE Switch - FIXED",
+		},
+		["d3038pnilu3038cd6vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN65",
+				},
+			},
+			["name"] = "No.1 Engine Start Switch - START",
 		},
 		["d3040pnilu3040cd25vd1vpnilvu0"] = {
 			["added"] = {
@@ -188,6 +246,14 @@ local diff = {
 				},
 			},
 			["name"] = "Cursor Enter - Depress",
+		},
+		["d3040pnilu3040cd6vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN67",
+				},
+			},
+			["name"] = "No.2 Engine Start Switch - START",
 		},
 		["d3042pnilu3042cd3vd1vpnilvu0"] = {
 			["added"] = {
@@ -237,73 +303,37 @@ local diff = {
 			},
 			["name"] = "Boresight/Polarity Switch - PLRT",
 		},
-		["d3058pnilunilcd25vd0vpnilvunil"] = {
+		["d3057pnilu3057cd6vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN78",
+					["key"] = "JOY_BTN69",
 				},
 			},
-			["name"] = "Searchlight Switch - OFF",
+			["name"] = "Fire Detection Circuit Test Switch - 1",
 		},
-		["d3058pnilunilcd25vd1vpnilvunil"] = {
+		["d3058pnilu3058cd6vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN77",
+					["key"] = "JOY_BTN71",
 				},
 			},
-			["name"] = "Searchlight Switch - ON",
+			["name"] = "Fire Detection Circuit Test Switch - 2",
 		},
-		["d3059pnilu3059cd25vd-1vpnilvu0"] = {
+		["d313pnilu311cdnilvd1vpnilvu1"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN79",
+					["key"] = "JOY_BTN99",
 				},
 			},
-			["name"] = "Searchlight Switch - STOW",
+			["name"] = "Power Lever (Left) - OFF/IDLE",
 		},
-		["d311pnilunilcdnilvdnilvpnilvunil"] = {
+		["d314pnilu312cdnilvd1vpnilvu1"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN87",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
+					["key"] = "JOY_BTN102",
 				},
 			},
-			["name"] = "Power Lever (Left) - IDLE",
-		},
-		["d312pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN90",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
-			},
-			["name"] = "Power Lever (Right) - IDLE",
-		},
-		["d313pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN88",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
-			},
-			["name"] = "Power Lever (Left) - OFF",
-		},
-		["d314pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN91",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
-			},
-			["name"] = "Power Lever (Right) - OFF",
+			["name"] = "Power Lever (Right) - OFF/IDLE",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -336,6 +366,38 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
+		},
+		["dnilp3030unilcd64vdnilvp-0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN97",
+				},
+			},
+			["name"] = "VHF Volume Control Knob - CCW/Decrease",
+		},
+		["dnilp3030unilcd64vdnilvp0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN98",
+				},
+			},
+			["name"] = "VHF Volume Control Knob - CW/Increase",
+		},
+		["dnilp3032unilcd64vdnilvp-0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN100",
+				},
+			},
+			["name"] = "UHF Volume Control Knob - CCW/Decrease",
+		},
+		["dnilp3032unilcd64vdnilvp0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN101",
+				},
+			},
+			["name"] = "UHF Volume Control Knob - CW/Increase",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

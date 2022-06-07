@@ -76,10 +76,18 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d179pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "Communication menu",
+		},
 		["d3017pnilu3017cd25vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN14",
 				},
 			},
 			["name"] = "PTT/RTS Switch - RADIO/Left (call radio menu)",
@@ -87,7 +95,7 @@ local diff = {
 		["d3018pnilu3018cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "PTT/RTS Switch - ICS/Right (call radio menu)",
@@ -103,7 +111,7 @@ local diff = {
 		["d3023pnilunilcd3vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN95",
+					["key"] = "JOY_BTN79",
 				},
 			},
 			["name"] = "PLT NVS MODE Switch - OFF",
@@ -111,7 +119,7 @@ local diff = {
 		["d3023pnilunilcd3vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN94",
+					["key"] = "JOY_BTN78",
 				},
 			},
 			["name"] = "PLT NVS MODE Switch - NORM",
@@ -119,7 +127,7 @@ local diff = {
 		["d3023pnilunilcd3vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN93",
+					["key"] = "JOY_BTN77",
 				},
 			},
 			["name"] = "PLT NVS MODE Switch - FIXED",
@@ -180,6 +188,22 @@ local diff = {
 			},
 			["name"] = "LHG STORE/Update Switch - STORE/Center",
 		},
+		["d3042pnilu3042cd3vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN82",
+				},
+			},
+			["name"] = "GND ORIDE Pushbutton",
+		},
+		["d3043pnilu3043cd3vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN81",
+				},
+			},
+			["name"] = "A/S Pushbutton",
+		},
 		["d3044pnilu3044cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -211,30 +235,6 @@ local diff = {
 				},
 			},
 			["name"] = "Boresight/Polarity Switch - PLRT",
-		},
-		["d3058pnilunilcd25vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN78",
-				},
-			},
-			["name"] = "Searchlight Switch - OFF",
-		},
-		["d3058pnilunilcd25vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN77",
-				},
-			},
-			["name"] = "Searchlight Switch - ON",
-		},
-		["d3059pnilu3059cd25vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN79",
-				},
-			},
-			["name"] = "Searchlight Switch - STOW",
 		},
 		["d3082pnilu3082cd52vd1vpnilvu0"] = {
 			["added"] = {
@@ -275,6 +275,38 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
+		},
+		["dnilp3030unilcd64vdnilvp-0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN97",
+				},
+			},
+			["name"] = "VHF Volume Control Knob - CCW/Decrease",
+		},
+		["dnilp3030unilcd64vdnilvp0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN98",
+				},
+			},
+			["name"] = "VHF Volume Control Knob - CW/Increase",
+		},
+		["dnilp3032unilcd64vdnilvp-0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN100",
+				},
+			},
+			["name"] = "UHF Volume Control Knob - CCW/Decrease",
+		},
+		["dnilp3032unilcd64vdnilvp0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN101",
+				},
+			},
+			["name"] = "UHF Volume Control Knob - CW/Increase",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

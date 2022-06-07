@@ -5,12 +5,6 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN22",
 				},
-				[2] = {
-					["key"] = "JOY_BTN22",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
 			},
 			["name"] = "Kneeboard ON/OFF",
 		},
@@ -19,12 +13,6 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN24",
 				},
-				[2] = {
-					["key"] = "JOY_BTN24",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
 			},
 			["name"] = "Kneeboard Next Page",
 		},
@@ -32,9 +20,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN9",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
 				},
 			},
 			["name"] = "INS Knob - CCW",
@@ -43,9 +28,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN10",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
 				},
 			},
 			["name"] = "INS Knob - CW",
@@ -54,9 +36,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN11",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
 				},
 			},
 			["name"] = "MIDS LVT Knob - CCW",
@@ -65,9 +44,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN12",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
 				},
 			},
 			["name"] = "MIDS LVT Knob - CW",
@@ -77,12 +53,6 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN23",
 				},
-				[2] = {
-					["key"] = "JOY_BTN23",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
 			},
 			["name"] = "Kneeboard Previous Page",
 		},
@@ -90,42 +60,38 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN8",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
 				},
 			},
 			["name"] = "GPS Switch - GPS/OFF",
+		},
+		["d3002pnilunilcd8vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+				},
+			},
+			["name"] = "Diluter Lever - NORM",
+		},
+		["d3002pnilunilcd8vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+			["name"] = "Diluter Lever - 100 percent",
 		},
 		["d3005pnilunilcd22vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
 				},
 			},
 			["name"] = "ST STA Switch - ST STA/OFF",
-		},
-		["d3007pnilunilcd8vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN7",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
-			},
-			["name"] = "Diluter Lever - 100 percent/NORM",
 		},
 		["d3015pnilunilcd19vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN1",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
 				},
 			},
 			["name"] = "MMC Switch - MMC/OFF",
@@ -133,7 +99,7 @@ local diff = {
 		["d3021pnilunilcd19vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
+					["key"] = "JOY_BTN14",
 				},
 			},
 			["name"] = "HUD DED/PFLD Data Switch - Down",
@@ -141,7 +107,7 @@ local diff = {
 		["d3021pnilunilcd19vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN1",
+					["key"] = "JOY_BTN13",
 				},
 			},
 			["name"] = "HUD DED/PFLD Data Switch - Up",
@@ -150,9 +116,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
 				},
 			},
 			["name"] = "MFD Switch - MFD/OFF",
@@ -161,9 +124,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN4",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
 				},
 			},
 			["name"] = "UFC Switch - UFC/OFF",

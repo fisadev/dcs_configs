@@ -16,46 +16,6 @@ local diff = {
 				},
 			},
 		},
-		["d10pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "Num7",
-				},
-			},
-			["name"] = "F7 Ground unit view",
-		},
-		["d131pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "Num9",
-				},
-			},
-			["name"] = "F9 Landing signal officer view",
-		},
-		["d135pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "Num5",
-				},
-			},
-			["name"] = "F6 Weapon to target view",
-		},
-		["d13pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "Num8",
-				},
-			},
-			["name"] = "F9 Ship view",
-		},
-		["d149pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "Num4",
-				},
-			},
-			["name"] = "F6 Released weapon view",
-		},
 		["d150pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "F12 Static object view",
 			["removed"] = {
@@ -74,14 +34,6 @@ local diff = {
 					},
 				},
 			},
-		},
-		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "NumEnter",
-				},
-			},
-			["name"] = "Kneeboard ON/OFF",
 		},
 		["d177pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Zoom normal",
@@ -131,14 +83,6 @@ local diff = {
 				},
 			},
 		},
-		["d3001pnilunilcd67vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "Num+",
-				},
-			},
-			["name"] = "Kneeboard Next Page",
-		},
 		["d3002pnilu3002cd13vd1vpnilvu0"] = {
 			["name"] = "Gun Trigger - SECOND DETENT (Press to shoot)",
 			["removed"] = {
@@ -154,14 +98,6 @@ local diff = {
 					["key"] = "2",
 				},
 			},
-		},
-		["d3002pnilunilcd67vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "Num-",
-				},
-			},
-			["name"] = "Kneeboard Previous Page",
 		},
 		["d3005pnilunilcd5vd-1vpnilvunil"] = {
 			["name"] = "Emergency/Parking Brake Handle - PULL",
@@ -190,6 +126,14 @@ local diff = {
 				},
 			},
 		},
+		["d3018pnilu3018cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num0",
+				},
+			},
+			["name"] = "UFC Keyboard Pushbutton - 0",
+		},
 		["d3018pnilunilcd7vd1vpnilvunil"] = {
 			["name"] = "Control Stick - HIDE/SHOW (assist)",
 			["removed"] = {
@@ -198,6 +142,46 @@ local diff = {
 				},
 			},
 		},
+		["d3019pnilu3019cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num1",
+				},
+			},
+			["name"] = "UFC Keyboard Pushbutton - 1",
+		},
+		["d3020pnilu3020cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num2",
+				},
+			},
+			["name"] = "UFC Keyboard Pushbutton - 2",
+		},
+		["d3021pnilu3021cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num3",
+				},
+			},
+			["name"] = "UFC Keyboard Pushbutton - 3",
+		},
+		["d3022pnilu3022cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num4",
+				},
+			},
+			["name"] = "UFC Keyboard Pushbutton - 4",
+		},
+		["d3023pnilu3023cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num5",
+				},
+			},
+			["name"] = "UFC Keyboard Pushbutton - 5",
+		},
 		["d3024pnilu3024cd13vd1vpnilvu0"] = {
 			["name"] = "Radar Elevation Control - Up",
 			["removed"] = {
@@ -205,6 +189,54 @@ local diff = {
 					["key"] = "=",
 				},
 			},
+		},
+		["d3024pnilu3024cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num6",
+				},
+			},
+			["name"] = "UFC Keyboard Pushbutton - 6",
+		},
+		["d3025pnilu3025cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num7",
+				},
+			},
+			["name"] = "UFC Keyboard Pushbutton - 7",
+		},
+		["d3026pnilu3026cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num8",
+				},
+			},
+			["name"] = "UFC Keyboard Pushbutton - 8",
+		},
+		["d3027pnilu3027cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num9",
+				},
+			},
+			["name"] = "UFC Keyboard Pushbutton - 9",
+		},
+		["d3028pnilu3028cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Up",
+				},
+			},
+			["name"] = "UFC Keyboard Pushbutton - CLR",
+		},
+		["d3029pnilu3029cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "NumEnter",
+				},
+			},
+			["name"] = "UFC Keyboard Pushbutton - ENT",
 		},
 		["d3031pnilu3031cd13vd1vpnilvu0"] = {
 			["name"] = "Cage/Uncage Button",

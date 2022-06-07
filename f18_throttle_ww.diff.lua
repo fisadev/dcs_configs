@@ -68,6 +68,14 @@ local diff = {
 			},
 			["name"] = "Thrust Right",
 		},
+		["a3003cd58"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_RZ",
+				},
+			},
+			["name"] = "HMD OFF/BRT Knob",
+		},
 		["a3043cd13"] = {
 			["added"] = {
 				[1] = {
@@ -96,6 +104,22 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d179pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "Communication menu",
+		},
+		["d3001pnilu3001cd12vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN92",
+				},
+			},
+			["name"] = "APU Control Switch - ON/OFF",
+		},
 		["d3001pnilu3001cd23vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -104,6 +128,22 @@ local diff = {
 			},
 			["name"] = "Master Mode Button - A/A",
 		},
+		["d3001pnilunilcd10vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN68",
+				},
+			},
+			["name"] = "OBOGS Control Switch - OFF",
+		},
+		["d3001pnilunilcd10vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN67",
+				},
+			},
+			["name"] = "OBOGS Control Switch - ON",
+		},
 		["d3002pnilu3002cd23vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -111,6 +151,14 @@ local diff = {
 				},
 			},
 			["name"] = "Master Mode Button - A/G",
+		},
+		["d3002pnilu3002cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN99",
+				},
+			},
+			["name"] = "T/O TRIM Button",
 		},
 		["d3002pnilu3002cd54vd1vpnilvu0"] = {
 			["added"] = {
@@ -143,6 +191,14 @@ local diff = {
 				},
 			},
 			["name"] = "Probe Control Switch - EXTEND",
+		},
+		["d3003pnilu3003cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN102",
+				},
+			},
+			["name"] = "FCS RESET Button",
 		},
 		["d3003pnilunilcd23vd0vpnilvunil"] = {
 			["added"] = {
@@ -184,6 +240,62 @@ local diff = {
 			},
 			["name"] = "FLAP Switch - AUTO",
 		},
+		["d3010pnilu3010cd23vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN96",
+				},
+			},
+			["name"] = "Selective Jettison Pushbutton",
+		},
+		["d3014pnilu3014cd5vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN66",
+				},
+			},
+			["name"] = "Launch Bar Control Switch - EXTEND",
+		},
+		["d3014pnilunilcd5vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN65",
+				},
+			},
+			["name"] = "Launch Bar Control Switch - RETRACT",
+		},
+		["d3015pnilu3015cd12vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN69",
+				},
+			},
+			["name"] = "Engine Crank Switch - LEFT",
+		},
+		["d3015pnilunilcd23vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN103",
+				},
+			},
+			["name"] = "Selective Jettison Knob - CCW",
+		},
+		["d3015pnilunilcd23vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN104",
+				},
+			},
+			["name"] = "Selective Jettison Knob - CW",
+		},
+		["d3016pnilu3016cd12vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN71",
+				},
+			},
+			["name"] = "Engine Crank Switch - RIGHT",
+		},
 		["d3023pnilu3023cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -195,7 +307,7 @@ local diff = {
 		["d3027pnilu3027cd13vd0.2vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN14",
 				},
 			},
 			["name"] = "COMM Switch - COMM 1 (call radio menu)",
@@ -203,7 +315,7 @@ local diff = {
 		["d3028pnilu3028cd13vd0.4vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "COMM Switch - COMM 2 (call radio menu)",
@@ -251,7 +363,7 @@ local diff = {
 		["d3035pnilu3035cd13vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN18",
+					["key"] = "JOY_BTN20",
 				},
 			},
 			["name"] = "Speed Brake Switch - EXTEND",
@@ -267,7 +379,7 @@ local diff = {
 		["d3035pnilunilcd13vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "Speed Brake Switch - RETRACT",
@@ -275,7 +387,7 @@ local diff = {
 		["d3037pnilu3037cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN80",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "ATC Engage/Disengage Switch",
@@ -375,6 +487,38 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
+		},
+		["dnilp3036unilcd25vdnilvp-0.5vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN97",
+				},
+			},
+			["name"] = "UFC COMM 1 Volume Control Knob - CCW/Decrease",
+		},
+		["dnilp3036unilcd25vdnilvp0.5vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN98",
+				},
+			},
+			["name"] = "UFC COMM 1 Volume Control Knob - CW/Increase",
+		},
+		["dnilp3038unilcd25vdnilvp-0.5vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN100",
+				},
+			},
+			["name"] = "UFC COMM 2 Volume Control Knob - CCW/Decrease",
+		},
+		["dnilp3038unilcd25vdnilvp0.5vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN101",
+				},
+			},
+			["name"] = "UFC COMM 2 Volume Control Knob - CW/Increase",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

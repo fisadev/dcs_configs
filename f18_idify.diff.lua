@@ -37,7 +37,7 @@ local diff = {
 		["d120pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN4",
 				},
 			},
 			["name"] = "Catapult Hook-Up",
@@ -47,169 +47,37 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN22",
 				},
-				[2] = {
-					["key"] = "JOY_BTN22",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
 			},
 			["name"] = "Kneeboard ON/OFF",
 		},
 		["d238pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN1",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "Pilot Salute",
-		},
-		["d3001pnilu3001cd7vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN17",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN17",
-				},
-			},
-			["name"] = "Canopy Control Switch - OPEN",
 		},
 		["d3001pnilunilcd68vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN24",
 				},
-				[2] = {
-					["key"] = "JOY_BTN24",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
 			},
 			["name"] = "Kneeboard Next Page",
-		},
-		["d3002pnilu3002cd7vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN18",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN18",
-				},
-			},
-			["name"] = "Canopy Control Switch - CLOSE",
-		},
-		["d3002pnilunilcd44vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN16",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN16",
-				},
-			},
-			["name"] = "INS Switch - CCW",
-		},
-		["d3002pnilunilcd44vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "INS Switch - CW",
 		},
 		["d3002pnilunilcd68vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN23",
 				},
-				[2] = {
-					["key"] = "JOY_BTN23",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
 			},
 			["name"] = "Kneeboard Previous Page",
-		},
-		["d3003pnilunilcd42vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN20",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN20",
-				},
-			},
-			["name"] = "RADAR Switch - CCW",
-		},
-		["d3003pnilunilcd42vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN19",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN19",
-				},
-			},
-			["name"] = "RADAR Switch - CW",
-		},
-		["d3003pnilunilcd62vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
-				},
-			},
-			["name"] = "LST/NFLR Switch - OFF",
-		},
-		["d3003pnilunilcd62vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "LST/NFLR Switch - ON",
-		},
-		["d3004pnilu3004cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-					["reformers"] = {
-						[1] = "JOY_BTN21",
-					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN13",
-				},
-			},
-			["name"] = "FCS BIT Switch",
 		},
 		["d3004pnilunilcd62vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "FLIR Switch - Down",
@@ -217,7 +85,7 @@ local diff = {
 		["d3004pnilunilcd62vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN17",
 				},
 			},
 			["name"] = "FLIR Switch - Up",
@@ -225,7 +93,7 @@ local diff = {
 		["d3005pnilu3005cd62vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN13",
 				},
 			},
 			["name"] = "LTD/R Switch - ARM",
@@ -233,10 +101,50 @@ local diff = {
 		["d3005pnilunilcd62vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN14",
 				},
 			},
 			["name"] = "LTD/R Switch - SAFE",
+		},
+		["d3009pnilunilcd5vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "Arresting Hook Handle - DOWN ",
+		},
+		["d3009pnilunilcd5vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+			},
+			["name"] = "Arresting Hook Handle - UP",
+		},
+		["d3020pnilunilcd2vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+			["name"] = "Wing Fold Control Handle - PULL/STOW",
+		},
+		["d3021pnilunilcd2vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+			["name"] = "Wing Fold Control Handle - CCW/Left",
+		},
+		["d3021pnilunilcd2vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+			["name"] = "Wing Fold Control Handle - CW/Right",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
