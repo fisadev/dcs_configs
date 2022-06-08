@@ -24,7 +24,48 @@ local diff = {
 				},
 			},
 		},
+		["a2033cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Absolute SHKVAL Horizontal Slew",
+		},
+		["a2034cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "Absolute SHKVAL Vertical Slew",
+		},
 		["a2087cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+							[2] = 0,
+							[3] = 0,
+							[4] = 0.12,
+							[5] = 0.24,
+							[6] = 0.36,
+							[7] = 0.48,
+							[8] = 0.6,
+							[9] = 0.72,
+							[10] = 0.84,
+							[11] = 1,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
+					["key"] = "JOY_RY",
+				},
+			},
 			["name"] = "Flight Control Collective",
 			["removed"] = {
 				[1] = {
@@ -34,29 +75,13 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
+		["d1589pnilu1590cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN22",
+					["key"] = "JOY_BTN14",
 				},
 			},
-			["name"] = "Kneeboard ON/OFF",
-		},
-		["d3001pnilunilcd100vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN24",
-				},
-			},
-			["name"] = "Kneeboard Next Page",
-		},
-		["d3002pnilunilcd100vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN23",
-				},
-			},
-			["name"] = "Kneeboard Previous Page",
+			["name"] = "SPU-9 PTT (call radio menu)",
 		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["name"] = "Release weapons",
@@ -66,7 +91,28 @@ local diff = {
 				},
 			},
 		},
+		["d506pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "Engage/Disengage Route Mode",
+		},
+		["d507pnilu508cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN18",
+				},
+			},
+			["name"] = "Engage Descent Mode",
+		},
 		["d509pnilu510cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN22",
+				},
+			},
 			["name"] = "Lock target",
 			["removed"] = {
 				[1] = {
@@ -84,6 +130,17 @@ local diff = {
 					},
 				},
 			},
+		},
+		["d68pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN74",
+				},
+				[2] = {
+					["key"] = "JOY_BTN73",
+				},
+			},
+			["name"] = "Gear lever",
 		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["name"] = "Gun fire",
