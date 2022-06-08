@@ -83,6 +83,14 @@ local diff = {
 			},
 			["name"] = "SPU-9 PTT (call radio menu)",
 		},
+		["d179pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "Communication menu",
+		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["name"] = "Release weapons",
 			["removed"] = {
