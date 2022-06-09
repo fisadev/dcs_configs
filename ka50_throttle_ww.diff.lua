@@ -99,6 +99,25 @@ local diff = {
 				},
 			},
 		},
+		["d378pnilu799cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN96",
+				},
+			},
+			["name"] = "Button Targeting mode reset",
+		},
+		["d392pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN93",
+				},
+				[2] = {
+					["key"] = "JOY_BTN95",
+				},
+			},
+			["name"] = "Laser standby On/Off switch",
+		},
 		["d506pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -142,10 +161,10 @@ local diff = {
 		["d68pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN74",
+					["key"] = "JOY_BTN76",
 				},
 				[2] = {
-					["key"] = "JOY_BTN73",
+					["key"] = "JOY_BTN75",
 				},
 			},
 			["name"] = "Gear lever",

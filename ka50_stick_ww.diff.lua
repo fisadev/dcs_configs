@@ -73,7 +73,7 @@ local diff = {
 		["d113pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN1",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "Gun Select",
