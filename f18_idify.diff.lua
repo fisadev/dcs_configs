@@ -74,6 +74,14 @@ local diff = {
 			},
 			["name"] = "Kneeboard Previous Page",
 		},
+		["d3004pnilu3004cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN15",
+				},
+			},
+			["name"] = "FCS BIT Switch",
+		},
 		["d3004pnilunilcd62vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
