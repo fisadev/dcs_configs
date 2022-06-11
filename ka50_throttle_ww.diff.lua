@@ -24,6 +24,24 @@ local diff = {
 				},
 			},
 		},
+		["a2004cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_SLIDER2",
+				},
+			},
+			["name"] = "Throttle",
+		},
 		["a2033cdnil"] = {
 			["added"] = {
 				[1] = {
@@ -168,6 +186,17 @@ local diff = {
 				},
 			},
 			["name"] = "Gear lever",
+		},
+		["d71pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN66",
+				},
+				[2] = {
+					["key"] = "JOY_BTN65",
+				},
+			},
+			["name"] = "Cockpit door open/close",
 		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["name"] = "Gun fire",

@@ -97,7 +97,7 @@ local diff = {
 					},
 				},
 			},
-			["name"] = "F4 Look back view",
+			["name"] = "F4 Camera mounted on airframe",
 		},
 		["d360pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {

@@ -108,6 +108,11 @@ local diff = {
 			["name"] = "TV Target frame Decrease size",
 		},
 		["d509pnilu510cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
 			["name"] = "Lock target",
 			["removed"] = {
 				[1] = {
@@ -194,14 +199,6 @@ local diff = {
 				},
 			},
 			["name"] = "Weapon selection all stations",
-		},
-		["d827pnilu382cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN32",
-				},
-			},
-			["name"] = "Weapon selection A-A mode",
 		},
 		["d833pnilu834cdnilvdnilvpnilvunil"] = {
 			["added"] = {
