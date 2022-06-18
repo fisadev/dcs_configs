@@ -75,6 +75,22 @@ local diff = {
 			},
 			["name"] = "Launch Countermeasures",
 		},
+		["d3022pnilunilcd11vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN99",
+				},
+			},
+			["name"] = "Door, Cargo Cabin, Left - OPEN/CLOSE",
+		},
+		["d3023pnilunilcd11vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN102",
+				},
+			},
+			["name"] = "Door, Cargo Cabin, Right - OPEN/CLOSE",
+		},
 		["d430pnilunilcdnilvd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -122,6 +138,38 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
+		},
+		["dnilp3019unilcd55vdnilvp-0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN100",
+				},
+			},
+			["name"] = "SPU-8, ICS Main Volume Knob - CCW/Decrease",
+		},
+		["dnilp3019unilcd55vdnilvp0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN101",
+				},
+			},
+			["name"] = "SPU-8, ICS Main Volume Knob - CW/Increase",
+		},
+		["dnilp3020unilcd55vdnilvp-0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN97",
+				},
+			},
+			["name"] = "SPU-8, ICS Listening Volume Knob - CCW/Decrease",
+		},
+		["dnilp3020unilcd55vdnilvp0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN98",
+				},
+			},
+			["name"] = "SPU-8, ICS Listening Volume Knob - CW/Increase",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

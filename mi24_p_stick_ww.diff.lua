@@ -68,10 +68,26 @@ local diff = {
 		["d3008pnilu3008cd30vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN9",
 				},
 			},
 			["name"] = "\"Prepare Weapons\" command to gunner",
+		},
+		["d3026pnilu3026cd55vd0.5vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "Radio trigger - 1st STAGE (ICS)",
+		},
+		["d3026pnilu3026cd55vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+			["name"] = "Radio trigger - 2nd STAGE (RADIO)",
 		},
 		["d3102pnilunilcd6vd1vpnilvunil"] = {
 			["added"] = {
@@ -98,10 +114,7 @@ local diff = {
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
-				},
-				[2] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN20",
 				},
 			},
 			["name"] = "Release weapons",
