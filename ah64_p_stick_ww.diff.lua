@@ -5,7 +5,7 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.1,
 						},
 						["deadzone"] = 0,
 						["invert"] = true,
@@ -23,11 +23,11 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.2,
 						},
 						["deadzone"] = 0,
 						["invert"] = true,
-						["saturationX"] = 1,
+						["saturationX"] = 0.8,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
