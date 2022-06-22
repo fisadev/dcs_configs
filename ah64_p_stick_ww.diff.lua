@@ -70,6 +70,17 @@ local diff = {
 			},
 			["name"] = "Weapons Trigger Guard - OPEN",
 		},
+		["d3001pnilunilcd88vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN17",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Occupy Pilot Seat",
+		},
 		["d3002pnilu3002cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -92,7 +103,7 @@ local diff = {
 		["d3002pnilunilcd88vd2vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN15",
 					["reformers"] = {
 						[1] = "throt mod",
 					},

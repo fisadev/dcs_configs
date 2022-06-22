@@ -37,11 +37,11 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.2,
 						},
 						["deadzone"] = 0,
 						["invert"] = true,
-						["saturationX"] = 1,
+						["saturationX"] = 0.5,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
@@ -55,11 +55,11 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.2,
 						},
 						["deadzone"] = 0,
 						["invert"] = true,
-						["saturationX"] = 1,
+						["saturationX"] = 0.5,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
@@ -89,7 +89,7 @@ local diff = {
 		["d3001pnilunilcd88vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN17",
 					["reformers"] = {
 						[1] = "throt mod",
 					},
@@ -107,6 +107,17 @@ local diff = {
 				},
 			},
 			["name"] = "George AI Helper Interface - Show/Hide",
+		},
+		["d3002pnilunilcd88vd2vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN15",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Occupy Copilot/Gunner Seat",
 		},
 		["d3012pnilunilcd25vd1vpnilvunil"] = {
 			["added"] = {
