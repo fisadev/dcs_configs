@@ -176,6 +176,14 @@ local diff = {
 				},
 			},
 		},
+		["d630pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN15",
+				},
+			},
+			["name"] = "SPU-9 Radio communicator selector",
+		},
 		["d68pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
