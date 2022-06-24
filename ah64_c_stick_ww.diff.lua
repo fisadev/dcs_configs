@@ -119,6 +119,17 @@ local diff = {
 			},
 			["name"] = "Occupy Copilot/Gunner Seat",
 		},
+		["d3010pnilunilcd40vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN19",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "IHADSS show",
+		},
 		["d3012pnilunilcd25vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {

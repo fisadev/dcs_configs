@@ -175,6 +175,17 @@ local diff = {
 			},
 			["name"] = "Weapons Action Switch - R/Left",
 		},
+		["d3010pnilunilcd40vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN19",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "IHADSS show",
+		},
 		["d3011pnilu3011cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
