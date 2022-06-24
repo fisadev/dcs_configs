@@ -76,6 +76,17 @@ local diff = {
 			},
 			["name"] = "Occupy the Copilot/Operator's Seat",
 		},
+		["d3003pnilunilcd22vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Set Gunner Seat",
+		},
 		["d3008pnilu3008cd30vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
