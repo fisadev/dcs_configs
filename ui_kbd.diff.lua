@@ -1,12 +1,31 @@
 local diff = {
 	["keyDiffs"] = {
 		["d157pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "1",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
+				},
+			},
 			["name"] = "Frame rate counter - Service info",
 			["removed"] = {
 				[1] = {
 					["key"] = "Pause",
 					["reformers"] = {
 						[1] = "RCtrl",
+					},
+				},
+			},
+		},
+		["d1641pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Restart Mission",
+			["removed"] = {
+				[1] = {
+					["key"] = "R",
+					["reformers"] = {
+						[1] = "LShift",
 					},
 				},
 			},
@@ -22,10 +41,49 @@ local diff = {
 				},
 			},
 		},
+		["d1673pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "2",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
+				},
+			},
+			["name"] = "Chat show/hide",
+			["removed"] = {
+				[1] = {
+					["key"] = "Y",
+					["reformers"] = {
+						[1] = "LCtrl",
+						[2] = "LShift",
+					},
+				},
+			},
+		},
+		["d1686pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "3",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
+				},
+			},
+			["name"] = "BDA show/hide",
+			["removed"] = {
+				[1] = {
+					["key"] = "'",
+					["reformers"] = {
+						[1] = "RAlt",
+					},
+				},
+			},
+		},
 		["d191pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "Num/",
+					["key"] = ",",
 				},
 			},
 			["name"] = "Time decelerate",
@@ -38,10 +96,21 @@ local diff = {
 				},
 			},
 		},
+		["d216pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "`",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
+				},
+			},
+			["name"] = "recenter VR Headset",
+		},
 		["d246pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "Num*",
+					["key"] = "/",
 				},
 			},
 			["name"] = "Time normal",
@@ -65,10 +134,21 @@ local diff = {
 				},
 			},
 		},
+		["d52pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Esc",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
+				},
+			},
+			["name"] = "Pause",
+		},
 		["d53pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "Back",
+					["key"] = ".",
 				},
 			},
 			["name"] = "Time accelerate",
@@ -77,6 +157,18 @@ local diff = {
 					["key"] = "Z",
 					["reformers"] = {
 						[1] = "LCtrl",
+					},
+				},
+			},
+		},
+		["d56pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Show VoiceChat window",
+			["removed"] = {
+				[1] = {
+					["key"] = "Tab",
+					["reformers"] = {
+						[1] = "LCtrl",
+						[2] = "LShift",
 					},
 				},
 			},
