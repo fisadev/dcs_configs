@@ -34,6 +34,30 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN22",
+				},
+			},
+			["name"] = "Kneeboard ON/OFF",
+		},
+		["d3001pnilunilcd21vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN24",
+				},
+			},
+			["name"] = "Kneeboard Next Page",
+		},
+		["d3002pnilunilcd21vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN23",
+				},
+			},
+			["name"] = "Kneeboard Previous Page",
+		},
 		["d309pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
