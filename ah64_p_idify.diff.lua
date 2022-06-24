@@ -58,6 +58,17 @@ local diff = {
 			},
 			["name"] = "Kneeboard Previous Page",
 		},
+		["d3003pnilunilcd84vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN22",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Kneeboard current position mark point",
+		},
 		["d3010pnilu3010cd80vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -121,46 +132,6 @@ local diff = {
 				},
 			},
 			["name"] = "CMWS Operation Switch - BYPASS",
-		},
-		["d3054pnilunilcd64vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-			["name"] = "VHF Squelch Switch - ON/OFF",
-		},
-		["d3055pnilunilcd64vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-			["name"] = "UHF Squelch Switch - ON/OFF",
-		},
-		["d3056pnilunilcd64vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "FM1 Squelch Switch - ON/OFF",
-		},
-		["d3057pnilunilcd64vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
-				},
-			},
-			["name"] = "FM2 Squelch Switch - ON/OFF",
-		},
-		["d3058pnilunilcd64vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN8",
-				},
-			},
-			["name"] = "HF Squelch Switch - ON/OFF",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",

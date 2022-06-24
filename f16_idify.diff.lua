@@ -80,6 +80,17 @@ local diff = {
 			},
 			["name"] = "Diluter Lever - 100 percent",
 		},
+		["d3003pnilunilcd54vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN22",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Kneeboard current position mark point",
+		},
 		["d3005pnilunilcd22vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {

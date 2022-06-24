@@ -74,6 +74,17 @@ local diff = {
 			},
 			["name"] = "Kneeboard Previous Page",
 		},
+		["d3003pnilunilcd68vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN22",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Kneeboard current position mark point",
+		},
 		["d3004pnilu3004cd2vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
