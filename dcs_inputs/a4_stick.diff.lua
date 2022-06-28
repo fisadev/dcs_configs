@@ -23,7 +23,7 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.2,
 						},
 						["deadzone"] = 0,
 						["invert"] = true,
@@ -112,6 +112,17 @@ local diff = {
 				},
 			},
 			["name"] = "Flashlight",
+		},
+		["d83pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Alternate Ejection Handle (3 times)",
 		},
 		["d840pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {

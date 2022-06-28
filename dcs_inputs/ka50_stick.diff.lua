@@ -70,6 +70,17 @@ local diff = {
 			},
 			["name"] = "Shkval Wide View 7x",
 		},
+		["d109pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_D",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Helmet-mounted system On/Off",
+		},
 		["d113pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -90,6 +101,22 @@ local diff = {
 					["key"] = "JOY_BTN2",
 				},
 			},
+		},
+		["d364pnilu365cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN38",
+				},
+			},
+			["name"] = "UV-26 Start dispensing",
+		},
+		["d366pnilu367cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN40",
+				},
+			},
+			["name"] = "UV-26 Stop dispensing",
 		},
 		["d412pnilu414cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -207,6 +234,17 @@ local diff = {
 				},
 			},
 			["name"] = "Cockpit gauges illumination (stick)",
+		},
+		["d83pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Eject (3 times)",
 		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -340,6 +378,28 @@ local diff = {
 				},
 			},
 			["name"] = "Uncage SHKVAL, designate target",
+		},
+		["dnilp840unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Helmet device brightness Up",
+		},
+		["dnilp841unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Helmet device brightness Down",
 		},
 		["dnilp88u235cdnilvdnilvpnilvunil"] = {
 			["name"] = "KU-31 Shkval slew left",
