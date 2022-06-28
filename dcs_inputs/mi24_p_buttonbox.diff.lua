@@ -72,7 +72,7 @@ local diff = {
 		["d309pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN21",
 				},
 			},
 			["name"] = "Automatic Startup Procedure",

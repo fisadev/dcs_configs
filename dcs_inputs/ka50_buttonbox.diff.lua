@@ -69,6 +69,14 @@ local diff = {
 			},
 			["name"] = "Kneeboard current position mark point",
 		},
+		["d309pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN21",
+				},
+			},
+			["name"] = "Automatic Startup Procedure",
+		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["name"] = "Release weapons",
 			["removed"] = {

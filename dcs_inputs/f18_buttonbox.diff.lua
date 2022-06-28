@@ -165,6 +165,14 @@ local diff = {
 			},
 			["name"] = "Wing Fold Control Handle - CW/Right",
 		},
+		["d309pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN21",
+				},
+			},
+			["name"] = "Automatic Startup Procedure",
+		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {

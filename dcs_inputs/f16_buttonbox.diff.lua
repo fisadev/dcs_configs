@@ -139,6 +139,14 @@ local diff = {
 			},
 			["name"] = "UFC Switch - UFC/OFF",
 		},
+		["d309pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN21",
+				},
+			},
+			["name"] = "Automatic Startup Procedure",
+		},
 	},
 }
 return diff

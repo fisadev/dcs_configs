@@ -133,6 +133,14 @@ local diff = {
 			},
 			["name"] = "CMWS Operation Switch - BYPASS",
 		},
+		["d309pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN21",
+				},
+			},
+			["name"] = "Automatic Startup Procedure",
+		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {
