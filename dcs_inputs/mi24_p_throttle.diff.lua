@@ -67,6 +67,14 @@ local diff = {
 			},
 			["name"] = "Communication menu",
 		},
+		["d3005pnilunilcd67vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN80",
+				},
+			},
+			["name"] = "RWR Power",
+		},
 		["d3014pnilu3014cd9vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -90,6 +98,33 @@ local diff = {
 				},
 			},
 			["name"] = "Door, Cargo Cabin, Right - OPEN/CLOSE",
+		},
+		["d3026pnilu3026cd55vd0.5vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+			},
+			["name"] = "Radio trigger - 1st STAGE (ICS)",
+		},
+		["d3026pnilu3026cd55vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
+			["name"] = "Radio trigger - 2nd STAGE (RADIO)",
+		},
+		["d3033pnilunilcd11vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN66",
+				},
+				[2] = {
+					["key"] = "JOY_BTN65",
+				},
+			},
+			["name"] = "Door, Cockpit - OPEN/CLOSE",
 		},
 		["d430pnilunilcdnilvd1vpnilvunil"] = {
 			["added"] = {
