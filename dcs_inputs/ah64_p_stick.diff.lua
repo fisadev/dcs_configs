@@ -124,6 +124,9 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_U",
 				},
+				[2] = {
+					["key"] = "JOY_BTN9",
+				},
 			},
 			["name"] = "Force Trim/Hold Mode Switch - R/Up",
 		},

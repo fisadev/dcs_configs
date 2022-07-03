@@ -54,6 +54,14 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d3001pnilu3001cd30vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
+			["name"] = "AI Helper Interface - SHOW/HIDE",
+		},
 		["d3001pnilunilcd22vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -90,10 +98,26 @@ local diff = {
 		["d3008pnilu3008cd30vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "\"Prepare Weapons\" command to gunner",
+		},
+		["d3015pnilu3015cd30vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "\"Designate target\" OR \"Open Fire\" command to gunner",
+		},
+		["d3019pnilu3019cd30vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN18",
+				},
+			},
+			["name"] = "Cycle Missile Type",
 		},
 		["d3102pnilunilcd6vd1vpnilvunil"] = {
 			["added"] = {
@@ -143,6 +167,9 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_U",
+				},
+				[2] = {
+					["key"] = "JOY_BTN9",
 				},
 			},
 			["name"] = "Trim Button - press",

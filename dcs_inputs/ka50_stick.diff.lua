@@ -270,18 +270,13 @@ local diff = {
 			},
 			["name"] = "Wheel brake parking",
 		},
-		["d92pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-				},
-			},
-			["name"] = "KU-31 Shkval center",
-		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_U",
+				},
+				[2] = {
+					["key"] = "JOY_BTN9",
 				},
 			},
 			["name"] = "Trim Control",
