@@ -864,7 +864,7 @@ local diff = {
 		["d3003pnilu3003cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "1",
+					["key"] = "A",
 				},
 			},
 			["name"] = "ICP Priority Function Button - 1(T-ILS)",
@@ -891,7 +891,7 @@ local diff = {
 		["d3004pnilu3004cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "2",
+					["key"] = "S",
 				},
 			},
 			["name"] = "ICP Priority Function Button - 2/N(ALOW)",
@@ -907,7 +907,7 @@ local diff = {
 		["d3005pnilu3005cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "3",
+					["key"] = "D",
 				},
 			},
 			["name"] = "ICP Priority Function Button - 3",
@@ -1015,7 +1015,7 @@ local diff = {
 		["d3009pnilu3009cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "A",
+					["key"] = "1",
 				},
 			},
 			["name"] = "ICP Priority Function Button - 7(MARK)",
@@ -1054,7 +1054,7 @@ local diff = {
 		["d3010pnilu3010cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "S",
+					["key"] = "2",
 				},
 			},
 			["name"] = "ICP Priority Function Button - 8/S(FIX)",
@@ -1105,7 +1105,7 @@ local diff = {
 		["d3011pnilu3011cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "D",
+					["key"] = "3",
 				},
 			},
 			["name"] = "ICP Priority Function Button - 9(A-CAL)",

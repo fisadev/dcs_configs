@@ -1525,7 +1525,7 @@ local diff = {
 		["d3033pnilu3033cd31vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "1",
+					["key"] = "A",
 				},
 			},
 			["name"] = "KU Key - 1",
@@ -1542,7 +1542,7 @@ local diff = {
 		["d3034pnilu3034cd31vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "2",
+					["key"] = "S",
 				},
 			},
 			["name"] = "KU Key - 2",
@@ -1559,7 +1559,7 @@ local diff = {
 		["d3035pnilu3035cd31vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "3",
+					["key"] = "D",
 				},
 			},
 			["name"] = "KU Key - 3",
@@ -1627,7 +1627,7 @@ local diff = {
 		["d3039pnilu3039cd31vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "A",
+					["key"] = "1",
 				},
 			},
 			["name"] = "KU Key - 7",
@@ -1644,7 +1644,7 @@ local diff = {
 		["d3040pnilu3040cd31vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "S",
+					["key"] = "2",
 				},
 			},
 			["name"] = "KU Key - 8",
@@ -1661,7 +1661,7 @@ local diff = {
 		["d3041pnilu3041cd31vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "D",
+					["key"] = "3",
 				},
 			},
 			["name"] = "KU Key - 9",

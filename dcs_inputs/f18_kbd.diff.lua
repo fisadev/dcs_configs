@@ -1303,7 +1303,7 @@ local diff = {
 		["d3019pnilu3019cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "1",
+					["key"] = "A",
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 1",
@@ -1319,7 +1319,7 @@ local diff = {
 		["d3020pnilu3020cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "2",
+					["key"] = "S",
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 2",
@@ -1343,7 +1343,7 @@ local diff = {
 		["d3021pnilu3021cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "3",
+					["key"] = "D",
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 3",
@@ -1429,7 +1429,7 @@ local diff = {
 		["d3025pnilu3025cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "A",
+					["key"] = "1",
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 7",
@@ -1437,7 +1437,7 @@ local diff = {
 		["d3026pnilu3026cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "S",
+					["key"] = "2",
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 8",
@@ -1456,7 +1456,7 @@ local diff = {
 		["d3027pnilu3027cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "D",
+					["key"] = "3",
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 9",
