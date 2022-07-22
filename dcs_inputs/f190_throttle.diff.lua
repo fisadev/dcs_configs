@@ -95,22 +95,6 @@ local diff = {
 			},
 			["name"] = "Landing Gear Extending",
 		},
-		["d3012pnilu3012cd8vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN84",
-				},
-			},
-			["name"] = "Trim Elevator Up",
-		},
-		["d3012pnilu3012cd8vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN83",
-				},
-			},
-			["name"] = "Trim Elevator Down",
-		},
 		["d3013pnilunilcd20vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -129,6 +113,22 @@ local diff = {
 					["key"] = "JOY_BTN3",
 				},
 			},
+		},
+		["d311pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN31",
+				},
+			},
+			["name"] = "Throttle to START",
+		},
+		["d313pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+			["name"] = "Throttle to STOP",
 		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["name"] = "Weapon release",
@@ -209,6 +209,22 @@ local diff = {
 				},
 			},
 			["name"] = "Radio Tuning Increase",
+		},
+		["dnilp3014unilcd8vdnilvp-0.1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN88",
+				},
+			},
+			["name"] = "Radiator Flaps Close",
+		},
+		["dnilp3014unilcd8vdnilvp0.1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN86",
+				},
+			},
+			["name"] = "Radiator Flaps Open",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",
