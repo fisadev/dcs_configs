@@ -193,6 +193,22 @@ local diff = {
 			},
 			["name"] = "T5_Press: Lock Target",
 		},
+		["d10119pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN71",
+				},
+			},
+			["name"] = "Radio Mode Selector - CW",
+		},
+		["d10120pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN69",
+				},
+			},
+			["name"] = "Radio Mode Selector - CCW",
+		},
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -224,6 +240,38 @@ local diff = {
 				},
 			},
 			["name"] = "Master Arm Switch - ARM",
+		},
+		["d3041pnilunilcd38vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN88",
+				},
+			},
+			["name"] = "Emergency Hydraulic Pump Switch - OFF",
+		},
+		["d3041pnilunilcd38vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN86",
+				},
+			},
+			["name"] = "Emergency Hydraulic Pump Switch - ON",
+		},
+		["d3042pnilunilcd38vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN91",
+				},
+			},
+			["name"] = "SHARS Switch - OFF",
+		},
+		["d3042pnilunilcd38vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN89",
+				},
+			},
+			["name"] = "SHARS Switch - ON",
 		},
 		["d3073pnilu3073cd34vd1vpnilvu0"] = {
 			["added"] = {
