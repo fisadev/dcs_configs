@@ -241,34 +241,58 @@ local diff = {
 			},
 			["name"] = "Master Arm Switch - ARM",
 		},
-		["d3041pnilunilcd38vd0vpnilvunil"] = {
+		["d3033pnilunilcd35vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN92",
+				},
+			},
+			["name"] = "BIT Button - Pushdown",
+		},
+		["d3037pnilunilcd35vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN88",
 				},
 			},
-			["name"] = "Emergency Hydraulic Pump Switch - OFF",
+			["name"] = "AG1/AG2 Switch - A/G2",
 		},
-		["d3041pnilunilcd38vd1vpnilvunil"] = {
+		["d3037pnilunilcd35vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN86",
 				},
 			},
-			["name"] = "Emergency Hydraulic Pump Switch - ON",
+			["name"] = "AG1/AG2 Switch - A/G1",
 		},
-		["d3042pnilunilcd38vd0vpnilvunil"] = {
+		["d3038pnilunilcd35vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN91",
 				},
 			},
-			["name"] = "SHARS Switch - OFF",
+			["name"] = "AA/AG Switch - A/G",
+		},
+		["d3038pnilunilcd35vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN89",
+				},
+			},
+			["name"] = "AA/AG Switch - A/A",
+		},
+		["d3041pnilunilcd38vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN99",
+				},
+			},
+			["name"] = "Emergency Hydraulic Pump Switch - ON",
 		},
 		["d3042pnilunilcd38vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN89",
+					["key"] = "JOY_BTN102",
 				},
 			},
 			["name"] = "SHARS Switch - ON",
