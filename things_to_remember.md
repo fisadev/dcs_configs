@@ -1,6 +1,7 @@
 - Uninstall winwing drivers, and from [saved games]/DCS/Scripts/export.lua, remove the two lines that the winwing driver adds
 - Disable GPU scheduling: windows settings > display > graphics
 - Limit fps in Nvidia control pannel
+- Disable xbox game bar: windows settings > gaming
 - Use OpenXR:
     0. Asegurarse de que DCS está limpio (repair just in case? no mods?)
     1. Bajar la última versión de OpenXR Tools for Windows: 
