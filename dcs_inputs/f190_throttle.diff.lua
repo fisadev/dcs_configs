@@ -37,6 +37,22 @@ local diff = {
 				},
 			},
 		},
+		["a3007cd21"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_SLIDER1",
+				},
+			},
+			["name"] = "EZ42 Gunsight Target Distance Control",
+		},
+		["a3008cd21"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_SLIDER2",
+				},
+			},
+			["name"] = "EZ42 Gunsight Target Wingspan Knob",
+		},
 	},
 	["keyDiffs"] = {
 		["d1591pnilu1592cdnilvdnilvpnilvunil"] = {
@@ -225,6 +241,22 @@ local diff = {
 				},
 			},
 			["name"] = "Radiator Flaps Open",
+		},
+		["dnilp3016unilcd21vdnilvp-0.14vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "EZ42 Gunsight Target Distance Control (Throttle Twist Grip) - CCW/Decrease",
+		},
+		["dnilp3016unilcd21vdnilvp0.14vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "EZ42 Gunsight Target Distance Control (Throttle Twist Grip) - CW/Increase",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",
