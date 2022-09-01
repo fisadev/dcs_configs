@@ -93,6 +93,22 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d103pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "Shkval Narrow View 23x",
+		},
+		["d104pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "Shkval Wide View 7x",
+		},
 		["d1589pnilu1590cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -136,10 +152,34 @@ local diff = {
 			},
 			["name"] = "Laser standby On/Off switch",
 		},
+		["d412pnilu414cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+			},
+			["name"] = "TV Target frame Increase size",
+		},
+		["d413pnilu414cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "TV Target frame Decrease size",
+		},
+		["d503pnilu812cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN102",
+				},
+			},
+			["name"] = "ABRIS Axis Push",
+		},
 		["d506pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN7",
 				},
 			},
 			["name"] = "Engage/Disengage Route Mode",
@@ -147,7 +187,7 @@ local diff = {
 		["d507pnilu508cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN18",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "Engage Descent Mode",
@@ -157,6 +197,9 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN22",
 				},
+				[2] = {
+					["key"] = "JOY_BTN8",
+				},
 			},
 			["name"] = "Lock target",
 			["removed"] = {
@@ -164,6 +207,38 @@ local diff = {
 					["key"] = "JOY_BTN4",
 				},
 			},
+		},
+		["d526pnilu795cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN86",
+				},
+			},
+			["name"] = "Button Automatic turn on target mode",
+		},
+		["d527pnilu796cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN91",
+				},
+			},
+			["name"] = "Button Ground moving target",
+		},
+		["d528pnilu797cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN88",
+				},
+			},
+			["name"] = "Button Airborne target",
+		},
+		["d529pnilu798cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN89",
+				},
+			},
+			["name"] = "Button Head-on airborne target aspect",
 		},
 		["d537pnilu385cdnilvdnilvpnilvunil"] = {
 			["name"] = "Hover On/Off",
@@ -213,6 +288,14 @@ local diff = {
 					["key"] = "JOY_BTN1",
 				},
 			},
+		},
+		["d885pnilu885cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN80",
+				},
+			},
+			["name"] = "L-140 Laser warning system reset button",
 		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
 			["name"] = "Trim Control",
@@ -293,6 +376,70 @@ local diff = {
 					["key"] = "JOY_BTN5",
 				},
 			},
+		},
+		["dnilp501unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN101",
+				},
+			},
+			["name"] = "ABRIS Axis Increase",
+		},
+		["dnilp502unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN100",
+				},
+			},
+			["name"] = "ABRIS Axis Decrease",
+		},
+		["dnilp504unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN98",
+				},
+			},
+			["name"] = "ABRIS Brightness Increase",
+		},
+		["dnilp505unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN97",
+				},
+			},
+			["name"] = "ABRIS Brightness Decrease",
+		},
+		["dnilp842unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN84",
+				},
+			},
+			["name"] = "IT-23 brightness Up",
+		},
+		["dnilp843unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN83",
+				},
+			},
+			["name"] = "IT-23 brightness Down",
+		},
+		["dnilp844unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN104",
+				},
+			},
+			["name"] = "IT-23 contrast Up",
+		},
+		["dnilp845unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN103",
+				},
+			},
+			["name"] = "IT-23 contrast Down",
 		},
 		["dnilp88u235cdnilvdnilvpnilvunil"] = {
 			["name"] = "KU-31 Shkval slew left",

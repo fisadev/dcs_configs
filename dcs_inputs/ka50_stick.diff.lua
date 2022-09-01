@@ -54,22 +54,6 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d103pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-				},
-			},
-			["name"] = "Shkval Narrow View 23x",
-		},
-		["d104pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
-			},
-			["name"] = "Shkval Wide View 7x",
-		},
 		["d109pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -118,28 +102,7 @@ local diff = {
 			},
 			["name"] = "UV-26 Stop dispensing",
 		},
-		["d412pnilu414cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN10",
-				},
-			},
-			["name"] = "TV Target frame Increase size",
-		},
-		["d413pnilu414cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-				},
-			},
-			["name"] = "TV Target frame Decrease size",
-		},
 		["d509pnilu510cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN32",
-				},
-			},
 			["name"] = "Lock target",
 			["removed"] = {
 				[1] = {
@@ -226,6 +189,14 @@ local diff = {
 				},
 			},
 			["name"] = "Weapon selection all stations",
+		},
+		["d827pnilu382cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "Weapon selection A-A mode",
 		},
 		["d833pnilu834cdnilvdnilvpnilvunil"] = {
 			["added"] = {
