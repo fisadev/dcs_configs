@@ -144,6 +144,30 @@ local diff = {
 			},
 			["name"] = "OBOGS Control Switch - ON",
 		},
+		["d3001pnilunilcd54vd0.1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN90",
+				},
+			},
+			["name"] = "DISPENSER Switch - ON",
+		},
+		["d3001pnilunilcd54vd0.2vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN89",
+				},
+			},
+			["name"] = "DISPENSER Switch - BYPASS",
+		},
+		["d3001pnilunilcd54vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN91",
+				},
+			},
+			["name"] = "DISPENSER Switch - OFF",
+		},
 		["d3002pnilu3002cd23vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
