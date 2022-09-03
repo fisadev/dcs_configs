@@ -5,11 +5,11 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.15,
 						},
 						["deadzone"] = 0,
 						["invert"] = true,
-						["saturationX"] = 1,
+						["saturationX"] = 0.7,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
@@ -23,11 +23,11 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.15,
 						},
 						["deadzone"] = 0,
 						["invert"] = true,
-						["saturationX"] = 1,
+						["saturationX"] = 0.7,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
@@ -248,6 +248,18 @@ local diff = {
 				},
 				[2] = {
 					["key"] = "JOY_BTN9",
+				},
+				[3] = {
+					["key"] = "JOY_BTN11",
+				},
+				[4] = {
+					["key"] = "JOY_BTN13",
+				},
+				[5] = {
+					["key"] = "JOY_BTN12",
+				},
+				[6] = {
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "Trim Control",
