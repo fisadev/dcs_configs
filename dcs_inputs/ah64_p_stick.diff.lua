@@ -5,11 +5,11 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.1,
+							[1] = 0.15,
 						},
 						["deadzone"] = 0,
 						["invert"] = true,
-						["saturationX"] = 1,
+						["saturationX"] = 0.7,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
@@ -27,7 +27,7 @@ local diff = {
 						},
 						["deadzone"] = 0,
 						["invert"] = true,
-						["saturationX"] = 0.8,
+						["saturationX"] = 0.7,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
