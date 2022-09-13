@@ -1850,7 +1850,7 @@ local diff = {
 		["d460pnilu859cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "1",
+					["key"] = "A",
 				},
 			},
 			["name"] = "PVI Pushbutton 1",
@@ -1866,7 +1866,7 @@ local diff = {
 		["d461pnilu860cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "2",
+					["key"] = "S",
 				},
 			},
 			["name"] = "PVI Pushbutton 2",
@@ -1882,7 +1882,7 @@ local diff = {
 		["d462pnilu861cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "3",
+					["key"] = "D",
 				},
 			},
 			["name"] = "PVI Pushbutton 3",
@@ -1946,7 +1946,7 @@ local diff = {
 		["d466pnilu865cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "A",
+					["key"] = "1",
 				},
 			},
 			["name"] = "PVI Pushbutton 7",
@@ -1962,7 +1962,7 @@ local diff = {
 		["d467pnilu866cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "S",
+					["key"] = "2",
 				},
 			},
 			["name"] = "PVI Pushbutton 8",
@@ -1978,7 +1978,7 @@ local diff = {
 		["d468pnilu867cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "D",
+					["key"] = "3",
 				},
 			},
 			["name"] = "PVI Pushbutton 9",

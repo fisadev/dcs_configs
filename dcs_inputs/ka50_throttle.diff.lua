@@ -289,6 +289,22 @@ local diff = {
 				},
 			},
 		},
+		["d853pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN18",
+				},
+			},
+			["name"] = "Readjust Free Turbine RPM to Nominal",
+		},
+		["d854pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "Readjust Free Turbine RPM to Low",
+		},
 		["d885pnilu885cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
