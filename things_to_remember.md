@@ -1,7 +1,12 @@
 - Uninstall winwing drivers, and from [saved games]/DCS/Scripts/export.lua, remove the two lines that the winwing driver adds
 - Disable GPU scheduling: windows settings > display > graphics
-- Limit fps in Nvidia control pannel
+- Limit fps in Nvidia control pannel to 45fps or so
 - Disable xbox game bar: windows settings > gaming
+- Set the right IPD in DCS settings (61, 62?)
+- Maybe use the thing that improves 3d sensing?
+	- https://github.com/Orbmu2k/nvidiaProfileInspector/releases
+	- run, and load the VRDirectx profile, apply changes
+	- more info: https://forum.dcs.world/topic/298226-better-3d-in-vr-greater-depth/
 - Use OpenXR:
     0. Asegurarse de que DCS está limpio (repair just in case? no mods?)
     1. Bajar la última versión de OpenXR Tools for Windows: 
