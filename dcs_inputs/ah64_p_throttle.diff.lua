@@ -231,6 +231,14 @@ local diff = {
 			},
 			["name"] = "PLT NVS MODE Switch - FIXED",
 		},
+		["d3035pnilu3035cd6vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN92",
+				},
+			},
+			["name"] = "APU Pushbutton - Start/Stop",
+		},
 		["d3038pnilu3038cd6vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -325,7 +333,7 @@ local diff = {
 					["key"] = "JOY_BTN99",
 				},
 			},
-			["name"] = "Power Lever (Left) - OFF/IDLE",
+			["name"] = "Power Lever (Left) - OFF(hold)<>IDLE",
 		},
 		["d314pnilu312cdnilvd1vpnilvu1"] = {
 			["added"] = {
@@ -333,7 +341,7 @@ local diff = {
 					["key"] = "JOY_BTN102",
 				},
 			},
-			["name"] = "Power Lever (Right) - OFF/IDLE",
+			["name"] = "Power Lever (Right) - OFF(hold)<>IDLE",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
