@@ -192,6 +192,7 @@ local diff = {
 					["reformers"] = {
 						[1] = "LAlt",
 						[2] = "LCtrl",
+						[3] = "LShift",
 					},
 				},
 			},
