@@ -34,14 +34,6 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d120pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
-				},
-			},
-			["name"] = "Catapult Hook-Up",
-		},
 		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -49,14 +41,6 @@ local diff = {
 				},
 			},
 			["name"] = "Kneeboard ON/OFF",
-		},
-		["d238pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "Pilot Salute",
 		},
 		["d3001pnilunilcd68vd1vpnilvunil"] = {
 			["added"] = {
@@ -74,97 +58,6 @@ local diff = {
 			},
 			["name"] = "Kneeboard Previous Page",
 		},
-		["d3003pnilunilcd68vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN22",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Kneeboard current position mark point",
-		},
-		["d3004pnilu3004cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "FCS BIT Switch",
-		},
-		["d3004pnilunilcd62vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN18",
-				},
-			},
-			["name"] = "FLIR Switch - Down",
-		},
-		["d3004pnilunilcd62vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN17",
-				},
-			},
-			["name"] = "FLIR Switch - Up",
-		},
-		["d3005pnilu3005cd62vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-				},
-			},
-			["name"] = "LTD/R Switch - ARM",
-		},
-		["d3005pnilunilcd62vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN14",
-				},
-			},
-			["name"] = "LTD/R Switch - SAFE",
-		},
-		["d3009pnilunilcd5vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN10",
-				},
-			},
-			["name"] = "Arresting Hook Handle - DOWN ",
-		},
-		["d3009pnilunilcd5vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-				},
-			},
-			["name"] = "Arresting Hook Handle - UP",
-		},
-		["d3020pnilunilcd2vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-			["name"] = "Wing Fold Control Handle - PULL/STOW",
-		},
-		["d3021pnilunilcd2vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-				},
-			},
-			["name"] = "Wing Fold Control Handle - CCW/Left",
-		},
-		["d3021pnilunilcd2vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-			["name"] = "Wing Fold Control Handle - CW/Right",
-		},
 		["d309pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -172,6 +65,14 @@ local diff = {
 				},
 			},
 			["name"] = "Automatic Startup Procedure",
+		},
+		["d816pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+			},
+			["name"] = "Active Pause",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",

@@ -115,7 +115,7 @@ local diff = {
 		["d3001pnilu3001cd12vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN92",
+					["key"] = "JOY_BTN72",
 				},
 			},
 			["name"] = "APU Control Switch - ON/OFF",
