@@ -16,6 +16,19 @@ local diff = {
 				},
 			},
 		},
+		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "C",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "Kneeboard ON/OFF",
+		},
 		["d177pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Zoom normal",
 			["removed"] = {
@@ -271,6 +284,19 @@ local diff = {
 					["key"] = "W",
 				},
 			},
+		},
+		["d816pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "X",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "Active Pause",
 		},
 		["d851pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
