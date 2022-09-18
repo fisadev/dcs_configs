@@ -53,7 +53,7 @@ local diff = {
 		["d3005pnilunilcd62vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "S",
+					["key"] = "H",
 					["reformers"] = {
 						[1] = "LAlt",
 						[2] = "LCtrl",
@@ -197,6 +197,19 @@ local diff = {
 				},
 			},
 			["name"] = "Hornet Ball",
+		},
+		["d309pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "V",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "Automatic Startup Procedure",
 		},
 		["d816pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {

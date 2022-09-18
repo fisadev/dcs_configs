@@ -277,6 +277,19 @@ local diff = {
 			},
 			["name"] = "KU Key - 0",
 		},
+		["d309pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "V",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "Automatic Startup Procedure",
+		},
 		["d74pnilu75cdnilvd1vpnilvu0"] = {
 			["name"] = "Wheel Brake - ON/OFF",
 			["removed"] = {
