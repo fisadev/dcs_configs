@@ -512,6 +512,22 @@ local diff = {
 				},
 			},
 		},
+		["dnilp3002unilcd58vdnilvp-1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN83",
+				},
+			},
+			["name"] = "HMD OFF/BRT Knob - CCW/Decrease",
+		},
+		["dnilp3002unilcd58vdnilvp1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN84",
+				},
+			},
+			["name"] = "HMD OFF/BRT Knob - CW/Increase",
+		},
 		["dnilp3036unilcd25vdnilvp-0.5vunil"] = {
 			["added"] = {
 				[1] = {
