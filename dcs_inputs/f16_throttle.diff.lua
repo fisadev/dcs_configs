@@ -523,6 +523,22 @@ local diff = {
 				},
 			},
 		},
+		["dnilp3002unilcd30vdnilvp-0.3vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN83",
+				},
+			},
+			["name"] = "HMCS SYMBOLOGY INT Knob - CCW/Decrease",
+		},
+		["dnilp3002unilcd30vdnilvp0.3vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN84",
+				},
+			},
+			["name"] = "HMCS SYMBOLOGY INT Knob - CW/Increase",
+		},
 		["dnilp3004unilcd28vdnilvp-0.01vunil"] = {
 			["added"] = {
 				[1] = {
