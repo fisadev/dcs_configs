@@ -71,10 +71,28 @@ local diff = {
 		["a3003cd58"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_RZ",
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_SLIDER1",
 				},
 			},
 			["name"] = "HMD OFF/BRT Knob",
+		},
+		["a3012cd34"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_SLIDER2",
+				},
+			},
+			["name"] = "HUD Symbology Brightness Control Knob",
 		},
 		["a3043cd13"] = {
 			["added"] = {
@@ -112,14 +130,6 @@ local diff = {
 			},
 			["name"] = "Communication menu",
 		},
-		["d3001pnilu3001cd12vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN72",
-				},
-			},
-			["name"] = "APU Control Switch - ON/OFF",
-		},
 		["d3001pnilu3001cd23vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -128,21 +138,13 @@ local diff = {
 			},
 			["name"] = "Master Mode Button - A/A",
 		},
-		["d3001pnilunilcd10vd0vpnilvunil"] = {
+		["d3001pnilu3001cd30vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN68",
+					["key"] = "JOY_BTN85",
 				},
 			},
-			["name"] = "OBOGS Control Switch - OFF",
-		},
-		["d3001pnilunilcd10vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN67",
-				},
-			},
-			["name"] = "OBOGS Control Switch - ON",
+			["name"] = "Push to Test Switch - Push to activate BIT",
 		},
 		["d3001pnilunilcd54vd0.1vpnilvunil"] = {
 			["added"] = {
@@ -168,6 +170,30 @@ local diff = {
 			},
 			["name"] = "DISPENSER Switch - OFF",
 		},
+		["d3001pnilunilcd66vd0.1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN70",
+				},
+			},
+			["name"] = "ALQ-165 ECM Mode Switch - STBY",
+		},
+		["d3001pnilunilcd66vd0.4vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN71",
+				},
+			},
+			["name"] = "ALQ-165 ECM Mode Switch - XMIT",
+		},
+		["d3001pnilunilcd66vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN69",
+				},
+			},
+			["name"] = "ALQ-165 ECM Mode Switch - OFF",
+		},
 		["d3002pnilu3002cd23vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -175,14 +201,6 @@ local diff = {
 				},
 			},
 			["name"] = "Master Mode Button - A/G",
-		},
-		["d3002pnilu3002cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN99",
-				},
-			},
-			["name"] = "T/O TRIM Button",
 		},
 		["d3002pnilu3002cd54vd1vpnilvu0"] = {
 			["added"] = {
@@ -216,14 +234,6 @@ local diff = {
 			},
 			["name"] = "Probe Control Switch - EXTEND",
 		},
-		["d3003pnilu3003cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN102",
-				},
-			},
-			["name"] = "FCS RESET Button",
-		},
 		["d3003pnilunilcd23vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -239,6 +249,46 @@ local diff = {
 				},
 			},
 			["name"] = "Master Arm Switch - ARM",
+		},
+		["d3004pnilu3004cd23vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN96",
+				},
+			},
+			["name"] = "Emergency Jettison Button",
+		},
+		["d3005pnilunilcd23vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN74",
+				},
+			},
+			["name"] = "Station Jettison Select Button CENTER - OFF",
+		},
+		["d3005pnilunilcd23vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN73",
+				},
+			},
+			["name"] = "Station Jettison Select Button CENTER - ON",
+		},
+		["d3006pnilunilcd23vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN66",
+				},
+			},
+			["name"] = "Station Jettison Select Button LEFT IN - OFF",
+		},
+		["d3006pnilunilcd23vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN65",
+				},
+			},
+			["name"] = "Station Jettison Select Button LEFT IN - ON",
 		},
 		["d3007pnilunilcd2vd-1vpnilvunil"] = {
 			["added"] = {
@@ -264,37 +314,45 @@ local diff = {
 			},
 			["name"] = "FLAP Switch - AUTO",
 		},
+		["d3008pnilu3008cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN99",
+				},
+			},
+			["name"] = "UFC COMM 1 Channel Selector Knob - PULL",
+		},
+		["d3008pnilunilcd23vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN68",
+				},
+			},
+			["name"] = "Station Jettison Select Button RIGHT IN - OFF",
+		},
+		["d3008pnilunilcd23vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN67",
+				},
+			},
+			["name"] = "Station Jettison Select Button RIGHT IN - ON",
+		},
+		["d3009pnilu3009cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN102",
+				},
+			},
+			["name"] = "UFC COMM 2 Channel Selector Knob - PULL",
+		},
 		["d3010pnilu3010cd23vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN96",
+					["key"] = "JOY_BTN105",
 				},
 			},
 			["name"] = "Selective Jettison Pushbutton",
-		},
-		["d3014pnilu3014cd5vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN66",
-				},
-			},
-			["name"] = "Launch Bar Control Switch - EXTEND",
-		},
-		["d3014pnilunilcd5vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN65",
-				},
-			},
-			["name"] = "Launch Bar Control Switch - RETRACT",
-		},
-		["d3015pnilu3015cd12vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN69",
-				},
-			},
-			["name"] = "Engine Crank Switch - LEFT",
 		},
 		["d3015pnilunilcd23vd-1vpnilvunil"] = {
 			["added"] = {
@@ -311,14 +369,6 @@ local diff = {
 				},
 			},
 			["name"] = "Selective Jettison Knob - CW",
-		},
-		["d3016pnilu3016cd12vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN71",
-				},
-			},
-			["name"] = "Engine Crank Switch - RIGHT",
 		},
 		["d3023pnilu3023cd13vd1vpnilvu0"] = {
 			["added"] = {
@@ -411,7 +461,7 @@ local diff = {
 		["d3037pnilu3037cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "ATC Engage/Disengage Switch",
@@ -512,21 +562,21 @@ local diff = {
 				},
 			},
 		},
-		["dnilp3002unilcd58vdnilvp-1vunil"] = {
+		["dnilp3002unilcd30vdnilvp-0.02vunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN83",
 				},
 			},
-			["name"] = "HMD OFF/BRT Knob - CCW/Decrease",
+			["name"] = "Push to Test Switch - CCW/Decrease",
 		},
-		["dnilp3002unilcd58vdnilvp1vunil"] = {
+		["dnilp3002unilcd30vdnilvp0.02vunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN84",
 				},
 			},
-			["name"] = "HMD OFF/BRT Knob - CW/Increase",
+			["name"] = "Push to Test Switch - CW/Increase",
 		},
 		["dnilp3036unilcd25vdnilvp-0.5vunil"] = {
 			["added"] = {

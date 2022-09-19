@@ -37,6 +37,78 @@ local diff = {
 				},
 			},
 		},
+		["d3001pnilu3001cd12vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "L",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "APU Control Switch - ON/OFF",
+		},
+		["d3001pnilunilcd10vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "J",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+					},
+				},
+				[2] = {
+					["key"] = "J",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "OBOGS Control Switch - ON",
+		},
+		["d3002pnilu3002cd12vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = ";",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "Engine Crank Switch - Cycle Left",
+		},
+		["d3003pnilu3003cd12vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "'",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "Engine Crank Switch - Cycle Right",
+		},
+		["d3003pnilu3003cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "K",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "FCS RESET Button",
+		},
 		["d3005pnilu3005cd62vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -63,31 +135,17 @@ local diff = {
 			},
 			["name"] = "LTD/R Switch - SAFE",
 		},
-		["d3008pnilu3008cd25vd1vpnilvu0"] = {
-			["added"] = {
+		["d3017pnilunilcd2vd-1vpnilvunil"] = {
+			["name"] = "FLAP Switch - Down",
+			["removed"] = {
 				[1] = {
 					["key"] = "F",
 					["reformers"] = {
-						[1] = "LAlt",
-						[2] = "LCtrl",
-						[3] = "LShift",
+						[1] = "LCtrl",
+						[2] = "LAlt",
 					},
 				},
 			},
-			["name"] = "UFC COMM 1 Channel Selector Knob - PULL",
-		},
-		["d3009pnilu3009cd25vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "G",
-					["reformers"] = {
-						[1] = "LAlt",
-						[2] = "LCtrl",
-						[3] = "LShift",
-					},
-				},
-			},
-			["name"] = "UFC COMM 2 Channel Selector Knob - PULL",
 		},
 		["d3018pnilu3018cd25vd1vpnilvu0"] = {
 			["added"] = {
@@ -184,6 +242,56 @@ local diff = {
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - ENT",
+		},
+		["d3033pnilunilcd25vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "F",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "UFC COMM 1 Channel Selector Knob - CCW/Decrease",
+		},
+		["d3033pnilunilcd25vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "G",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "UFC COMM 1 Channel Selector Knob - CW/Increase",
+		},
+		["d3034pnilunilcd25vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "F",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+					},
+				},
+			},
+			["name"] = "UFC COMM 2 Channel Selector Knob - CCW/Decrease",
+		},
+		["d3034pnilunilcd25vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "G",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+					},
+				},
+			},
+			["name"] = "UFC COMM 2 Channel Selector Knob - CW/Increase",
 		},
 		["d3041pnilunilcd40vd1vpnilvunil"] = {
 			["added"] = {
