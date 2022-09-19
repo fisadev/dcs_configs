@@ -50,18 +50,38 @@ local diff = {
 		["a3003cd30"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_RZ",
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_SLIDER1",
 				},
 			},
 			["name"] = "HMCS SYMBOLOGY INT Knob",
 		},
-		["a3026cd2"] = {
+		["a3041cd17"] = {
 			["added"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_SLIDER2",
 				},
 			},
-			["name"] = "PITCH TRIM Wheel",
+			["name"] = "HUD Symbology Intensity Knob",
 		},
 		["a3046cd16"] = {
 			["added"] = {
@@ -99,29 +119,21 @@ local diff = {
 			},
 			["name"] = "Communication menu",
 		},
-		["d3001pnilunilcd2vd0vpnilvunil"] = {
+		["d3002pnilunilcd11vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN66",
+					["key"] = "JOY_BTN74",
 				},
 			},
-			["name"] = "DIGITAL BACKUP Switch - OFF",
+			["name"] = "FLASH STEADY Switch - STEADY",
 		},
-		["d3001pnilunilcd2vd1vpnilvunil"] = {
+		["d3002pnilunilcd11vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN65",
+					["key"] = "JOY_BTN73",
 				},
 			},
-			["name"] = "DIGITAL BACKUP Switch - BACKUP",
-		},
-		["d3002pnilu3002cd12vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN102",
-				},
-			},
-			["name"] = "MAL & IND LTS Test Button",
+			["name"] = "FLASH STEADY Switch - FLASH",
 		},
 		["d3002pnilunilcd19vd-1vpnilvunil"] = {
 			["added"] = {
@@ -147,30 +159,6 @@ local diff = {
 			},
 			["name"] = "MASTER ARM Switch - MASTER ARM",
 		},
-		["d3002pnilunilcd35vd0.1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN70",
-				},
-			},
-			["name"] = "IFF MASTER Knob - STBY",
-		},
-		["d3002pnilunilcd35vd0.3vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN71",
-				},
-			},
-			["name"] = "IFF MASTER Knob - NORM",
-		},
-		["d3002pnilunilcd35vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN69",
-				},
-			},
-			["name"] = "IFF MASTER Knob - OFF",
-		},
 		["d3003pnilu3003cd19vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -179,21 +167,37 @@ local diff = {
 			},
 			["name"] = "EMER STORES JETTISON Button",
 		},
-		["d3003pnilu3003cd2vd1vpnilvu0"] = {
+		["d3003pnilunilcd11vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN92",
+					["key"] = "JOY_BTN66",
 				},
 			},
-			["name"] = "BIT Switch - OFF/BIT",
+			["name"] = "WING/TAIL Switch - OFF",
 		},
-		["d3004pnilu3004cd3vd1vpnilvu0"] = {
+		["d3003pnilunilcd11vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN91",
+					["key"] = "JOY_BTN65",
 				},
 			},
-			["name"] = "FLCS PWR TEST Switch - TEST",
+			["name"] = "WING/TAIL Switch - BRT",
+		},
+		["d3004pnilunilcd11vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN68",
+				},
+			},
+			["name"] = "FUSELAGE Switch - OFF",
+		},
+		["d3004pnilunilcd11vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN67",
+				},
+			},
+			["name"] = "FUSELAGE Switch - BRT",
 		},
 		["d3005pnilu3005cd28vd1vpnilvu0"] = {
 			["added"] = {
@@ -202,14 +206,6 @@ local diff = {
 				},
 			},
 			["name"] = "CRS Set / Brightness Control Knob - Depress",
-		},
-		["d3005pnilu3005cd3vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN89",
-				},
-			},
-			["name"] = "EPU/GEN Test Switch",
 		},
 		["d3006pnilunilcd11vd0.3vpnilvunil"] = {
 			["added"] = {
@@ -235,50 +231,10 @@ local diff = {
 			},
 			["name"] = "MASTER Switch - OFF",
 		},
-		["d3006pnilunilcd2vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN68",
-				},
-			},
-			["name"] = "TRIM/AP DISC Switch - DISC",
-		},
-		["d3006pnilunilcd2vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN67",
-				},
-			},
-			["name"] = "TRIM/AP DISC Switch - NORM",
-		},
-		["d3006pnilunilcd3vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN87",
-				},
-			},
-			["name"] = "PROBE HEAT Switch - OFF",
-		},
-		["d3006pnilunilcd3vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN86",
-				},
-			},
-			["name"] = "PROBE HEAT Switch - PROBE HEAT",
-		},
-		["d3007pnilu3007cd3vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN88",
-				},
-			},
-			["name"] = "PROBE HEAT Switch - TEST",
-		},
 		["d3008pnilunilcd4vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN74",
+					["key"] = "JOY_BTN88",
 				},
 			},
 			["name"] = "AIR REFUEL Switch - CLOSE",
@@ -286,26 +242,42 @@ local diff = {
 		["d3008pnilunilcd4vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN73",
+					["key"] = "JOY_BTN86",
 				},
 			},
 			["name"] = "AIR REFUEL Switch - OPEN",
 		},
-		["d3010pnilu3010cd2vd1vpnilvu0"] = {
+		["d3010pnilunilcd32vd0.2vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN80",
+					["key"] = "JOY_BTN70",
 				},
 			},
-			["name"] = "MANUAL PITCH Override Switch - OVRD/NORM",
+			["name"] = "MODE Knob - MAN",
 		},
-		["d3012pnilu3012cd6vd1vpnilvu0"] = {
+		["d3010pnilunilcd32vd0.3vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN99",
+					["key"] = "JOY_BTN71",
 				},
 			},
-			["name"] = "FIRE & OHEAT DETECT Test Button",
+			["name"] = "MODE Knob - SEMI",
+		},
+		["d3010pnilunilcd32vd0.5vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN72",
+				},
+			},
+			["name"] = "MODE Knob - BYP",
+		},
+		["d3010pnilunilcd32vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN69",
+				},
+			},
+			["name"] = "MODE Knob - OFF",
 		},
 		["d3014pnilu3014cd16vd1vpnilvu0"] = {
 			["added"] = {
@@ -522,22 +494,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
-		},
-		["dnilp3002unilcd30vdnilvp-0.3vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN83",
-				},
-			},
-			["name"] = "HMCS SYMBOLOGY INT Knob - CCW/Decrease",
-		},
-		["dnilp3002unilcd30vdnilvp0.3vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN84",
-				},
-			},
-			["name"] = "HMCS SYMBOLOGY INT Knob - CW/Increase",
 		},
 		["dnilp3004unilcd28vdnilvp-0.01vunil"] = {
 			["added"] = {
