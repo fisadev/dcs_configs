@@ -191,6 +191,14 @@ local diff = {
 			},
 			["name"] = "PTT/RTS Switch - RADIO/Left (call radio menu)",
 		},
+		["d3018pnilu3018cd11vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN92",
+				},
+			},
+			["name"] = "Master Caution Button",
+		},
 		["d3018pnilu3018cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -230,14 +238,6 @@ local diff = {
 				},
 			},
 			["name"] = "PLT NVS MODE Switch - FIXED",
-		},
-		["d3035pnilu3035cd6vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN92",
-				},
-			},
-			["name"] = "APU Pushbutton - Start/Stop",
 		},
 		["d3038pnilu3038cd6vd1vpnilvu0"] = {
 			["added"] = {

@@ -322,6 +322,14 @@ local diff = {
 			},
 			["name"] = "UFC COMM 1 Channel Selector Knob - PULL",
 		},
+		["d3008pnilu3008cd9vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN92",
+				},
+			},
+			["name"] = "MASTER CAUTION Reset Button",
+		},
 		["d3008pnilunilcd23vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
