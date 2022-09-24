@@ -116,7 +116,7 @@ ShowTaskbar() {
 ;--------------------------------------
 
 ;Toggle the WMR mode to VR. Make a sound to indicate WMR mode.
-!^Numpad1 Up::
+!^+F13 Up::
     if !WMRinHeadsetMode() {
         ToggleWMRMode()
     }
@@ -124,7 +124,7 @@ ShowTaskbar() {
     Return
 
 ;Toggle the WMR mode to desktop. Make a sound to indicate WMR mode.
-!^Numpad2 Up::
+!^+F14 Up::
     if WMRinHeadsetMode() {
         ToggleWMRMode()
     }
@@ -132,7 +132,7 @@ ShowTaskbar() {
     Return
 
 ;Hide the taskbar and desktop icons. Make a sound to indicate taskbar status.
-!^Numpad3 Up::
+!^+F15 Up::
     if TaskbarActive() {
         HideTaskbar()
     }
@@ -140,7 +140,7 @@ ShowTaskbar() {
     Return
 
 ;Show the taskbar and desktop icons. Make a sound to indicate taskbar status.
-!^Numpad4 Up::
+!^+F16 Up::
     if !TaskbarActive() {
         ShowTaskbar()
     }
@@ -149,7 +149,7 @@ ShowTaskbar() {
 
 ;Simulated win key, but detecting if DCS is active to change focus and make it work if in WMR VR mode.
 ;If not in WMR VR mode, allow DCS to capture it and use it as hotkey, or work as normal windows key if not in DCS.
-!^Numpad5 Up::
+!^+F17 Up::
     in_headset := WMRinHeadsetMode()
     if in_headset {
         dcs_was_active := EscapeDCS()
@@ -163,14 +163,14 @@ ShowTaskbar() {
     Return
 
 ;Do two sounds informing the status of both the WMR mode and taskbar mode.
-!^Numpad6 Up::
+!^+F18 Up::
     WMRSound()
     Sleep 200
     TaskbarSound()
     Return
 
 ;Open the WMR menu, no matter what WMR mode we are currently in.
-!^Numpad7 Up::
+!^+F19 Up::
     dcs_was_active := EscapeDCS()
     if !WMRinHeadsetMode() {
         ToggleWMRMode()
@@ -184,6 +184,6 @@ ShowTaskbar() {
 
 
 ;Kill the desktop, which sometimes hangs and prevents WMR from switching modes.
-!^Numpad8 Up::
+!^+F20 Up::
     Runwait, taskkill /im DesktopView.exe /f
     Return
