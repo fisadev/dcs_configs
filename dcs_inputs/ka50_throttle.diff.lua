@@ -125,6 +125,14 @@ local diff = {
 			},
 			["name"] = "Communication menu",
 		},
+		["d252pnilu379cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN92",
+				},
+			},
+			["name"] = "Master caution push-light",
+		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["name"] = "Release weapons",
 			["removed"] = {
@@ -251,6 +259,63 @@ local diff = {
 				},
 			},
 		},
+		["d596pnilu802cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN69",
+				},
+			},
+			["name"] = "Start-up engine",
+		},
+		["d598pnilu804cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN71",
+				},
+			},
+			["name"] = "Stop APU button",
+		},
+		["d599pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN72",
+				},
+			},
+			["name"] = "Engine selector",
+		},
+		["d600pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN65",
+				},
+				[2] = {
+					["key"] = "JOY_BTN66",
+				},
+			},
+			["name"] = "Fuel Cut-Off Valve, Left Engine",
+		},
+		["d601pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN67",
+				},
+				[2] = {
+					["key"] = "JOY_BTN68",
+				},
+			},
+			["name"] = "Fuel Cut-Off Valve, Right Engine",
+		},
+		["d605pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN73",
+				},
+				[2] = {
+					["key"] = "JOY_BTN74",
+				},
+			},
+			["name"] = "Rotor brake",
+		},
 		["d630pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -269,17 +334,6 @@ local diff = {
 				},
 			},
 			["name"] = "Gear lever",
-		},
-		["d71pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN66",
-				},
-				[2] = {
-					["key"] = "JOY_BTN65",
-				},
-			},
-			["name"] = "Cockpit door open/close",
 		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["name"] = "Gun fire",
