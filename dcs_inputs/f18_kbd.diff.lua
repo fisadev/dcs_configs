@@ -239,6 +239,10 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "NumEnter",
+					["reformers"] = {
+						[1] = "LCtrl",
+						[2] = "LShift",
+					},
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - ENT",
