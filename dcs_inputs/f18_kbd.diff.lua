@@ -13,30 +13,6 @@ local diff = {
 			},
 			["name"] = "Kneeboard ON/OFF",
 		},
-		["d177pnilunilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Zoom normal",
-			["removed"] = {
-				[1] = {
-					["key"] = "NumEnter",
-				},
-			},
-		},
-		["d17pnilu18cdnilvdnilvpnilvunil"] = {
-			["name"] = "Cockpit panel view in",
-			["removed"] = {
-				[1] = {
-					["key"] = "Num0",
-				},
-			},
-		},
-		["d19pnilunilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Lock View (cycle padlock)",
-			["removed"] = {
-				[1] = {
-					["key"] = "Num.",
-				},
-			},
-		},
 		["d3001pnilu3001cd12vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -151,6 +127,10 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "Num0",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+					},
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 0",
@@ -159,6 +139,10 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "Num1",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+					},
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 1",
@@ -167,6 +151,10 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "Num2",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+					},
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 2",
@@ -175,6 +163,10 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "Num3",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+					},
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 3",
@@ -183,6 +175,10 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "Num4",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+					},
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 4",
@@ -191,6 +187,10 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "Num5",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+					},
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 5",
@@ -199,6 +199,10 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "Num6",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+					},
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 6",
@@ -207,6 +211,10 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "Num7",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+					},
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 7",
@@ -215,6 +223,10 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "Num8",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+					},
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 8",
@@ -223,6 +235,10 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "Num9",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+					},
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - 9",
@@ -231,6 +247,10 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "Num.",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+					},
 				},
 			},
 			["name"] = "UFC Keyboard Pushbutton - CLR",
@@ -240,8 +260,8 @@ local diff = {
 				[1] = {
 					["key"] = "NumEnter",
 					["reformers"] = {
-						[1] = "LCtrl",
-						[2] = "LShift",
+						[1] = "LAlt",
+						[2] = "LCtrl",
 					},
 				},
 			},
@@ -348,78 +368,6 @@ local diff = {
 				},
 			},
 			["name"] = "Show controls indicator",
-		},
-		["dnilp210u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up Right slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "Num9",
-				},
-			},
-		},
-		["dnilp211u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down Right slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "Num3",
-				},
-			},
-		},
-		["dnilp212u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "Num1",
-				},
-			},
-		},
-		["dnilp213u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "Num7",
-				},
-			},
-		},
-		["dnilp32u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "Num4",
-				},
-			},
-		},
-		["dnilp33u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Right slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "Num6",
-				},
-			},
-		},
-		["dnilp34u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "Num8",
-				},
-			},
-		},
-		["dnilp35u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "Num2",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "Num5",
-				},
-			},
 		},
 	},
 }
