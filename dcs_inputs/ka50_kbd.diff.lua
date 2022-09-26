@@ -362,19 +362,6 @@ local diff = {
 			},
 			["name"] = "Active Pause",
 		},
-		["d847pnilunilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Laser code selector right",
-			["removed"] = {
-				[1] = {
-					["key"] = "O",
-					["reformers"] = {
-						[1] = "RShift",
-						[2] = "RCtrl",
-						[3] = "RAlt",
-					},
-				},
-			},
-		},
 		["d851pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
