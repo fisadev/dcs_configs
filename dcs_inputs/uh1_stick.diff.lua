@@ -95,6 +95,28 @@ local diff = {
 				},
 			},
 		},
+		["d3256pnilunilcd0vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_U",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Flashlight",
+		},
+		["d438pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_D",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Night Vision Goggles",
+		},
 		["d84pnilu84cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -179,6 +201,28 @@ local diff = {
 					["key"] = "JOY_BTN5",
 				},
 			},
+		},
+		["dnilp840unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Night Vision Goggles Gain - INC",
+		},
+		["dnilp841unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Night Vision Goggles Gain - DEC",
 		},
 	},
 }

@@ -59,22 +59,6 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d1731pnilu1731cdnilvd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN14",
-				},
-			},
-			["name"] = "radio trigger RADIO (VOIP)",
-		},
-		["d1757pnilu1757cdnilvd0.5vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN16",
-				},
-			},
-			["name"] = "radio trigger ICS (VOIP)",
-		},
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -91,7 +75,20 @@ local diff = {
 				},
 			},
 		},
+		["d3009pnilu3009cd21vd0.5vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+			},
+			["name"] = "Pilot's radio trigger ICS (call radio menu)",
+		},
 		["d3009pnilu3009cd21vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
 			["name"] = "Pilot's radio trigger RADIO (call radio menu)",
 			["removed"] = {
 				[1] = {
