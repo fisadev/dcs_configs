@@ -54,6 +54,17 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d1602pnilunilcdnilvd2vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN7",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
+				},
+			},
+			["name"] = "Occupy Copilot/Gunner Seat",
+		},
 		["d3001pnilunilcd25vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -69,17 +80,6 @@ local diff = {
 				},
 			},
 			["name"] = "Weapons Trigger Guard - OPEN",
-		},
-		["d3001pnilunilcd88vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN17",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Occupy Pilot Seat",
 		},
 		["d3002pnilu3002cd25vd1vpnilvu0"] = {
 			["added"] = {
@@ -99,17 +99,6 @@ local diff = {
 				},
 			},
 			["name"] = "George AI Helper Interface - Show/Hide",
-		},
-		["d3002pnilunilcd88vd2vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Occupy Copilot/Gunner Seat",
 		},
 		["d3003pnilu3003cd25vd1vpnilvu0"] = {
 			["added"] = {
@@ -197,7 +186,7 @@ local diff = {
 			},
 			["name"] = "Weapons Action Switch - M/Right",
 		},
-		["d3012pnilunilcd25vd1vpnilvunil"] = {
+		["d3012pnilu3012cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN37",
@@ -205,7 +194,7 @@ local diff = {
 			},
 			["name"] = "Symbology Select Switch - Up",
 		},
-		["d3013pnilunilcd25vd-1vpnilvunil"] = {
+		["d3013pnilu3013cd25vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN39",
