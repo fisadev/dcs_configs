@@ -100,6 +100,14 @@ local diff = {
 			},
 			["name"] = "PTT/RTS Switch - ICS/Right (call radio menu)",
 		},
+		["d3019pnilu3019cd11vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN92",
+				},
+			},
+			["name"] = "Master Warning Button",
+		},
 		["d3019pnilu3019cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
