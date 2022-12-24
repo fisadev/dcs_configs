@@ -3,6 +3,9 @@
 - Limit fps in Nvidia control pannel to 45fps or so
 - Disable xbox game bar: windows settings > gaming
 - Set the right IPD in DCS settings (61, 62?)
+- Set the LOD multipliers to 0.4, very noticeable impact in triangles 
+  quantity (less stuff to render). Edit INSTALLFOLDER/Config/graphics.lua 
+  changing all instances of lodMult = 1 to 0.4.
 - Maybe use the thing that improves 3d sensing?
 	- https://github.com/Orbmu2k/nvidiaProfileInspector/releases
 	- run, and load the VRDirectx profile, apply changes
