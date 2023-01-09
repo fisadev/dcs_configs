@@ -72,14 +72,6 @@ local diff = {
 			},
 			["name"] = "Time accelerate",
 		},
-		["d56pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN24",
-				},
-			},
-			["name"] = "Show VoiceChat window",
-		},
 		["d816pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {

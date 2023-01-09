@@ -96,6 +96,14 @@ local diff = {
 			},
 			["name"] = "F1 Cockpit view",
 		},
+		["d835pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN24",
+				},
+			},
+			["name"] = "Show pilot body",
+		},
 		["d851pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
