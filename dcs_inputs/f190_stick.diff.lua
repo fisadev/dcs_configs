@@ -54,6 +54,22 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d3012pnilu3012cd8vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_D",
+				},
+			},
+			["name"] = "Trim Elevator Up",
+		},
+		["d3012pnilu3012cd8vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_U",
+				},
+			},
+			["name"] = "Trim Elevator Down",
+		},
 		["d3019pnilu3019cd20vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {

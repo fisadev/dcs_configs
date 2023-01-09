@@ -55,6 +55,14 @@ local diff = {
 			},
 			["name"] = "Communication menu",
 		},
+		["d3001pnilunilcd13vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN78",
+				},
+			},
+			["name"] = "Flaps Stop",
+		},
 		["d3004pnilu3004cd26vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -95,6 +103,22 @@ local diff = {
 				},
 			},
 		},
+		["d430pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN75",
+				},
+			},
+			["name"] = "Landing Gear Up",
+		},
+		["d431pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN76",
+				},
+			},
+			["name"] = "Landing Gear Down",
+		},
 		["d439pnilu440cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -123,6 +147,22 @@ local diff = {
 					["key"] = "JOY_BTN1",
 				},
 			},
+		},
+		["dnilp145u145cdnilvdnilvp1vu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN79",
+				},
+			},
+			["name"] = "Flaps Down",
+		},
+		["dnilp146u146cdnilvdnilvp1vu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN77",
+				},
+			},
+			["name"] = "Flaps Up",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
