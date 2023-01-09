@@ -32,6 +32,22 @@ local diff = {
 			},
 			["name"] = "toggle VR Spyglass Zoom",
 		},
+		["d2627pnilu2627cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN25",
+				},
+			},
+			["name"] = "VR, left hand (enable/disable)",
+		},
+		["d2628pnilu2628cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN23",
+				},
+			},
+			["name"] = "VR, right hand (enable/disable)",
+		},
 	},
 }
 return diff
