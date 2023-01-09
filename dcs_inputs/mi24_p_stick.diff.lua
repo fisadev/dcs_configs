@@ -37,7 +37,7 @@ local diff = {
 			["name"] = "Flight Control Cyclic Roll",
 		},
 		["a2003cdnil"] = {
-			["name"] = "Flight Control Rudder",
+			["name"] = "Flight Control Yaw (pedals)",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
@@ -61,39 +61,6 @@ local diff = {
 				},
 			},
 			["name"] = "AI Helper Interface - SHOW/HIDE",
-		},
-		["d3001pnilunilcd22vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN17",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Occupy the Pilot's Seat",
-		},
-		["d3002pnilunilcd22vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Occupy the Copilot/Operator's Seat",
-		},
-		["d3003pnilunilcd22vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN16",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Set Gunner Seat",
 		},
 		["d3008pnilu3008cd30vd1vpnilvu0"] = {
 			["added"] = {
@@ -152,16 +119,13 @@ local diff = {
 			},
 			["name"] = "Release weapons",
 		},
-		["d438pnilunilcdnilvdnilvpnilvunil"] = {
+		["d855pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
+					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "Night Vision Goggles",
+			["name"] = "Wheel Parking Brake",
 		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -245,28 +209,6 @@ local diff = {
 					["key"] = "JOY_BTN5",
 				},
 			},
-		},
-		["dnilp840unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_DR",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Night Vision Goggles Gain - INC",
-		},
-		["dnilp841unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Night Vision Goggles Gain - DEC",
 		},
 	},
 }

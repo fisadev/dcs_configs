@@ -1,18 +1,5 @@
 local diff = {
 	["keyDiffs"] = {
-		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "C",
-					["reformers"] = {
-						[1] = "LAlt",
-						[2] = "LCtrl",
-						[3] = "LShift",
-					},
-				},
-			},
-			["name"] = "Kneeboard ON/OFF",
-		},
 		["d1710pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Pie menu",
 			["removed"] = {
@@ -26,22 +13,6 @@ local diff = {
 				},
 			},
 		},
-		["d3001pnilunilcd100vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "]",
-				},
-			},
-			["name"] = "Kneeboard Next Page",
-		},
-		["d3002pnilunilcd100vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "[",
-				},
-			},
-			["name"] = "Kneeboard Previous Page",
-		},
 		["d3003pnilunilcd100vd1vpnilvunil"] = {
 			["name"] = "Kneeboard current position mark point",
 			["removed"] = {
@@ -52,19 +23,6 @@ local diff = {
 					},
 				},
 			},
-		},
-		["d309pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "V",
-					["reformers"] = {
-						[1] = "LAlt",
-						[2] = "LCtrl",
-						[3] = "LShift",
-					},
-				},
-			},
-			["name"] = "Automatic Startup Procedure",
 		},
 		["d412pnilu414cdnilvdnilvpnilvunil"] = {
 			["name"] = "TV Target frame Increase size",
@@ -247,17 +205,6 @@ local diff = {
 			},
 			["name"] = "PVI Cancel",
 		},
-		["d605pnilunilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Rotor brake",
-			["removed"] = {
-				[1] = {
-					["key"] = "R",
-					["reformers"] = {
-						[1] = "LShift",
-					},
-				},
-			},
-		},
 		["d705pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Electrical power ground power DC cover",
 			["removed"] = {
@@ -348,32 +295,6 @@ local diff = {
 					},
 				},
 			},
-		},
-		["d816pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "X",
-					["reformers"] = {
-						[1] = "LAlt",
-						[2] = "LCtrl",
-						[3] = "LShift",
-					},
-				},
-			},
-			["name"] = "Active Pause",
-		},
-		["d851pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "Z",
-					["reformers"] = {
-						[1] = "LAlt",
-						[2] = "LCtrl",
-						[3] = "LShift",
-					},
-				},
-			},
-			["name"] = "Show controls indicator",
 		},
 		["d891pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {

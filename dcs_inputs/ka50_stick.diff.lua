@@ -37,7 +37,7 @@ local diff = {
 			["name"] = "Flight Control Cyclic Roll",
 		},
 		["a2003cdnil"] = {
-			["name"] = "Flight Control Rudder",
+			["name"] = "Flight Control Yaw (pedals)",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
@@ -54,17 +54,6 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d109pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Helmet-mounted system On/Off",
-		},
 		["d113pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -239,7 +228,7 @@ local diff = {
 					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "Wheel brake parking",
+			["name"] = "Parking brake",
 		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -356,28 +345,6 @@ local diff = {
 				},
 			},
 			["name"] = "Uncage SHKVAL, designate target",
-		},
-		["dnilp840unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Helmet device brightness Up",
-		},
-		["dnilp841unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Helmet device brightness Down",
 		},
 		["dnilp88u235cdnilvdnilvpnilvunil"] = {
 			["name"] = "KU-31 Shkval slew left",
