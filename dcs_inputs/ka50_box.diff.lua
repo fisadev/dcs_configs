@@ -56,14 +56,6 @@ local diff = {
 			},
 			["name"] = "F10 Theater map view",
 		},
-		["d21pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-				},
-			},
-			["name"] = "F2 View own aircraft",
-		},
 		["d3001pnilunilcd100vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -143,6 +135,14 @@ local diff = {
 				},
 			},
 			["name"] = "Show controls indicator",
+		},
+		["d8pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+				},
+			},
+			["name"] = "F2 Aircraft view",
 		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
 			["name"] = "Trim Control",
