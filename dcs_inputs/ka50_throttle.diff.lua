@@ -17,7 +17,7 @@ local diff = {
 			},
 		},
 		["a2003cdnil"] = {
-			["name"] = "Flight Control Rudder",
+			["name"] = "Flight Control Yaw (pedals)",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
@@ -133,6 +133,14 @@ local diff = {
 			},
 			["name"] = "Master caution push-light",
 		},
+		["d3003pnilunilcd100vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN105",
+				},
+			},
+			["name"] = "Kneeboard current position mark point",
+		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["name"] = "Release weapons",
 			["removed"] = {
@@ -158,7 +166,7 @@ local diff = {
 					["key"] = "JOY_BTN95",
 				},
 			},
-			["name"] = "Laser standby On/Off switch",
+			["name"] = "Laser Standby Power Switch - ON/OFF",
 		},
 		["d412pnilu414cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -281,7 +289,7 @@ local diff = {
 					["key"] = "JOY_BTN72",
 				},
 			},
-			["name"] = "Engine selector",
+			["name"] = "Engine selector - cycle positions",
 		},
 		["d600pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -315,14 +323,6 @@ local diff = {
 				},
 			},
 			["name"] = "Rotor brake",
-		},
-		["d630pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "SPU-9 Radio communicator selector",
 		},
 		["d68pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {

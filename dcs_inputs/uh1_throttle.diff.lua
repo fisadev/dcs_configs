@@ -17,7 +17,7 @@ local diff = {
 			},
 		},
 		["a2003cdnil"] = {
-			["name"] = "Flight Control Rudder",
+			["name"] = "Flight Control Yaw (pedals)",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
@@ -96,6 +96,38 @@ local diff = {
 				},
 			},
 		},
+		["d3035pnilunilcd9vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN82",
+				},
+			},
+			["name"] = "Open/Close Right Gunner Door",
+		},
+		["d3036pnilunilcd9vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN81",
+				},
+			},
+			["name"] = "Open/Close Left Gunner Door",
+		},
+		["d3037pnilunilcd7vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN19",
+				},
+			},
+			["name"] = "Search light Off",
+		},
+		["d3037pnilunilcd7vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN18",
+				},
+			},
+			["name"] = "Search light On",
+		},
 		["d3037pnilunilcd9vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -127,6 +159,38 @@ local diff = {
 				},
 			},
 			["name"] = "AI Right ROE Iterate",
+		},
+		["d511pnilu515cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN29",
+				},
+			},
+			["name"] = "Search light Left",
+		},
+		["d512pnilu515cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN27",
+				},
+			},
+			["name"] = "Search light Right",
+		},
+		["d513pnilu515cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN28",
+				},
+			},
+			["name"] = "Search light Retract",
+		},
+		["d514pnilu515cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN26",
+				},
+			},
+			["name"] = "Search light Extend",
 		},
 		["d84pnilu84cdnilvd1vpnilvu0"] = {
 			["name"] = "Pilot weapon release/Machinegun fire",

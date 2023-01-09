@@ -16,7 +16,7 @@ local diff = {
 					["key"] = "JOY_RZ",
 				},
 			},
-			["name"] = "Flight Control Rudder",
+			["name"] = "Flight Control Yaw (pedals)",
 		},
 	},
 }
