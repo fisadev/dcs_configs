@@ -1,43 +1,16 @@
 local diff = {
 	["keyDiffs"] = {
-		["d157pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
+		["d1673pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Chat show/hide",
+			["removed"] = {
 				[1] = {
-					["key"] = "Q",
+					["key"] = "Y",
 					["reformers"] = {
-						[1] = "LAlt",
-						[2] = "LCtrl",
-						[3] = "LShift",
+						[1] = "LCtrl",
+						[2] = "LShift",
 					},
 				},
 			},
-			["name"] = "Frame rate counter - Service info",
-		},
-		["d216pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "W",
-					["reformers"] = {
-						[1] = "LAlt",
-						[2] = "LCtrl",
-						[3] = "LShift",
-					},
-				},
-			},
-			["name"] = "recenter VR Headset",
-		},
-		["d52pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "E",
-					["reformers"] = {
-						[1] = "LAlt",
-						[2] = "LCtrl",
-						[3] = "LShift",
-					},
-				},
-			},
-			["name"] = "Pause",
 		},
 	},
 }

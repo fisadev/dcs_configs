@@ -196,17 +196,6 @@ local diff = {
 			},
 			["name"] = "Flashlight",
 		},
-		["d438pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Toggle goggles",
-		},
 		["d83pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -313,28 +302,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
-		},
-		["dnilp840unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Gain goggles up",
-		},
-		["dnilp841unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Gain goggles down",
 		},
 	},
 }
