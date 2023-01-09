@@ -48,22 +48,6 @@ local diff = {
 			},
 			["name"] = "F10 Theater map view",
 		},
-		["d21pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-				},
-			},
-			["name"] = "F2 View own aircraft",
-		},
-		["d298pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-				},
-			},
-			["name"] = "F3 Fly-By jump view",
-		},
 		["d3001pnilunilcd54vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -127,6 +111,22 @@ local diff = {
 				},
 			},
 			["name"] = "Show controls indicator",
+		},
+		["d8pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+				},
+			},
+			["name"] = "F2 Aircraft view",
+		},
+		["d9pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+			["name"] = "F3 Fly-By view",
 		},
 		["dnilp840unilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
