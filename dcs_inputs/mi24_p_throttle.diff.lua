@@ -17,12 +17,20 @@ local diff = {
 			},
 		},
 		["a2003cdnil"] = {
-			["name"] = "Flight Control Rudder",
+			["name"] = "Flight Control Yaw (pedals)",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
 				},
 			},
+		},
+		["a2004cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_SLIDER1",
+				},
+			},
+			["name"] = "Throttle (Collective)",
 		},
 		["a2087cdnil"] = {
 			["added"] = {
@@ -56,6 +64,14 @@ local diff = {
 					["key"] = "JOY_Z",
 				},
 			},
+		},
+		["a2100cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_SLIDER2",
+				},
+			},
+			["name"] = "Main Rotor Brake Lever",
 		},
 	},
 	["keyDiffs"] = {
@@ -114,6 +130,38 @@ local diff = {
 				},
 			},
 			["name"] = "Radio trigger - 2nd STAGE (RADIO)",
+		},
+		["d3026pnilunilcd3vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN86",
+				},
+			},
+			["name"] = "Throttle Lever Left (Idle-Medium-Auto-Full Condition) - DOWN",
+		},
+		["d3026pnilunilcd3vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN88",
+				},
+			},
+			["name"] = "Throttle Lever Left (Idle-Medium-Auto-Full Condition) - UP",
+		},
+		["d3027pnilunilcd3vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN89",
+				},
+			},
+			["name"] = "Throttle Lever Right (Idle-Medium-Auto-Full Condition) - DOWN",
+		},
+		["d3027pnilunilcd3vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN91",
+				},
+			},
+			["name"] = "Throttle Lever Right (Idle-Medium-Auto-Full Condition) - UP",
 		},
 		["d3033pnilunilcd11vd1vpnilvunil"] = {
 			["added"] = {
