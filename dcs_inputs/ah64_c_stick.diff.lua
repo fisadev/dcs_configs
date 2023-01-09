@@ -159,6 +159,22 @@ local diff = {
 			},
 			["name"] = "Flare Dispense Button - Depress",
 		},
+		["d3030pnilu3030cd52vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "LHG Image AutoTrack/Offset Switch - IAT/Center",
+		},
+		["d3031pnilu3031cd52vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "LHG Image AutoTrack/Offset Switch - OFS/Center",
+		},
 		["d3044pnilu3044cd52vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -266,6 +282,22 @@ local diff = {
 			},
 			["name"] = "RHG LRFD Trigger - SECOND DETENT",
 		},
+		["d3079pnilu3079cd52vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "RHG MTT Promote Switch - Fwd/Center",
+		},
+		["d3080pnilu3080cd52vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "RHG MTT Promote Switch - Aft/Center",
+		},
 		["d3256pnilunilcd0vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -276,17 +308,6 @@ local diff = {
 				},
 			},
 			["name"] = "Flashlight",
-		},
-		["d438pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Toggle goggles",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -351,28 +372,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
-		},
-		["dnilp840unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Gain goggles up",
-		},
-		["dnilp841unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Gain goggles down",
 		},
 	},
 }
