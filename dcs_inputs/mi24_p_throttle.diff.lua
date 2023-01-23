@@ -99,22 +99,6 @@ local diff = {
 			},
 			["name"] = "Launch Countermeasures",
 		},
-		["d3022pnilunilcd55vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN102",
-				},
-			},
-			["name"] = "SPU-8, ICS Mode Switch - RADIO",
-		},
-		["d3022pnilunilcd55vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN99",
-				},
-			},
-			["name"] = "SPU-8, ICS Mode Switch - ICS",
-		},
 		["d3026pnilu3026cd55vd0.5vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -179,13 +163,13 @@ local diff = {
 			},
 			["name"] = "SPU-8, ICS Radio Source Select Rotary - CW/Right",
 		},
-		["d3030pnilunilcd55vd1vpnilvunil"] = {
+		["d3029pnilunilcd55vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN105",
 				},
 			},
-			["name"] = "SPU-8, ICS Net Selector - 1/2",
+			["name"] = "SPU-8, ICS Mode Switch - RADIO/ICS",
 		},
 		["d3033pnilunilcd11vd1vpnilvunil"] = {
 			["added"] = {
@@ -265,7 +249,7 @@ local diff = {
 		["dnilp3019unilcd55vdnilvp-0.2vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN97",
+					["key"] = "JOY_BTN100",
 				},
 			},
 			["name"] = "SPU-8, ICS Main Volume Knob - CCW/Decrease",
@@ -273,7 +257,7 @@ local diff = {
 		["dnilp3019unilcd55vdnilvp0.2vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN98",
+					["key"] = "JOY_BTN101",
 				},
 			},
 			["name"] = "SPU-8, ICS Main Volume Knob - CW/Increase",
@@ -281,7 +265,7 @@ local diff = {
 		["dnilp3020unilcd55vdnilvp-0.2vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN100",
+					["key"] = "JOY_BTN97",
 				},
 			},
 			["name"] = "SPU-8, ICS Listening Volume Knob - CCW/Decrease",
@@ -289,7 +273,7 @@ local diff = {
 		["dnilp3020unilcd55vdnilvp0.2vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN101",
+					["key"] = "JOY_BTN98",
 				},
 			},
 			["name"] = "SPU-8, ICS Listening Volume Knob - CW/Increase",
