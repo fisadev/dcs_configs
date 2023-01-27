@@ -170,7 +170,7 @@ local diff = {
 					["key"] = "JOY_BTN73",
 				},
 			},
-			["name"] = "Canopy Lever - CLOSE/OPEN",
+			["name"] = "Canopy Lever - OPEN/CLOSE",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",

@@ -184,28 +184,6 @@ local diff = {
 			},
 			["name"] = "S8: Change Weapons",
 		},
-		["d3256pnilunilcd0vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Flashlight",
-		},
-		["d83pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Eject (3 times)",
-		},
 		["dnilp10056unilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {

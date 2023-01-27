@@ -174,28 +174,6 @@ local diff = {
 			},
 			["name"] = "UNCAGE Switch",
 		},
-		["d3256pnilunilcd0vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Flashlight",
-		},
-		["d83pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Eject (3 times)",
-		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {

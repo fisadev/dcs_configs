@@ -195,17 +195,6 @@ local diff = {
 			},
 			["name"] = "Cockpit gauges illumination (stick)",
 		},
-		["d83pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Eject (3 times)",
-		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {

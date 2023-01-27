@@ -96,17 +96,6 @@ local diff = {
 				},
 			},
 		},
-		["d83pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Bailout",
-		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {

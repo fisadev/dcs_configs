@@ -65,16 +65,24 @@ local diff = {
 				},
 			},
 		},
-		["a2100cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_SLIDER2",
-				},
-			},
-			["name"] = "Main Rotor Brake Lever",
-		},
 	},
 	["keyDiffs"] = {
+		["d103pnilunilcdnilvd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "9K113 Aiming Station- zoom IN",
+		},
+		["d104pnilunilcdnilvd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "9K113 Aiming Station- zoom OUT",
+		},
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -82,14 +90,6 @@ local diff = {
 				},
 			},
 			["name"] = "Communication menu",
-		},
-		["d3005pnilunilcd67vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN80",
-				},
-			},
-			["name"] = "RWR Power",
 		},
 		["d3026pnilu3026cd55vd0.5vpnilvu0"] = {
 			["added"] = {
@@ -107,38 +107,6 @@ local diff = {
 			},
 			["name"] = "Radio trigger - 2nd STAGE (RADIO)",
 		},
-		["d3026pnilunilcd3vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN86",
-				},
-			},
-			["name"] = "Throttle Lever Left (Idle-Medium-Auto-Full Condition) - DOWN",
-		},
-		["d3026pnilunilcd3vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN88",
-				},
-			},
-			["name"] = "Throttle Lever Left (Idle-Medium-Auto-Full Condition) - UP",
-		},
-		["d3027pnilunilcd3vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN89",
-				},
-			},
-			["name"] = "Throttle Lever Right (Idle-Medium-Auto-Full Condition) - DOWN",
-		},
-		["d3027pnilunilcd3vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN91",
-				},
-			},
-			["name"] = "Throttle Lever Right (Idle-Medium-Auto-Full Condition) - UP",
-		},
 		["d3028pnilunilcd55vd-0.2vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -155,6 +123,14 @@ local diff = {
 			},
 			["name"] = "SPU-8, ICS Radio Source Select Rotary - CW/Right",
 		},
+		["d3028pnilunilcd7vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN96",
+				},
+			},
+			["name"] = "9K113 Aiming Profile - ON/OFF",
+		},
 		["d3029pnilunilcd55vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -162,6 +138,22 @@ local diff = {
 				},
 			},
 			["name"] = "SPU-8, ICS Mode Switch - RADIO/ICS",
+		},
+		["d3031pnilunilcd7vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN95",
+				},
+			},
+			["name"] = "OBSERV. Switch (B2) - OFF",
+		},
+		["d3031pnilunilcd7vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN93",
+				},
+			},
+			["name"] = "OBSERV. Switch (B2) - ON",
 		},
 		["d3033pnilunilcd11vd1vpnilvunil"] = {
 			["added"] = {
@@ -172,23 +164,63 @@ local diff = {
 					["key"] = "JOY_BTN65",
 				},
 			},
-			["name"] = "Door, Cockpit - OPEN/CLOSE",
+			["name"] = "Copilot's Canopy - OPEN/CLOSE",
 		},
-		["d3079pnilunilcd6vd-1vpnilvunil"] = {
+		["d3050pnilunilcd7vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN8",
+				},
+			},
+			["name"] = "9K113 Aiming Station, Zoom x3/x10 Lever",
+		},
+		["d3051pnilunilcd7vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+			},
+			["name"] = "9K113 Aiming Station, Orange Filter - ON/OFF",
+		},
+		["d3052pnilunilcd7vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "9K113 Aiming Station, Laser Filter - ON/OFF",
+		},
+		["d3056pnilu3056cd7vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN72",
+				},
+			},
+			["name"] = "9K113 Aiming Station, Reset Emission (RELEASE RADIAT.) Button",
+		},
+		["d3063pnilunilcd7vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "Backlight (LIGHTS) Switch (B4)",
+		},
+		["d3066pnilunilcd6vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN69",
 				},
 			},
-			["name"] = "Weapon Select Knob - PREV POS",
+			["name"] = "ШО, LNCHR Rotary Selector - PREV POS",
 		},
-		["d3079pnilunilcd6vd1vpnilvunil"] = {
+		["d3066pnilunilcd6vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN71",
 				},
 			},
-			["name"] = "Weapon Select Knob - NEXT POS",
+			["name"] = "ШО, LNCHR Rotary Selector - NEXT POS",
 		},
 		["d430pnilunilcdnilvd1vpnilvunil"] = {
 			["added"] = {
@@ -299,14 +331,6 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
 				},
 			},
 		},

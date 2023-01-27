@@ -60,17 +60,6 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d3256pnilunilcd0vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Flashlight",
-		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {

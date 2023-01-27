@@ -84,14 +84,6 @@ local diff = {
 			},
 			["name"] = "Mode UPK/PKT/RS Switch - Up",
 		},
-		["d3256pnilunilcd0vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-				},
-			},
-			["name"] = "Flashlight",
-		},
 		["d84pnilu84cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {

@@ -91,61 +91,6 @@ local diff = {
 			},
 			["name"] = "Autopilot Override (AFCS Emergency Disconnect)",
 		},
-		["d10291pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "NVG Night Vision Goggle - Toggle",
-		},
-		["d3256pnilunilcd0vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Flashlight",
-		},
-		["d83pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Alternate Ejection Handle (3 times)",
-		},
-		["d840pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "NVG Night Vision Goggle Gain - Increase",
-		},
-		["d841pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "NVG Night Vision Goggle Gain - Decrease",
-		},
 		["dnilp10113u10119cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {

@@ -57,7 +57,7 @@ local diff = {
 		["d3003pnilunilcd41vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
 			["name"] = "Trimmer reset",
@@ -94,17 +94,6 @@ local diff = {
 					["key"] = "JOY_BTN1",
 				},
 			},
-		},
-		["d3256pnilunilcd0vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Flashlight",
 		},
 		["d84pnilu84cdnilvd1vpnilvu0"] = {
 			["added"] = {

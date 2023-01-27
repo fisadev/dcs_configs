@@ -1,37 +1,5 @@
 local diff = {
 	["keyDiffs"] = {
-		["d10pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "F7 Ground unit view",
-		},
-		["d13pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-			["name"] = "F9 Ship view",
-		},
-		["d149pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-			["name"] = "F6 Released weapon view",
-		},
-		["d14pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
-				},
-			},
-			["name"] = "F5 Nearest AC view",
-		},
 		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -39,14 +7,6 @@ local diff = {
 				},
 			},
 			["name"] = "Kneeboard ON/OFF",
-		},
-		["d15pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN7",
-				},
-			},
-			["name"] = "F10 Theater map view",
 		},
 		["d3001pnilunilcd45vd1vpnilvunil"] = {
 			["added"] = {
@@ -88,10 +48,18 @@ local diff = {
 			},
 			["name"] = "Automatic Startup Procedure",
 		},
+		["d3256pnilunilcd0vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+			["name"] = "Flashlight",
+		},
 		["d360pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN28",
+					["key"] = "JOY_BTN4",
 				},
 			},
 			["name"] = "Score window",
@@ -104,14 +72,6 @@ local diff = {
 			},
 			["name"] = "Night Vision Goggles",
 		},
-		["d7pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN8",
-				},
-			},
-			["name"] = "F1 Cockpit view",
-		},
 		["d84pnilu84cdnilvd1vpnilvu0"] = {
 			["name"] = "Pilot weapon release/Machinegun fire",
 			["removed"] = {
@@ -123,26 +83,74 @@ local diff = {
 		["d851pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN26",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "Show controls indicator",
 		},
-		["d8pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
+		["dnilp210u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Up Right slow",
+			["removed"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN_POV1_UR",
 				},
 			},
-			["name"] = "F2 Aircraft view",
 		},
-		["d9pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
+		["dnilp211u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Down Right slow",
+			["removed"] = {
 				[1] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN_POV1_DR",
 				},
 			},
-			["name"] = "F3 Fly-By view",
+		},
+		["dnilp212u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Down Left slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_DL",
+				},
+			},
+		},
+		["dnilp213u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Up Left slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_UL",
+				},
+			},
+		},
+		["dnilp32u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Left slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+				},
+			},
+		},
+		["dnilp33u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Right slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+				},
+			},
+		},
+		["dnilp34u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Up slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_U",
+				},
+			},
+		},
+		["dnilp35u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Down slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_D",
+				},
+			},
 		},
 		["dnilp36unilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Center View",

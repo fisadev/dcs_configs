@@ -54,33 +54,6 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d1602pnilunilcdnilvd2vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN7",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Occupy Copilot/Gunner Seat",
-		},
-		["d3001pnilunilcd25vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-			["name"] = "Weapons Trigger Guard - CLOSE",
-		},
-		["d3001pnilunilcd25vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-			["name"] = "Weapons Trigger Guard - OPEN",
-		},
 		["d3002pnilu3002cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -170,10 +143,7 @@ local diff = {
 		["d3010pnilunilcd40vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN19",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
+					["key"] = "JOY_BTN1",
 				},
 			},
 			["name"] = "IHADSS show",
@@ -225,17 +195,6 @@ local diff = {
 				},
 			},
 			["name"] = "Flare Dispense Button - Depress",
-		},
-		["d3256pnilunilcd0vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-					["reformers"] = {
-						[1] = "throt mod",
-					},
-				},
-			},
-			["name"] = "Flashlight",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",

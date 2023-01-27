@@ -62,15 +62,7 @@ local diff = {
 			},
 			["name"] = "AI Helper Interface - SHOW/HIDE",
 		},
-		["d3008pnilu3008cd30vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN16",
-				},
-			},
-			["name"] = "\"Prepare Weapons\" command to gunner",
-		},
-		["d3014pnilu3014cd9vd1vpnilvu0"] = {
+		["d3013pnilu3013cd9vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN40",
@@ -81,32 +73,29 @@ local diff = {
 			},
 			["name"] = "Launch Countermeasures",
 		},
-		["d3015pnilu3015cd30vd1vpnilvu0"] = {
+		["d3051pnilunilcd7vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN35",
 				},
 			},
-			["name"] = "\"Designate target\" OR \"Open Fire\" command to gunner",
+			["name"] = "9K113 Aiming Station, Orange Filter - ON/OFF",
 		},
-		["d3019pnilu3019cd30vd1vpnilvu0"] = {
+		["d3052pnilunilcd7vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN18",
+					["key"] = "JOY_BTN33",
 				},
 			},
-			["name"] = "Cycle Missile Type",
+			["name"] = "9K113 Aiming Station, Laser Filter - ON/OFF",
 		},
-		["d3102pnilunilcd6vd1vpnilvunil"] = {
+		["d3055pnilunilcd7vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-				[2] = {
-					["key"] = "JOY_BTN2",
+					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "Weapon Release Button Cover - OPEN/CLOSE",
+			["name"] = "Copilot's Stick - PARK/UNPARK",
 		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -118,14 +107,6 @@ local diff = {
 				},
 			},
 			["name"] = "Release weapons",
-		},
-		["d855pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-				},
-			},
-			["name"] = "Wheel Parking Brake",
 		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -170,6 +151,14 @@ local diff = {
 				},
 			},
 		},
+		["dnilp3036u3036cd6vdnilvp1vu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "Fire ATG Missile",
+		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",
 			["removed"] = {
@@ -199,14 +188,6 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
 				},
 			},
 		},
