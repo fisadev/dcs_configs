@@ -153,14 +153,6 @@ local diff = {
 			},
 			["name"] = "T2_Backward: Countermeasures Dispense",
 		},
-		["d10070pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN8",
-				},
-			},
-			["name"] = "T2_Press: AG Manual Mode/DGFT Missile Designator Control",
-		},
 		["d10073pnilunilcd24vdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -185,7 +177,7 @@ local diff = {
 			},
 			["name"] = "T4_Press: IFF Interrogation Start/Stop",
 		},
-		["d10083pnilunilcdnilvdnilvpnilvunil"] = {
+		["d10083pnilu10083cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN22",

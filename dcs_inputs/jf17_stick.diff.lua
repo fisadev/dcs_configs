@@ -152,6 +152,9 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN4",
 				},
+				[2] = {
+					["key"] = "JOY_BTN5",
+				},
 			},
 			["name"] = "S4: Fire Main Gun",
 			["removed"] = {
