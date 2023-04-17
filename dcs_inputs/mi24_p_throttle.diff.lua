@@ -75,6 +75,14 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d1633pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "External Cargo Hook",
+		},
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -90,6 +98,70 @@ local diff = {
 				},
 			},
 			["name"] = "RWR Power",
+		},
+		["d3009pnilu3009cd61vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "Tactical Cargo Release Button",
+		},
+		["d3011pnilunilcd61vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+			},
+			["name"] = "Tactical Cargo Release Button Cover",
+		},
+		["d3018pnilunilcd61vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN68",
+				},
+			},
+			["name"] = "External Cargo Auto-Release Switch - OFF",
+		},
+		["d3018pnilunilcd61vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN67",
+				},
+			},
+			["name"] = "External Cargo Auto-Release Switch - ON",
+		},
+		["d3020pnilunilcd61vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN66",
+				},
+			},
+			["name"] = "External Cargo - rope UP",
+		},
+		["d3020pnilunilcd61vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN65",
+				},
+			},
+			["name"] = "External Cargo - rope DOWN",
+		},
+		["d3022pnilunilcd11vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN81",
+				},
+			},
+			["name"] = "Door, Cargo Cabin, Left - OPEN/CLOSE",
+		},
+		["d3023pnilunilcd11vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN82",
+				},
+			},
+			["name"] = "Door, Cargo Cabin, Right - OPEN/CLOSE",
 		},
 		["d3026pnilu3026cd55vd0.5vpnilvu0"] = {
 			["added"] = {
@@ -163,17 +235,6 @@ local diff = {
 			},
 			["name"] = "SPU-8, ICS Mode Switch - RADIO/ICS",
 		},
-		["d3033pnilunilcd11vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN66",
-				},
-				[2] = {
-					["key"] = "JOY_BTN65",
-				},
-			},
-			["name"] = "Door, Cockpit - OPEN/CLOSE",
-		},
 		["d3079pnilunilcd6vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -189,6 +250,22 @@ local diff = {
 				},
 			},
 			["name"] = "Weapon Select Knob - NEXT POS",
+		},
+		["d3108pnilunilcd6vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN99",
+				},
+			},
+			["name"] = "AI Panel Show/Hide",
+		},
+		["d3110pnilunilcd6vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN102",
+				},
+			},
+			["name"] = "AI Gunner ROE Iterate",
 		},
 		["d430pnilunilcdnilvd1vpnilvunil"] = {
 			["added"] = {
