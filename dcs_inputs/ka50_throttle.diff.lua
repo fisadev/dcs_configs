@@ -206,7 +206,7 @@ local diff = {
 					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "Engage Descent Mode",
+			["name"] = "Engage Descent Mode | DESCENT<>CENTER ",
 		},
 		["d509pnilu510cdnilvdnilvpnilvunil"] = {
 			["added"] = {
