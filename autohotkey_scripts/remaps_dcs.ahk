@@ -187,3 +187,9 @@ ShowTaskbar() {
 !^+F20 Up::
     Runwait, taskkill /im DesktopView.exe /f
     Return
+
+
+;Focus on DCS, no matter what
+!^+F21 Up::
+    RecoverDCS(true)
+    Return
