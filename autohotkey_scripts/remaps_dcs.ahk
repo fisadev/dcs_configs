@@ -189,7 +189,11 @@ ShowTaskbar() {
     Return
 
 
-;Focus on DCS, no matter what
+;Focus on DCS, no matter what, and set WMR mode to desktop
 !^+F21 Up::
     RecoverDCS(true)
+    if WMRinHeadsetMode() {
+        ToggleWMRMode()
+    }
+    WMRSound()
     Return
