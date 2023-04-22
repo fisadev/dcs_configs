@@ -29,3 +29,10 @@ Not sure, not doing anymore:
 	- https://github.com/Orbmu2k/nvidiaProfileInspector/releases
 	- run, and load the VRDirectx profile, apply changes
 	- more info: https://forum.dcs.world/topic/298226-better-3d-in-vr-greater-depth/
+
+
+vJoy and midi2vjoy:
+Midi2vjoy is a mess. Use python3, install pygame with pip3, and run from inside its code directory. Using a fork that adds support for release mappings on my midi controller.
+Use `py midi2vjoy_lpd8.py -t` to list controls ids being used in real time (first two numbers are ids, 176 meanss axis, 144 is button, 128 is button release).
+Then a virtual joystick is needed with vJoy, which is also a mess in the installation (never finishing correctly).
+Finally, run `py midi2vjoy_lpd8.py -m 1 my_mappings.conf` to link the controller to the virtual joystick.
