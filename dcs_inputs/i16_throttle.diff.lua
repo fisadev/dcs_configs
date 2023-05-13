@@ -1,112 +1,113 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["changed"] = {
+			["name"] = "Pitch",
+			["removed"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
 					["key"] = "JOY_Y",
 				},
 			},
-			["name"] = "Flight Control Cyclic Pitch",
 		},
 		["a2002cdnil"] = {
-			["changed"] = {
+			["name"] = "Roll",
+			["removed"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
 					["key"] = "JOY_X",
 				},
 			},
-			["name"] = "Flight Control Cyclic Roll",
 		},
 		["a2003cdnil"] = {
-			["name"] = "Flight Control Yaw (pedals)",
+			["name"] = "Rudder",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
 				},
 			},
 		},
-		["a2087cdnil"] = {
-			["name"] = "Flight Control Collective",
+		["a2004cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_RY",
+				},
+			},
+			["name"] = "Thrust",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
 		},
+		["a3001cd2"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_SLIDER1",
+				},
+			},
+			["name"] = "Engine RPM Setting",
+		},
+		["a3013cd2"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_SLIDER2",
+				},
+			},
+			["name"] = "Mixture control (axis)",
+		},
 	},
 	["keyDiffs"] = {
-		["d3001pnilu3001cd30vd1vpnilvu0"] = {
+		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN13",
 				},
 			},
-			["name"] = "AI Helper Interface - SHOW/HIDE",
+			["name"] = "Communication menu",
 		},
-		["d3013pnilu3013cd9vd1vpnilvu0"] = {
+		["d3002pnilu3002cd7vd1vpnilvu0"] = {
+			["name"] = "Weapon Release Button",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+		},
+		["d3103pnilu3103cd7vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN40",
+					["key"] = "JOY_BTN96",
+				},
+			},
+			["name"] = "Jettison Fuel Tanks",
+		},
+		["d430pnilu68cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN69",
 				},
 				[2] = {
-					["key"] = "JOY_BTN38",
+					["key"] = "JOY_BTN83",
 				},
 			},
-			["name"] = "Launch Countermeasures",
+			["name"] = "Landing Gear Handle, Up",
 		},
-		["d3051pnilunilcd7vd1vpnilvunil"] = {
+		["d431pnilu68cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN35",
-				},
-			},
-			["name"] = "9K113 Aiming Station, Orange Filter - ON/OFF",
-		},
-		["d3052pnilunilcd7vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN33",
-				},
-			},
-			["name"] = "9K113 Aiming Station, Laser Filter - ON/OFF",
-		},
-		["d3055pnilunilcd7vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-				},
-			},
-			["name"] = "Copilot's Stick - PARK/UNPARK",
-		},
-		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN71",
 				},
 				[2] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN84",
 				},
 			},
-			["name"] = "Release weapons",
+			["name"] = "Landing Gear Handle, Down",
+		},
+		["d84pnilu85cdnilvdnilvpnilvunil"] = {
+			["name"] = "Cannon Fire Button",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -139,14 +140,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
-		},
-		["dnilp3036u3036cd6vdnilvp1vu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN20",
-				},
-			},
-			["name"] = "Fire ATG Missile",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

@@ -1,112 +1,123 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2001cdnil"] = {
-			["changed"] = {
+		["a2004cdnil"] = {
+			["added"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
 							[1] = 0,
 						},
 						["deadzone"] = 0,
-						["invert"] = true,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = false,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
-						["slider"] = false,
+						["slider"] = true,
 					},
-					["key"] = "JOY_Y",
+					["key"] = "JOY_RX",
 				},
 			},
-			["name"] = "Flight Control Cyclic Pitch",
-		},
-		["a2002cdnil"] = {
-			["changed"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_X",
-				},
-			},
-			["name"] = "Flight Control Cyclic Roll",
-		},
-		["a2003cdnil"] = {
-			["name"] = "Flight Control Yaw (pedals)",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-		},
-		["a2087cdnil"] = {
-			["name"] = "Flight Control Collective",
+			["name"] = "Thrust",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
 		},
+		["a8034cdnil"] = {
+			["name"] = "Pitch",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+		},
+		["a8035cdnil"] = {
+			["name"] = "Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+		},
+		["a8036cdnil"] = {
+			["name"] = "Rudder",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_RZ",
+				},
+			},
+		},
 	},
 	["keyDiffs"] = {
-		["d3001pnilu3001cd30vd1vpnilvu0"] = {
+		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+				[2] = {
 					["key"] = "JOY_BTN14",
 				},
 			},
-			["name"] = "AI Helper Interface - SHOW/HIDE",
+			["name"] = "Communication menu",
 		},
-		["d3013pnilu3013cd9vd1vpnilvu0"] = {
+		["d3122pnilunilcd1vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN40",
-				},
-				[2] = {
-					["key"] = "JOY_BTN38",
+					["key"] = "JOY_BTN77",
 				},
 			},
-			["name"] = "Launch Countermeasures",
+			["name"] = "Slat/Flap lever - full up",
 		},
-		["d3051pnilunilcd7vd1vpnilvunil"] = {
+		["d3122pnilunilcd1vd0.5vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN35",
+					["key"] = "JOY_BTN78",
 				},
 			},
-			["name"] = "9K113 Aiming Station, Orange Filter - ON/OFF",
+			["name"] = "Slat/Flap lever - 1/2 flap",
 		},
-		["d3052pnilunilcd7vd1vpnilvunil"] = {
+		["d3122pnilunilcd1vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN33",
+					["key"] = "JOY_BTN79",
 				},
 			},
-			["name"] = "9K113 Aiming Station, Laser Filter - ON/OFF",
+			["name"] = "Slat/Flap lever - full flap",
 		},
-		["d3055pnilunilcd7vd1vpnilvunil"] = {
+		["d3131pnilunilcd1vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN99",
 				},
 			},
-			["name"] = "Copilot's Stick - PARK/UNPARK",
+			["name"] = "U + V pushbutton - PUSH",
 		},
-		["d350pnilu351cdnilvdnilvpnilvunil"] = {
+		["d3134pnilunilcd1vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
-				},
-				[2] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN102",
 				},
 			},
-			["name"] = "Release weapons",
+			["name"] = "U pushbutton - PUSH",
+		},
+		["d430pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN75",
+				},
+			},
+			["name"] = "Landing Gear Up",
+		},
+		["d431pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN76",
+				},
+			},
+			["name"] = "Landing Gear Down",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -139,14 +150,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
-		},
-		["dnilp3036u3036cd6vdnilvp1vu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN20",
-				},
-			},
-			["name"] = "Fire ATG Missile",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

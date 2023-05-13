@@ -5,36 +5,36 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.15,
+							[1] = 0.2,
 						},
 						["deadzone"] = 0,
 						["invert"] = true,
-						["saturationX"] = 0.7,
+						["saturationX"] = 1,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
 					["key"] = "JOY_Y",
 				},
 			},
-			["name"] = "Cyclic Pitch",
+			["name"] = "Pitch",
 		},
 		["a2002cdnil"] = {
 			["changed"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.2,
+							[1] = 0,
 						},
 						["deadzone"] = 0,
 						["invert"] = true,
-						["saturationX"] = 0.7,
+						["saturationX"] = 1,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
 					["key"] = "JOY_X",
 				},
 			},
-			["name"] = "Cyclic Roll",
+			["name"] = "Roll",
 		},
 		["a2003cdnil"] = {
 			["name"] = "Rudder",
@@ -44,146 +44,114 @@ local diff = {
 				},
 			},
 		},
-		["a2087cdnil"] = {
-			["name"] = "Collective",
-			["removed"] = {
+		["a3003cd2"] = {
+			["added"] = {
 				[1] = {
-					["key"] = "JOY_Z",
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_SLIDER1",
 				},
 			},
+			["name"] = "Wheel Brakes - axis",
 		},
 	},
 	["keyDiffs"] = {
-		["d3002pnilu3002cd25vd1vpnilvu0"] = {
+		["d1602pnilunilcdnilvd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN15",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
 				},
 			},
-			["name"] = "Weapons Trigger Switch - FIRST DETENT",
+			["name"] = "Occupy Seat 1",
 		},
-		["d3002pnilu3002cd87vd1vpnilvu0"] = {
+		["d1602pnilunilcdnilvd2vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN17",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
 				},
 			},
-			["name"] = "George AI Helper Interface - Show/Hide",
+			["name"] = "Occupy Seat 2",
 		},
-		["d3003pnilu3003cd25vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-				},
-			},
-			["name"] = "Weapons Trigger Switch - SECOND DETENT",
-		},
-		["d3004pnilu3004cd25vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-				},
-				[2] = {
-					["key"] = "JOY_BTN9",
-				},
-			},
-			["name"] = "Force Trim/Hold Mode Switch - R/Up",
-		},
-		["d3005pnilu3005cd25vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-			["name"] = "Force Trim/Hold Mode Switch - D/Down",
-		},
-		["d3006pnilu3006cd25vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-				},
-			},
-			["name"] = "Force Trim/Hold Mode Switch - AT/Left",
-		},
-		["d3007pnilu3007cd25vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-				},
-			},
-			["name"] = "Force Trim/Hold Mode Switch - AL/Right",
-		},
-		["d3008pnilu3008cd25vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN32",
-				},
-			},
-			["name"] = "Weapons Action Switch - G/Up",
-		},
-		["d3008pnilu3008cd87vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN20",
-				},
-			},
-			["name"] = "Consent To Fire",
-		},
-		["d3010pnilu3010cd25vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN35",
-				},
-			},
-			["name"] = "Weapons Action Switch - R/Left",
-		},
-		["d3011pnilu3011cd25vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN33",
-				},
-			},
-			["name"] = "Weapons Action Switch - M/Right",
-		},
-		["d3012pnilu3012cd25vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN37",
-				},
-			},
-			["name"] = "Symbology Select Switch - Up",
-		},
-		["d3013pnilu3013cd25vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN39",
-				},
-			},
-			["name"] = "Symbology Select Switch - Down",
-		},
-		["d3014pnilu3014cd25vd1vpnilvu0"] = {
+		["d3006pnilu3006cd32vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN36",
 				},
 			},
-			["name"] = "Symbology Select Switch - Depress",
+			["name"] = "Fire Rockets, trigger button",
 		},
-		["d3021pnilu3021cd25vd1vpnilvu0"] = {
+		["d3007pnilu3007cd5vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN40",
+					["key"] = "JOY_BTN31",
 				},
 			},
-			["name"] = "Chaff Dispense Button - Depress",
+			["name"] = "Trigger button (release bomb/guncam on) - press",
 		},
-		["d3022pnilu3022cd25vd1vpnilvu0"] = {
+		["d3016pnilu3016cd2vd-0.3vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN38",
+					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
-			["name"] = "Flare Dispense Button - Depress",
+			["name"] = "Trim Elevator Nose Up",
+		},
+		["d3016pnilu3016cd2vd0.3vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_U",
+				},
+			},
+			["name"] = "Trim Elevator Nose Down",
+		},
+		["d3051pnilu3051cd2vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+				},
+			},
+			["name"] = "Trim Aileron Right",
+		},
+		["d3051pnilu3051cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+				},
+			},
+			["name"] = "Trim Aileron Left",
+		},
+		["d350pnilu351cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "Fire Cannons",
+		},
+		["d84pnilu85cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+				[2] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+			["name"] = "Fire Machineguns",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",

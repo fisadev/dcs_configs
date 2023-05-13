@@ -1,42 +1,30 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2001cdnil"] = {
-			["changed"] = {
+		["a2004cdnil"] = {
+			["name"] = "Thrust",
+			["removed"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
+					["key"] = "JOY_Z",
+				},
+			},
+		},
+		["a8034cdnil"] = {
+			["name"] = "Pitch",
+			["removed"] = {
+				[1] = {
 					["key"] = "JOY_Y",
 				},
 			},
-			["name"] = "Pitch",
 		},
-		["a2002cdnil"] = {
-			["changed"] = {
+		["a8035cdnil"] = {
+			["name"] = "Roll",
+			["removed"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
 					["key"] = "JOY_X",
 				},
 			},
-			["name"] = "Roll",
 		},
-		["a2003cdnil"] = {
+		["a8036cdnil"] = {
 			["name"] = "Rudder",
 			["removed"] = {
 				[1] = {
@@ -44,49 +32,39 @@ local diff = {
 				},
 			},
 		},
-		["a3025cd5"] = {
-			["name"] = "Throttle",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
-		},
 	},
 	["keyDiffs"] = {
-		["d350pnilu351cdnilvdnilvpnilvunil"] = {
+		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN8",
 				},
 			},
-			["name"] = "Weapon release",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
+			["name"] = "Kneeboard ON/OFF",
 		},
-		["d83pnilunilcdnilvdnilvpnilvunil"] = {
+		["d3001pnilunilcd100vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "Bailout",
+			["name"] = "Kneeboard Next Page",
 		},
-		["d84pnilu85cdnilvdnilvpnilvunil"] = {
+		["d3002pnilunilcd100vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN7",
 				},
 			},
-			["name"] = "Gun fire",
-			["removed"] = {
+			["name"] = "Kneeboard Previous Page",
+		},
+		["d3256pnilunilcd0vd1vpnilvunil"] = {
+			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN1",
 				},
 			},
+			["name"] = "Flashlight",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -119,38 +97,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
-		},
-		["dnilp3011unilcd12vdnilvp-0.1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-				},
-			},
-			["name"] = "Trim Aileron Left",
-		},
-		["dnilp3011unilcd12vdnilvp0.1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-				},
-			},
-			["name"] = "Trim Aileron Right",
-		},
-		["dnilp3012unilcd12vdnilvp-0.05vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-			["name"] = "Trim Elevator Up",
-		},
-		["dnilp3012unilcd12vdnilvp0.05vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-				},
-			},
-			["name"] = "Trim Elevator Down",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

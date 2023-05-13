@@ -1,48 +1,38 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["changed"] = {
+			["name"] = "Flight Control Cyclic Pitch",
+			["removed"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
 					["key"] = "JOY_Y",
 				},
 			},
-			["name"] = "Flight Control Cyclic Pitch",
 		},
 		["a2002cdnil"] = {
+			["name"] = "Flight Control Cyclic Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+		},
+		["a2003cdnil"] = {
 			["changed"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.2,
 						},
 						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
+						["invert"] = false,
+						["saturationX"] = 0.8,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
-					["key"] = "JOY_X",
-				},
-			},
-			["name"] = "Flight Control Cyclic Roll",
-		},
-		["a2003cdnil"] = {
-			["name"] = "Flight Control Yaw (pedals)",
-			["removed"] = {
-				[1] = {
 					["key"] = "JOY_RZ",
 				},
 			},
+			["name"] = "Flight Control Yaw (pedals)",
 		},
 		["a2087cdnil"] = {
 			["name"] = "Flight Control Collective",
@@ -54,60 +44,6 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d3001pnilu3001cd30vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN14",
-				},
-			},
-			["name"] = "AI Helper Interface - SHOW/HIDE",
-		},
-		["d3013pnilu3013cd9vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN40",
-				},
-				[2] = {
-					["key"] = "JOY_BTN38",
-				},
-			},
-			["name"] = "Launch Countermeasures",
-		},
-		["d3051pnilunilcd7vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN35",
-				},
-			},
-			["name"] = "9K113 Aiming Station, Orange Filter - ON/OFF",
-		},
-		["d3052pnilunilcd7vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN33",
-				},
-			},
-			["name"] = "9K113 Aiming Station, Laser Filter - ON/OFF",
-		},
-		["d3055pnilunilcd7vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-				},
-			},
-			["name"] = "Copilot's Stick - PARK/UNPARK",
-		},
-		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
-				},
-				[2] = {
-					["key"] = "JOY_BTN5",
-				},
-			},
-			["name"] = "Release weapons",
-		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {
@@ -139,14 +75,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
-		},
-		["dnilp3036u3036cd6vdnilvp1vu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN20",
-				},
-			},
-			["name"] = "Fire ATG Missile",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

@@ -16,7 +16,7 @@ local diff = {
 					["key"] = "JOY_Y",
 				},
 			},
-			["name"] = "Flight Control Cyclic Pitch",
+			["name"] = "Pitch",
 		},
 		["a2002cdnil"] = {
 			["changed"] = {
@@ -34,18 +34,18 @@ local diff = {
 					["key"] = "JOY_X",
 				},
 			},
-			["name"] = "Flight Control Cyclic Roll",
+			["name"] = "Roll",
 		},
 		["a2003cdnil"] = {
-			["name"] = "Flight Control Yaw (pedals)",
+			["name"] = "Rudder",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
 				},
 			},
 		},
-		["a2087cdnil"] = {
-			["name"] = "Flight Control Collective",
+		["a2004cdnil"] = {
+			["name"] = "Thrust",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
@@ -54,50 +54,42 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d3001pnilu3001cd30vd1vpnilvu0"] = {
+		["d3002pnilu3002cd7vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN20",
 				},
 			},
-			["name"] = "AI Helper Interface - SHOW/HIDE",
+			["name"] = "Weapon Release Button",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
 		},
-		["d3013pnilu3013cd9vd1vpnilvu0"] = {
+		["d3256pnilunilcd0vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN40",
-				},
-				[2] = {
-					["key"] = "JOY_BTN38",
-				},
-			},
-			["name"] = "Launch Countermeasures",
-		},
-		["d3051pnilunilcd7vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN35",
+					["key"] = "JOY_BTN_POV1_U",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
 				},
 			},
-			["name"] = "9K113 Aiming Station, Orange Filter - ON/OFF",
+			["name"] = "Flashlight",
 		},
-		["d3052pnilunilcd7vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN33",
-				},
-			},
-			["name"] = "9K113 Aiming Station, Laser Filter - ON/OFF",
-		},
-		["d3055pnilunilcd7vd1vpnilvunil"] = {
+		["d83pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN6",
+					["reformers"] = {
+						[1] = "throt mod",
+					},
 				},
 			},
-			["name"] = "Copilot's Stick - PARK/UNPARK",
+			["name"] = "Eject (3 times)",
 		},
-		["d350pnilu351cdnilvdnilvpnilvunil"] = {
+		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN4",
@@ -106,7 +98,12 @@ local diff = {
 					["key"] = "JOY_BTN5",
 				},
 			},
-			["name"] = "Release weapons",
+			["name"] = "Cannon Fire Button",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -139,14 +136,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
-		},
-		["dnilp3036u3036cd6vdnilvp1vu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN20",
-				},
-			},
-			["name"] = "Fire ATG Missile",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

@@ -387,6 +387,18 @@ local diff = {
 				},
 			},
 		},
+		["dnilp939unilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Lighting cockpit panel brightness knob Up",
+			["removed"] = {
+				[1] = {
+					["key"] = "L",
+					["reformers"] = {
+						[1] = "LCtrl",
+						[2] = "LAlt",
+					},
+				},
+			},
+		},
 	},
 }
 return diff

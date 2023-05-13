@@ -1,5 +1,31 @@
 local diff = {
 	["keyDiffs"] = {
+		["d157pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Up",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "Frame rate counter - Service info",
+		},
+		["d1686pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Right",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "BDA show/hide",
+		},
 		["d216pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {

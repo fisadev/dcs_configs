@@ -73,21 +73,10 @@ local diff = {
 		["d3002pnilu3002cd87vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN34",
-				},
-				[2] = {
 					["key"] = "JOY_BTN14",
 				},
 			},
 			["name"] = "George AI Helper Interface - Show/Hide",
-		},
-		["d3010pnilunilcd40vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-			["name"] = "IHADSS show",
 		},
 		["d3012pnilu3012cd25vd1vpnilvu0"] = {
 			["added"] = {

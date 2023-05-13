@@ -1,6 +1,30 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2001cdnil"] = {
+		["a2004cdnil"] = {
+			["name"] = "Thrust",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Z",
+				},
+			},
+		},
+		["a2112cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Wheel Brake Left",
+		},
+		["a2113cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "Wheel Brake Right",
+		},
+		["a8034cdnil"] = {
 			["name"] = "Pitch",
 			["removed"] = {
 				[1] = {
@@ -8,7 +32,7 @@ local diff = {
 				},
 			},
 		},
-		["a2002cdnil"] = {
+		["a8035cdnil"] = {
 			["name"] = "Roll",
 			["removed"] = {
 				[1] = {
@@ -16,68 +40,8 @@ local diff = {
 				},
 			},
 		},
-		["a2003cdnil"] = {
-			["changed"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0.2,
-						},
-						["deadzone"] = 0,
-						["invert"] = false,
-						["saturationX"] = 0.6,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_RZ",
-				},
-			},
-			["name"] = "Rudder",
-		},
-		["a2004cdnil"] = {
-			["name"] = "Throttle",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
-		},
-		["a3163cdnil"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "Wheel Brake Left",
-		},
 	},
 	["keyDiffs"] = {
-		["d10016pnilu10017cdnilvdnilvpnilvunil"] = {
-			["name"] = "Gun-Rocket Trigger",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-		},
-		["d10018pnilu10019cdnilvdnilvpnilvunil"] = {
-			["name"] = "Bomb Release Button",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {
