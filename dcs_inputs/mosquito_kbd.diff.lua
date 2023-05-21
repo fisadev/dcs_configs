@@ -816,6 +816,19 @@ local diff = {
 			},
 			["name"] = "Aerial, winch reel lock - on/off",
 		},
+		["d309pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Home",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "Start Procedure",
+		},
 		["d321pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Mouse Rate Fast",
 			["removed"] = {

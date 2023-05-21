@@ -317,6 +317,19 @@ local diff = {
 			},
 			["name"] = "Hornet Ball",
 		},
+		["d309pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Home",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "Automatic Startup Procedure",
+		},
 		["d851pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Show controls indicator",
 			["removed"] = {

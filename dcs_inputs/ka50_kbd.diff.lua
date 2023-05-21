@@ -24,6 +24,19 @@ local diff = {
 				},
 			},
 		},
+		["d309pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Home",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
+			["name"] = "Automatic Startup Procedure",
+		},
 		["d412pnilu414cdnilvdnilvpnilvunil"] = {
 			["name"] = "TV Target frame Increase size",
 			["removed"] = {
