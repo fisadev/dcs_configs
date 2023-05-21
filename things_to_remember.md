@@ -33,6 +33,6 @@ Not sure, not doing anymore:
 
 vJoy and midi2vjoy:
 Midi2vjoy is a mess. Use python3, install pygame with pip3, and run from inside its code directory. Using a fork that adds support for release mappings on my midi controller.
-Use `py midi2vjoy_lpd8.py -t` to list controls ids being used in real time (first two numbers are ids, 176 meanss axis, 144 is button, 128 is button release).
+Use `py midi2vjoy.py -t` to list controls ids being used in real time (first two numbers are ids of the axis/button being used, the first number is the type of control).
 Then a virtual joystick is needed with vJoy, which is also a mess in the installation (never finishing correctly).
-Finally, run `py midi2vjoy_lpd8.py -m 1 my_mappings.conf` to link the controller to the virtual joystick.
+Finally, run `py midi2vjoy.py -m 1 -c my_mappings.conf` to link the controller to the virtual joystick.
