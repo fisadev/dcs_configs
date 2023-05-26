@@ -25,6 +25,39 @@ FocusToDcs() {
     Return
 }
 
+;Detect wether DCS is running and in focus, and we assume it's always in VR mode
+IsDcsActive() {
+    Return WinActive("DCS") or WinActive("Digital Combat Simulator")
+}
+
+;Escape DCS capturing special keys if it's running and in focus, by focusing the SteamVR window
+EscapeDCS() {
+    dcs_was_active := false
+    if IsDcsActive() {
+        winActivate, ahk_class Progman
+        dcs_was_active := true
+    } else {
+        dcs_was_active := false
+    }
+    Return dcs_was_active
+}
+
+;Go back to DCS if it was active
+RecoverDCS(dcs_was_active) {
+    if (dcs_was_active) {
+        FocusToDcs()
+    }
+    Return
+}
+
+;Switch Virtual Desktop mode (desktop vs VR), even if DCS has grip on special keys
+SwitchVDMode() {
+    dcs_was_active := EscapeDCS()
+    SendInput {Lshift Down}{Lwin Down}{d}{Lwin Up}{Lshift up}
+    Sleep 200
+    RecoverDCS(dcs_was_active)
+    Return
+}
 ;--------------------------------------
 ;     MAPPINGS
 ;--------------------------------------
@@ -33,4 +66,9 @@ FocusToDcs() {
 !^+F21 Up::
     FocusToDcs()
     SoundGood()
+    Return
+
+;Switch Virtual Desktop mode, even escaping DCS's grip on special keys
+!^+F22 Up::
+    SwitchVDMode()
     Return
