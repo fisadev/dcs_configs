@@ -277,17 +277,6 @@ local diff = {
 				},
 			},
 		},
-		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Kneeboard ON/OFF",
-			["removed"] = {
-				[1] = {
-					["key"] = "K",
-					["reformers"] = {
-						[1] = "RShift",
-					},
-				},
-			},
-		},
 		["d158pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -865,14 +854,6 @@ local diff = {
 				},
 			},
 		},
-		["d3001pnilunilcd100vd1vpnilvunil"] = {
-			["name"] = "Kneeboard Next Page",
-			["removed"] = {
-				[1] = {
-					["key"] = "]",
-				},
-			},
-		},
 		["d3002pnilu3002cd1vd-1vpnilvu0"] = {
 			["name"] = "Altimeter pressure set Decrease",
 			["removed"] = {
@@ -941,14 +922,6 @@ local diff = {
 					["reformers"] = {
 						[1] = "RAlt",
 					},
-				},
-			},
-		},
-		["d3002pnilunilcd100vd1vpnilvunil"] = {
-			["name"] = "Kneeboard Previous Page",
-			["removed"] = {
-				[1] = {
-					["key"] = "[",
 				},
 			},
 		},

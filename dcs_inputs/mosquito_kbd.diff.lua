@@ -250,17 +250,6 @@ local diff = {
 				},
 			},
 		},
-		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Kneeboard ON/OFF",
-			["removed"] = {
-				[1] = {
-					["key"] = "K",
-					["reformers"] = {
-						[1] = "RShift",
-					},
-				},
-			},
-		},
 		["d158pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {

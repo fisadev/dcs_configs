@@ -1,5 +1,21 @@
 local diff = {
 	["keyDiffs"] = {
+		["d109pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "H",
+					["reformers"] = {
+						[1] = "RShift",
+					},
+				},
+			},
+			["name"] = "Helmet-mounted system - ON/OFF",
+			["removed"] = {
+				[1] = {
+					["key"] = "H",
+				},
+			},
+		},
 		["d1710pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Pie menu",
 			["removed"] = {
@@ -13,6 +29,38 @@ local diff = {
 				},
 			},
 		},
+		["d3001pnilunilcd100vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "]",
+				},
+			},
+			["name"] = "Kneeboard Next Page",
+			["removed"] = {
+				[1] = {
+					["key"] = "]",
+					["reformers"] = {
+						[1] = "RShift",
+					},
+				},
+			},
+		},
+		["d3002pnilunilcd100vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "[",
+				},
+			},
+			["name"] = "Kneeboard Previous Page",
+			["removed"] = {
+				[1] = {
+					["key"] = "[",
+					["reformers"] = {
+						[1] = "RShift",
+					},
+				},
+			},
+		},
 		["d3003pnilunilcd100vd1vpnilvunil"] = {
 			["name"] = "Kneeboard current position mark point",
 			["removed"] = {
@@ -20,6 +68,17 @@ local diff = {
 					["key"] = "K",
 					["reformers"] = {
 						[1] = "RCtrl",
+					},
+				},
+			},
+		},
+		["d3004pnilunilcd7vd1vpnilvunil"] = {
+			["name"] = "Raise/Lower Colour Filter On HUD",
+			["removed"] = {
+				[1] = {
+					["key"] = "H",
+					["reformers"] = {
+						[1] = "RShift",
 					},
 				},
 			},
@@ -396,6 +455,74 @@ local diff = {
 						[1] = "LShift",
 						[2] = "LCtrl",
 						[3] = "LAlt",
+					},
+				},
+			},
+		},
+		["dnilp746unilcdnilvdnilvpnilvunil"] = {
+			["name"] = "HUD Brightness up",
+			["removed"] = {
+				[1] = {
+					["key"] = "H",
+					["reformers"] = {
+						[1] = "RCtrl",
+						[2] = "RShift",
+					},
+				},
+			},
+		},
+		["dnilp747unilcdnilvdnilvpnilvunil"] = {
+			["name"] = "HUD Brightness down",
+			["removed"] = {
+				[1] = {
+					["key"] = "H",
+					["reformers"] = {
+						[1] = "RShift",
+						[2] = "RAlt",
+					},
+				},
+			},
+		},
+		["dnilp840unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "H",
+					["reformers"] = {
+						[1] = "RCtrl",
+						[2] = "RShift",
+					},
+				},
+			},
+			["name"] = "Helmet device brightness Up",
+			["removed"] = {
+				[1] = {
+					["key"] = "]",
+					["reformers"] = {
+						[1] = "RShift",
+						[2] = "RCtrl",
+						[3] = "RAlt",
+					},
+				},
+			},
+		},
+		["dnilp841unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "H",
+					["reformers"] = {
+						[1] = "RAlt",
+						[2] = "RShift",
+					},
+				},
+			},
+			["name"] = "Helmet device brightness Down",
+			["removed"] = {
+				[1] = {
+					["key"] = "[",
+					["reformers"] = {
+						[1] = "RShift",
+						[2] = "RCtrl",
+						[3] = "RAlt",
 					},
 				},
 			},

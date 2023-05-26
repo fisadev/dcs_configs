@@ -1,5 +1,16 @@
 local diff = {
 	["keyDiffs"] = {
+		["d110pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "H",
+					["reformers"] = {
+						[1] = "RShift",
+					},
+				},
+			},
+			["name"] = "Switch the Helmet Visor for NVG and viceversa",
+		},
 		["d1124pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Hide/Show Stick and Throttle",
 			["removed"] = {
@@ -444,6 +455,30 @@ local diff = {
 					},
 				},
 			},
+		},
+		["d840pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "H",
+					["reformers"] = {
+						[1] = "RCtrl",
+						[2] = "RShift",
+					},
+				},
+			},
+			["name"] = "NVG Brightness Up",
+		},
+		["d841pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "H",
+					["reformers"] = {
+						[1] = "RAlt",
+						[2] = "RShift",
+					},
+				},
+			},
+			["name"] = "NVG Brightness Down",
 		},
 	},
 }
