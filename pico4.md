@@ -1,0 +1,19 @@
+- System settings apk is needed to enable tethering, for USB streaming (under the network section)
+- PICO VR apk is needed because the official assistant app isn't available in Argentina's Play Store, and payments are made through it ...
+- To prevent windows crashes:
+	- with the device conected in tether...
+	- go to device manager
+	- network devices
+	- Remote NDIS Compatible Device
+	- right click, update driver
+	- browse computer for driver
+	- let me pick
+	- uncheck show compatible hardware
+	- select Microsoft, USB RNDIS6 Adapter
+- To prevent the pico tethering to take precedence over the real networks:
+    - go to the properties of the real network adapter
+    - properties of the IPv4 item
+    - click on Advanced
+    - disable "Automatic metric"
+    - set "10" in the Interface metric
+    - ok ok close
