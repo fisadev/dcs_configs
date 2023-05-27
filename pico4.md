@@ -17,3 +17,13 @@
     - disable "Automatic metric"
     - set "10" in the Interface metric
     - ok ok close
+- Virtual desktop streaming settings:
+    - 150Mbps
+    - Godlike quality
+    - Disable SSW
+    - Sharpening at 75%
+    - Video buffering
+    - 90fps
+    - HEVC codec (desktop setting)
+- Use wifi to connect to VD, but then disable wifi and keep going through usb
+- Use the usb 3.2 with power usb hub to both charge and tether at the same time
