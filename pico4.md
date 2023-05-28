@@ -11,6 +11,7 @@
 	- uncheck show compatible hardware
 	- select Microsoft, USB RNDIS6 Adapter
 - To prevent the pico tethering to take precedence over the real networks:
+    - THIS SOMETIMES MAKES THE TETHERING TO STOP WORKING! DISABLE AND WORKS AGAIN
     - go to the properties of the real network adapter
     - properties of the IPv4 item
     - click on Advanced
