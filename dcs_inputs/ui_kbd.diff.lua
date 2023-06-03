@@ -40,6 +40,16 @@ local diff = {
 			["name"] = "recenter VR Headset",
 		},
 		["d816pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Left",
+					["reformers"] = {
+						[1] = "LAlt",
+						[2] = "LCtrl",
+						[3] = "LShift",
+					},
+				},
+			},
 			["name"] = "Active Pause",
 			["removed"] = {
 				[1] = {
