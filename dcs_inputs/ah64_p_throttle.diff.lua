@@ -202,7 +202,7 @@ local diff = {
 		["d3019pnilu3019cd11vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN92",
+					["key"] = "JOY_BTN80",
 				},
 			},
 			["name"] = "Master Warning Button",
@@ -302,14 +302,6 @@ local diff = {
 				},
 			},
 			["name"] = "NVS Select Switch - PNVS",
-		},
-		["d3054pnilu3054cd25vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN80",
-				},
-			},
-			["name"] = "Boresight/Polarity Switch - PLRT",
 		},
 		["d3057pnilu3057cd6vd-1vpnilvu0"] = {
 			["added"] = {

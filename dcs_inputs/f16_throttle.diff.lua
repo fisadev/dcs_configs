@@ -122,26 +122,10 @@ local diff = {
 		["d3001pnilu3001cd12vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN92",
+					["key"] = "JOY_BTN80",
 				},
 			},
 			["name"] = "Master Caution Button",
-		},
-		["d3002pnilunilcd11vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN74",
-				},
-			},
-			["name"] = "FLASH STEADY Switch - STEADY",
-		},
-		["d3002pnilunilcd11vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN73",
-				},
-			},
-			["name"] = "FLASH STEADY Switch - FLASH",
 		},
 		["d3002pnilunilcd19vd-1vpnilvunil"] = {
 			["added"] = {
@@ -242,7 +226,7 @@ local diff = {
 		["d3008pnilunilcd4vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN88",
+					["key"] = "JOY_BTN74",
 				},
 			},
 			["name"] = "AIR REFUEL Switch - CLOSE",
@@ -250,7 +234,7 @@ local diff = {
 		["d3008pnilunilcd4vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN86",
+					["key"] = "JOY_BTN73",
 				},
 			},
 			["name"] = "AIR REFUEL Switch - OPEN",

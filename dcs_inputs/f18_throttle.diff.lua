@@ -210,18 +210,10 @@ local diff = {
 			},
 			["name"] = "Dispense Button",
 		},
-		["d3002pnilunilcd6vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN88",
-				},
-			},
-			["name"] = "Probe Control Switch - EMERG EXTD",
-		},
 		["d3002pnilunilcd6vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN87",
+					["key"] = "JOY_BTN74",
 				},
 			},
 			["name"] = "Probe Control Switch - RETRACT",
@@ -229,7 +221,7 @@ local diff = {
 		["d3002pnilunilcd6vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN86",
+					["key"] = "JOY_BTN73",
 				},
 			},
 			["name"] = "Probe Control Switch - EXTEND",
@@ -257,38 +249,6 @@ local diff = {
 				},
 			},
 			["name"] = "Emergency Jettison Button",
-		},
-		["d3005pnilunilcd23vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN74",
-				},
-			},
-			["name"] = "Station Jettison Select Button CENTER - OFF",
-		},
-		["d3005pnilunilcd23vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN73",
-				},
-			},
-			["name"] = "Station Jettison Select Button CENTER - ON",
-		},
-		["d3006pnilunilcd23vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN66",
-				},
-			},
-			["name"] = "Station Jettison Select Button LEFT IN - OFF",
-		},
-		["d3006pnilunilcd23vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN65",
-				},
-			},
-			["name"] = "Station Jettison Select Button LEFT IN - ON",
 		},
 		["d3007pnilunilcd2vd-1vpnilvunil"] = {
 			["added"] = {
@@ -325,26 +285,10 @@ local diff = {
 		["d3008pnilu3008cd9vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN92",
+					["key"] = "JOY_BTN80",
 				},
 			},
 			["name"] = "MASTER CAUTION Reset Button",
-		},
-		["d3008pnilunilcd23vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN68",
-				},
-			},
-			["name"] = "Station Jettison Select Button RIGHT IN - OFF",
-		},
-		["d3008pnilunilcd23vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN67",
-				},
-			},
-			["name"] = "Station Jettison Select Button RIGHT IN - ON",
 		},
 		["d3009pnilu3009cd25vd1vpnilvu0"] = {
 			["added"] = {

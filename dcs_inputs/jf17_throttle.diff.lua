@@ -289,6 +289,22 @@ local diff = {
 			},
 			["name"] = "SHARS Switch - ON",
 		},
+		["d3066pnilunilcd33vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN74",
+				},
+			},
+			["name"] = "AAR Switch - OFF",
+		},
+		["d3066pnilunilcd33vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN73",
+				},
+			},
+			["name"] = "AAR Switch - ALL",
+		},
 		["d3073pnilu3073cd34vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -304,6 +320,14 @@ local diff = {
 				},
 			},
 			["name"] = "Throttle Cage: Idle To Stop",
+		},
+		["d3344pnilu3344cd5vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN80",
+				},
+			},
+			["name"] = "Master Warning",
 		},
 		["dnilp10025unilcd35vdnilvpnilvunil"] = {
 			["added"] = {
