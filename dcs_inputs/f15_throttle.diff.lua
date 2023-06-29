@@ -231,6 +231,22 @@ local diff = {
 			},
 			["name"] = "Throttle (Right) - OFF",
 		},
+		["d3323pnilunilcd44vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN95",
+				},
+			},
+			["name"] = "Master Arm Switch SAFE",
+		},
+		["d3323pnilunilcd44vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN93",
+				},
+			},
+			["name"] = "Master Arm Switch ARM",
+		},
 		["d3401pnilu3401cd29vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
