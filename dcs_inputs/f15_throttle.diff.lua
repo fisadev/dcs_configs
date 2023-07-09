@@ -231,6 +231,38 @@ local diff = {
 			},
 			["name"] = "Throttle (Right) - OFF",
 		},
+		["d3321pnilunilcd44vd0.3vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN70",
+				},
+			},
+			["name"] = "Armament Jettison Selector - COMBAT",
+		},
+		["d3321pnilunilcd44vd0.9vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN71",
+				},
+			},
+			["name"] = "Armament Jettison Selector - A/G",
+		},
+		["d3321pnilunilcd44vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN69",
+				},
+			},
+			["name"] = "Armament Jettison Selector - OFF",
+		},
+		["d3322pnilu3322cd44vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN72",
+				},
+			},
+			["name"] = "Armament Jettison Button",
+		},
 		["d3323pnilunilcd44vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
