@@ -40,7 +40,7 @@ cfg =
     ["require_pure_scripts"] = true,
     ["missionList"] = 
     {
-        [1] = "C:\\Users\\Administrator\\Saved Games\\DCS.openbeta_server\\Missions\\Operation_Nerve_Wrecker_1.1.miz",
+        [1] = "C:\\Users\\Administrator\\Saved Games\\DCS.openbeta_server\\Missions\\TTI_SD_v247a_edited.miz",
     }, -- end of ["missionList"]
     ["require_pure_clients"] = true,
     ["require_pure_models"] = true,
