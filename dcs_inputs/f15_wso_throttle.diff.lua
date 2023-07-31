@@ -146,13 +146,13 @@ local diff = {
 			},
 			["name"] = "RHC - Castle Switch PRESS",
 		},
-		["d3318pnilu3318cd4vd1vpnilvu0"] = {
+		["d3323pnilu3323cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN22",
 				},
 			},
-			["name"] = "RHC - TDC Switch PRESS",
+			["name"] = "RHC - Trigger FA (FUll",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
