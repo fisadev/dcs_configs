@@ -33,15 +33,15 @@ cfg =
     ["mode"] = 0,
     ["bind_address"] = "",
     ["isPublic"] = true,
-    ["listShuffle"] = false,
-    ["password"] = "SET THE PASS",
-    ["listLoop"] = true,
-    ["name"] = "Los Magios DCS Server IV",
-    ["require_pure_scripts"] = true,
     ["missionList"] = 
     {
         [1] = "C:\\Users\\Administrator\\Saved Games\\DCS.openbeta_server\\Missions\\TTI_SD_v247a_edited.miz",
     }, -- end of ["missionList"]
+    ["password"] = "SET THE PASS",
+    ["listShuffle"] = false,
+    ["name"] = "Los Magios DCS Server IV",
+    ["require_pure_scripts"] = true,
+    ["listLoop"] = true,
     ["require_pure_clients"] = true,
     ["require_pure_models"] = true,
     ["maxPlayers"] = 20,
