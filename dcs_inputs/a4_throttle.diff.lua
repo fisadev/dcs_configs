@@ -105,6 +105,22 @@ local diff = {
 			},
 			["name"] = "Master Exterior Lights Switch - ON",
 		},
+		["d10295pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+			["name"] = "Throttle Position Lock - IGN",
+		},
+		["d10296pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN30",
+				},
+			},
+			["name"] = "Throttle Position Lock - RUN",
+		},
 		["d147pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
