@@ -202,7 +202,7 @@ local diff = {
 		["d3132pnilu3132cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN7",
 				},
 			},
 			["name"] = "CMD Switch UP (Manual 2 Dispense)",
@@ -210,7 +210,7 @@ local diff = {
 		["d3133pnilu3133cd4vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "CMD Switch DOWN (Manual 1 Dispense)",
