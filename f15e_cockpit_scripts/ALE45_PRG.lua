@@ -3,12 +3,12 @@
 cmd_man1 = {}
 cmd_man1[1] = {
 	threat = "MAN1",
-	cycles = 1,
+	cycles = 2,
 	interval = 1,
 	Dispense = {
-		[1] = { chaff = 0, flare = 1, delay = 0.25, },
-		[2] = { chaff = 0, flare = 1, delay = 0.25, },
-		[3] = { chaff = 0, flare = 1, delay = 0.25, },
+		[1] = { chaff = 1, flare = 1, delay = 0.25, },
+		[2] = { chaff = 2, flare = 2, delay = 0.50, },
+		[3] = { chaff = 1, flare = 1, delay = 0.25, },
 	},
 }
 cmd_man1[2] = {
@@ -17,7 +17,7 @@ cmd_man1[2] = {
 	interval = 0,
 	Dispense = {
 		[1] = { chaff = 1, flare = 0, delay = 0.25, },
-		[2] = { chaff = 1, flare = 0, delay = 0.25, },
+		[2] = { chaff = 2, flare = 0, delay = 0.50, },
 		[3] = { chaff = 1, flare = 0, delay = 0.25, },
 	},
 }
