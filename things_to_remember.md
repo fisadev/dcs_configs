@@ -1,38 +1,35 @@
+# Performance
+
 - Uninstall winwing drivers, and from [saved games]/DCS/Scripts/export.lua, remove the two lines that the winwing driver adds
 - Disable GPU scheduling: windows settings > display > graphics
 - Disable xbox game bar: windows settings > gaming
-- Set the right IPD in DCS settings (61, 62?)
 - Set the LOD multipliers to 0.4, very noticeable impact in triangles 
   quantity (less stuff to render). Edit INSTALLFOLDER/Config/graphics.lua 
   changing all instances of lodMult = 1 to 0.4.
 - Use OpenXR:
-    1. Install OpenXR Tools for Windows: 
-        https://www.microsoft.com/en-us/p/openxr-tools-for-windows-mixed-reality/9n5cvvl23qbt#activetab=pivot:overviewtab
-    2. Install OpenXR Toolkit:
+    1. Install OpenXR Toolkit:
         https://mbucchia.github.io/OpenXR-Toolkit/
-    3. Launch OpenXR Tools and configure:
-        - Use latest preview OpenXR runtime = ON
-        - Custom render scale = 100%
-        - Motion reprojection = Disabled
-    4. Go to Windows Mixed Reality settings and configure:
-        - (SUPER IMPORTANT!!) SteamVR automatic launch = OFF (win10: it's inside the Startup and desktop section)
-        - Quality = Best visual quality (win10: inside the Headset Display section)
-        - Positional tracking = OFF (not present in win10??)
-        - Display resolution = highest possible
-        - Frame rate = 90hz
-    5. Add launch option to DCS in the Steam properties:  --force_OpenXR
- 
+        (launch and configure hotkey)
+    2. Add launch option to DCS in the Steam properties:  --force_OpenXR
+    3. Launch DCS and configure with the screenshots at ./non_versionable_settings
+- Configure DCS with the settigns at ./non_versionable_settings
+- Set some important settings in Nvidia control pannel (global settings)
+    - Background Application Max Frame Rate = 90fps
+    - Max Frame Rate = 90fps
+    - Low Latency Mode = Ultra
+    - Virtual Reality Pre Rendered Frames = 1
+- Don't use Nvidia Shadowplay or Nvidia Experience, huge fps drops
+- For the Pico 4, use virtual desktop, with:
+    - PC: HVEC, auto bit rate, audio VR headset only, use virtual audio driver(?)
+    - Headset: Ultra quality, 90fps, 150mbps, 100% sharpening or less, disable SSW, video buffering
 
-Not sure, not doing anymore:
-- Limit fps in Nvidia control pannel to 45fps or so?
+# Other random stuff
+
+- PICO VR apk is needed because the official assistant app isn't available in Argentina's Play Store, and payments are made through it. Can be downloaded with the Pico browser.
+
+# Not sure, not doing anymore
+
 - Maybe use the thing that improves 3d sensing?
 	- https://github.com/Orbmu2k/nvidiaProfileInspector/releases
 	- run, and load the VRDirectx profile, apply changes
 	- more info: https://forum.dcs.world/topic/298226-better-3d-in-vr-greater-depth/
-
-
-vJoy and midi2vjoy:
-Midi2vjoy is a mess. Use python3, install pygame with pip3, and run from inside its code directory. Using a fork that adds support for release mappings on my midi controller.
-Use `py midi2vjoy.py -t` to list controls ids being used in real time (first two numbers are ids of the axis/button being used, the first number is the type of control).
-Then a virtual joystick is needed with vJoy, which is also a mess in the installation (never finishing correctly).
-Finally, run `py midi2vjoy.py -m 1 -c my_mappings.conf` to link the controller to the virtual joystick.
