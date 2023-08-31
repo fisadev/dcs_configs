@@ -1,3 +1,6 @@
+Some of this things didn't really work that well, I still had crashes, and problems connecting.
+I'm currently using wifi 6, works super well.
+
 - System settings apk is needed to enable tethering, for USB streaming (under the network section)
 - To prevent windows crashes:
 	- with the device conected in tether...
