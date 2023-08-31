@@ -17,3 +17,27 @@ controls:
   action: keys ctrlright shiftright h
 - when: control 41 surpasses 64
   action: keys altright shiftright h
+
+# five upper knobs as axes
+- when: control 10 between 0-127
+  action: joystick 1 axis 1
+- when: control 11 between 0-127
+  action: joystick 1 axis 2
+- when: control 12 between 0-127
+  action: joystick 1 axis 3
+- when: control 13 between 0-127
+  action: joystick 1 axis 4
+- when: control 14 between 0-127
+  action: joystick 1 axis 5
+  
+# fiver sliders as axes
+- when: control 20 between 0-127
+  action: joystick 2 axis 1
+- when: control 21 between 0-127
+  action: joystick 2 axis 2
+- when: control 22 between 0-127
+  action: joystick 2 axis 3
+- when: control 23 between 0-127
+  action: joystick 2 axis 4
+- when: control 24 between 0-127
+  action: joystick 2 axis 5
