@@ -1,5 +1,4 @@
 - System settings apk is needed to enable tethering, for USB streaming (under the network section)
-- PICO VR apk is needed because the official assistant app isn't available in Argentina's Play Store, and payments are made through it ...
 - To prevent windows crashes:
 	- with the device conected in tether...
 	- go to device manager
@@ -18,13 +17,5 @@
     - disable "Automatic metric"
     - set "10" in the Interface metric
     - ok ok close
-- Virtual desktop streaming settings:
-    - 150Mbps
-    - Godlike quality
-    - Disable SSW
-    - Sharpening at 75%
-    - Video buffering
-    - 90fps
-    - HEVC codec (desktop setting)
 - Use wifi to connect to VD, but then disable wifi and keep going through usb
 - Use the usb 3.2 with power usb hub to both charge and tether at the same time
