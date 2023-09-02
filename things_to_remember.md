@@ -22,6 +22,9 @@
 - For the Pico 4, use virtual desktop, with:
     - PC: HVEC, auto bit rate, audio VR headset only, use virtual audio driver(?)
     - Headset: Ultra quality, 90fps, 150mbps, 100% sharpening or less, disable SSW, video buffering
+- Set the LODs multiplier to 0.5:
+    - open DCS_INSTALL_FOLDER/Config/graphics.lua
+    - set all the lodMult values to 0.5 (there are many)
 
 # Other random stuff
 
