@@ -133,6 +133,46 @@ local diff = {
 			},
 			["name"] = "Master caution push-light",
 		},
+		["d3001pnilunilcd11vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN95",
+				},
+			},
+			["name"] = "Laser Standby Power Switch - OFF",
+		},
+		["d3001pnilunilcd11vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN93",
+				},
+			},
+			["name"] = "Laser Standby Power Switch - ON",
+		},
+		["d3002pnilunilcd50vd0.1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN70",
+				},
+			},
+			["name"] = "SPU-9 Radio communicator selector - VHF-1",
+		},
+		["d3002pnilunilcd50vd0.3vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN71",
+				},
+			},
+			["name"] = "SPU-9 Radio communicator selector - GND CREW",
+		},
+		["d3002pnilunilcd50vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN69",
+				},
+			},
+			["name"] = "SPU-9 Radio communicator selector - CA(VHF-2)",
+		},
 		["d3003pnilunilcd100vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -140,6 +180,22 @@ local diff = {
 				},
 			},
 			["name"] = "Kneeboard current position mark point",
+		},
+		["d3012pnilunilcd34vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN75",
+				},
+			},
+			["name"] = "Gear up",
+		},
+		["d3013pnilunilcd34vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN76",
+				},
+			},
+			["name"] = "Gear down",
 		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["name"] = "Release weapons",
@@ -156,17 +212,6 @@ local diff = {
 				},
 			},
 			["name"] = "Button Targeting mode reset",
-		},
-		["d392pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN93",
-				},
-				[2] = {
-					["key"] = "JOY_BTN95",
-				},
-			},
-			["name"] = "Laser Standby Power Switch - ON/OFF",
 		},
 		["d412pnilu414cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -206,7 +251,7 @@ local diff = {
 					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "Engage Descent Mode | DESCENT<>CENTER ",
+			["name"] = "Engage Descent Mode",
 		},
 		["d509pnilu510cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -266,74 +311,6 @@ local diff = {
 					},
 				},
 			},
-		},
-		["d596pnilu802cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN69",
-				},
-			},
-			["name"] = "Start-up engine",
-		},
-		["d598pnilu804cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN71",
-				},
-			},
-			["name"] = "Stop APU button",
-		},
-		["d599pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN72",
-				},
-			},
-			["name"] = "Engine selector - cycle positions",
-		},
-		["d600pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN65",
-				},
-				[2] = {
-					["key"] = "JOY_BTN66",
-				},
-			},
-			["name"] = "Fuel Cut-Off Valve, Left Engine",
-		},
-		["d601pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN67",
-				},
-				[2] = {
-					["key"] = "JOY_BTN68",
-				},
-			},
-			["name"] = "Fuel Cut-Off Valve, Right Engine",
-		},
-		["d605pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN73",
-				},
-				[2] = {
-					["key"] = "JOY_BTN74",
-				},
-			},
-			["name"] = "Rotor brake",
-		},
-		["d68pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN76",
-				},
-				[2] = {
-					["key"] = "JOY_BTN75",
-				},
-			},
-			["name"] = "Gear lever",
 		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["name"] = "Gun fire",
