@@ -53,11 +53,27 @@ RecoverDCS(dcs_was_active) {
 ;Switch Virtual Desktop mode (desktop vs VR), even if DCS has grip on special keys
 SwitchVDMode() {
     dcs_was_active := EscapeDCS()
+    Sleep 100
     SendInput {Lshift Down}{Lwin Down}{d}{Lwin Up}{Lshift up}
-    Sleep 200
+    Sleep 100
     RecoverDCS(dcs_was_active)
     Return
 }
+
+;Switch between DCS in full focus and VR mode, vs some other app in desktop mode
+SwitchDCSorOtherApp() {
+    if IsDcsActive() {
+        Sleep 200
+        SendInput {Alt down}{tab}{Alt up}
+        Sleep 100
+        SwitchVDMode()
+    } else {
+        FocusToDcs()
+        SwitchVDMode()
+    }
+    Return
+}
+
 ;--------------------------------------
 ;     MAPPINGS
 ;--------------------------------------
@@ -71,4 +87,9 @@ SwitchVDMode() {
 ;Switch Virtual Desktop mode, even escaping DCS's grip on special keys
 !^+F22 Up::
     SwitchVDMode()
+    Return
+
+;Switch between DCS in full focus and VR mode, vs some other app in desktop mode
+!^+F23 Up::
+    SwitchDCSorOtherApp()
     Return
