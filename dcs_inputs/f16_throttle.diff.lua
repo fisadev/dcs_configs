@@ -239,6 +239,14 @@ local diff = {
 			},
 			["name"] = "AIR REFUEL Switch - OPEN",
 		},
+		["d3010pnilu3010cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN92",
+				},
+			},
+			["name"] = "MANUAL PITCH Override Switch - OVRD/NORM",
+		},
 		["d3010pnilunilcd32vd0.2vpnilvunil"] = {
 			["added"] = {
 				[1] = {
