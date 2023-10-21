@@ -251,7 +251,7 @@ local diff = {
 					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "Engage Descent Mode",
+			["name"] = "Engage Descent Mode | DESCENT<>CENTER ",
 		},
 		["d509pnilu510cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -455,38 +455,6 @@ local diff = {
 				},
 			},
 			["name"] = "ABRIS Brightness Decrease",
-		},
-		["dnilp842unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN84",
-				},
-			},
-			["name"] = "IT-23 brightness Up",
-		},
-		["dnilp843unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN83",
-				},
-			},
-			["name"] = "IT-23 brightness Down",
-		},
-		["dnilp844unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN104",
-				},
-			},
-			["name"] = "IT-23 contrast Up",
-		},
-		["dnilp845unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN103",
-				},
-			},
-			["name"] = "IT-23 contrast Down",
 		},
 		["dnilp88u235cdnilvdnilvpnilvunil"] = {
 			["name"] = "KU-31 Shkval slew left",

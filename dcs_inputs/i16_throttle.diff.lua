@@ -82,10 +82,7 @@ local diff = {
 		["d430pnilu68cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN69",
-				},
-				[2] = {
-					["key"] = "JOY_BTN83",
+					["key"] = "JOY_BTN75",
 				},
 			},
 			["name"] = "Landing Gear Handle, Up",
@@ -93,10 +90,7 @@ local diff = {
 		["d431pnilu68cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN71",
-				},
-				[2] = {
-					["key"] = "JOY_BTN84",
+					["key"] = "JOY_BTN76",
 				},
 			},
 			["name"] = "Landing Gear Handle, Down",

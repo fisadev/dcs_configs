@@ -1,5 +1,13 @@
 local diff = {
 	["keyDiffs"] = {
+		["d1708pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "F4",
+				},
+			},
+			["name"] = "Object local camera",
+		},
 		["d3001pnilunilcd17vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -151,18 +159,6 @@ local diff = {
 			},
 			["name"] = "MAIN PWR Switch - Up",
 		},
-		["d3010pnilu3010cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "A",
-					["reformers"] = {
-						[1] = "LCtrl",
-						[2] = "LShift",
-					},
-				},
-			},
-			["name"] = "MANUAL PITCH Override Switch - OVRD/NORM",
-		},
 		["d3012pnilu3012cd3vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -286,6 +282,14 @@ local diff = {
 				},
 			},
 			["name"] = "Automatic Startup Procedure",
+		},
+		["d359pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "F4 Camera mounted on object",
+			["removed"] = {
+				[1] = {
+					["key"] = "F4",
+				},
+			},
 		},
 	},
 }

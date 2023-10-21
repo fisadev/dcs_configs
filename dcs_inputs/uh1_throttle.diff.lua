@@ -131,7 +131,7 @@ local diff = {
 		["d3037pnilunilcd9vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN85",
+					["key"] = "JOY_BTN105",
 				},
 			},
 			["name"] = "AI Panel Show/Hide",
@@ -147,7 +147,7 @@ local diff = {
 		["d3039pnilunilcd9vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN105",
+					["key"] = "JOY_BTN96",
 				},
 			},
 			["name"] = "AI Operator ROE Iterate",

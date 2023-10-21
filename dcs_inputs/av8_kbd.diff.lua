@@ -100,6 +100,14 @@ local diff = {
 				},
 			},
 		},
+		["d1708pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "F4",
+				},
+			},
+			["name"] = "Object local camera",
+		},
 		["d267pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Request AWACS Home Airbase",
 			["removed"] = {
@@ -162,6 +170,14 @@ local diff = {
 					["reformers"] = {
 						[1] = "RWin",
 					},
+				},
+			},
+		},
+		["d359pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "F4 Camera mounted on object",
+			["removed"] = {
+				[1] = {
+					["key"] = "F4",
 				},
 			},
 		},

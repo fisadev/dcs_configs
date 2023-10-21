@@ -16,6 +16,14 @@ local diff = {
 				},
 			},
 		},
+		["d1708pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "F4",
+				},
+			},
+			["name"] = "Object local camera",
+		},
 		["d1710pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Pie menu",
 			["removed"] = {
@@ -95,6 +103,14 @@ local diff = {
 				},
 			},
 			["name"] = "Automatic Startup Procedure",
+		},
+		["d359pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "F4 Camera mounted on object",
+			["removed"] = {
+				[1] = {
+					["key"] = "F4",
+				},
+			},
 		},
 		["d412pnilu414cdnilvdnilvpnilvunil"] = {
 			["name"] = "TV Target frame Increase size",

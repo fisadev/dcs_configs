@@ -138,14 +138,6 @@ local diff = {
 			},
 			["name"] = "Master Mode Button - A/A",
 		},
-		["d3001pnilu3001cd30vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN85",
-				},
-			},
-			["name"] = "Push to Test Switch - Push to activate BIT",
-		},
 		["d3001pnilunilcd54vd0.1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -513,22 +505,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
-		},
-		["dnilp3002unilcd30vdnilvp-0.02vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN83",
-				},
-			},
-			["name"] = "Push to Test Switch - CCW/Decrease",
-		},
-		["dnilp3002unilcd30vdnilvp0.02vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN84",
-				},
-			},
-			["name"] = "Push to Test Switch - CW/Increase",
 		},
 		["dnilp3036unilcd25vdnilvp-0.5vunil"] = {
 			["added"] = {

@@ -214,9 +214,6 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN69",
 				},
-				[2] = {
-					["key"] = "JOY_BTN83",
-				},
 			},
 			["name"] = "ШО, LNCHR Rotary Selector - PREV POS",
 		},
@@ -224,9 +221,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN71",
-				},
-				[2] = {
-					["key"] = "JOY_BTN84",
 				},
 			},
 			["name"] = "ШО, LNCHR Rotary Selector - NEXT POS",

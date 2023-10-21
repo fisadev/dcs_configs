@@ -165,11 +165,6 @@ local diff = {
 			},
 		},
 		["d13pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "F4",
-				},
-			},
 			["name"] = "F9 Ship view",
 			["removed"] = {
 				[1] = {
@@ -216,11 +211,6 @@ local diff = {
 			},
 		},
 		["d14pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "F3",
-				},
-			},
 			["name"] = "F5 nearest AC view",
 			["removed"] = {
 				[1] = {
@@ -401,7 +391,7 @@ local diff = {
 			},
 		},
 		["d1702pnilunilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Object free camera bookmarks editor",
+			["name"] = "Object local camera bookmarks editor",
 			["removed"] = {
 				[1] = {
 					["key"] = "=",
@@ -425,7 +415,12 @@ local diff = {
 			},
 		},
 		["d1708pnilunilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Object free camera",
+			["added"] = {
+				[1] = {
+					["key"] = "F4",
+				},
+			},
+			["name"] = "Object local camera",
 			["removed"] = {
 				[1] = {
 					["key"] = "F2",
@@ -436,7 +431,7 @@ local diff = {
 			},
 		},
 		["d1711pnilunilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Object free camera bookmarks menu",
+			["name"] = "Object local camera bookmarks menu",
 			["removed"] = {
 				[1] = {
 					["key"] = "-",
@@ -700,14 +695,6 @@ local diff = {
 						[1] = "RCtrl",
 						[2] = "RShift",
 					},
-				},
-			},
-		},
-		["d257pnilunilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Screenshot",
-			["removed"] = {
-				[1] = {
-					["key"] = "SysRQ",
 				},
 			},
 		},
@@ -2023,7 +2010,7 @@ local diff = {
 					},
 				},
 			},
-			["name"] = "F4 Camera mounted on airframe",
+			["name"] = "F4 Camera mounted on object",
 			["removed"] = {
 				[1] = {
 					["key"] = "F4",
@@ -2505,22 +2492,6 @@ local diff = {
 					["reformers"] = {
 						[1] = "LAlt",
 					},
-				},
-			},
-		},
-		["d9pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "F2",
-					["reformers"] = {
-						[1] = "LAlt",
-					},
-				},
-			},
-			["name"] = "F3 Fly-By view",
-			["removed"] = {
-				[1] = {
-					["key"] = "F3",
 				},
 			},
 		},
