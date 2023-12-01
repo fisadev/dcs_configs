@@ -60,6 +60,70 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d3020pnilu3020cd9vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN34",
+				},
+			},
+			["name"] = "Left Headlight - Down",
+		},
+		["d3020pnilu3020cd9vd2vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "Left Headlight - Up",
+		},
+		["d3020pnilu3020cd9vd3vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN35",
+				},
+			},
+			["name"] = "Left Headlight - Left",
+		},
+		["d3020pnilu3020cd9vd4vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN33",
+				},
+			},
+			["name"] = "Left Headlight - Right",
+		},
+		["d3021pnilu3021cd9vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN39",
+				},
+			},
+			["name"] = "Right Headlight - Down",
+		},
+		["d3021pnilu3021cd9vd2vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN37",
+				},
+			},
+			["name"] = "Right Headlight - Up",
+		},
+		["d3021pnilu3021cd9vd3vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN40",
+				},
+			},
+			["name"] = "Right Headlight - Left",
+		},
+		["d3021pnilu3021cd9vd4vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN38",
+				},
+			},
+			["name"] = "Right Headlight - Right",
+		},
 		["d3025pnilu3025cd36vd1vpnilvu0"] = {
 			["name"] = "Radio trigger - 2nd STAGE (RADIO)",
 			["removed"] = {
@@ -67,22 +131,6 @@ local diff = {
 					["key"] = "JOY_BTN1",
 				},
 			},
-		},
-		["d3057pnilunilcd12vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN34",
-				},
-			},
-			["name"] = "Mode UPK/PKT/RS Switch - Down",
-		},
-		["d3057pnilunilcd12vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN32",
-				},
-			},
-			["name"] = "Mode UPK/PKT/RS Switch - Up",
 		},
 		["d84pnilu84cdnilvd1vpnilvu0"] = {
 			["added"] = {

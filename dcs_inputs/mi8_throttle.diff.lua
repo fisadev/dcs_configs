@@ -24,6 +24,14 @@ local diff = {
 				},
 			},
 		},
+		["a2004cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_SLIDER1",
+				},
+			},
+			["name"] = "Throttle (Collective)",
+		},
 		["a2087cdnil"] = {
 			["added"] = {
 				[1] = {
@@ -62,6 +70,30 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d1633pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "External Cargo Hook",
+		},
+		["d1650pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+			},
+			["name"] = "External Cargo Indicator",
+		},
+		["d1731pnilu1731cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN17",
+				},
+			},
+			["name"] = "Radio trigger - RADIO (VOIP)",
+		},
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -70,10 +102,85 @@ local diff = {
 			},
 			["name"] = "Communication menu",
 		},
+		["d3001pnilu3001cd51vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "External Cargo Tactical Unhook Button",
+		},
+		["d3013pnilunilcd17vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN81",
+				},
+			},
+			["name"] = "Door, Cargo Cabin, Left - OPEN/CLOSE",
+		},
+		["d3014pnilunilcd17vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN82",
+				},
+			},
+			["name"] = "Open/Close Cargo Doors",
+		},
+		["d3018pnilunilcd9vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN88",
+				},
+			},
+			["name"] = "Left Headlight Power Switch - RETRACT",
+		},
+		["d3018pnilunilcd9vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN87",
+				},
+			},
+			["name"] = "Left Headlight Power Switch - OFF",
+		},
+		["d3018pnilunilcd9vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN86",
+				},
+			},
+			["name"] = "Left Headlight Power Switch - LIGHT",
+		},
+		["d3019pnilunilcd9vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN91",
+				},
+			},
+			["name"] = "Right Headlight Power Switch - RETRACT",
+		},
+		["d3019pnilunilcd9vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN90",
+				},
+			},
+			["name"] = "Right Headlight Power Switch - OFF",
+		},
+		["d3019pnilunilcd9vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN89",
+				},
+			},
+			["name"] = "Right Headlight Power Switch - LIGHT",
+		},
 		["d3025pnilu3025cd36vd0.5vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN15",
+				},
+				[2] = {
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "Radio trigger - 1st STAGE (ICS)",
