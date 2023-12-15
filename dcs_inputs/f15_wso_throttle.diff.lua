@@ -69,7 +69,7 @@ local diff = {
 		["d147pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN24",
 				},
 			},
 			["name"] = "Speed Brake Switch - Step Aft",
@@ -77,7 +77,7 @@ local diff = {
 		["d148pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN18",
+					["key"] = "JOY_BTN22",
 				},
 			},
 			["name"] = "Speed Brake Switch - Step Fwd",
@@ -85,7 +85,7 @@ local diff = {
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "Communication menu",
@@ -93,7 +93,7 @@ local diff = {
 		["d3118pnilu3118cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "MIC Switch FWD (Call Radio 1 Menu)",
@@ -101,15 +101,31 @@ local diff = {
 		["d3119pnilu3119cd4vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "MIC Switch AFT (Call Radio 2 Menu)",
 		},
+		["d3301pnilu3301cd4vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN18",
+				},
+			},
+			["name"] = "RHC - AAI Switch FWD",
+		},
+		["d3302pnilu3302cd4vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "RHC - AAI Switch AFT",
+		},
 		["d3309pnilu3309cd4vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN32",
 				},
 			},
 			["name"] = "RHC - Castle Switch FWD",
@@ -117,7 +133,7 @@ local diff = {
 		["d3310pnilu3310cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN28",
 				},
 			},
 			["name"] = "RHC - Castle Switch AFT",
@@ -125,7 +141,7 @@ local diff = {
 		["d3311pnilu3311cd4vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN29",
 				},
 			},
 			["name"] = "RHC - Castle Switch LEFT",
@@ -133,7 +149,7 @@ local diff = {
 		["d3312pnilu3312cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN33",
 				},
 			},
 			["name"] = "RHC - Castle Switch RIGHT",
@@ -141,18 +157,26 @@ local diff = {
 		["d3313pnilu3313cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN34",
 				},
 			},
 			["name"] = "RHC - Castle Switch PRESS",
 		},
-		["d3323pnilu3323cd4vd1vpnilvu0"] = {
+		["d3318pnilu3318cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN22",
+					["key"] = "JOY_BTN35",
 				},
 			},
-			["name"] = "RHC - Trigger FA (FUll",
+			["name"] = "RHC - TDC Switch PRESS",
+		},
+		["d3324pnilu3324cd4vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN21",
+				},
+			},
+			["name"] = "RHC - Laser Fire",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",

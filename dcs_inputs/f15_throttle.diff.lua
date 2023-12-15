@@ -64,6 +64,43 @@ local diff = {
 			},
 			["name"] = "TDC Slew Vertical",
 		},
+		["a3128cd4"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_RZ",
+				},
+				[2] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Z",
+				},
+			},
+			["name"] = "Radar Antenna Elevation",
+		},
 		["a3136cd55"] = {
 			["added"] = {
 				[1] = {
@@ -106,7 +143,7 @@ local diff = {
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "Communication menu",
@@ -114,7 +151,7 @@ local diff = {
 		["d3109pnilu3109cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN28",
 				},
 			},
 			["name"] = "Coolie Switch UP",
@@ -122,7 +159,7 @@ local diff = {
 		["d3110pnilu3110cd4vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN32",
 				},
 			},
 			["name"] = "Coolie Switch DOWN",
@@ -130,7 +167,7 @@ local diff = {
 		["d3111pnilu3111cd4vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN29",
 				},
 			},
 			["name"] = "Coolie Switch LEFT",
@@ -138,15 +175,39 @@ local diff = {
 		["d3112pnilu3112cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN33",
 				},
 			},
 			["name"] = "Coolie Switch RIGHT",
 		},
+		["d3113pnilunilcd4vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+			["name"] = "Weapons/Mode Switch AFT (GUN)",
+		},
+		["d3113pnilunilcd4vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "Weapons/Mode Switch CNT (SRM)",
+		},
+		["d3113pnilunilcd4vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "Weapons/Mode Switch FWD (MRM)",
+		},
 		["d3118pnilu3118cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "MIC Switch FWD (Call Radio 1 Menu)",
@@ -154,7 +215,7 @@ local diff = {
 		["d3119pnilu3119cd4vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "MIC Switch AFT (Call Radio 2 Menu)",
@@ -170,7 +231,7 @@ local diff = {
 		["d3125pnilu3125cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN22",
+					["key"] = "JOY_BTN35",
 				},
 			},
 			["name"] = "TDC Switch PRESS",
@@ -178,7 +239,7 @@ local diff = {
 		["d3129pnilu3129cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "Boat Switch FWD",
@@ -194,15 +255,23 @@ local diff = {
 		["d3130pnilu3130cd4vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN17",
+					["key"] = "JOY_BTN20",
 				},
 			},
 			["name"] = "Boat Switch AFT",
 		},
+		["d3131pnilu3131cd4vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN21",
+				},
+			},
+			["name"] = "Left Multifunction Switch",
+		},
 		["d3132pnilu3132cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN57",
 				},
 			},
 			["name"] = "CMD Switch UP (Manual 2 Dispense)",
@@ -210,7 +279,7 @@ local diff = {
 		["d3133pnilu3133cd4vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN59",
 				},
 			},
 			["name"] = "CMD Switch DOWN (Manual 1 Dispense)",
@@ -319,6 +388,22 @@ local diff = {
 			},
 			["name"] = "Landing Gear Lever - LG DOWN",
 		},
+		["d600pnilu600cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN56",
+				},
+			},
+			["name"] = "Finger Lift LEFT",
+		},
+		["d601pnilu601cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN50",
+				},
+			},
+			["name"] = "Finger Lift RIGHT",
+		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {
@@ -386,7 +471,7 @@ local diff = {
 		["dnilp577u579cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN18",
+					["key"] = "JOY_BTN22",
 				},
 			},
 			["name"] = "Speed Brake FWD (Retract)",
@@ -394,7 +479,7 @@ local diff = {
 		["dnilp578u579cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN24",
 				},
 			},
 			["name"] = "Speed Brake AFT (Extend)",

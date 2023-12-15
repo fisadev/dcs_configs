@@ -60,22 +60,6 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d3301pnilu3301cd4vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
-			},
-			["name"] = "RHC - AAI Switch FWD",
-		},
-		["d3302pnilu3302cd4vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-				},
-			},
-			["name"] = "RHC - AAI Switch AFT",
-		},
 		["d3304pnilu3304cd4vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -148,18 +132,18 @@ local diff = {
 			},
 			["name"] = "RHC - Trigger FA (FUll",
 		},
-		["d3324pnilu3324cd4vd1vpnilvu0"] = {
+		["d3400pnilu3400cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN9",
 				},
 			},
-			["name"] = "RHC - Laser Fire",
+			["name"] = "Set hand controller swap",
 		},
 		["d3401pnilunilcd4vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN42",
 				},
 			},
 			["name"] = "Toggle hand controller swap",

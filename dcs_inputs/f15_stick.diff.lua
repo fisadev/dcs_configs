@@ -124,46 +124,6 @@ local diff = {
 			},
 			["name"] = "Auto Acquisition Switch PRESS",
 		},
-		["d3114pnilunilcd32vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN35",
-				},
-			},
-			["name"] = "Weapons/Mode Switch Cycle AFT (MRM-SRM-GUN)",
-		},
-		["d3114pnilunilcd32vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN33",
-				},
-			},
-			["name"] = "Weapons/Mode Switch Cycle FWD (GUN-SRM-MRM)",
-		},
-		["d3116pnilu3116cd4vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-				},
-			},
-			["name"] = "Radar Antenna Elevation UP",
-		},
-		["d3117pnilu3117cd4vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
-			},
-			["name"] = "Radar Antenna Elevation DOWN",
-		},
-		["d3131pnilu3131cd4vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-				},
-			},
-			["name"] = "Left Multifunction Switch",
-		},
 		["d3134pnilu3134cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
