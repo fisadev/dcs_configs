@@ -1,20 +1,46 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["name"] = "Cyclic Pitch",
-			["removed"] = {
+			["changed"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_Y",
 				},
 			},
+			["name"] = "Cyclic Pitch",
 		},
 		["a2002cdnil"] = {
-			["name"] = "Cyclic Roll",
-			["removed"] = {
+			["changed"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.2,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_X",
 				},
 			},
+			["name"] = "Cyclic Roll",
 		},
 		["a2003cdnil"] = {
 			["name"] = "Rudder",
@@ -32,42 +58,6 @@ local diff = {
 				},
 			},
 		},
-		["a3087cd52"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0.2,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 0.5,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_X",
-				},
-			},
-			["name"] = "RHG MAN TRK Controller - X axis",
-		},
-		["a3088cd52"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0.2,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 0.5,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "RHG MAN TRK Controller - Y axis",
-		},
 	},
 	["keyDiffs"] = {
 		["d3002pnilu3002cd87vd1vpnilvu0"] = {
@@ -77,6 +67,41 @@ local diff = {
 				},
 			},
 			["name"] = "George AI Helper Interface - Show/Hide",
+		},
+		["d3004pnilu3004cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+				[2] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "Force Trim/Hold Mode Switch - R/Up",
+		},
+		["d3005pnilu3005cd25vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "Force Trim/Hold Mode Switch - D/Down",
+		},
+		["d3006pnilu3006cd25vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "Force Trim/Hold Mode Switch - AT/Left",
+		},
+		["d3007pnilu3007cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "Force Trim/Hold Mode Switch - AL/Right",
 		},
 		["d3012pnilu3012cd25vd1vpnilvu0"] = {
 			["added"] = {
@@ -118,30 +143,6 @@ local diff = {
 			},
 			["name"] = "Flare Dispense Button - Depress",
 		},
-		["d3030pnilu3030cd52vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-				},
-			},
-			["name"] = "LHG Image AutoTrack/Offset Switch - IAT/Center",
-		},
-		["d3031pnilu3031cd52vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
-			},
-			["name"] = "LHG Image AutoTrack/Offset Switch - OFS/Center",
-		},
-		["d3044pnilu3044cd52vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-				},
-			},
-			["name"] = "LHG Linear Motion Compensation (LMC) Button",
-		},
 		["d3049pnilu3049cd52vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -149,6 +150,14 @@ local diff = {
 				},
 			},
 			["name"] = "LHG Weapons Action (WAS) Switch - G (GUN)",
+		},
+		["d3050pnilu3050cd52vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN34",
+				},
+			},
+			["name"] = "LHG Weapons Action (WAS) Switch - A (AIR-TO-AIR)",
 		},
 		["d3051pnilu3051cd52vd-1vpnilvu0"] = {
 			["added"] = {
@@ -169,7 +178,7 @@ local diff = {
 		["d3061pnilu3061cd52vd0.5vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN4",
 				},
 			},
 			["name"] = "LHG Weapons Trigger Switch - FIRST DETENT",
@@ -177,42 +186,10 @@ local diff = {
 		["d3062pnilu3062cd52vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN5",
 				},
 			},
 			["name"] = "LHG Weapons Trigger Switch - SECOND DETENT",
-		},
-		["d3063pnilu3063cd52vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-				},
-			},
-			["name"] = "RHG Sight Select Switch - HMD",
-		},
-		["d3064pnilu3064cd52vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-			["name"] = "RHG Sight Select Switch - LINK",
-		},
-		["d3065pnilu3065cd52vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-				},
-			},
-			["name"] = "RHG Sight Select Switch - FCR",
-		},
-		["d3066pnilu3066cd52vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-				},
-			},
-			["name"] = "RHG Sight Select Switch - TADS",
 		},
 		["d3076pnilu3076cd52vd1vpnilvu0"] = {
 			["added"] = {
@@ -225,7 +202,7 @@ local diff = {
 		["d3078pnilu3078cd52vd0.5vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN42",
 				},
 			},
 			["name"] = "RHG LRFD Trigger - FIRST DETENT",
@@ -233,26 +210,10 @@ local diff = {
 		["d3078pnilu3078cd52vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "RHG LRFD Trigger - SECOND DETENT",
-		},
-		["d3079pnilu3079cd52vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN10",
-				},
-			},
-			["name"] = "RHG MTT Promote Switch - Fwd/Center",
-		},
-		["d3080pnilu3080cd52vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-				},
-			},
-			["name"] = "RHG MTT Promote Switch - Aft/Center",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",

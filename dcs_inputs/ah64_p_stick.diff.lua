@@ -26,7 +26,7 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.2,
 						},
 						["deadzone"] = 0,
 						["hardwareDetent"] = false,
@@ -87,7 +87,7 @@ local diff = {
 		["d3004pnilu3004cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
+					["key"] = "JOY_BTN11",
 				},
 				[2] = {
 					["key"] = "JOY_BTN9",
@@ -98,7 +98,7 @@ local diff = {
 		["d3005pnilu3005cd25vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
+					["key"] = "JOY_BTN13",
 				},
 			},
 			["name"] = "Force Trim/Hold Mode Switch - D/Down",
@@ -106,7 +106,7 @@ local diff = {
 		["d3006pnilu3006cd25vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
+					["key"] = "JOY_BTN12",
 				},
 			},
 			["name"] = "Force Trim/Hold Mode Switch - AT/Left",
@@ -114,7 +114,7 @@ local diff = {
 		["d3007pnilu3007cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "Force Trim/Hold Mode Switch - AL/Right",
@@ -134,6 +134,22 @@ local diff = {
 				},
 			},
 			["name"] = "Consent To Fire",
+		},
+		["d3009pnilu3009cd25vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN34",
+				},
+			},
+			["name"] = "Weapons Action Switch - A/Down",
+		},
+		["d3009pnilunilcd87vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN42",
+				},
+			},
+			["name"] = "TADS Store Target",
 		},
 		["d3010pnilu3010cd25vd-1vpnilvu0"] = {
 			["added"] = {

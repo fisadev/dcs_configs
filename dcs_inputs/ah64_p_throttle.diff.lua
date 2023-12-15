@@ -76,16 +76,6 @@ local diff = {
 		["a3035cd3"] = {
 			["added"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
 					["key"] = "JOY_RZ",
 				},
 			},
@@ -154,7 +144,7 @@ local diff = {
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "Communication menu",
@@ -186,7 +176,7 @@ local diff = {
 		["d3017pnilu3017cd25vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "PTT/RTS Switch - RADIO/Left (call radio menu)",
@@ -194,7 +184,7 @@ local diff = {
 		["d3018pnilu3018cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "PTT/RTS Switch - ICS/Right (call radio menu)",
@@ -210,7 +200,7 @@ local diff = {
 		["d3019pnilu3019cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN7",
 				},
 			},
 			["name"] = "PTT/RTS Switch - RTS/Depress",
@@ -250,7 +240,7 @@ local diff = {
 		["d3040pnilu3040cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN22",
+					["key"] = "JOY_BTN35",
 				},
 			},
 			["name"] = "Cursor Enter - Depress",
@@ -282,7 +272,7 @@ local diff = {
 		["d3044pnilu3044cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN11",
 				},
 			},
 			["name"] = "Cursor Display Select Button - Depress",

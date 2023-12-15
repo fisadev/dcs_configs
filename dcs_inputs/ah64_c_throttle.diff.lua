@@ -25,6 +25,34 @@ local diff = {
 			},
 		},
 		["a2087cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+							[2] = 0,
+							[3] = 0,
+							[4] = 0.12,
+							[5] = 0.24,
+							[6] = 0.36,
+							[7] = 0.48,
+							[8] = 0.6,
+							[9] = 0.72,
+							[10] = 0.84,
+							[11] = 1,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
+					["key"] = "JOY_RY",
+				},
+			},
 			["name"] = "Collective",
 			["removed"] = {
 				[1] = {
@@ -52,6 +80,9 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_X",
+					["reformers"] = {
+						[1] = "select_left",
+					},
 				},
 			},
 			["name"] = "LHG Cursor Controller - X axis",
@@ -64,22 +95,57 @@ local diff = {
 							[1] = 0,
 						},
 						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
 					["key"] = "JOY_Y",
+					["reformers"] = {
+						[1] = "select_left",
+					},
 				},
 			},
 			["name"] = "LHG Cursor Controller - Y axis",
+		},
+		["a3087cd52"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "RHG MAN TRK Controller - X axis",
+		},
+		["a3088cd52"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 0.5,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "RHG MAN TRK Controller - Y axis",
 		},
 	},
 	["keyDiffs"] = {
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "Communication menu",
@@ -87,7 +153,7 @@ local diff = {
 		["d3017pnilu3017cd25vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "PTT/RTS Switch - RADIO/Left (call radio menu)",
@@ -95,7 +161,7 @@ local diff = {
 		["d3018pnilu3018cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "PTT/RTS Switch - ICS/Right (call radio menu)",
@@ -111,7 +177,7 @@ local diff = {
 		["d3019pnilu3019cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN7",
 				},
 			},
 			["name"] = "PTT/RTS Switch - RTS/Depress",
@@ -140,10 +206,26 @@ local diff = {
 			},
 			["name"] = "PLT NVS MODE Switch - FIXED",
 		},
+		["d3030pnilu3030cd52vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "LHG Image AutoTrack/Offset Switch - IAT/Center",
+		},
+		["d3031pnilu3031cd52vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN28",
+				},
+			},
+			["name"] = "LHG Image AutoTrack/Offset Switch - OFS/Center",
+		},
 		["d3032pnilu3032cd52vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN17",
 				},
 			},
 			["name"] = "LHG TADS FOV Switch - Z (Zoom)",
@@ -151,7 +233,7 @@ local diff = {
 		["d3033pnilu3033cd52vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN19",
 				},
 			},
 			["name"] = "LHG TADS FOV Switch - M (Medium)",
@@ -159,7 +241,7 @@ local diff = {
 		["d3034pnilu3034cd52vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN20",
 				},
 			},
 			["name"] = "LHG TADS FOV Switch - N (Narrow)",
@@ -167,7 +249,7 @@ local diff = {
 		["d3035pnilu3035cd52vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "LHG TADS FOV Switch - W (Wide)",
@@ -175,7 +257,7 @@ local diff = {
 		["d3036pnilunilcd52vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN73",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "LHG TADS Sensor Select Switch - FLIR",
@@ -183,18 +265,34 @@ local diff = {
 		["d3037pnilunilcd52vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN74",
+					["key"] = "JOY_BTN4",
 				},
 			},
 			["name"] = "LHG TADS Sensor Select Switch - TV",
 		},
+		["d3038pnilunilcd52vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+			["name"] = "LHG TADS Sensor Select Switch - DVO",
+		},
 		["d3039pnilu3039cd52vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN22",
 				},
 			},
 			["name"] = "LHG STORE/Update Switch - STORE/Center",
+		},
+		["d3040pnilu3040cd52vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN24",
+				},
+			},
+			["name"] = "LHG STORE/Update Switch - UPDT/Center",
 		},
 		["d3042pnilu3042cd3vd1vpnilvu0"] = {
 			["added"] = {
@@ -212,37 +310,29 @@ local diff = {
 			},
 			["name"] = "A/S Pushbutton",
 		},
-		["d3044pnilu3044cd25vd1vpnilvu0"] = {
+		["d3044pnilu3044cd52vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN21",
 				},
 			},
-			["name"] = "Cursor Display Select Button - Depress",
+			["name"] = "LHG Linear Motion Compensation (LMC) Button",
 		},
-		["d3051pnilu3051cd25vd1vpnilvu0"] = {
+		["d3079pnilu3079cd52vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN75",
+					["key"] = "JOY_BTN33",
 				},
 			},
-			["name"] = "NVS Select Switch - TADS",
+			["name"] = "RHG MTT Promote Switch - Fwd/Center",
 		},
-		["d3052pnilu3052cd25vd-1vpnilvu0"] = {
+		["d3080pnilu3080cd52vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN76",
+					["key"] = "JOY_BTN29",
 				},
 			},
-			["name"] = "NVS Select Switch - PNVS",
-		},
-		["d3082pnilu3082cd52vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN22",
-				},
-			},
-			["name"] = "RHG Enter Button",
+			["name"] = "RHG MTT Promote Switch - Aft/Center",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
