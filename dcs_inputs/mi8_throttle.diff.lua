@@ -73,7 +73,7 @@ local diff = {
 		["d1633pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN17",
 				},
 			},
 			["name"] = "External Cargo Hook",
@@ -81,23 +81,15 @@ local diff = {
 		["d1650pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "External Cargo Indicator",
 		},
-		["d1731pnilu1731cdnilvd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN17",
-				},
-			},
-			["name"] = "Radio trigger - RADIO (VOIP)",
-		},
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "Communication menu",
@@ -105,7 +97,7 @@ local diff = {
 		["d3001pnilu3001cd51vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN19",
 				},
 			},
 			["name"] = "External Cargo Tactical Unhook Button",
@@ -177,10 +169,7 @@ local diff = {
 		["d3025pnilu3025cd36vd0.5vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-				[2] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "Radio trigger - 1st STAGE (ICS)",
@@ -188,7 +177,7 @@ local diff = {
 		["d3025pnilu3025cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "Radio trigger - 2nd STAGE (RADIO)",
