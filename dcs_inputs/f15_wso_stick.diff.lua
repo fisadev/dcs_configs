@@ -1,7 +1,7 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["changed"] = {
+			["added"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
@@ -17,12 +17,20 @@ local diff = {
 						["slider"] = false,
 					},
 					["key"] = "JOY_Y",
+					["reformers"] = {
+						[1] = "arm_down",
+					},
 				},
 			},
 			["name"] = "Pitch",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
 		},
 		["a2002cdnil"] = {
-			["changed"] = {
+			["added"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
@@ -38,9 +46,17 @@ local diff = {
 						["slider"] = false,
 					},
 					["key"] = "JOY_X",
+					["reformers"] = {
+						[1] = "arm_down",
+					},
 				},
 			},
 			["name"] = "Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
 		},
 		["a2003cdnil"] = {
 			["name"] = "Rudder",
@@ -58,8 +74,82 @@ local diff = {
 				},
 			},
 		},
+		["a3325cd4"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "RHC - TDC Slew Horizontal",
+		},
+		["a3326cd4"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "RHC - TDC Slew Vertical",
+		},
 	},
 	["keyDiffs"] = {
+		["d3222pnilu3222cd4vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN41",
+				},
+			},
+			["name"] = "LHC - Trigger HA (Half)",
+		},
+		["d3223pnilu3223cd4vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "LHC - Trigger FA (FUll",
+		},
+		["d3301pnilu3301cd4vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN35",
+				},
+			},
+			["name"] = "RHC - AAI Switch FWD",
+		},
+		["d3302pnilu3302cd4vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN33",
+				},
+			},
+			["name"] = "RHC - AAI Switch AFT",
+		},
 		["d3304pnilu3304cd4vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -91,6 +181,54 @@ local diff = {
 				},
 			},
 			["name"] = "RHC - Coolie Switch RIGHT",
+		},
+		["d3309pnilu3309cd4vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_U",
+				},
+			},
+			["name"] = "RHC - Castle Switch FWD",
+		},
+		["d3310pnilu3310cd4vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_D",
+				},
+			},
+			["name"] = "RHC - Castle Switch AFT",
+		},
+		["d3311pnilu3311cd4vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+				},
+			},
+			["name"] = "RHC - Castle Switch LEFT",
+		},
+		["d3312pnilu3312cd4vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+				},
+			},
+			["name"] = "RHC - Castle Switch RIGHT",
+		},
+		["d3313pnilu3313cd4vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN19",
+				},
+			},
+			["name"] = "RHC - Castle Switch PRESS",
+		},
+		["d3318pnilu3318cd4vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "RHC - TDC Switch PRESS",
 		},
 		["d3319pnilu3319cd4vd-1vpnilvu0"] = {
 			["added"] = {
@@ -132,26 +270,21 @@ local diff = {
 			},
 			["name"] = "RHC - Trigger FA (FUll",
 		},
-		["d3400pnilu3400cd4vd1vpnilvu0"] = {
+		["d3324pnilu3324cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN36",
 				},
 			},
-			["name"] = "Set hand controller swap",
-		},
-		["d3401pnilunilcd4vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN42",
-				},
-			},
-			["name"] = "Toggle hand controller swap",
+			["name"] = "RHC - Laser Fire",
 		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN20",
+					["reformers"] = {
+						[1] = "arm_down",
+					},
 				},
 			},
 			["name"] = "Weapon Release (Pickle)",
@@ -232,6 +365,9 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_L",
+					["reformers"] = {
+						[1] = "arm_down",
+					},
 				},
 			},
 			["name"] = "Trim Left Wing Down",
@@ -240,6 +376,9 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_R",
+					["reformers"] = {
+						[1] = "arm_down",
+					},
 				},
 			},
 			["name"] = "Trim Right Wing Down",
@@ -248,6 +387,9 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
+					["reformers"] = {
+						[1] = "arm_down",
+					},
 				},
 			},
 			["name"] = "Trim Nose Up",
@@ -256,6 +398,9 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_U",
+					["reformers"] = {
+						[1] = "arm_down",
+					},
 				},
 			},
 			["name"] = "Trim Nose Down",

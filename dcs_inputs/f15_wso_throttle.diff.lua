@@ -48,21 +48,21 @@ local diff = {
 			},
 			["name"] = "Thrust Right",
 		},
-		["a3325cd4"] = {
+		["a3225cd4"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_X",
 				},
 			},
-			["name"] = "RHC - TDC Slew Horizontal",
+			["name"] = "LHC - TDC Slew Horizontal",
 		},
-		["a3326cd4"] = {
+		["a3226cd4"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_Y",
 				},
 			},
-			["name"] = "RHC - TDC Slew Vertical",
+			["name"] = "LHC - TDC Slew Vertical",
 		},
 	},
 	["keyDiffs"] = {
@@ -106,77 +106,133 @@ local diff = {
 			},
 			["name"] = "MIC Switch AFT (Call Radio 2 Menu)",
 		},
-		["d3301pnilu3301cd4vd-1vpnilvu0"] = {
+		["d3201pnilu3201cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN18",
+					["key"] = "JOY_BTN57",
 				},
 			},
-			["name"] = "RHC - AAI Switch FWD",
+			["name"] = "LHC - CMD Switch UP (Manual 2 Dispense)",
 		},
-		["d3302pnilu3302cd4vd1vpnilvu0"] = {
+		["d3202pnilu3202cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN59",
 				},
 			},
-			["name"] = "RHC - AAI Switch AFT",
+			["name"] = "LHC - CMD Switch DOWN (Manual 1 Dispense)",
 		},
-		["d3309pnilu3309cd4vd-1vpnilvu0"] = {
+		["d3204pnilu3204cd4vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN51",
+				},
+			},
+			["name"] = "LHC - Coolie Switch UP",
+		},
+		["d3205pnilu3205cd4vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN53",
+				},
+			},
+			["name"] = "LHC - Coolie Switch DOWN",
+		},
+		["d3206pnilu3206cd4vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN52",
+				},
+			},
+			["name"] = "LHC - Coolie Switch LEFT",
+		},
+		["d3207pnilu3207cd4vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN54",
+				},
+			},
+			["name"] = "LHC - Coolie Switch RIGHT",
+		},
+		["d3209pnilu3209cd4vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN32",
 				},
 			},
-			["name"] = "RHC - Castle Switch FWD",
+			["name"] = "LHC - Castle Switch FWD",
 		},
-		["d3310pnilu3310cd4vd1vpnilvu0"] = {
+		["d3210pnilu3210cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN28",
 				},
 			},
-			["name"] = "RHC - Castle Switch AFT",
+			["name"] = "LHC - Castle Switch AFT",
 		},
-		["d3311pnilu3311cd4vd-1vpnilvu0"] = {
+		["d3211pnilu3211cd4vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN29",
 				},
 			},
-			["name"] = "RHC - Castle Switch LEFT",
+			["name"] = "LHC - Castle Switch LEFT",
 		},
-		["d3312pnilu3312cd4vd1vpnilvu0"] = {
+		["d3212pnilu3212cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN33",
 				},
 			},
-			["name"] = "RHC - Castle Switch RIGHT",
+			["name"] = "LHC - Castle Switch RIGHT",
 		},
-		["d3313pnilu3313cd4vd1vpnilvu0"] = {
+		["d3213pnilu3213cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN34",
 				},
 			},
-			["name"] = "RHC - Castle Switch PRESS",
+			["name"] = "LHC - Castle Switch PRESS",
 		},
-		["d3318pnilu3318cd4vd1vpnilvu0"] = {
+		["d3218pnilu3218cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN35",
 				},
 			},
-			["name"] = "RHC - TDC Switch PRESS",
+			["name"] = "LHC - TDC Switch PRESS",
 		},
-		["d3324pnilu3324cd4vd1vpnilvu0"] = {
+		["d3219pnilu3219cd4vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN18",
+				},
+			},
+			["name"] = "LHC - Auto Acquisition Switch FWD",
+		},
+		["d3220pnilu3220cd4vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "LHC - Auto Acquisition Switch AFT",
+		},
+		["d3221pnilu3221cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN21",
 				},
 			},
-			["name"] = "RHC - Laser Fire",
+			["name"] = "LHC - Auto Acquisition Switch PRESS",
+		},
+		["d3224pnilu3224cd4vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN55",
+				},
+			},
+			["name"] = "LHC - Laser Fire",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
