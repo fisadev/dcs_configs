@@ -211,7 +211,7 @@ local diff = {
 					["key"] = "JOY_BTN79",
 				},
 			},
-			["name"] = "PLT NVS MODE Switch - OFF",
+			["name"] = "NVS MODE Switch - OFF",
 		},
 		["d3023pnilunilcd3vd0vpnilvunil"] = {
 			["added"] = {
@@ -219,7 +219,7 @@ local diff = {
 					["key"] = "JOY_BTN78",
 				},
 			},
-			["name"] = "PLT NVS MODE Switch - NORM",
+			["name"] = "NVS MODE Switch - NORM",
 		},
 		["d3023pnilunilcd3vd1vpnilvunil"] = {
 			["added"] = {
@@ -227,7 +227,87 @@ local diff = {
 					["key"] = "JOY_BTN77",
 				},
 			},
-			["name"] = "PLT NVS MODE Switch - FIXED",
+			["name"] = "NVS MODE Switch - FIXED",
+		},
+		["d3024pnilu3024cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN28",
+				},
+			},
+			["name"] = "FCR Scan Size Switch - Z/Up",
+		},
+		["d3025pnilu3025cd25vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "FCR Scan Size Switch - M/Down",
+		},
+		["d3026pnilu3026cd25vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN29",
+				},
+			},
+			["name"] = "FCR Scan Size Switch - N/Left",
+		},
+		["d3027pnilu3027cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN33",
+				},
+			},
+			["name"] = "FCR Scan Size Switch - W/Right",
+		},
+		["d3028pnilu3028cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN22",
+				},
+			},
+			["name"] = "Sight Select Switch - HMD/Up",
+		},
+		["d3030pnilu3030cd25vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN24",
+				},
+			},
+			["name"] = "Sight Select Switch - FCR/Left",
+		},
+		["d3032pnilu3032cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN51",
+				},
+			},
+			["name"] = "FCR Mode Switch - GTM/Up",
+		},
+		["d3033pnilu3033cd25vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN53",
+				},
+			},
+			["name"] = "FCR Mode Switch - ATM/Down",
+		},
+		["d3034pnilu3034cd25vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN52",
+				},
+			},
+			["name"] = "FCR Mode Switch - TPM/Left",
+		},
+		["d3035pnilu3035cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN54",
+				},
+			},
+			["name"] = "FCR Mode Switch - RMAP/Right",
 		},
 		["d3038pnilu3038cd6vd1vpnilvu0"] = {
 			["added"] = {
@@ -276,6 +356,22 @@ local diff = {
 				},
 			},
 			["name"] = "Cursor Display Select Button - Depress",
+		},
+		["d3045pnilu3045cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN34",
+				},
+			},
+			["name"] = "FCR Scan Switch - S (Single)/Center",
+		},
+		["d3046pnilu3046cd25vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN55",
+				},
+			},
+			["name"] = "FCR Scan Switch - C (Continuous)/Center",
 		},
 		["d3051pnilu3051cd25vd1vpnilvu0"] = {
 			["added"] = {

@@ -1,7 +1,102 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["changed"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Y",
+					["reformers"] = {
+						[1] = "arm_down",
+					},
+				},
+			},
+			["name"] = "Cyclic Pitch",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+		},
+		["a2002cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.2,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_X",
+					["reformers"] = {
+						[1] = "arm_down",
+					},
+				},
+			},
+			["name"] = "Cyclic Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+		},
+		["a2003cdnil"] = {
+			["name"] = "Rudder",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_RZ",
+				},
+			},
+		},
+		["a2087cdnil"] = {
+			["name"] = "Collective",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Z",
+				},
+			},
+		},
+		["a3087cd52"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "RHG MAN TRK Controller - X axis",
+		},
+		["a3088cd52"] = {
+			["added"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
@@ -19,44 +114,7 @@ local diff = {
 					["key"] = "JOY_Y",
 				},
 			},
-			["name"] = "Cyclic Pitch",
-		},
-		["a2002cdnil"] = {
-			["changed"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0.2,
-						},
-						["deadzone"] = 0,
-						["hardwareDetent"] = false,
-						["hardwareDetentAB"] = 0,
-						["hardwareDetentMax"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_X",
-				},
-			},
-			["name"] = "Cyclic Roll",
-		},
-		["a2003cdnil"] = {
-			["name"] = "Rudder",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-		},
-		["a2087cdnil"] = {
-			["name"] = "Collective",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
+			["name"] = "RHG MAN TRK Controller - Y axis",
 		},
 	},
 	["keyDiffs"] = {
@@ -143,6 +201,22 @@ local diff = {
 			},
 			["name"] = "Flare Dispense Button - Depress",
 		},
+		["d3030pnilu3030cd52vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_U",
+				},
+			},
+			["name"] = "LHG Image AutoTrack/Offset Switch - IAT/Center",
+		},
+		["d3031pnilu3031cd52vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_D",
+				},
+			},
+			["name"] = "LHG Image AutoTrack/Offset Switch - OFS/Center",
+		},
 		["d3049pnilu3049cd52vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -214,6 +288,22 @@ local diff = {
 				},
 			},
 			["name"] = "RHG LRFD Trigger - SECOND DETENT",
+		},
+		["d3079pnilu3079cd52vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+				},
+			},
+			["name"] = "RHG MTT Promote Switch - Fwd/Center",
+		},
+		["d3080pnilu3080cd52vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+				},
+			},
+			["name"] = "RHG MTT Promote Switch - Aft/Center",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",

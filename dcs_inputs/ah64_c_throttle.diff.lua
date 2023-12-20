@@ -80,9 +80,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_X",
-					["reformers"] = {
-						[1] = "select_left",
-					},
 				},
 			},
 			["name"] = "LHG Cursor Controller - X axis",
@@ -104,41 +101,9 @@ local diff = {
 						["slider"] = false,
 					},
 					["key"] = "JOY_Y",
-					["reformers"] = {
-						[1] = "select_left",
-					},
 				},
 			},
 			["name"] = "LHG Cursor Controller - Y axis",
-		},
-		["a3087cd52"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_X",
-				},
-			},
-			["name"] = "RHG MAN TRK Controller - X axis",
-		},
-		["a3088cd52"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["hardwareDetent"] = false,
-						["hardwareDetentAB"] = 0,
-						["hardwareDetentMax"] = 0,
-						["invert"] = false,
-						["saturationX"] = 1,
-						["saturationY"] = 0.5,
-						["slider"] = false,
-					},
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "RHG MAN TRK Controller - Y axis",
 		},
 	},
 	["keyDiffs"] = {
@@ -188,7 +153,7 @@ local diff = {
 					["key"] = "JOY_BTN79",
 				},
 			},
-			["name"] = "PLT NVS MODE Switch - OFF",
+			["name"] = "NVS MODE Switch - OFF",
 		},
 		["d3023pnilunilcd3vd0vpnilvunil"] = {
 			["added"] = {
@@ -196,7 +161,7 @@ local diff = {
 					["key"] = "JOY_BTN78",
 				},
 			},
-			["name"] = "PLT NVS MODE Switch - NORM",
+			["name"] = "NVS MODE Switch - NORM",
 		},
 		["d3023pnilunilcd3vd1vpnilvunil"] = {
 			["added"] = {
@@ -204,23 +169,7 @@ local diff = {
 					["key"] = "JOY_BTN77",
 				},
 			},
-			["name"] = "PLT NVS MODE Switch - FIXED",
-		},
-		["d3030pnilu3030cd52vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN32",
-				},
-			},
-			["name"] = "LHG Image AutoTrack/Offset Switch - IAT/Center",
-		},
-		["d3031pnilu3031cd52vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN28",
-				},
-			},
-			["name"] = "LHG Image AutoTrack/Offset Switch - OFS/Center",
+			["name"] = "NVS MODE Switch - FIXED",
 		},
 		["d3032pnilu3032cd52vd1vpnilvu0"] = {
 			["added"] = {
@@ -294,6 +243,14 @@ local diff = {
 			},
 			["name"] = "LHG STORE/Update Switch - UPDT/Center",
 		},
+		["d3041pnilu3041cd52vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN34",
+				},
+			},
+			["name"] = "LHG FCR Scan Switch - S (Single)/Center",
+		},
 		["d3042pnilu3042cd3vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -301,6 +258,14 @@ local diff = {
 				},
 			},
 			["name"] = "GND ORIDE Pushbutton",
+		},
+		["d3042pnilu3042cd52vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN55",
+				},
+			},
+			["name"] = "LHG FCR Scan Switch - C (Continuous)/Center",
 		},
 		["d3043pnilu3043cd3vd1vpnilvu0"] = {
 			["added"] = {
@@ -318,21 +283,85 @@ local diff = {
 			},
 			["name"] = "LHG Linear Motion Compensation (LMC) Button",
 		},
-		["d3079pnilu3079cd52vd1vpnilvu0"] = {
+		["d3045pnilu3045cd52vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN33",
+					["key"] = "JOY_BTN51",
 				},
 			},
-			["name"] = "RHG MTT Promote Switch - Fwd/Center",
+			["name"] = "LHG FCR Mode Switch - GTM (Ground Targeting Mode)",
 		},
-		["d3080pnilu3080cd52vd-1vpnilvu0"] = {
+		["d3046pnilu3046cd52vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN53",
+				},
+			},
+			["name"] = "LHG FCR Mode Switch - ATM (Air Targeting Mode)",
+		},
+		["d3047pnilu3047cd52vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN52",
+				},
+			},
+			["name"] = "LHG FCR Mode Switch - TPM (Terrain Profile Mode)",
+		},
+		["d3048pnilu3048cd52vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN54",
+				},
+			},
+			["name"] = "LHG FCR Mode Switch - RMAP (Radar MAP)",
+		},
+		["d3057pnilu3057cd52vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN35",
+				},
+			},
+			["name"] = "LHG Cursor Enter Trigger",
+		},
+		["d3060pnilu3060cd52vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "LHG Cursor Display Select (L/R) Button",
+		},
+		["d3070pnilu3070cd52vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN28",
+				},
+			},
+			["name"] = "RHG FCR Scan Size Switch - Z (Zoom)",
+		},
+		["d3071pnilu3071cd52vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "RHG FCR Scan Size Switch - M (Medium)",
+		},
+		["d3072pnilu3072cd52vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN29",
 				},
 			},
-			["name"] = "RHG MTT Promote Switch - Aft/Center",
+			["name"] = "RHG FCR Scan Size Switch - N (Narrow)",
+		},
+		["d3073pnilu3073cd52vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN33",
+				},
+			},
+			["name"] = "RHG FCR Scan Size Switch - W (Wide)",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
