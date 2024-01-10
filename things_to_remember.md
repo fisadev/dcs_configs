@@ -3,15 +3,12 @@
 - Uninstall winwing drivers, and from [saved games]/DCS/Scripts/export.lua, remove the two lines that the winwing driver adds
 - Disable GPU scheduling: windows settings > display > graphics
 - Disable xbox game bar: windows settings > gaming
-- Set the LOD multipliers to 0.4, very noticeable impact in triangles 
-  quantity (less stuff to render). Edit INSTALLFOLDER/Config/graphics.lua 
-  changing all instances of lodMult = 1 to 0.4.
 - Use OpenXR:
     1. Install OpenXR Toolkit:
         https://mbucchia.github.io/OpenXR-Toolkit/
         (launch and configure hotkey)
     2. Add launch option to DCS in the Steam properties:  --force_OpenXR
-    3. Launch DCS and configure with the screenshots at ./non_versionable_settings
+    3. Launch DCS and configure OpenXR Toolkit with the screenshots at ./non_versionable_settings
 - Configure DCS with the settigns at ./non_versionable_settings
 - Set some important settings in Nvidia control pannel (global settings)
     - Background Application Max Frame Rate = 90fps
