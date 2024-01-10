@@ -24,6 +24,10 @@
 # Other random stuff
 
 - PICO VR apk is needed because the official assistant app isn't available in Argentina's Play Store, and payments are made through it. Can be downloaded with the Pico browser.
+- If using the Leap Motion and the Fingers app:
+    - Fingers 0.9.5 doesn't work with Gemini 5.17. Use Fingers 0.9.4
+    - Remember to enable OpenXR support in Gemini.
+    - Replace LeapC.dll both in [dcs install folder]/bin/ and /bin-mt with the version from C:\Program Files\Ultraleap\OpenXR\
 
 # Not sure, not doing anymore
 
