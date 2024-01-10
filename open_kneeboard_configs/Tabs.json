@@ -1,0 +1,43 @@
+[
+  {
+    "ID": "{1db404b4-6a11-48ae-82f7-8b41f26d66a0}",
+    "Title": "Aircraft",
+    "Type": "DCSAircraft"
+  },
+  {
+    "ID": "{a9e1b078-4f86-4f03-ae00-c0db35db31a4}",
+    "Title": "Mission",
+    "Type": "DCSMission"
+  },
+  {
+    "ID": "{edc42e29-153a-49bc-a2d5-6958c4b916a4}",
+    "Title": "Briefing",
+    "Type": "DCSBriefing"
+  },
+  {
+    "ID": "{f8537bd2-8a88-4849-9685-23a48c4f9cc2}",
+    "Settings": {
+      "MissionStartBehavior": "ClearHistory",
+      "ShowTimestamps": true
+    },
+    "Title": "Radio Log",
+    "Type": "DCSRadioLog"
+  },
+  {
+    "ID": "{3e9cb8e2-27b6-42e2-8f73-b884479b5f9c}",
+    "Title": "Theater",
+    "Type": "DCSTerrain"
+  },
+  {
+    "ID": "{b2f7ae79-c508-45fc-8f34-0171b23ca069}",
+    "Settings": {
+      "Spec": {
+        "Executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "Title": "Google Chrome",
+        "WindowClass": "Chrome_WidgetWin_1"
+      }
+    },
+    "Title": "chrome",
+    "Type": "WindowCapture"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "EnableGazeInputFocus": true,
+  "EnableSteamVR": false,
+  "EyeY": -0.6499999761581421,
+  "MaxHeight": 0.25,
+  "Opacity": {
+    "Gaze": 0.699999988079071,
+    "Normal": 0.5
+  },
+  "X": 0.15000000596046448,
+  "Z": -0.30000001192092896,
+  "ZoomScale": 2.0
+}

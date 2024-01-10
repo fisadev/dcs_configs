@@ -1,0 +1,89 @@
+{
+  "Devices": {
+    "{31c8e040-9947-11ee-8002-444553540000}": {
+      "ID": "{31c8e040-9947-11ee-8002-444553540000}",
+      "Kind": "GameController",
+      "Name": "WINWING Orion Throttle Base II + F15EX HANDLE L + F15EX HANDLE R"
+    },
+    "{6f1d2b60-d5a0-11cf-bfc7-444553540000}": {
+      "ID": "{6f1d2b60-d5a0-11cf-bfc7-444553540000}",
+      "Kind": "GameController",
+      "Name": "Mouse"
+    },
+    "{6f1d2b61-d5a0-11cf-bfc7-444553540000}": {
+      "ButtonBindings": [
+        {
+          "Action": "RECENTER_VR",
+          "Buttons": [
+            56,
+            208,
+            29,
+            42
+          ]
+        },
+        {
+          "Action": "NEXT_TAB",
+          "Buttons": [
+            56,
+            29,
+            42,
+            27
+          ]
+        },
+        {
+          "Action": "PREVIOUS_TAB",
+          "Buttons": [
+            56,
+            29,
+            26,
+            42
+          ]
+        },
+        {
+          "Action": "TOGGLE_VISIBILITY",
+          "Buttons": [
+            56,
+            37,
+            29,
+            42
+          ]
+        },
+        {
+          "Action": "PREVIOUS_PAGE",
+          "Buttons": [
+            26
+          ]
+        },
+        {
+          "Action": "NEXT_PAGE",
+          "Buttons": [
+            27
+          ]
+        }
+      ],
+      "ID": "{6f1d2b61-d5a0-11cf-bfc7-444553540000}",
+      "Kind": "Keyboard",
+      "Name": "Keyboard"
+    },
+    "{da4f43a0-f2ba-11ed-8001-444553540000}": {
+      "ID": "{da4f43a0-f2ba-11ed-8001-444553540000}",
+      "Kind": "GameController",
+      "Name": "Controller (XBOX 360 For Windows)"
+    },
+    "{da4f6ab0-f2ba-11ed-8002-444553540000}": {
+      "ID": "{da4f6ab0-f2ba-11ed-8002-444553540000}",
+      "Kind": "GameController",
+      "Name": "Controller (XBOX 360 For Windows)"
+    },
+    "{dc1b27d0-cae9-11eb-8001-444553540000}": {
+      "ID": "{dc1b27d0-cae9-11eb-8001-444553540000}",
+      "Kind": "GameController",
+      "Name": "Saitek Pro Flight Rudder Pedals"
+    },
+    "{e9f476e0-e118-11ec-8002-444553540000}": {
+      "ID": "{e9f476e0-e118-11ec-8002-444553540000}",
+      "Kind": "GameController",
+      "Name": "WINWING JOYSTICK BASE2 + JGRIP-F16"
+    }
+  }
+}
