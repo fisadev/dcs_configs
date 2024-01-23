@@ -38,24 +38,17 @@ local diff = {
 					["filter"] = {
 						["curvature"] = {
 							[1] = 0,
-							[2] = 0,
-							[3] = 0,
-							[4] = 0.12,
-							[5] = 0.24,
-							[6] = 0.36,
-							[7] = 0.48,
-							[8] = 0.6,
-							[9] = 0.72,
-							[10] = 0.84,
-							[11] = 1,
 						},
 						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
-						["slider"] = true,
+						["slider"] = false,
 					},
-					["key"] = "JOY_RY",
+					["key"] = "JOY_RX",
 				},
 			},
 			["name"] = "Flight Control Collective",
@@ -65,108 +58,31 @@ local diff = {
 				},
 			},
 		},
-		["a2100cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_SLIDER2",
-				},
-			},
-			["name"] = "Main Rotor Brake Lever",
-		},
 	},
 	["keyDiffs"] = {
-		["d1633pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-				},
-			},
-			["name"] = "External Cargo Hook",
-		},
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-				},
-			},
-			["name"] = "Communication menu",
-		},
-		["d3005pnilunilcd67vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN80",
-				},
-			},
-			["name"] = "RWR Power",
-		},
-		["d3009pnilu3009cd61vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN10",
 				},
 			},
-			["name"] = "Tactical Cargo Release Button",
+			["name"] = "Communication menu",
 		},
-		["d3011pnilunilcd61vd0vpnilvunil"] = {
+		["d3014pnilu3014cd9vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN57",
+				},
+				[2] = {
+					["key"] = "JOY_BTN59",
 				},
 			},
-			["name"] = "Tactical Cargo Release Button Cover",
-		},
-		["d3018pnilunilcd61vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN68",
-				},
-			},
-			["name"] = "External Cargo Auto-Release Switch - OFF",
-		},
-		["d3018pnilunilcd61vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN67",
-				},
-			},
-			["name"] = "External Cargo Auto-Release Switch - ON",
-		},
-		["d3020pnilunilcd61vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN66",
-				},
-			},
-			["name"] = "External Cargo - rope UP",
-		},
-		["d3020pnilunilcd61vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN65",
-				},
-			},
-			["name"] = "External Cargo - rope DOWN",
-		},
-		["d3022pnilunilcd11vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN81",
-				},
-			},
-			["name"] = "Door, Cargo Cabin, Left - OPEN/CLOSE",
-		},
-		["d3023pnilunilcd11vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN82",
-				},
-			},
-			["name"] = "Door, Cargo Cabin, Right - OPEN/CLOSE",
+			["name"] = "Launch Countermeasures",
 		},
 		["d3026pnilu3026cd55vd0.5vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "Radio trigger - 1st STAGE (ICS)",
@@ -174,42 +90,10 @@ local diff = {
 		["d3026pnilu3026cd55vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "Radio trigger - 2nd STAGE (RADIO)",
-		},
-		["d3026pnilunilcd3vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN86",
-				},
-			},
-			["name"] = "Throttle Lever Left (Idle-Medium-Auto-Full Condition) - DOWN",
-		},
-		["d3026pnilunilcd3vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN88",
-				},
-			},
-			["name"] = "Throttle Lever Left (Idle-Medium-Auto-Full Condition) - UP",
-		},
-		["d3027pnilunilcd3vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN89",
-				},
-			},
-			["name"] = "Throttle Lever Right (Idle-Medium-Auto-Full Condition) - DOWN",
-		},
-		["d3027pnilunilcd3vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN91",
-				},
-			},
-			["name"] = "Throttle Lever Right (Idle-Medium-Auto-Full Condition) - UP",
 		},
 		["d3028pnilunilcd55vd-0.2vpnilvunil"] = {
 			["added"] = {
@@ -250,22 +134,6 @@ local diff = {
 				},
 			},
 			["name"] = "Weapon Select Knob - NEXT POS",
-		},
-		["d3108pnilunilcd6vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN99",
-				},
-			},
-			["name"] = "AI Panel Show/Hide",
-		},
-		["d3110pnilunilcd6vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN102",
-				},
-			},
-			["name"] = "AI Gunner ROE Iterate",
 		},
 		["d430pnilunilcdnilvd1vpnilvunil"] = {
 			["added"] = {
@@ -314,38 +182,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
-		},
-		["dnilp3019unilcd55vdnilvp-0.2vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN100",
-				},
-			},
-			["name"] = "SPU-8, ICS Main Volume Knob - CCW/Decrease",
-		},
-		["dnilp3019unilcd55vdnilvp0.2vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN101",
-				},
-			},
-			["name"] = "SPU-8, ICS Main Volume Knob - CW/Increase",
-		},
-		["dnilp3020unilcd55vdnilvp-0.2vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN97",
-				},
-			},
-			["name"] = "SPU-8, ICS Listening Volume Knob - CCW/Decrease",
-		},
-		["dnilp3020unilcd55vdnilvp0.2vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN98",
-				},
-			},
-			["name"] = "SPU-8, ICS Listening Volume Knob - CW/Increase",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

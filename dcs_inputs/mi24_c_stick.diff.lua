@@ -73,6 +73,14 @@ local diff = {
 			},
 			["name"] = "Launch Countermeasures",
 		},
+		["d3028pnilunilcd7vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "9K113 Aiming Profile - ON/OFF",
+		},
 		["d3051pnilunilcd7vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -107,6 +115,17 @@ local diff = {
 				},
 			},
 			["name"] = "Release weapons",
+		},
+		["d957pnilu958cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+				[2] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "Trim Button - press",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -179,6 +198,38 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
+		},
+		["dnilp93u215cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+				},
+			},
+			["name"] = "Trim Hat - ROLL LEFT",
+		},
+		["dnilp94u215cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+				},
+			},
+			["name"] = "Trim Hat - ROLL RIGHT",
+		},
+		["dnilp95u215cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_D",
+				},
+			},
+			["name"] = "Trim Hat - NOSE UP",
+		},
+		["dnilp96u215cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_U",
+				},
+			},
+			["name"] = "Trim Hat - NOSE DOWN",
 		},
 	},
 }

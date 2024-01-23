@@ -38,22 +38,15 @@ local diff = {
 					["filter"] = {
 						["curvature"] = {
 							[1] = 0,
-							[2] = 0,
-							[3] = 0,
-							[4] = 0.12,
-							[5] = 0.24,
-							[6] = 0.36,
-							[7] = 0.48,
-							[8] = 0.6,
-							[9] = 0.72,
-							[10] = 0.84,
-							[11] = 1,
 						},
 						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
-						["slider"] = true,
+						["slider"] = false,
 					},
 					["key"] = "JOY_RY",
 				},
@@ -70,7 +63,7 @@ local diff = {
 		["d103pnilunilcdnilvd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "9K113 Aiming Station- zoom IN",
@@ -78,7 +71,7 @@ local diff = {
 		["d104pnilunilcdnilvd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN20",
 				},
 			},
 			["name"] = "9K113 Aiming Station- zoom OUT",
@@ -86,15 +79,26 @@ local diff = {
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "Communication menu",
 		},
+		["d3013pnilu3013cd9vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN57",
+				},
+				[2] = {
+					["key"] = "JOY_BTN59",
+				},
+			},
+			["name"] = "Launch Countermeasures",
+		},
 		["d3026pnilu3026cd55vd0.5vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "Radio trigger - 1st STAGE (ICS)",
@@ -102,7 +106,7 @@ local diff = {
 		["d3026pnilu3026cd55vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "Radio trigger - 2nd STAGE (RADIO)",
@@ -123,14 +127,6 @@ local diff = {
 			},
 			["name"] = "SPU-8, ICS Radio Source Select Rotary - CW/Right",
 		},
-		["d3028pnilunilcd7vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN96",
-				},
-			},
-			["name"] = "9K113 Aiming Profile - ON/OFF",
-		},
 		["d3029pnilunilcd55vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -142,7 +138,7 @@ local diff = {
 		["d3031pnilunilcd7vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN95",
+					["key"] = "JOY_BTN5",
 				},
 			},
 			["name"] = "OBSERV. Switch (B2) - OFF",
@@ -150,64 +146,42 @@ local diff = {
 		["d3031pnilunilcd7vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN93",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "OBSERV. Switch (B2) - ON",
 		},
-		["d3033pnilunilcd11vd1vpnilvunil"] = {
+		["d3054pnilunilcd7vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN66",
-				},
-				[2] = {
-					["key"] = "JOY_BTN65",
+					["key"] = "JOY_BTN50",
 				},
 			},
-			["name"] = "Copilot's Canopy - OPEN/CLOSE",
-		},
-		["d3050pnilunilcd7vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN8",
-				},
-			},
-			["name"] = "9K113 Aiming Station, Zoom x3/x10 Lever",
-		},
-		["d3051pnilunilcd7vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-				},
-			},
-			["name"] = "9K113 Aiming Station, Orange Filter - ON/OFF",
-		},
-		["d3052pnilunilcd7vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
-			},
-			["name"] = "9K113 Aiming Station, Laser Filter - ON/OFF",
+			["name"] = "9K113 Aiming Station User Hints - ON/OFF",
 		},
 		["d3056pnilu3056cd7vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN72",
-				},
-				[2] = {
-					["key"] = "JOY_BTN85",
+					["key"] = "JOY_BTN21",
 				},
 			},
 			["name"] = "9K113 Aiming Station, Reset Emission (RELEASE RADIAT.) Button",
 		},
-		["d3063pnilunilcd7vd1vpnilvunil"] = {
+		["d3059pnilunilcd7vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN56",
 				},
 			},
-			["name"] = "Backlight (LIGHTS) Switch (B4)",
+			["name"] = "9K113 Aiming Station Help Arrow - ON/OFF",
+		},
+		["d3064pnilunilcd6vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN72",
+				},
+			},
+			["name"] = "ШО, TEST LAMP Button",
 		},
 		["d3066pnilunilcd6vd-1vpnilvunil"] = {
 			["added"] = {
@@ -272,38 +246,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
-		},
-		["dnilp3019unilcd55vdnilvp-0.2vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN100",
-				},
-			},
-			["name"] = "SPU-8, ICS Main Volume Knob - CCW/Decrease",
-		},
-		["dnilp3019unilcd55vdnilvp0.2vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN101",
-				},
-			},
-			["name"] = "SPU-8, ICS Main Volume Knob - CW/Increase",
-		},
-		["dnilp3020unilcd55vdnilvp-0.2vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN97",
-				},
-			},
-			["name"] = "SPU-8, ICS Listening Volume Knob - CCW/Decrease",
-		},
-		["dnilp3020unilcd55vdnilvp0.2vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN98",
-				},
-			},
-			["name"] = "SPU-8, ICS Listening Volume Knob - CW/Increase",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

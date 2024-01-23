@@ -53,7 +53,7 @@ local diff = {
 		["d1591pnilu1592cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "COMM Push to talk (call radio menu)",
@@ -61,34 +61,10 @@ local diff = {
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "Communication menu",
-		},
-		["d3007pnilunilcd14vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN95",
-				},
-			},
-			["name"] = "Gun Safety GUNS & CAMERA",
-		},
-		["d3007pnilunilcd14vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN94",
-				},
-			},
-			["name"] = "Gun Safety OFF",
-		},
-		["d3007pnilunilcd14vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN93",
-				},
-			},
-			["name"] = "Gun Safety CAMERA ONLY",
 		},
 		["d3031pnilunilcd2vd0.5vpnilvunil"] = {
 			["added"] = {
@@ -130,26 +106,10 @@ local diff = {
 			},
 			["name"] = "Undercarriage DOWN",
 		},
-		["d3042pnilunilcd2vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN74",
-				},
-			},
-			["name"] = "Tail Wheel Lock FREE",
-		},
-		["d3042pnilunilcd2vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN73",
-				},
-			},
-			["name"] = "Tail Wheel Lock LOCKED",
-		},
 		["d3043pnilu3043cd3vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN88",
+					["key"] = "JOY_BTN91",
 				},
 			},
 			["name"] = "Intercooler Shutter CLOSE",
@@ -157,7 +117,7 @@ local diff = {
 		["d3043pnilu3043cd3vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN86",
+					["key"] = "JOY_BTN89",
 				},
 			},
 			["name"] = "Intercooler Shutter OPEN",
@@ -165,7 +125,7 @@ local diff = {
 		["d3046pnilu3046cd3vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN91",
+					["key"] = "JOY_BTN88",
 				},
 			},
 			["name"] = "Oil Cooler Shutter CLOSE",
@@ -173,7 +133,7 @@ local diff = {
 		["d3046pnilu3046cd3vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN89",
+					["key"] = "JOY_BTN86",
 				},
 			},
 			["name"] = "Oil Cooler Shutter OPEN",
@@ -241,38 +201,6 @@ local diff = {
 				},
 			},
 			["name"] = "Trim Rudder Right",
-		},
-		["dnilp3014unilcd6vdnilvp-0.5vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-				},
-			},
-			["name"] = "Gunsight target span Increase",
-		},
-		["dnilp3014unilcd6vdnilvp0.5vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
-			},
-			["name"] = "Gunsight target span Decrease",
-		},
-		["dnilp3018unilcd6vdnilvp-0.7vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-				},
-			},
-			["name"] = "Gunsight range to target Decrease",
-		},
-		["dnilp3018unilcd6vdnilvp0.7vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN10",
-				},
-			},
-			["name"] = "Gunsight range to target Increase",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

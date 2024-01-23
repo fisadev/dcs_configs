@@ -27,7 +27,7 @@ local diff = {
 		["a3025cd5"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_RX",
+					["key"] = "JOY_RY",
 				},
 			},
 			["name"] = "Throttle",
@@ -40,33 +40,33 @@ local diff = {
 		["a3026cd5"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_SLIDER2",
+					["key"] = "JOY_SLIDER1",
 				},
 			},
 			["name"] = "Engine RPM Setting",
 		},
 	},
 	["keyDiffs"] = {
+		["d1591pnilu1592cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+				},
+			},
+			["name"] = "COMM Push to talk (call radio menu)",
+		},
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "COMM Communication menu",
 		},
-		["d3002pnilu3002cd5vd0.3vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN86",
-				},
-			},
-			["name"] = "Radiator oil Open",
-		},
 		["d3002pnilunilcd12vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN79",
+					["key"] = "JOY_BTN77",
 				},
 			},
 			["name"] = "Flaps Down",
@@ -74,7 +74,7 @@ local diff = {
 		["d3002pnilunilcd12vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN77",
+					["key"] = "JOY_BTN79",
 				},
 			},
 			["name"] = "Flaps Up",
@@ -94,14 +94,6 @@ local diff = {
 				},
 			},
 			["name"] = "Landing Gear Up",
-		},
-		["d3006pnilunilcd5vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN88",
-				},
-			},
-			["name"] = "Radiator oil Cover",
 		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["name"] = "Weapon release",
@@ -150,22 +142,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
-		},
-		["dnilp3002unilcd1vdnilvp-0.7vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-				},
-			},
-			["name"] = "Gunsight range to target Decrease",
-		},
-		["dnilp3002unilcd1vdnilvp0.7vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN10",
-				},
-			},
-			["name"] = "Gunsight range to target Increase",
 		},
 		["dnilp3013unilcd12vdnilvp-0.1vunil"] = {
 			["added"] = {
