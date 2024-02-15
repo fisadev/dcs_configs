@@ -3,6 +3,7 @@
 - Uninstall winwing drivers, and from [saved games]/DCS/Scripts/export.lua, remove the two lines that the winwing driver adds
 - Disable GPU scheduling: windows settings > display > graphics
 - Disable xbox game bar: windows settings > gaming
+- Add folder exceptions in windows defender for both DCS install dir and saved games folder.
 - Use OpenXR:
     1. Install OpenXR Toolkit:
         https://mbucchia.github.io/OpenXR-Toolkit/
