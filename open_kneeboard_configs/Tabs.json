@@ -29,6 +29,14 @@
     "Type": "DCSTerrain"
   },
   {
+    "ID": "{53ec1c64-d4c2-4eca-9f4e-83213d1f2303}",
+    "Settings": {
+      "Path": "C:\\Users\\fisad\\Saved Games\\DCS\\ScreenShots"
+    },
+    "Title": "ScreenShots",
+    "Type": "Folder"
+  },
+  {
     "ID": "{b2f7ae79-c508-45fc-8f34-0171b23ca069}",
     "Settings": {
       "Spec": {
