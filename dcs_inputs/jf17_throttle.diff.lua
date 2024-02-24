@@ -27,7 +27,7 @@ local diff = {
 		["a2004cdnil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_RX",
+					["key"] = "JOY_RY",
 				},
 			},
 			["name"] = "Thrust",
@@ -40,6 +40,19 @@ local diff = {
 		["a2033cdnil"] = {
 			["added"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.2,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_X",
 				},
 			},
@@ -50,9 +63,12 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.2,
 						},
 						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -65,37 +81,13 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d10018pnilunilcd32vdnilvpnilvunil"] = {
+		["d10023pnilunilcd35vdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN75",
+					["key"] = "JOY_BTN65",
 				},
 			},
-			["name"] = "Landing Gear Up",
-		},
-		["d10019pnilunilcd32vdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN76",
-				},
-			},
-			["name"] = "Landing Gear Down",
-		},
-		["d10034pnilunilcd35vdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN77",
-				},
-			},
-			["name"] = "Flaps Up",
-		},
-		["d10035pnilunilcd35vdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN79",
-				},
-			},
-			["name"] = "Flaps Down",
+			["name"] = "Dragging Chute",
 		},
 		["d10053pnilu10053cdnilvd1vpnilvu0"] = {
 			["name"] = "S3: Weapon Launch",
@@ -140,7 +132,7 @@ local diff = {
 		["d10067pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "T2_Forward: SPJ Standby/Jam",
@@ -148,15 +140,39 @@ local diff = {
 		["d10068pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN20",
 				},
 			},
 			["name"] = "T2_Backward: Countermeasures Dispense",
 		},
+		["d10070pnilu10070cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN21",
+				},
+			},
+			["name"] = "T2_Press: AG Manual Mode/DGFT Missile Designator Control",
+		},
+		["d10071pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN24",
+				},
+			},
+			["name"] = "T3_Forward: Speed Brake On",
+		},
+		["d10072pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN22",
+				},
+			},
+			["name"] = "T3_Backward: Speed Brake Off",
+		},
 		["d10073pnilunilcd24vdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "T4_Forward: Radio Comm 1",
@@ -164,7 +180,7 @@ local diff = {
 		["d10074pnilunilcd24vdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "T4_Backward: Radio Comm 2",
@@ -172,7 +188,7 @@ local diff = {
 		["d10076pnilu10076cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN17",
 				},
 			},
 			["name"] = "T4_Press: IFF Interrogation Start/Stop",
@@ -180,114 +196,66 @@ local diff = {
 		["d10083pnilu10083cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN22",
+					["key"] = "JOY_BTN35",
 				},
 			},
 			["name"] = "T5_Press: Lock Target",
 		},
-		["d10119pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN71",
-				},
-			},
-			["name"] = "Radio Mode Selector - CW",
-		},
-		["d10120pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN69",
-				},
-			},
-			["name"] = "Radio Mode Selector - CCW",
-		},
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "Communication menu",
 		},
-		["d3011pnilunilcd11vd-1vpnilvunil"] = {
+		["d3007pnilunilcd32vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN95",
+					["key"] = "JOY_BTN76",
 				},
 			},
-			["name"] = "Master Arm Switch - SIM",
+			["name"] = "Landing Gear Lever - Down",
 		},
-		["d3011pnilunilcd11vd0vpnilvunil"] = {
+		["d3007pnilunilcd32vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN94",
+					["key"] = "JOY_BTN75",
 				},
 			},
-			["name"] = "Master Arm Switch - OFF",
+			["name"] = "Landing Gear Lever - Up",
 		},
-		["d3011pnilunilcd11vd1vpnilvunil"] = {
+		["d3015pnilunilcd35vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN93",
+					["key"] = "JOY_BTN79",
 				},
 			},
-			["name"] = "Master Arm Switch - ARM",
+			["name"] = "Flap Switch - DOWN",
 		},
-		["d3033pnilunilcd35vd1vpnilvunil"] = {
+		["d3015pnilunilcd35vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN92",
+					["key"] = "JOY_BTN77",
 				},
 			},
-			["name"] = "BIT Button - Pushdown",
+			["name"] = "Flap Switch - UP",
 		},
-		["d3037pnilunilcd35vd0vpnilvunil"] = {
+		["d3034pnilu3034cd35vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN88",
+					["key"] = "JOY_BTN103",
 				},
 			},
-			["name"] = "AG1/AG2 Switch - A/G2",
+			["name"] = "Yaw Trim Switch - Left",
 		},
-		["d3037pnilunilcd35vd1vpnilvunil"] = {
+		["d3034pnilu3034cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN86",
+					["key"] = "JOY_BTN104",
 				},
 			},
-			["name"] = "AG1/AG2 Switch - A/G1",
-		},
-		["d3038pnilunilcd35vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN91",
-				},
-			},
-			["name"] = "AA/AG Switch - A/G",
-		},
-		["d3038pnilunilcd35vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN89",
-				},
-			},
-			["name"] = "AA/AG Switch - A/A",
-		},
-		["d3041pnilunilcd38vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN99",
-				},
-			},
-			["name"] = "Emergency Hydraulic Pump Switch - ON",
-		},
-		["d3042pnilunilcd38vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN102",
-				},
-			},
-			["name"] = "SHARS Switch - ON",
+			["name"] = "Yaw Trim Switch - Right",
 		},
 		["d3066pnilunilcd33vd0vpnilvunil"] = {
 			["added"] = {
@@ -308,7 +276,7 @@ local diff = {
 		["d3073pnilu3073cd34vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN31",
+					["key"] = "JOY_BTN30",
 				},
 			},
 			["name"] = "Throttle Uncage: Stop To Idle",
@@ -321,29 +289,21 @@ local diff = {
 			},
 			["name"] = "Throttle Cage: Idle To Stop",
 		},
-		["d3344pnilu3344cd5vd1vpnilvu0"] = {
+		["dnilp10092unilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN80",
+					["key"] = "JOY_BTN40",
 				},
 			},
-			["name"] = "Master Warning",
+			["name"] = "Sensor (WMD7/TV) Up / T6: Radar Ant Elev Up",
 		},
-		["dnilp10025unilcd35vdnilvpnilvunil"] = {
+		["dnilp10093unilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN42",
 				},
 			},
-			["name"] = "Speed Brake On",
-		},
-		["dnilp10026unilcd35vdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN18",
-				},
-			},
-			["name"] = "Speed Brake Off",
+			["name"] = "Sensor (WMD7/TV) Down / T6: Radar Ant Elev Down",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",

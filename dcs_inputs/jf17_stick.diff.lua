@@ -8,8 +8,11 @@ local diff = {
 							[1] = 0.2,
 						},
 						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
-						["saturationX"] = 0.8,
+						["saturationX"] = 0.6,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
@@ -26,8 +29,11 @@ local diff = {
 							[1] = 0.1,
 						},
 						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
-						["saturationX"] = 1,
+						["saturationX"] = 0.8,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
@@ -182,7 +188,7 @@ local diff = {
 		["d10061pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN9",
 				},
 			},
 			["name"] = "S8: Change Weapons",
@@ -218,22 +224,6 @@ local diff = {
 				},
 			},
 			["name"] = "S6_Right: Trim Roll Right",
-		},
-		["dnilp10092unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-				},
-			},
-			["name"] = "Sensor (WMD7/TV) Up / T6: Radar Ant Elev Up",
-		},
-		["dnilp10093unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
-			},
-			["name"] = "Sensor (WMD7/TV) Down / T6: Radar Ant Elev Down",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
