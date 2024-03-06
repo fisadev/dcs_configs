@@ -15,8 +15,8 @@
         {
           "Action": "RECENTER_VR",
           "Buttons": [
-            208,
             56,
+            208,
             29,
             42
           ]
@@ -35,16 +35,16 @@
           "Buttons": [
             56,
             29,
-            42,
-            26
+            26,
+            42
           ]
         },
         {
           "Action": "TOGGLE_VISIBILITY",
           "Buttons": [
             56,
-            29,
             37,
+            29,
             42
           ]
         },

@@ -5,6 +5,14 @@
     "Type": "DCSAircraft"
   },
   {
+    "ID": "{edaacd7c-c356-411f-9622-69e783b1150e}",
+    "Settings": {
+      "Path": "D:\\flight\\empty.png"
+    },
+    "Title": "empty",
+    "Type": "EndlessNotebook"
+  },
+  {
     "ID": "{a9e1b078-4f86-4f03-ae00-c0db35db31a4}",
     "Title": "Mission",
     "Type": "DCSMission"
@@ -40,7 +48,8 @@
     "ID": "{b2f7ae79-c508-45fc-8f34-0171b23ca069}",
     "Settings": {
       "Spec": {
-        "Executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "ExecutableLastSeenPath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "ExecutablePathPattern": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
         "Title": "Google Chrome",
         "WindowClass": "Chrome_WidgetWin_1"
       }
