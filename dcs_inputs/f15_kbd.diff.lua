@@ -40,6 +40,38 @@ local diff = {
 			},
 			["name"] = "Helmet Visor/NVG Toggle",
 		},
+		["d69pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Arresting Hook Handle Toggle",
+			["removed"] = {
+				[1] = {
+					["key"] = "H",
+				},
+			},
+		},
+		["dnilp840unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "H",
+					["reformers"] = {
+						[1] = "RCtrl",
+						[2] = "RShift",
+					},
+				},
+			},
+			["name"] = "NVG Brightness Up",
+		},
+		["dnilp841unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "H",
+					["reformers"] = {
+						[1] = "RAlt",
+						[2] = "RShift",
+					},
+				},
+			},
+			["name"] = "NVG Brightness Down",
+		},
 	},
 }
 return diff
