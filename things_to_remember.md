@@ -18,8 +18,8 @@
     - Virtual Reality Pre Rendered Frames = 1
 - Don't use Nvidia Shadowplay or Nvidia Experience, huge fps drops
 - For the Pico 4, use virtual desktop, with:
-    - PC: HVEC, auto bit rate, audio VR headset only, use virtual audio driver(?)
-    - Headset: Ultra quality, 90fps, 150mbps, 100% sharpening or less, disable SSW, video buffering
+    - PC: H.264+ codec, auto bit rate, audio VR headset only, use virtual audio driver(?), and VDXR as OpenXR runtime
+    - Headset: Ultra quality, 90fps, max mbps, 100% sharpening or less, disable SSW, video buffering
 - Disable cores parking with ParkControl!
 
 # Other important stuff
