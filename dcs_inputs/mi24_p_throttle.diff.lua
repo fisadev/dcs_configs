@@ -79,6 +79,22 @@ local diff = {
 			},
 			["name"] = "Launch Countermeasures",
 		},
+		["d3022pnilunilcd11vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN81",
+				},
+			},
+			["name"] = "Door, Cargo Cabin, Left - OPEN/CLOSE",
+		},
+		["d3023pnilunilcd11vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN82",
+				},
+			},
+			["name"] = "Door, Cargo Cabin, Right - OPEN/CLOSE",
+		},
 		["d3026pnilu3026cd55vd0.5vpnilvu0"] = {
 			["added"] = {
 				[1] = {
