@@ -15,8 +15,8 @@
         {
           "Action": "RECENTER_VR",
           "Buttons": [
-            56,
             208,
+            56,
             29,
             42
           ]
@@ -35,16 +35,16 @@
           "Buttons": [
             56,
             29,
-            26,
-            42
+            42,
+            26
           ]
         },
         {
           "Action": "TOGGLE_VISIBILITY",
           "Buttons": [
             56,
-            37,
             29,
+            37,
             42
           ]
         },
@@ -64,6 +64,11 @@
       "ID": "{6f1d2b61-d5a0-11cf-bfc7-444553540000}",
       "Kind": "Keyboard",
       "Name": "Keyboard"
+    },
+    "{b3f69c50-0231-11ed-8001-444553540000}": {
+      "ID": "{b3f69c50-0231-11ed-8001-444553540000}",
+      "Kind": "GameController",
+      "Name": "WINWING JOYSTICK BASE2"
     },
     "{da4f43a0-f2ba-11ed-8001-444553540000}": {
       "ID": "{da4f43a0-f2ba-11ed-8001-444553540000}",
