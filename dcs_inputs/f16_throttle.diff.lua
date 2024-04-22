@@ -29,9 +29,12 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = -0.1,
+							[1] = -0.13,
 						},
 						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = false,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -55,12 +58,15 @@ local diff = {
 							[1] = 0,
 						},
 						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
-					["key"] = "JOY_SLIDER1",
+					["key"] = "JOY_SLIDER2",
 				},
 			},
 			["name"] = "HMCS SYMBOLOGY INT Knob",
@@ -73,12 +79,15 @@ local diff = {
 							[1] = 0,
 						},
 						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
-					["key"] = "JOY_SLIDER2",
+					["key"] = "JOY_SLIDER1",
 				},
 			},
 			["name"] = "HUD Symbology Intensity Knob",
@@ -91,6 +100,9 @@ local diff = {
 							[1] = 0,
 						},
 						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -114,114 +126,10 @@ local diff = {
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "Communication menu",
-		},
-		["d3001pnilu3001cd12vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN80",
-				},
-			},
-			["name"] = "Master Caution Button",
-		},
-		["d3002pnilunilcd19vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN95",
-				},
-			},
-			["name"] = "MASTER ARM Switch - SIMULATE",
-		},
-		["d3002pnilunilcd19vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN94",
-				},
-			},
-			["name"] = "MASTER ARM Switch - OFF",
-		},
-		["d3002pnilunilcd19vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN93",
-				},
-			},
-			["name"] = "MASTER ARM Switch - MASTER ARM",
-		},
-		["d3003pnilu3003cd19vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN96",
-				},
-			},
-			["name"] = "EMER STORES JETTISON Button",
-		},
-		["d3003pnilunilcd11vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN66",
-				},
-			},
-			["name"] = "WING/TAIL Switch - OFF",
-		},
-		["d3003pnilunilcd11vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN65",
-				},
-			},
-			["name"] = "WING/TAIL Switch - BRT",
-		},
-		["d3004pnilunilcd11vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN68",
-				},
-			},
-			["name"] = "FUSELAGE Switch - OFF",
-		},
-		["d3004pnilunilcd11vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN67",
-				},
-			},
-			["name"] = "FUSELAGE Switch - BRT",
-		},
-		["d3005pnilu3005cd28vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN105",
-				},
-			},
-			["name"] = "CRS Set / Brightness Control Knob - Depress",
-		},
-		["d3006pnilunilcd11vd0.3vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
-				},
-			},
-			["name"] = "MASTER Switch - FORM",
-		},
-		["d3006pnilunilcd11vd0.4vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "MASTER Switch - NORM",
-		},
-		["d3006pnilunilcd11vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-				},
-			},
-			["name"] = "MASTER Switch - OFF",
 		},
 		["d3008pnilunilcd4vd0vpnilvunil"] = {
 			["added"] = {
@@ -239,50 +147,10 @@ local diff = {
 			},
 			["name"] = "AIR REFUEL Switch - OPEN",
 		},
-		["d3010pnilu3010cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN92",
-				},
-			},
-			["name"] = "MANUAL PITCH Override Switch - OVRD/NORM",
-		},
-		["d3010pnilunilcd32vd0.2vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN70",
-				},
-			},
-			["name"] = "MODE Knob - MAN",
-		},
-		["d3010pnilunilcd32vd0.3vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN71",
-				},
-			},
-			["name"] = "MODE Knob - SEMI",
-		},
-		["d3010pnilunilcd32vd0.5vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN72",
-				},
-			},
-			["name"] = "MODE Knob - BYP",
-		},
-		["d3010pnilunilcd32vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN69",
-				},
-			},
-			["name"] = "MODE Knob - OFF",
-		},
 		["d3014pnilu3014cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN20",
 				},
 			},
 			["name"] = "Countermeasures Management Switch - Fwd",
@@ -290,7 +158,7 @@ local diff = {
 		["d3015pnilu3015cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "Countermeasures Management Switch - Aft",
@@ -298,7 +166,7 @@ local diff = {
 		["d3016pnilu3016cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN17",
 				},
 			},
 			["name"] = "Countermeasures Management Switch - Left",
@@ -306,31 +174,15 @@ local diff = {
 		["d3017pnilu3017cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN19",
 				},
 			},
 			["name"] = "Countermeasures Management Switch - Right",
 		},
-		["d3018pnilu3018cd17vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN82",
-				},
-			},
-			["name"] = "ICP Master Mode Button - A-A",
-		},
-		["d3019pnilu3019cd17vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN81",
-				},
-			},
-			["name"] = "ICP Master Mode Button - A-G",
-		},
 		["d3024pnilu3024cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "Transmit Switch - VHF (call radio menu)",
@@ -338,7 +190,7 @@ local diff = {
 		["d3025pnilu3025cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "Transmit Switch - UHF (call radio menu)",
@@ -346,7 +198,7 @@ local diff = {
 		["d3026pnilu3026cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN17",
+					["key"] = "JOY_BTN33",
 				},
 			},
 			["name"] = "Transmit Switch - IFF OUT",
@@ -354,31 +206,39 @@ local diff = {
 		["d3027pnilu3027cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN29",
 				},
 			},
 			["name"] = "Transmit Switch - IFF IN",
 		},
+		["d3030pnilunilcd16vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "DOGFIGHT/Missile Override Switch - MISSILE OVERRIDE",
+		},
+		["d3030pnilunilcd16vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "DOGFIGHT/Missile Override Switch - CENTER",
+		},
 		["d3031pnilu3031cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN24",
 				},
 			},
 			["name"] = "SPD BRK Switch - Aft/EXTEND (Momentary)",
 		},
-		["d3031pnilu3031cd2vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN79",
-				},
-			},
-			["name"] = "Autopilot PITCH Switch - ATT HOLD",
-		},
 		["d3031pnilunilcd16vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN19",
+					["key"] = "JOY_BTN23",
 				},
 			},
 			["name"] = "SPD BRK Switch - OFF",
@@ -386,66 +246,50 @@ local diff = {
 		["d3031pnilunilcd16vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN18",
+					["key"] = "JOY_BTN22",
 				},
 			},
 			["name"] = "SPD BRK Switch - Fwd/RETRACT",
 		},
-		["d3032pnilu3032cd2vd1vpnilvu0"] = {
+		["d3033pnilu3033cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN77",
+					["key"] = "JOY_BTN54",
 				},
 			},
-			["name"] = "Autopilot PITCH Switch - ALT HOLD",
+			["name"] = "ICP Data Control Switch - SEQ",
 		},
-		["d3032pnilunilcd2vd-1vpnilvunil"] = {
+		["d3034pnilu3034cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN78",
+					["key"] = "JOY_BTN51",
 				},
 			},
-			["name"] = "Autopilot PITCH Switch - A/P OFF",
+			["name"] = "ICP Data Control Switch - UP",
+		},
+		["d3035pnilu3035cd17vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN53",
+				},
+			},
+			["name"] = "ICP Data Control Switch - DOWN",
 		},
 		["d3039pnilu3039cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN21",
 				},
 			},
 			["name"] = "ENABLE Switch - Depress",
 		},
-		["d3044pnilunilcd16vd-1vpnilvunil"] = {
+		["d3042pnilunilcd16vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN5",
 				},
 			},
-			["name"] = "DOGFIGHT/Missile Override Switch - MISSILE OVERRIDE/CENTER",
-		},
-		["d3044pnilunilcd16vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-				},
-			},
-			["name"] = "DOGFIGHT/Missile Override Switch - DOGFIGHT/CENTER",
-		},
-		["d311pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN30",
-				},
-			},
-			["name"] = "Throttle - IDLE",
-		},
-		["d313pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-			["name"] = "Throttle - OFF",
+			["name"] = "DOGFIGHT/Missile Override Switch - Cycle Outboard",
 		},
 		["d430pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -495,53 +339,37 @@ local diff = {
 				},
 			},
 		},
-		["dnilp3004unilcd28vdnilvp-0.01vunil"] = {
+		["dnilp3033unilcd16vdnilvp1vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN103",
+					["key"] = "JOY_BTN40",
 				},
 			},
-			["name"] = "CRS Set / Brightness Control Knob - CCW/Decrease",
+			["name"] = "ANT ELEV Knob - CW",
 		},
-		["dnilp3004unilcd28vdnilvp0.01vunil"] = {
+		["dnilp3034unilcd16vdnilvp-1vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN104",
+					["key"] = "JOY_BTN42",
 				},
 			},
-			["name"] = "CRS Set / Brightness Control Knob - CW/Increase",
+			["name"] = "ANT ELEV Knob - CCW",
 		},
-		["dnilp3019unilcd39vdnilvp-0.3vunil"] = {
+		["dnilp3040unilcd16vdnilvp1vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN97",
+					["key"] = "JOY_BTN32",
 				},
 			},
-			["name"] = "COMM 1 (UHF) Power Knob - CCW/Decrease",
+			["name"] = "MAN RNG Knob - CW",
 		},
-		["dnilp3019unilcd39vdnilvp0.3vunil"] = {
+		["dnilp3041unilcd16vdnilvp-1vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN98",
+					["key"] = "JOY_BTN28",
 				},
 			},
-			["name"] = "COMM 1 (UHF) Power Knob - CW/Increase",
-		},
-		["dnilp3022unilcd39vdnilvp-0.3vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN100",
-				},
-			},
-			["name"] = "COMM 2 (VHF) Power Knob - CCW/Decrease",
-		},
-		["dnilp3022unilcd39vdnilvp0.3vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN101",
-				},
-			},
-			["name"] = "COMM 2 (VHF) Power Knob - CW/Increase",
+			["name"] = "MAN RNG Knob - CCW",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

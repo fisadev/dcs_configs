@@ -5,11 +5,14 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.2,
+							[1] = 0.3,
 						},
 						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
-						["saturationX"] = 0.7,
+						["saturationX"] = 0.5,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
@@ -23,9 +26,12 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.13,
+							[1] = 0.2,
 						},
 						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 0.6,
 						["saturationY"] = 1,
@@ -205,38 +211,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
-		},
-		["dnilp3033unilcd16vdnilvp1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-				},
-			},
-			["name"] = "ANT ELEV Knob - CW",
-		},
-		["dnilp3034unilcd16vdnilvp-1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
-			},
-			["name"] = "ANT ELEV Knob - CCW",
-		},
-		["dnilp3040unilcd16vdnilvp1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN10",
-				},
-			},
-			["name"] = "MAN RNG Knob - CW",
-		},
-		["dnilp3041unilcd16vdnilvp-1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-				},
-			},
-			["name"] = "MAN RNG Knob - CCW",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",
