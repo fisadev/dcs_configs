@@ -3,7 +3,7 @@ local diff = {
 		["d1886pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN83",
+					["key"] = "JOY_BTN12",
 				},
 			},
 			["name"] = "Command Menu Previous Item",
@@ -11,7 +11,7 @@ local diff = {
 		["d1887pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN84",
+					["key"] = "JOY_BTN14",
 				},
 			},
 			["name"] = "Command Menu Next Item",
@@ -19,10 +19,18 @@ local diff = {
 		["d1888pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN85",
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "Command Menu Select Item",
+		},
+		["d1889pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN15",
+				},
+			},
+			["name"] = "Command Menu Return",
 		},
 	},
 }
