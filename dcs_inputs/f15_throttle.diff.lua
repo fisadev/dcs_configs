@@ -356,6 +356,30 @@ local diff = {
 			},
 			["name"] = "Master Caution Reset",
 		},
+		["d3475pnilunilcd50vd0.5vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN87",
+				},
+			},
+			["name"] = "NAV FLIR: STBY",
+		},
+		["d3475pnilunilcd50vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN88",
+				},
+			},
+			["name"] = "NAV FLIR: OFF",
+		},
+		["d3475pnilunilcd50vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN86",
+				},
+			},
+			["name"] = "NAV FLIR: ON",
+		},
 		["d3533pnilunilcd16vd0.5vpnilvunil"] = {
 			["added"] = {
 				[1] = {
