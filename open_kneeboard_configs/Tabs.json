@@ -47,14 +47,16 @@
   {
     "ID": "{b2f7ae79-c508-45fc-8f34-0171b23ca069}",
     "Settings": {
+      "SendInput": true,
       "Spec": {
-        "ExecutableLastSeenPath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
-        "ExecutablePathPattern": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
-        "Title": "Google Chrome",
+        "ExecutableLastSeenPath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+        "ExecutablePathPattern": "*\\firefox.exe",
+        "MatchTitle": "Glob",
+        "MatchWindowClass": false,
         "WindowClass": "Chrome_WidgetWin_1"
       }
     },
-    "Title": "chrome",
+    "Title": "web",
     "Type": "WindowCapture"
   }
 ]
