@@ -147,6 +147,14 @@ local diff = {
 			},
 			["name"] = "AIR REFUEL Switch - OPEN",
 		},
+		["d3010pnilu3010cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN65",
+				},
+			},
+			["name"] = "MANUAL PITCH Override Switch - OVRD/NORM",
+		},
 		["d3014pnilu3014cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -290,6 +298,22 @@ local diff = {
 				},
 			},
 			["name"] = "DOGFIGHT/Missile Override Switch - Cycle Outboard",
+		},
+		["d311pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN31",
+				},
+			},
+			["name"] = "Throttle - IDLE",
+		},
+		["d313pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+			["name"] = "Throttle - OFF",
 		},
 		["d430pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
