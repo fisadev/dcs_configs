@@ -5,14 +5,14 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.3,
+							[1] = 0.2,
 						},
-						["deadzone"] = 0,
+						["deadzone"] = 0.04,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
 						["invert"] = true,
-						["saturationX"] = 0.5,
+						["saturationX"] = 0.8,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
@@ -26,14 +26,14 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.2,
+							[1] = 0.3,
 						},
 						["deadzone"] = 0,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
 						["invert"] = true,
-						["saturationX"] = 0.6,
+						["saturationX"] = 0.8,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
@@ -143,7 +143,7 @@ local diff = {
 		["d3019pnilu3019cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "Paddle Switch - Depress",
