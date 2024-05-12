@@ -87,6 +87,14 @@ local diff = {
 				},
 			},
 		},
+		["d3005pnilunilcd32vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "Toggle Flexible Sight",
+		},
 		["d3009pnilu3009cd21vd1vpnilvu0"] = {
 			["name"] = "Pilot's radio trigger RADIO (call radio menu)",
 			["removed"] = {
@@ -94,6 +102,38 @@ local diff = {
 					["key"] = "JOY_BTN1",
 				},
 			},
+		},
+		["d3037pnilunilcd9vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
+			["name"] = "AI Panel Show/Hide",
+		},
+		["d3038pnilunilcd9vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN18",
+				},
+			},
+			["name"] = "AI Left ROE Iterate",
+		},
+		["d3039pnilunilcd9vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN15",
+				},
+			},
+			["name"] = "AI Operator ROE Iterate",
+		},
+		["d3040pnilunilcd9vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+			},
+			["name"] = "AI Right ROE Iterate",
 		},
 		["d84pnilu84cdnilvd1vpnilvu0"] = {
 			["added"] = {
