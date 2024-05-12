@@ -132,6 +132,30 @@ local diff = {
 				},
 			},
 		},
+		["d3091pnilunilcd12vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
+			["name"] = "AI Panel Show/Hide",
+		},
+		["d3092pnilunilcd12vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN18",
+				},
+			},
+			["name"] = "AI Gunner ROE Iterate",
+		},
+		["d3093pnilunilcd12vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+			},
+			["name"] = "AI Back Gunner ROE Iterate",
+		},
 		["d84pnilu84cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {

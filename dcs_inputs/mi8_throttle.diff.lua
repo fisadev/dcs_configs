@@ -187,29 +187,21 @@ local diff = {
 				},
 			},
 		},
-		["d3091pnilunilcd12vd1vpnilvunil"] = {
+		["d364pnilu365cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN105",
+					["key"] = "JOY_BTN20",
 				},
 			},
-			["name"] = "AI Panel Show/Hide",
+			["name"] = "UV-26 Start Dispensing Button",
 		},
-		["d3092pnilunilcd12vd0vpnilvunil"] = {
+		["d366pnilu367cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN99",
+					["key"] = "JOY_BTN21",
 				},
 			},
-			["name"] = "AI Gunner ROE Iterate",
-		},
-		["d3093pnilunilcd12vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN102",
-				},
-			},
-			["name"] = "AI Back Gunner ROE Iterate",
+			["name"] = "UV-26 Stop Dispensing Button",
 		},
 		["d84pnilu84cdnilvd1vpnilvu0"] = {
 			["name"] = "Release weapons",
