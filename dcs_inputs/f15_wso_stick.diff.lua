@@ -5,7 +5,7 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.05,
 						},
 						["deadzone"] = 0,
 						["hardwareDetent"] = false,
@@ -13,7 +13,7 @@ local diff = {
 						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
-						["saturationY"] = 0.94,
+						["saturationY"] = 1,
 						["slider"] = true,
 					},
 					["key"] = "JOY_Y",
@@ -100,7 +100,7 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.05,
 						},
 						["deadzone"] = 0,
 						["hardwareDetent"] = false,
@@ -108,7 +108,7 @@ local diff = {
 						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
-						["saturationY"] = 0.94,
+						["saturationY"] = 1,
 						["slider"] = true,
 					},
 					["key"] = "JOY_Y",
