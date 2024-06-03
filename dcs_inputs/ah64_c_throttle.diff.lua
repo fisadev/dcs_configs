@@ -115,6 +115,14 @@ local diff = {
 			},
 			["name"] = "Communication menu",
 		},
+		["d3010pnilunilcd40vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN99",
+				},
+			},
+			["name"] = "IHADSS show",
+		},
 		["d3017pnilu3017cd25vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -363,6 +371,22 @@ local diff = {
 			},
 			["name"] = "RHG FCR Scan Size Switch - W (Wide)",
 		},
+		["d3256pnilunilcd0vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN102",
+				},
+			},
+			["name"] = "Flashlight",
+		},
+		["d438pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN105",
+				},
+			},
+			["name"] = "Toggle goggles",
+		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {
@@ -398,7 +422,7 @@ local diff = {
 		["dnilp3030unilcd64vdnilvp-0.2vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN97",
+					["key"] = "JOY_BTN100",
 				},
 			},
 			["name"] = "VHF Volume Control Knob - CCW/Decrease",
@@ -406,7 +430,7 @@ local diff = {
 		["dnilp3030unilcd64vdnilvp0.2vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN98",
+					["key"] = "JOY_BTN101",
 				},
 			},
 			["name"] = "VHF Volume Control Knob - CW/Increase",
@@ -414,7 +438,7 @@ local diff = {
 		["dnilp3032unilcd64vdnilvp-0.2vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN100",
+					["key"] = "JOY_BTN97",
 				},
 			},
 			["name"] = "UHF Volume Control Knob - CCW/Decrease",
@@ -422,7 +446,7 @@ local diff = {
 		["dnilp3032unilcd64vdnilvp0.2vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN101",
+					["key"] = "JOY_BTN98",
 				},
 			},
 			["name"] = "UHF Volume Control Knob - CW/Increase",
@@ -458,6 +482,22 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
+		},
+		["dnilp840unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN104",
+				},
+			},
+			["name"] = "Gain goggles up",
+		},
+		["dnilp841unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN103",
+				},
+			},
+			["name"] = "Gain goggles down",
 		},
 	},
 }

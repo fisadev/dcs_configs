@@ -173,6 +173,14 @@ local diff = {
 			},
 			["name"] = "TAIL WHEEL Pushbutton - LOCK/UNLOCK",
 		},
+		["d3010pnilunilcd40vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN99",
+				},
+			},
+			["name"] = "IHADSS show",
+		},
 		["d3017pnilu3017cd25vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -309,14 +317,6 @@ local diff = {
 			},
 			["name"] = "FCR Mode Switch - RMAP/Right",
 		},
-		["d3038pnilu3038cd6vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN65",
-				},
-			},
-			["name"] = "No.1 Engine Start Switch - START",
-		},
 		["d3040pnilu3040cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -324,14 +324,6 @@ local diff = {
 				},
 			},
 			["name"] = "Cursor Enter - Depress",
-		},
-		["d3040pnilu3040cd6vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN67",
-				},
-			},
-			["name"] = "No.2 Engine Start Switch - START",
 		},
 		["d3042pnilu3042cd3vd1vpnilvu0"] = {
 			["added"] = {
@@ -405,21 +397,53 @@ local diff = {
 			},
 			["name"] = "Fire Detection Circuit Test Switch - 2",
 		},
-		["d313pnilu311cdnilvd1vpnilvu1"] = {
+		["d311pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN99",
+					["key"] = "JOY_BTN65",
 				},
 			},
-			["name"] = "Power Lever (Left) - OFF(hold)<>IDLE",
+			["name"] = "Power Lever (Left) - IDLE",
 		},
-		["d314pnilu312cdnilvd1vpnilvu1"] = {
+		["d312pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN67",
+				},
+			},
+			["name"] = "Power Lever (Right) - IDLE",
+		},
+		["d313pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN66",
+				},
+			},
+			["name"] = "Power Lever (Left) - OFF",
+		},
+		["d314pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN68",
+				},
+			},
+			["name"] = "Power Lever (Right) - OFF",
+		},
+		["d3256pnilunilcd0vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN102",
 				},
 			},
-			["name"] = "Power Lever (Right) - OFF(hold)<>IDLE",
+			["name"] = "Flashlight",
+		},
+		["d438pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN105",
+				},
+			},
+			["name"] = "Toggle goggles",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -456,7 +480,7 @@ local diff = {
 		["dnilp3030unilcd64vdnilvp-0.2vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN97",
+					["key"] = "JOY_BTN100",
 				},
 			},
 			["name"] = "VHF Volume Control Knob - CCW/Decrease",
@@ -464,7 +488,7 @@ local diff = {
 		["dnilp3030unilcd64vdnilvp0.2vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN98",
+					["key"] = "JOY_BTN101",
 				},
 			},
 			["name"] = "VHF Volume Control Knob - CW/Increase",
@@ -472,7 +496,7 @@ local diff = {
 		["dnilp3032unilcd64vdnilvp-0.2vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN100",
+					["key"] = "JOY_BTN97",
 				},
 			},
 			["name"] = "UHF Volume Control Knob - CCW/Decrease",
@@ -480,7 +504,7 @@ local diff = {
 		["dnilp3032unilcd64vdnilvp0.2vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN101",
+					["key"] = "JOY_BTN98",
 				},
 			},
 			["name"] = "UHF Volume Control Knob - CW/Increase",
@@ -516,6 +540,22 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
+		},
+		["dnilp840unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN104",
+				},
+			},
+			["name"] = "Gain goggles up",
+		},
+		["dnilp841unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN103",
+				},
+			},
+			["name"] = "Gain goggles down",
 		},
 	},
 }

@@ -118,6 +118,30 @@ local diff = {
 			},
 			["name"] = "Open/Close Cargo Doors",
 		},
+		["d3017pnilunilcd36vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN95",
+				},
+			},
+			["name"] = "SPU-7 Radio Source Select Rotary - CCW/Left",
+		},
+		["d3017pnilunilcd36vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN93",
+				},
+			},
+			["name"] = "SPU-7 Radio Source Select Rotary - CW/Right",
+		},
+		["d3018pnilunilcd36vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN96",
+				},
+			},
+			["name"] = "SPU-7 Mode Switch - RADIO/ICS",
+		},
 		["d3018pnilunilcd9vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -187,6 +211,14 @@ local diff = {
 				},
 			},
 		},
+		["d3256pnilunilcd0vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN102",
+				},
+			},
+			["name"] = "Flashlight",
+		},
 		["d364pnilu365cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -202,6 +234,14 @@ local diff = {
 				},
 			},
 			["name"] = "UV-26 Stop Dispensing Button",
+		},
+		["d438pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN105",
+				},
+			},
+			["name"] = "Night Vision Goggles",
 		},
 		["d84pnilu84cdnilvd1vpnilvu0"] = {
 			["name"] = "Release weapons",
@@ -282,6 +322,22 @@ local diff = {
 					["key"] = "JOY_BTN5",
 				},
 			},
+		},
+		["dnilp840unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN104",
+				},
+			},
+			["name"] = "Night Vision Goggles Gain - INC",
+		},
+		["dnilp841unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN103",
+				},
+			},
+			["name"] = "Night Vision Goggles Gain - DEC",
 		},
 	},
 }

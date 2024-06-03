@@ -5,7 +5,7 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.03,
 						},
 						["deadzone"] = 0,
 						["hardwareDetent"] = false,
@@ -13,7 +13,7 @@ local diff = {
 						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
-						["saturationY"] = 0.94,
+						["saturationY"] = 1,
 						["slider"] = true,
 					},
 					["key"] = "JOY_Y",
@@ -26,7 +26,7 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.3,
+							[1] = 0.1,
 						},
 						["deadzone"] = 0,
 						["hardwareDetent"] = false,
@@ -179,6 +179,46 @@ local diff = {
 				},
 			},
 			["name"] = "UNCAGE Switch",
+		},
+		["d3032pnilu3032cd17vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "ICP Data Control Switch - RET",
+		},
+		["d3033pnilu3033cd17vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "ICP Data Control Switch - SEQ",
+		},
+		["d3034pnilu3034cd17vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "ICP Data Control Switch - UP",
+		},
+		["d3035pnilu3035cd17vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "ICP Data Control Switch - DOWN",
+		},
+		["d835pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+			},
+			["name"] = "Show pilot body",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",

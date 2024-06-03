@@ -201,6 +201,38 @@ local diff = {
 			},
 			["name"] = "T5_Press: Lock Target",
 		},
+		["d10133pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN98",
+				},
+			},
+			["name"] = "COM1 Volume Knob - Inc",
+		},
+		["d10134pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN97",
+				},
+			},
+			["name"] = "COM1 Volume Knob - Dec",
+		},
+		["d10135pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN101",
+				},
+			},
+			["name"] = "COM2 Volume Knob - Inc",
+		},
+		["d10136pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN100",
+				},
+			},
+			["name"] = "COM2 Volume Knob - Dec",
+		},
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -241,22 +273,6 @@ local diff = {
 			},
 			["name"] = "Flap Switch - UP",
 		},
-		["d3034pnilu3034cd35vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN103",
-				},
-			},
-			["name"] = "Yaw Trim Switch - Left",
-		},
-		["d3034pnilu3034cd35vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN104",
-				},
-			},
-			["name"] = "Yaw Trim Switch - Right",
-		},
 		["d3066pnilunilcd33vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -288,6 +304,22 @@ local diff = {
 				},
 			},
 			["name"] = "Throttle Cage: Idle To Stop",
+		},
+		["d3256pnilunilcd0vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN102",
+				},
+			},
+			["name"] = "Flashlight",
+		},
+		["d438pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN105",
+				},
+			},
+			["name"] = "Night Vision Goggle - Toggle",
 		},
 		["dnilp10092unilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -368,6 +400,22 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
+		},
+		["dnilp840unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN104",
+				},
+			},
+			["name"] = "Goggle Gain - Inc",
+		},
+		["dnilp841unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN103",
+				},
+			},
+			["name"] = "Goggle Gain - Dec",
 		},
 	},
 }

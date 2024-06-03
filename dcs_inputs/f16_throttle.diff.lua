@@ -71,6 +71,14 @@ local diff = {
 			},
 			["name"] = "HMCS SYMBOLOGY INT Knob",
 		},
+		["a3028cd16"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_RZ",
+				},
+			},
+			["name"] = "MAN RNG Knob",
+		},
 		["a3041cd17"] = {
 			["added"] = {
 				[1] = {
@@ -130,6 +138,14 @@ local diff = {
 				},
 			},
 			["name"] = "Communication menu",
+		},
+		["d3003pnilunilcd29vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN99",
+				},
+			},
+			["name"] = "Toggle helmet visor",
 		},
 		["d3008pnilunilcd4vd0vpnilvunil"] = {
 			["added"] = {
@@ -219,6 +235,14 @@ local diff = {
 			},
 			["name"] = "Transmit Switch - IFF IN",
 		},
+		["d3030pnilu3030cd17vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN51",
+				},
+			},
+			["name"] = "ICP DED Increment/Decrement Switch - Increment",
+		},
 		["d3030pnilunilcd16vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -243,6 +267,14 @@ local diff = {
 			},
 			["name"] = "SPD BRK Switch - Aft/EXTEND (Momentary)",
 		},
+		["d3031pnilu3031cd17vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN53",
+				},
+			},
+			["name"] = "ICP DED Increment/Decrement Switch - Decrement",
+		},
 		["d3031pnilunilcd16vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -258,30 +290,6 @@ local diff = {
 				},
 			},
 			["name"] = "SPD BRK Switch - Fwd/RETRACT",
-		},
-		["d3033pnilu3033cd17vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN54",
-				},
-			},
-			["name"] = "ICP Data Control Switch - SEQ",
-		},
-		["d3034pnilu3034cd17vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN51",
-				},
-			},
-			["name"] = "ICP Data Control Switch - UP",
-		},
-		["d3035pnilu3035cd17vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN53",
-				},
-			},
-			["name"] = "ICP Data Control Switch - DOWN",
 		},
 		["d3039pnilu3039cd16vd1vpnilvu0"] = {
 			["added"] = {
@@ -315,6 +323,14 @@ local diff = {
 			},
 			["name"] = "Throttle - OFF",
 		},
+		["d3256pnilunilcd0vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN102",
+				},
+			},
+			["name"] = "Flashlight",
+		},
 		["d430pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -330,6 +346,14 @@ local diff = {
 				},
 			},
 			["name"] = "LG Handle - DN",
+		},
+		["d438pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN105",
+				},
+			},
+			["name"] = "Toggle goggles",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -363,6 +387,38 @@ local diff = {
 				},
 			},
 		},
+		["dnilp3019unilcd39vdnilvp-0.3vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN97",
+				},
+			},
+			["name"] = "COMM 1 (UHF) Power Knob - CCW/Decrease",
+		},
+		["dnilp3019unilcd39vdnilvp0.3vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN98",
+				},
+			},
+			["name"] = "COMM 1 (UHF) Power Knob - CW/Increase",
+		},
+		["dnilp3022unilcd39vdnilvp-0.3vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN100",
+				},
+			},
+			["name"] = "COMM 2 (VHF) Power Knob - CCW/Decrease",
+		},
+		["dnilp3022unilcd39vdnilvp0.3vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN101",
+				},
+			},
+			["name"] = "COMM 2 (VHF) Power Knob - CW/Increase",
+		},
 		["dnilp3033unilcd16vdnilvp1vunil"] = {
 			["added"] = {
 				[1] = {
@@ -378,22 +434,6 @@ local diff = {
 				},
 			},
 			["name"] = "ANT ELEV Knob - CCW",
-		},
-		["dnilp3040unilcd16vdnilvp1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN32",
-				},
-			},
-			["name"] = "MAN RNG Knob - CW",
-		},
-		["dnilp3041unilcd16vdnilvp-1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN28",
-				},
-			},
-			["name"] = "MAN RNG Knob - CCW",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",
@@ -426,6 +466,22 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
+		},
+		["dnilp840unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN104",
+				},
+			},
+			["name"] = "Gain goggles up",
+		},
+		["dnilp841unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN103",
+				},
+			},
+			["name"] = "Gain goggles down",
 		},
 	},
 }

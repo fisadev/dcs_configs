@@ -114,7 +114,7 @@ local diff = {
 		["d3028pnilunilcd55vd-0.2vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN103",
+					["key"] = "JOY_BTN95",
 				},
 			},
 			["name"] = "SPU-8, ICS Radio Source Select Rotary - CCW/Left",
@@ -122,7 +122,7 @@ local diff = {
 		["d3028pnilunilcd55vd0.3vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN104",
+					["key"] = "JOY_BTN93",
 				},
 			},
 			["name"] = "SPU-8, ICS Radio Source Select Rotary - CW/Right",
@@ -130,7 +130,7 @@ local diff = {
 		["d3029pnilunilcd55vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN105",
+					["key"] = "JOY_BTN96",
 				},
 			},
 			["name"] = "SPU-8, ICS Mode Switch - RADIO/ICS",
@@ -151,6 +151,14 @@ local diff = {
 			},
 			["name"] = "Weapon Select Knob - NEXT POS",
 		},
+		["d3256pnilunilcd0vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN102",
+				},
+			},
+			["name"] = "Flashlight",
+		},
 		["d430pnilunilcdnilvd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -166,6 +174,14 @@ local diff = {
 				},
 			},
 			["name"] = "Gear Lever - DOWN",
+		},
+		["d438pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN105",
+				},
+			},
+			["name"] = "Night Vision Goggles",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -238,6 +254,22 @@ local diff = {
 					["key"] = "JOY_BTN5",
 				},
 			},
+		},
+		["dnilp840unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN104",
+				},
+			},
+			["name"] = "Night Vision Goggles Gain - INC",
+		},
+		["dnilp841unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN103",
+				},
+			},
+			["name"] = "Night Vision Goggles Gain - DEC",
 		},
 	},
 }

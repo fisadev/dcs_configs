@@ -5,13 +5,16 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.03,
 						},
 						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
-						["slider"] = false,
+						["slider"] = true,
 					},
 					["key"] = "JOY_Y",
 				},

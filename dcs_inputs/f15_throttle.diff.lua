@@ -148,6 +148,38 @@ local diff = {
 			},
 			["name"] = "Communication menu",
 		},
+		["d3045pnilunilcd56vd-0.01499vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN97",
+				},
+			},
+			["name"] = "Radio 1 Volume CCW",
+		},
+		["d3046pnilunilcd56vd0.01499vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN98",
+				},
+			},
+			["name"] = "Radio 1 Volume CW",
+		},
+		["d3047pnilunilcd56vd0.01499vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN100",
+				},
+			},
+			["name"] = "Radio 2 Volume CCW",
+		},
+		["d3048pnilunilcd56vd-0.01499vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN101",
+				},
+			},
+			["name"] = "Radio 2 Volume CW",
+		},
 		["d3109pnilu3109cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -300,6 +332,14 @@ local diff = {
 			},
 			["name"] = "Throttle (Right) - OFF",
 		},
+		["d3256pnilunilcd0vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN102",
+				},
+			},
+			["name"] = "Flashlight",
+		},
 		["d3321pnilunilcd44vd0.3vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -412,6 +452,14 @@ local diff = {
 			},
 			["name"] = "Landing Gear Lever - LG DOWN",
 		},
+		["d438pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN105",
+				},
+			},
+			["name"] = "Helmet Visor/NVG Toggle",
+		},
 		["d600pnilu600cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -507,6 +555,22 @@ local diff = {
 				},
 			},
 			["name"] = "Speed Brake AFT (Extend)",
+		},
+		["dnilp840unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN104",
+				},
+			},
+			["name"] = "NVG Brightness Up",
+		},
+		["dnilp841unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN103",
+				},
+			},
+			["name"] = "NVG Brightness Down",
 		},
 	},
 }

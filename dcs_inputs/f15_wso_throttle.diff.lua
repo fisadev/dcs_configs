@@ -90,6 +90,38 @@ local diff = {
 			},
 			["name"] = "Communication menu",
 		},
+		["d3045pnilunilcd57vd-0.01499vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN97",
+				},
+			},
+			["name"] = "Radio 1 Volume CCW",
+		},
+		["d3046pnilunilcd57vd0.01499vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN98",
+				},
+			},
+			["name"] = "Radio 1 Volume CW",
+		},
+		["d3047pnilunilcd57vd0.01499vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN100",
+				},
+			},
+			["name"] = "Radio 2 Volume CCW",
+		},
+		["d3048pnilunilcd57vd-0.01499vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN101",
+				},
+			},
+			["name"] = "Radio 2 Volume CW",
+		},
 		["d3118pnilu3118cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -234,6 +266,22 @@ local diff = {
 			},
 			["name"] = "LHC - Laser Fire",
 		},
+		["d3256pnilunilcd0vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN102",
+				},
+			},
+			["name"] = "Flashlight",
+		},
+		["d438pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN105",
+				},
+			},
+			["name"] = "Helmet Visor/NVG Toggle",
+		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {
@@ -297,6 +345,22 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
+		},
+		["dnilp840unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN104",
+				},
+			},
+			["name"] = "NVG Brightness Up",
+		},
+		["dnilp841unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN103",
+				},
+			},
+			["name"] = "NVG Brightness Down",
 		},
 	},
 }

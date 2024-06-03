@@ -27,17 +27,7 @@ local diff = {
 		["a2004cdnil"] = {
 			["added"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = -0.1,
-						},
-						["deadzone"] = 0,
-						["invert"] = false,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = true,
-					},
-					["key"] = "JOY_RY",
+					["key"] = "JOY_RX",
 				},
 			},
 			["name"] = "Throttle",
@@ -49,82 +39,58 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d10002pnilunilcdnilvdnilvpnilvunil"] = {
+		["d10010pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN78",
 				},
 			},
-			["name"] = "Radio Microphone Push to Talk (PTT)",
+			["name"] = "Flap Handle - STOP",
 		},
-		["d10011pnilu10010cdnilvdnilvpnilvunil"] = {
+		["d10189pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN77",
+					["key"] = "JOY_BTN98",
 				},
 			},
-			["name"] = "Flap Handle - UP else STOP",
+			["name"] = "Radio Volume - Rotary Increment",
 		},
-		["d10012pnilu10010cdnilvdnilvpnilvunil"] = {
+		["d10190pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN97",
+				},
+			},
+			["name"] = "Radio Volume - Rotary Decrement",
+		},
+		["d10291pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN105",
+				},
+			},
+			["name"] = "NVG Night Vision Goggle - Toggle",
+		},
+		["d145pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN79",
 				},
 			},
-			["name"] = "Flap Handle - DOWN else STOP",
+			["name"] = "Flap Handle - DOWN",
 		},
-		["d10016pnilu10017cdnilvdnilvpnilvunil"] = {
-			["name"] = "Gun-Rocket Trigger",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-		},
-		["d10018pnilu10019cdnilvdnilvpnilvunil"] = {
-			["name"] = "Bomb Release Button",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-		},
-		["d10093pnilunilcdnilvd0vpnilvunil"] = {
+		["d146pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN77",
 				},
 			},
-			["name"] = "Master Exterior Lights Switch - OFF",
-		},
-		["d10093pnilunilcdnilvd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "Master Exterior Lights Switch - ON",
-		},
-		["d10295pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-			["name"] = "Throttle Position Lock - IGN",
-		},
-		["d10296pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN30",
-				},
-			},
-			["name"] = "Throttle Position Lock - RUN",
+			["name"] = "Flap Handle - UP",
 		},
 		["d147pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN24",
 				},
 			},
 			["name"] = "Speedbrake Switch - OPEN",
@@ -132,34 +98,18 @@ local diff = {
 		["d148pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN18",
+					["key"] = "JOY_BTN22",
 				},
 			},
 			["name"] = "Speedbrake Switch - CLOSE",
 		},
-		["d179pnilunilcdnilvdnilvpnilvunil"] = {
+		["d3256pnilunilcd0vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN102",
 				},
 			},
-			["name"] = "Communication menu",
-		},
-		["d3002pnilunilcd3vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN95",
-				},
-			},
-			["name"] = "Master Armament Switch - OFF",
-		},
-		["d3002pnilunilcd3vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN93",
-				},
-			},
-			["name"] = "Master Armament Switch - ON",
+			["name"] = "Flashlight",
 		},
 		["d430pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -177,80 +127,21 @@ local diff = {
 			},
 			["name"] = "Landing Gear Handle - DOWN",
 		},
-		["d71pnilunilcdnilvdnilvpnilvunil"] = {
+		["d840pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN74",
-				},
-				[2] = {
-					["key"] = "JOY_BTN73",
+					["key"] = "JOY_BTN104",
 				},
 			},
-			["name"] = "Canopy Lever - OPEN/CLOSE",
+			["name"] = "NVG Night Vision Goggle Gain - Increase",
 		},
-		["dnilp210u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up Right slow",
-			["removed"] = {
+		["d841pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_UR",
+					["key"] = "JOY_BTN103",
 				},
 			},
-		},
-		["dnilp211u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down Right slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_DR",
-				},
-			},
-		},
-		["dnilp212u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_DL",
-				},
-			},
-		},
-		["dnilp213u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_UL",
-				},
-			},
-		},
-		["dnilp32u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-				},
-			},
-		},
-		["dnilp33u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Right slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-				},
-			},
-		},
-		["dnilp34u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-				},
-			},
-		},
-		["dnilp35u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
+			["name"] = "NVG Night Vision Goggle Gain - Decrease",
 		},
 	},
 }
