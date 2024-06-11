@@ -27,7 +27,7 @@ local diff = {
 		["a2004cdnil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_SLIDER1",
+					["key"] = "JOY_RZ",
 				},
 			},
 			["name"] = "Throttle (Collective)",
@@ -222,7 +222,7 @@ local diff = {
 		["d364pnilu365cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN59",
 				},
 			},
 			["name"] = "UV-26 Start Dispensing Button",
@@ -230,7 +230,7 @@ local diff = {
 		["d366pnilu367cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN21",
+					["key"] = "JOY_BTN57",
 				},
 			},
 			["name"] = "UV-26 Stop Dispensing Button",

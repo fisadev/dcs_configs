@@ -213,6 +213,22 @@ local diff = {
 			},
 			["name"] = "PTT/RTS Switch - RTS/Depress",
 		},
+		["d3021pnilu3021cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN57",
+				},
+			},
+			["name"] = "Chaff Dispense Button - Depress",
+		},
+		["d3022pnilu3022cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN59",
+				},
+			},
+			["name"] = "Flare Dispense Button - Depress",
+		},
 		["d3023pnilunilcd3vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {

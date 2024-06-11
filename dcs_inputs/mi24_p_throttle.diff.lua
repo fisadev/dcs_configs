@@ -27,7 +27,7 @@ local diff = {
 		["a2004cdnil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_SLIDER1",
+					["key"] = "JOY_RZ",
 				},
 			},
 			["name"] = "Throttle (Collective)",

@@ -65,17 +65,6 @@ local diff = {
 			},
 			["name"] = "AI Helper Interface - SHOW/HIDE",
 		},
-		["d3013pnilu3013cd9vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN40",
-				},
-				[2] = {
-					["key"] = "JOY_BTN38",
-				},
-			},
-			["name"] = "Launch Countermeasures",
-		},
 		["d3028pnilunilcd7vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
