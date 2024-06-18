@@ -8,3 +8,5 @@ cp  "/c/Program Files (x86)/Steam/steamapps/common/DCSWorld/Scripts/DemoScenes/s
 cp "/c/Users/fisad/Saved Games/OpenKneeboard/profiles/default/DirectInput.json" /d/flight/dcs_configs/open_kneeboard_configs
 cp "/c/Users/fisad/Saved Games/OpenKneeboard/profiles/default/Tabs.json" /d/flight/dcs_configs/open_kneeboard_configs
 cp "/c/Users/fisad/Saved Games/OpenKneeboard/profiles/default/VR.json" /d/flight/dcs_configs/open_kneeboard_configs
+cp "/c/Users/fisad/Documents/JoyToKey/JoyToKey.ini" /d/flight/dcs_configs/joytokey_configs
+cp "/c/Users/fisad/Documents/JoyToKey/Dcs.cfg" /d/flight/dcs_configs/joytokey_configs
