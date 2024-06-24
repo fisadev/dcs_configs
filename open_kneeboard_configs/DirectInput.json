@@ -85,6 +85,11 @@
       "Kind": "GameController",
       "Name": "Saitek Pro Flight Rudder Pedals"
     },
+    "{de699dc0-2d72-11ef-8001-444553540000}": {
+      "ID": "{de699dc0-2d72-11ef-8001-444553540000}",
+      "Kind": "GameController",
+      "Name": "WINWING Orion Joystick Base 2 + JGRIP-F16 + MFSSB"
+    },
     "{e9f476e0-e118-11ec-8002-444553540000}": {
       "ID": "{e9f476e0-e118-11ec-8002-444553540000}",
       "Kind": "GameController",
