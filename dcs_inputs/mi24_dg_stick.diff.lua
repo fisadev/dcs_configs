@@ -1,6 +1,6 @@
 local diff = {
 	["axisDiffs"] = {
-		["a3057cd7"] = {
+		["a3112cd6"] = {
 			["added"] = {
 				[1] = {
 					["filter"] = {
@@ -19,9 +19,9 @@ local diff = {
 					["key"] = "JOY_Y",
 				},
 			},
-			["name"] = "Aiming Station Up/Down (Joystick)",
+			["name"] = "Gun Up/Down (JoyStick)",
 		},
-		["a3058cd7"] = {
+		["a3113cd6"] = {
 			["added"] = {
 				[1] = {
 					["filter"] = {
@@ -40,7 +40,20 @@ local diff = {
 					["key"] = "JOY_X",
 				},
 			},
-			["name"] = "Aiming Station Left/Right (Joystick)",
+			["name"] = "Gun Left/Right (JoyStick)",
+		},
+	},
+	["keyDiffs"] = {
+		["d84pnilu84cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+				[2] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+			["name"] = "Machinegun fire",
 		},
 	},
 }
