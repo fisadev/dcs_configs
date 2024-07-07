@@ -23,7 +23,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0.2,
 						},
-						["deadzone"] = 0.02,
+						["deadzone"] = 0.05,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,

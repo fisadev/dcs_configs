@@ -151,6 +151,22 @@ local diff = {
 			},
 			["name"] = "Weapon Select Knob - NEXT POS",
 		},
+		["d3108pnilunilcd6vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN55",
+				},
+			},
+			["name"] = "AI Panel Show/Hide",
+		},
+		["d3110pnilunilcd6vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN53",
+				},
+			},
+			["name"] = "AI Gunner ROE Iterate",
+		},
 		["d3256pnilunilcd0vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -214,6 +230,38 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
+		},
+		["dnilp3019unilcd55vdnilvp-0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN97",
+				},
+			},
+			["name"] = "SPU-8, ICS Main Volume Knob - CCW/Decrease",
+		},
+		["dnilp3019unilcd55vdnilvp0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN98",
+				},
+			},
+			["name"] = "SPU-8, ICS Main Volume Knob - CW/Increase",
+		},
+		["dnilp3020unilcd55vdnilvp-0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN100",
+				},
+			},
+			["name"] = "SPU-8, ICS Listening Volume Knob - CCW/Decrease",
+		},
+		["dnilp3020unilcd55vdnilvp0.2vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN101",
+				},
+			},
+			["name"] = "SPU-8, ICS Listening Volume Knob - CW/Increase",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",
