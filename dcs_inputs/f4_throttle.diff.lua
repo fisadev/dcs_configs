@@ -82,6 +82,22 @@ local diff = {
 			},
 			["name"] = "Helmet Visor - [Toggle]",
 		},
+		["d3004pnilu3004cd24vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN65",
+				},
+			},
+			["name"] = "Left Engine Ignition",
+		},
+		["d3005pnilu3005cd24vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN67",
+				},
+			},
+			["name"] = "Right Engine Ignition",
+		},
 		["d3005pnilunilcd25vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {

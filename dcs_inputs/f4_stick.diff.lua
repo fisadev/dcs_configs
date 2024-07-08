@@ -26,7 +26,7 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.2,
+							[1] = 0.3,
 						},
 						["deadzone"] = 0,
 						["hardwareDetent"] = false,
@@ -121,6 +121,14 @@ local diff = {
 				},
 			},
 			["name"] = "Air Refuel (AAR) Release Button",
+		},
+		["d3020pnilu3020cd9vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN8",
+				},
+			},
+			["name"] = "Emergency Quick Release Lever",
 		},
 		["d3122pnilu3122cd78vd1vpnilvu0"] = {
 			["added"] = {
