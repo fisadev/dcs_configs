@@ -1,46 +1,20 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["changed"] = {
+			["name"] = "Cyclic Pitch",
+			["removed"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0.2,
-						},
-						["deadzone"] = 0,
-						["hardwareDetent"] = false,
-						["hardwareDetentAB"] = 0,
-						["hardwareDetentMax"] = 0,
-						["invert"] = false,
-						["saturationX"] = 0.8,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
 					["key"] = "JOY_Y",
 				},
 			},
-			["name"] = "Cyclic Pitch",
 		},
 		["a2002cdnil"] = {
-			["changed"] = {
+			["name"] = "Cyclic Roll",
+			["removed"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0.2,
-						},
-						["deadzone"] = 0,
-						["hardwareDetent"] = false,
-						["hardwareDetentAB"] = 0,
-						["hardwareDetentMax"] = 0,
-						["invert"] = false,
-						["saturationX"] = 0.8,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
 					["key"] = "JOY_X",
 				},
 			},
-			["name"] = "Cyclic Roll",
 		},
 		["a2003cdnil"] = {
 			["name"] = "Rudder",
@@ -57,6 +31,48 @@ local diff = {
 					["key"] = "JOY_Z",
 				},
 			},
+		},
+		["a3087cd52"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.2,
+						},
+						["deadzone"] = 0.03,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "RHG MAN TRK Controller - X axis",
+		},
+		["a3088cd52"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.2,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "RHG MAN TRK Controller - Y axis",
 		},
 	},
 	["keyDiffs"] = {

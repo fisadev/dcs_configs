@@ -100,13 +100,69 @@ local diff = {
 			},
 			["name"] = "Manual Flare Dispense",
 		},
-		["d3045pnilu3045cd42vd1vpnilvu0"] = {
+		["d3069pnilu3069cd42vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN21",
+					["key"] = "JOY_BTN51",
 				},
 			},
-			["name"] = "IZLID [Gun Laser]",
+			["name"] = "Pilot Radio Channel Select Switch - FWD [CH UP]",
+		},
+		["d3070pnilu3070cd42vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN53",
+				},
+			},
+			["name"] = "Pilot Radio Channel Select Switch - AFT [CH DN]",
+		},
+		["d3071pnilu3071cd42vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN54",
+				},
+			},
+			["name"] = "Pilot Radio Channel Select Switch - LEFT [KYBD]",
+		},
+		["d3072pnilu3072cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN52",
+				},
+			},
+			["name"] = "Pilot Radio Channel Select Switch - RIGHT [FREQ]",
+		},
+		["d3073pnilu3073cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN29",
+				},
+			},
+			["name"] = "Pilot Radio Select Switch - 1 [FM1]",
+		},
+		["d3074pnilu3074cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN28",
+				},
+			},
+			["name"] = "Pilot Radio Select Switch - 2 [UHF]",
+		},
+		["d3075pnilu3075cd42vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "Pilot Radio Select Switch - 3 [VHF]",
+		},
+		["d3076pnilu3076cd42vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN33",
+				},
+			},
+			["name"] = "Pilot Radio Select Switch - 5 [FM2]",
 		},
 		["d3110pnilu3110cd42vd1vpnilvu0"] = {
 			["added"] = {
@@ -115,6 +171,30 @@ local diff = {
 				},
 			},
 			["name"] = "Optical Display Assembly - ON/OFF",
+		},
+		["d3185pnilu3185cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN8",
+				},
+			},
+			["name"] = "CSCP, PTT - Intercom",
+		},
+		["d3186pnilu3186cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+				},
+			},
+			["name"] = "CSCP, PTT - Radio",
+		},
+		["d3187pnilu3187cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN7",
+				},
+			},
+			["name"] = "CSCP, PTT - Footswitch",
 		},
 		["d3256pnilunilcd0vd1vpnilvunil"] = {
 			["added"] = {

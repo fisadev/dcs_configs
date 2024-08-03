@@ -5,6 +5,11 @@
       "Kind": "GameController",
       "Name": "WINWING Orion Throttle Base II + F15EX HANDLE L + F15EX HANDLE R"
     },
+    "{565430c0-50dc-11ef-8001-444553540000}": {
+      "ID": "{565430c0-50dc-11ef-8001-444553540000}",
+      "Kind": "GameController",
+      "Name": "WINWING SKYWALKER Metal Rudder Pedals"
+    },
     "{6f1d2b60-d5a0-11cf-bfc7-444553540000}": {
       "ID": "{6f1d2b60-d5a0-11cf-bfc7-444553540000}",
       "Kind": "GameController",
@@ -15,8 +20,8 @@
         {
           "Action": "RECENTER_VR",
           "Buttons": [
-            208,
             56,
+            208,
             29,
             42
           ]
@@ -35,16 +40,16 @@
           "Buttons": [
             56,
             29,
-            42,
-            26
+            26,
+            42
           ]
         },
         {
           "Action": "TOGGLE_VISIBILITY",
           "Buttons": [
             56,
-            29,
             37,
+            29,
             42
           ]
         },
@@ -64,6 +69,11 @@
       "ID": "{6f1d2b61-d5a0-11cf-bfc7-444553540000}",
       "Kind": "Keyboard",
       "Name": "Keyboard"
+    },
+    "{acd9a040-50de-11ef-8002-444553540000}": {
+      "ID": "{acd9a040-50de-11ef-8002-444553540000}",
+      "Kind": "GameController",
+      "Name": "WINWING Orion Joystick Base 2 + JGRIP-F16"
     },
     "{b3f69c50-0231-11ed-8001-444553540000}": {
       "ID": "{b3f69c50-0231-11ed-8001-444553540000}",

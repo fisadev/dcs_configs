@@ -1,7 +1,7 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["name"] = "Flight Control Cyclic Pitch",
+			["name"] = "Cyclic Pitch",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Y",
@@ -9,7 +9,7 @@ local diff = {
 			},
 		},
 		["a2002cdnil"] = {
-			["name"] = "Flight Control Cyclic Roll",
+			["name"] = "Cyclic Roll",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_X",
@@ -17,64 +17,20 @@ local diff = {
 			},
 		},
 		["a2003cdnil"] = {
-			["changed"] = {
+			["name"] = "Rudder",
+			["removed"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0.2,
-						},
-						["deadzone"] = 0,
-						["hardwareDetent"] = false,
-						["hardwareDetentAB"] = 0,
-						["hardwareDetentMax"] = 0,
-						["invert"] = false,
-						["saturationX"] = 0.7,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
 					["key"] = "JOY_RZ",
 				},
 			},
-			["name"] = "Flight Control Yaw (pedals)",
 		},
 		["a2087cdnil"] = {
-			["name"] = "Flight Control Collective",
+			["name"] = "Collective",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
-		},
-		["a2101cdnil"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_X",
-				},
-				[2] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "Wheel Brake",
 		},
 	},
 	["keyDiffs"] = {
@@ -139,14 +95,6 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
 				},
 			},
 		},

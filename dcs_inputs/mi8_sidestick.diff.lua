@@ -17,25 +17,12 @@ local diff = {
 			},
 		},
 		["a2003cdnil"] = {
-			["changed"] = {
+			["name"] = "Flight Control Yaw (pedals)",
+			["removed"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0.2,
-						},
-						["deadzone"] = 0,
-						["hardwareDetent"] = false,
-						["hardwareDetentAB"] = 0,
-						["hardwareDetentMax"] = 0,
-						["invert"] = false,
-						["saturationX"] = 0.7,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
 					["key"] = "JOY_RZ",
 				},
 			},
-			["name"] = "Flight Control Yaw (pedals)",
 		},
 		["a2087cdnil"] = {
 			["name"] = "Flight Control Collective",
@@ -45,39 +32,24 @@ local diff = {
 				},
 			},
 		},
-		["a2101cdnil"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_X",
-				},
-				[2] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "Wheel Brake",
-		},
 	},
 	["keyDiffs"] = {
+		["d3025pnilu3025cd36vd1vpnilvu0"] = {
+			["name"] = "Radio trigger - 2nd STAGE (RADIO)",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+		},
+		["d84pnilu84cdnilvd1vpnilvu0"] = {
+			["name"] = "Release weapons",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {

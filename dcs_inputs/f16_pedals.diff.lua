@@ -21,11 +21,14 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.39,
+							[1] = 0.2,
 						},
-						["deadzone"] = 0.04,
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = false,
-						["saturationX"] = 0.79,
+						["saturationX"] = 0.7,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
@@ -45,17 +48,10 @@ local diff = {
 		["a2112cdnil"] = {
 			["added"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = false,
-						["saturationX"] = 0.5,
-						["saturationY"] = 1,
-						["slider"] = true,
-					},
 					["key"] = "JOY_X",
+				},
+				[2] = {
+					["key"] = "JOY_RY",
 				},
 			},
 			["name"] = "Wheel Brake Left",
@@ -63,17 +59,10 @@ local diff = {
 		["a2113cdnil"] = {
 			["added"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = false,
-						["saturationX"] = 0.5,
-						["saturationY"] = 1,
-						["slider"] = true,
-					},
 					["key"] = "JOY_Y",
+				},
+				[2] = {
+					["key"] = "JOY_RX",
 				},
 			},
 			["name"] = "Wheel Brake Right",

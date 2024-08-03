@@ -79,6 +79,38 @@ local diff = {
 			},
 			["name"] = "MMS FOV - Narrow Toggle Down 2x > 4x / HOG Menu Item Scroll Down",
 		},
+		["d3020pnilu3020cd22vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN19",
+				},
+			},
+			["name"] = "MMS Manual/Slave Mode",
+		},
+		["d3021pnilu3021cd22vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN22",
+				},
+			},
+			["name"] = "MMS Point-Track On / HOG Menu Selection Confirm",
+		},
+		["d3022pnilu3022cd22vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN24",
+				},
+			},
+			["name"] = "Area Track",
+		},
+		["d3023pnilu3023cd22vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN21",
+				},
+			},
+			["name"] = "MMS Frame Freeze/Target Select / HOG ON/OFF",
+		},
 		["d3026pnilu3026cd22vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -94,6 +126,14 @@ local diff = {
 				},
 			},
 			["name"] = "NAV Designate Function - Select / HOG Menu Page Up",
+		},
+		["d3039pnilu3039cd22vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN17",
+				},
+			},
+			["name"] = "MMS Sensor Select TV/TIS / HOG Menu - Back",
 		},
 		["d3047pnilu3047cd42vd1vpnilvu0"] = {
 			["added"] = {

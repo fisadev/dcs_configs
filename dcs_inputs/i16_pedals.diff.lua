@@ -16,6 +16,27 @@ local diff = {
 				},
 			},
 		},
+		["a2003cdnil"] = {
+			["changed"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.2,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = false,
+						["saturationX"] = 0.7,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_RZ",
+				},
+			},
+			["name"] = "Rudder",
+		},
 		["a2004cdnil"] = {
 			["name"] = "Thrust",
 			["removed"] = {
@@ -27,17 +48,7 @@ local diff = {
 		["a2112cdnil"] = {
 			["added"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_X",
+					["key"] = "JOY_RY",
 				},
 			},
 			["name"] = "Wheel Brake Left",
@@ -45,17 +56,7 @@ local diff = {
 		["a2113cdnil"] = {
 			["added"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_Y",
+					["key"] = "JOY_RX",
 				},
 			},
 			["name"] = "Wheel Brake Right",
