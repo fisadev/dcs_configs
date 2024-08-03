@@ -189,7 +189,7 @@ local diff = {
 		["dnilp3008unilcd2vdnilvp-1vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN103",
+					["key"] = "JOY_BTN97",
 				},
 			},
 			["name"] = "Trim Rudder Left",
@@ -197,10 +197,26 @@ local diff = {
 		["dnilp3008unilcd2vdnilvp1vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN104",
+					["key"] = "JOY_BTN98",
 				},
 			},
 			["name"] = "Trim Rudder Right",
+		},
+		["dnilp3016unilcd23vdnilvp-1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN103",
+				},
+			},
+			["name"] = "Radio Volume DECREASE",
+		},
+		["dnilp3016unilcd23vdnilvp1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN104",
+				},
+			},
+			["name"] = "Radio Volume INCREASE",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",
