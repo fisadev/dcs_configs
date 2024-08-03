@@ -4,5 +4,6 @@ local SimShakerlfs=require('lfs'); dofile(SimShakerlfs.writedir()..'Scripts/SimS
 -- tacview
 local Tacviewlfs=require('lfs');dofile(Tacviewlfs.writedir()..'Scripts/TacviewGameExport.lua')
 -- srs
+
 pcall(function() local dcsSr=require('lfs');dofile(dcsSr.writedir()..[[Mods\Services\DCS-SRS\Scripts\DCS-SimpleRadioStandalone.lua]]); end,nil)
 
