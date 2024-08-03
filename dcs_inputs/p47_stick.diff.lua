@@ -113,6 +113,38 @@ local diff = {
 				},
 			},
 		},
+		["dnilp3002unilcd2vdnilvp-1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+				},
+			},
+			["name"] = "Trim Aileron Right",
+		},
+		["dnilp3002unilcd2vdnilvp1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+				},
+			},
+			["name"] = "Trim Aileron Left",
+		},
+		["dnilp3005unilcd2vdnilvp-1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_D",
+				},
+			},
+			["name"] = "Trim Elevator Up",
+		},
+		["dnilp3005unilcd2vdnilvp1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_U",
+				},
+			},
+			["name"] = "Trim Elevator Down",
+		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",
 			["removed"] = {
