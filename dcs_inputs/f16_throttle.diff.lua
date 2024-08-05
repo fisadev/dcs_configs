@@ -79,6 +79,27 @@ local diff = {
 			},
 			["name"] = "MAN RNG Knob",
 		},
+		["a3032cd16"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Z",
+				},
+			},
+			["name"] = "ANT ELEV Knob",
+		},
 		["a3041cd17"] = {
 			["added"] = {
 				[1] = {
@@ -418,22 +439,6 @@ local diff = {
 				},
 			},
 			["name"] = "COMM 2 (VHF) Power Knob - CW/Increase",
-		},
-		["dnilp3033unilcd16vdnilvp1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN40",
-				},
-			},
-			["name"] = "ANT ELEV Knob - CW",
-		},
-		["dnilp3034unilcd16vdnilvp-1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN42",
-				},
-			},
-			["name"] = "ANT ELEV Knob - CCW",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",
