@@ -28,7 +28,7 @@ local diff = {
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
 						["invert"] = false,
-						["saturationX"] = 0.7,
+						["saturationX"] = 1,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
