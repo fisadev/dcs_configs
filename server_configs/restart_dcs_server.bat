@@ -12,4 +12,4 @@ TIMEOUT /T 5
 goto LOOPSTART
 :FIN
 
-C:\Users\Administrator\Desktop\run_server.bat
+C:\Users\Administrator\Desktop\run_dcs_server.bat
