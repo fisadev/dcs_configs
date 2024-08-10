@@ -1,0 +1,65 @@
+trim:
+ffmpeg.exe -ss : -to : -i tmp.mp4 -c:a copy OUTPUT.mp4
+
+trim and remove wmr bar:
+ffmpeg.exe -ss : -to : -i tmp.mp4 -filter:v "crop=1920:1030:0:50,scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1" -c:a copy OUTPUT.mp4
+
+trim and remove title and task bars:
+ffmpeg.exe -ss : -to : -i tmp.mp4 -filter:v "crop=1920:990:0:30,scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1" -c:a copy OUTPUT.mp4
+
+expand to add black bars:
+ffmpeg.exe -i tmp.mp4 -vf "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:-1:-1:color=black" -c:a copy OUTPUT.mp4
+
+convert to 60fps:
+ffmpeg -i tmp.mp4 -vf fps=60 OUTPUT.mp4
+
+trim and crop:
+ffmpeg.exe -ss : -to : -i tmp.mp4 -filter:v "crop=1106:1080:484:0" -c:a copy OUTPUT.mp4
+el crop es: ancho:alto:xstart:ystart (sí, un engendro), el 0,0 es top left
+
+crop tacview:
+ffmpeg.exe -ss : -to : -i tmp.mp4 -filter:v "crop=1900:725:10:147,scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1" -c:a copy OUTPUT.mp4
+
+trim and crop msfs2020:
+ffmpeg.exe -ss : -to : -i tmp.mp4 -filter:v "crop=850:900:1100:100" -c:a copy OUTPUT.mp4
+
+remove audio:
+add flag:   -an
+But if you want to then use that video in the concatenator, that won't work (it needs "empty" audio). Add that with:
+ffmpeg -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -i muted_vid.mp4 -c:v copy -c:a aac -shortest OUTPUT.mp4
+
+slow down:
+add flag before -c:a:   -filter:v "setpts=4*PTS"
+
+concat:
+(echo file 'p1.mp4' & echo file 'p2.mp4' )>list.txt
+ffmpeg -safe 0 -f concat -i list.txt -c copy OUTPUT.mp4
+list file syntax:
+file part1.mp4
+file part2.mp4
+file part3.mp4
+
+concat with fade, generate with:
+https://romander.github.io/ffmpeg-script-generator/
+
+join side by side:
+ffmpeg -i left.mp4 -i right.mp4 -filter_complex hstack output.mp4
+
+picture in picture:
+(the "iw/3" and "ih/3" control small size, "10:10" control position as top left, can be "main_w-overlay_w-10:main_h-overlay_h-10" for bottom right, "10" is the margin):
+ffmpeg -i background.mp4 -i superposed.mp4 -filter_complex "[1]scale=iw/3:ih/3 [pip]; [0][pip] overlay=10:10" -c:a copy OUTPUT.mp4
+
+add music and remove original audio:
+ffmpeg -i video.mp4 -i music.mp3 -c:v copy -map 0:v -map 1:a -y -shortest out.mp4
+
+
+add music and mix with original audio:
+ffmpeg \
+	-i video1.mp4 -i audio1.mp3 \
+	-c:v copy \
+	-filter_complex " \
+    	[0:a][1:a] amix=inputs=2:duration=longest [audio_out] \
+    	" \
+	-map 0:v -map "[audio_out]" \
+	-y output.mp4
+
