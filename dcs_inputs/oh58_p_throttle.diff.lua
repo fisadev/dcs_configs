@@ -68,22 +68,6 @@ local diff = {
 			},
 			["name"] = "Communication menu",
 		},
-		["d3001pnilu3001cd5vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN42",
-				},
-			},
-			["name"] = "Engine RPM Trim - DECREASE",
-		},
-		["d3002pnilu3002cd5vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN40",
-				},
-			},
-			["name"] = "Engine RPM Trim - INCREASE",
-		},
 		["d3004pnilu3004cd15vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
