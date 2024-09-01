@@ -18,16 +18,13 @@ SoundGood() {
 
 ;Set focus on the DCS window, minimize any SteamVR windows if present
 FocusToDcs() {
-    WinMinimize, SteamVR Status
-    WinMinimize, Steam
-    WinActivate, DCS
     WinActivate, Digital Combat Simulator
     Return
 }
 
 ;Detect wether DCS is running and in focus, and we assume it's always in VR mode
 IsDcsActive() {
-    Return WinActive("DCS") or WinActive("Digital Combat Simulator")
+    Return WinActive("Digital Combat Simulator")
 }
 
 ;Escape DCS capturing special keys if it's running and in focus, by focusing the SteamVR window
