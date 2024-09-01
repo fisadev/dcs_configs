@@ -65,8 +65,9 @@ SwitchDCSorOtherApp() {
         Sleep 100
         SwitchVDMode()
     } else {
-        FocusToDcs()
         SwitchVDMode()
+        FocusToDcs()
+        SendInput {Alt down}{Alt up}
     }
     Return
 }
