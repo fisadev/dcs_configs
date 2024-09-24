@@ -5,6 +5,14 @@
     "Type": "DCSAircraft"
   },
   {
+    "ID": "{fea04185-48fc-42a5-846d-294f4ca0feb1}",
+    "Settings": {
+      "Path": "C:\\Users\\fisad\\Saved Games\\DCS\\Kneeboard\\Generales para OpenKneeboard"
+    },
+    "Title": "Generales",
+    "Type": "Folder"
+  },
+  {
     "ID": "{edaacd7c-c356-411f-9622-69e783b1150e}",
     "Settings": {
       "Path": "D:\\flight\\empty.png"
