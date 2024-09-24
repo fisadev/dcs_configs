@@ -44,16 +44,21 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d3001pnilu3001cd27vd1vpnilvu0"] = {
+		["d3001pnilu3001cd27vd0.5vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN4",
 				},
-				[2] = {
+			},
+			["name"] = "Trigger - Half Action (2-stage trigger)",
+		},
+		["d3001pnilu3001cd27vd1vpnilvu0.5"] = {
+			["added"] = {
+				[1] = {
 					["key"] = "JOY_BTN5",
 				},
 			},
-			["name"] = "Trigger",
+			["name"] = "Trigger - Full Action (2-stage trigger)",
 		},
 		["d3002pnilu3002cd27vd1vpnilvu0"] = {
 			["added"] = {
@@ -61,7 +66,7 @@ local diff = {
 					["key"] = "JOY_BTN20",
 				},
 			},
-			["name"] = "Bomb Button",
+			["name"] = "Bomb Release Button",
 		},
 		["d3002pnilu3002cd82vd1vpnilvu0"] = {
 			["added"] = {
@@ -120,7 +125,7 @@ local diff = {
 					["key"] = "JOY_BTN9",
 				},
 			},
-			["name"] = "Air Refuel (AAR) Release Button",
+			["name"] = "Air Refueling (AAR) Release Button",
 		},
 		["d3020pnilu3020cd9vd1vpnilvu0"] = {
 			["added"] = {

@@ -16,6 +16,35 @@ local diff = {
 			},
 			["name"] = "Throttle (Right)",
 		},
+		["a3034cd27"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Weapon Slew (Forward Hand Control) X",
+		},
+		["a3035cd27"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "Weapon Slew (Forward Hand Control) Y",
+		},
 	},
 	["keyDiffs"] = {
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
@@ -25,6 +54,14 @@ local diff = {
 				},
 			},
 			["name"] = "Communication menu",
+		},
+		["d3001pnilu3001cd22vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN92",
+				},
+			},
+			["name"] = "Master Caution Reset",
 		},
 		["d3001pnilu3001cd25vd-1vpnilvu0"] = {
 			["added"] = {
@@ -176,7 +213,7 @@ local diff = {
 					["key"] = "JOY_BTN20",
 				},
 			},
-			["name"] = "Dispense Countermeasures",
+			["name"] = "Dispense Countermeasures (Chaff/Flare)",
 		},
 		["d3018pnilu3018cd27vd1vpnilvu0"] = {
 			["added"] = {
