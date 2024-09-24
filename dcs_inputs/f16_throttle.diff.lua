@@ -160,6 +160,14 @@ local diff = {
 			},
 			["name"] = "Communication menu",
 		},
+		["d3001pnilu3001cd12vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN92",
+				},
+			},
+			["name"] = "Master Caution Button",
+		},
 		["d3003pnilunilcd29vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {

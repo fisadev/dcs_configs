@@ -313,6 +313,14 @@ local diff = {
 			},
 			["name"] = "Flashlight",
 		},
+		["d3344pnilu3344cd5vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN92",
+				},
+			},
+			["name"] = "Master Warning",
+		},
 		["d438pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {

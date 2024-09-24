@@ -42,6 +42,9 @@ local diff = {
 							[11] = 1,
 						},
 						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -72,14 +75,6 @@ local diff = {
 				},
 			},
 			["name"] = "VCP IHADSS BRT Control Knob",
-		},
-		["a3035cd3"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-			["name"] = "VCP SYM BRT Control Knob",
 		},
 		["a3042cd25"] = {
 			["added"] = {
@@ -189,18 +184,10 @@ local diff = {
 			},
 			["name"] = "PTT/RTS Switch - RADIO/Left (call radio menu)",
 		},
-		["d3018pnilu3018cd25vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN8",
-				},
-			},
-			["name"] = "PTT/RTS Switch - ICS/Right (call radio menu)",
-		},
 		["d3019pnilu3019cd11vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN80",
+					["key"] = "JOY_BTN92",
 				},
 			},
 			["name"] = "Master Warning Button",
