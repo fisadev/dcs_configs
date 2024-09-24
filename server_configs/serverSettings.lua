@@ -1,6 +1,6 @@
 cfg = 
 {
-    ["description"] = "Bienvenidos a Los Magios DCS Server IV. Este servidor es administrado por Los Magios, y es requerimiento estar dentro de nuestro discord mientras se vuele en el servidor: https://discord.gg/S6QqNWvM",
+    ["description"] = "Bienvenidos a Los Magios DCS Server IV. Este servidor es administrado por Los Magios, y es requerimiento estar dentro de nuestro discord mientras se vuele en el servidor: https://discord.gg/bE3gTFwqEn",
     ["require_pure_textures"] = true,
     ["listStartIndex"] = 1,
     ["advanced"] = 
