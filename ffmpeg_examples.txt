@@ -54,12 +54,5 @@ ffmpeg -i video.mp4 -i music.mp3 -c:v copy -map 0:v -map 1:a -y -shortest out.mp
 
 
 add music and mix with original audio:
-ffmpeg \
-	-i video1.mp4 -i audio1.mp3 \
-	-c:v copy \
-	-filter_complex " \
-    	[0:a][1:a] amix=inputs=2:duration=longest [audio_out] \
-    	" \
-	-map 0:v -map "[audio_out]" \
-	-y output.mp4
+ffmpeg -i video1.mp4 -i audio1.mp3 -c:v copy -filter_complex "[0:a][1:a] amix=inputs=2:duration=longest [audio_out]" -map 0:v -map "[audio_out]" -y output.mp4
 
