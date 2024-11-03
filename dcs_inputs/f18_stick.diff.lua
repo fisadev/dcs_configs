@@ -5,11 +5,14 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.2,
 						},
 						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = false,
+						["saturationX"] = 0.8,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
@@ -23,11 +26,14 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.2,
 						},
 						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = false,
+						["saturationX"] = 0.8,
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
@@ -44,23 +50,15 @@ local diff = {
 				},
 			},
 		},
-		["a2004cdnil"] = {
-			["name"] = "Thrust",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
-		},
 	},
 	["keyDiffs"] = {
 		["d3002pnilu3002cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN5",
 				},
 				[2] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN4",
 				},
 			},
 			["name"] = "Gun Trigger - SECOND DETENT (Press to shoot)",
@@ -72,6 +70,14 @@ local diff = {
 				},
 			},
 			["name"] = "Weapon Release Button",
+		},
+		["d3004pnilu3004cd13vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
+			["name"] = "RECCE Event Mark Switch",
 		},
 		["d3005pnilu3005cd13vd1vpnilvu0"] = {
 			["added"] = {
@@ -108,7 +114,7 @@ local diff = {
 		["d3009pnilu3009cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN32",
+					["key"] = "JOY_BTN35",
 				},
 			},
 			["name"] = "Select Sparrow",
@@ -116,7 +122,7 @@ local diff = {
 		["d3010pnilu3010cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN34",
+					["key"] = "JOY_BTN32",
 				},
 			},
 			["name"] = "Select Gun",
@@ -132,7 +138,7 @@ local diff = {
 		["d3012pnilu3012cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN35",
+					["key"] = "JOY_BTN34",
 				},
 			},
 			["name"] = "Select Sidewinder",
@@ -153,29 +159,13 @@ local diff = {
 			},
 			["name"] = "Autopilot/Nosewheel Steering Disengage (Paddle) Switch",
 		},
-		["d3024pnilu3024cd13vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-				},
-			},
-			["name"] = "Radar Elevation Control - Up",
-		},
-		["d3025pnilu3025cd13vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
-			},
-			["name"] = "Radar Elevation Control - Down",
-		},
-		["d3031pnilu3031cd13vd1vpnilvu0"] = {
+		["d3023pnilu3023cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN31",
 				},
 			},
-			["name"] = "Cage/Uncage Button",
+			["name"] = "Throttle Designator Controller - DEPRESS",
 		},
 		["d3045pnilu3045cd13vd1vpnilvu0"] = {
 			["added"] = {
@@ -184,38 +174,6 @@ local diff = {
 				},
 			},
 			["name"] = "Sensor Control Switch - Depress",
-		},
-		["dnilp210u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up Right slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_UR",
-				},
-			},
-		},
-		["dnilp211u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down Right slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_DR",
-				},
-			},
-		},
-		["dnilp212u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_DL",
-				},
-			},
-		},
-		["dnilp213u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_UL",
-				},
-			},
 		},
 		["dnilp3014u3014cd13vdnilvp1vu0"] = {
 			["added"] = {
