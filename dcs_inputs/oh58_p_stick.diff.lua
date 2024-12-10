@@ -149,7 +149,7 @@ local diff = {
 					["key"] = "JOY_BTN40",
 				},
 			},
-			["name"] = "Display Select Switch - LEFT [VSD Page]",
+			["name"] = "Display Select Switch - LEFT [VSD Page]Display Select Switch - LEFT [VSD Page]",
 		},
 		["d3037pnilu3037cd11vd1vpnilvu0"] = {
 			["added"] = {
@@ -158,6 +158,14 @@ local diff = {
 				},
 			},
 			["name"] = "Display Select Switch - RIGHT [COMM Page]",
+		},
+		["d3045pnilu3045cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN31",
+				},
+			},
+			["name"] = "IZLID [Gun Laser]",
 		},
 		["d3060pnilu3060cd18vd1vpnilvu0"] = {
 			["added"] = {
@@ -194,7 +202,7 @@ local diff = {
 			},
 			["name"] = "SCAS Release",
 		},
-		["d3103pnilunilcd42vd1vpnilvunil"] = {
+		["d3103pnilu3103cd42vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN13",

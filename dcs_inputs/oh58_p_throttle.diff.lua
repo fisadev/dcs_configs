@@ -84,12 +84,15 @@ local diff = {
 					["key"] = "JOY_BTN105",
 				},
 			},
-			["name"] = "Night Vision Goggles - ON/OFF",
+			["name"] = "Night Vision Goggles - On/Off",
 		},
 		["d3007pnilu3007cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN59",
+				},
+				[2] = {
+					["key"] = "JOY_BTN57",
 				},
 			},
 			["name"] = "Manual Flare Dispense",
@@ -102,7 +105,7 @@ local diff = {
 			},
 			["name"] = "Pilot Radio Channel Select Switch - FWD [CH UP]",
 		},
-		["d3070pnilu3070cd42vd-1vpnilvu0"] = {
+		["d3070pnilu3070cd42vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN53",
@@ -110,10 +113,10 @@ local diff = {
 			},
 			["name"] = "Pilot Radio Channel Select Switch - AFT [CH DN]",
 		},
-		["d3071pnilu3071cd42vd-1vpnilvu0"] = {
+		["d3071pnilu3071cd42vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN54",
+					["key"] = "JOY_BTN52",
 				},
 			},
 			["name"] = "Pilot Radio Channel Select Switch - LEFT [KYBD]",
@@ -121,7 +124,7 @@ local diff = {
 		["d3072pnilu3072cd42vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN52",
+					["key"] = "JOY_BTN54",
 				},
 			},
 			["name"] = "Pilot Radio Channel Select Switch - RIGHT [FREQ]",
@@ -142,7 +145,7 @@ local diff = {
 			},
 			["name"] = "Pilot Radio Select Switch - 2 [UHF]",
 		},
-		["d3075pnilu3075cd42vd-1vpnilvu0"] = {
+		["d3075pnilu3075cd42vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN32",
@@ -150,7 +153,7 @@ local diff = {
 			},
 			["name"] = "Pilot Radio Select Switch - 3 [VHF]",
 		},
-		["d3076pnilu3076cd42vd-1vpnilvu0"] = {
+		["d3076pnilu3076cd42vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN33",
@@ -164,7 +167,7 @@ local diff = {
 					["key"] = "JOY_BTN99",
 				},
 			},
-			["name"] = "Optical Display Assembly - ON/OFF",
+			["name"] = "Optical Display Assembly - On/Off",
 		},
 		["d3185pnilu3185cd42vd1vpnilvu0"] = {
 			["added"] = {
@@ -230,6 +233,22 @@ local diff = {
 				},
 			},
 		},
+		["dnilp3003unilcd5vdnilvp-1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN42",
+				},
+			},
+			["name"] = "Engine RPM Trim - DECREASE",
+		},
+		["dnilp3003unilcd5vdnilvp1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN40",
+				},
+			},
+			["name"] = "Engine RPM Trim - INCREASE",
+		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",
 			["removed"] = {
@@ -261,22 +280,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
-		},
-		["dnilp840unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN104",
-				},
-			},
-			["name"] = "Night Vision Goggles Gain - INCREASE",
-		},
-		["dnilp841unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN103",
-				},
-			},
-			["name"] = "Night Vision Goggles Gain - DECREASE",
 		},
 	},
 }

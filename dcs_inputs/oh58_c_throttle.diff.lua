@@ -31,6 +31,14 @@ local diff = {
 			},
 			["name"] = "Flight Control Collective",
 		},
+		["a3001cd2"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_RZ",
+				},
+			},
+			["name"] = "Throttle",
+		},
 		["a3027cd22"] = {
 			["added"] = {
 				[1] = {
@@ -63,7 +71,7 @@ local diff = {
 					["key"] = "JOY_BTN105",
 				},
 			},
-			["name"] = "Night Vision Goggles - ON/OFF",
+			["name"] = "Night Vision Goggles - On/Off",
 		},
 		["d3006pnilu3006cd39vd1vpnilvu0"] = {
 			["added"] = {
@@ -153,13 +161,101 @@ local diff = {
 			},
 			["name"] = "M4 Stow/Deploy",
 		},
+		["d3090pnilu3090cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN7",
+				},
+			},
+			["name"] = "CSCP, PTT - Footswitch",
+		},
+		["d3136pnilu3136cd42vd0.2vpnilvu0.2"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN29",
+				},
+			},
+			["name"] = "CSCP, Transmit Selector Switch - 1 (FM1)",
+		},
+		["d3136pnilu3136cd42vd0.3vpnilvu0.3"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN28",
+				},
+			},
+			["name"] = "CSCP, Transmit Selector Switch - 2 (UHF)",
+		},
+		["d3136pnilu3136cd42vd0.4vpnilvu0.4"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "CSCP, Transmit Selector Switch - 3 (VHF)",
+		},
+		["d3136pnilu3136cd42vd0.6vpnilvu0.6"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN33",
+				},
+			},
+			["name"] = "CSCP, Transmit Selector Switch - 5 (FM2)",
+		},
+		["d3144pnilu3144cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN53",
+				},
+			},
+			["name"] = "Pilot Radio Channel Select Switch - AFT [CH DN]",
+		},
+		["d3145pnilu3145cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN51",
+				},
+			},
+			["name"] = "Pilot Radio Channel Select Switch - FWD [CH UP]",
+		},
+		["d3146pnilu3146cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN52",
+				},
+			},
+			["name"] = "Pilot Radio Channel Select Switch - LEFT [KYBD]",
+		},
+		["d3147pnilu3147cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN54",
+				},
+			},
+			["name"] = "Pilot Radio Channel Select Switch - RIGHT [FREQ]",
+		},
 		["d3148pnilu3148cd42vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN99",
 				},
 			},
-			["name"] = "Optical Display Assembly - ON/OFF",
+			["name"] = "Optical Display Assembly - On/Off",
+		},
+		["d3188pnilu3188cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN8",
+				},
+			},
+			["name"] = "CSCP, PTT - Intercom",
+		},
+		["d3189pnilu3189cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+				},
+			},
+			["name"] = "CSCP, PTT - Radio",
 		},
 		["d3256pnilunilcd0vd1vpnilvunil"] = {
 			["added"] = {
@@ -168,22 +264,6 @@ local diff = {
 				},
 			},
 			["name"] = "Flashlight",
-		},
-		["dnilp840unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN104",
-				},
-			},
-			["name"] = "Night Vision Goggles Gain - INCREASE",
-		},
-		["dnilp841unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN103",
-				},
-			},
-			["name"] = "Night Vision Goggles Gain - DECREASE",
 		},
 	},
 }
