@@ -71,20 +71,12 @@ local diff = {
 			},
 			["name"] = "HMCS SYMBOLOGY INT Knob",
 		},
-		["a3028cd16"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-			["name"] = "MAN RNG Knob",
-		},
 		["a3032cd16"] = {
 			["added"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.3,
 						},
 						["deadzone"] = 0,
 						["hardwareDetent"] = false,
@@ -95,7 +87,7 @@ local diff = {
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
-					["key"] = "JOY_Z",
+					["key"] = "JOY_RZ",
 				},
 			},
 			["name"] = "ANT ELEV Knob",
@@ -460,6 +452,28 @@ local diff = {
 				},
 			},
 			["name"] = "COMM 2 (VHF) Power Knob - CW/Increase",
+		},
+		["dnilp3040unilcd16vdnilvp1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN42",
+				},
+				[2] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "MAN RNG Knob - CW",
+		},
+		["dnilp3041unilcd16vdnilvp-1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN40",
+				},
+				[2] = {
+					["key"] = "JOY_BTN28",
+				},
+			},
+			["name"] = "MAN RNG Knob - CCW",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",
