@@ -198,6 +198,9 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN35",
 				},
+				[2] = {
+					["key"] = "JOY_BTN55",
+				},
 			},
 			["name"] = "T5_Press: Lock Target",
 		},
@@ -272,6 +275,22 @@ local diff = {
 				},
 			},
 			["name"] = "Flap Switch - UP",
+		},
+		["d3034pnilu3034cd35vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN52",
+				},
+			},
+			["name"] = "Yaw Trim Switch - Left",
+		},
+		["d3034pnilu3034cd35vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN54",
+				},
+			},
+			["name"] = "Yaw Trim Switch - Right",
 		},
 		["d3066pnilunilcd33vd0vpnilvunil"] = {
 			["added"] = {

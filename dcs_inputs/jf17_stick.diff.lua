@@ -190,6 +190,9 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN9",
 				},
+				[2] = {
+					["key"] = "JOY_BTN14",
+				},
 			},
 			["name"] = "S8: Change Weapons",
 		},

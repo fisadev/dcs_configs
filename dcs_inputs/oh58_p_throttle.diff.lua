@@ -97,7 +97,7 @@ local diff = {
 			},
 			["name"] = "Manual Flare Dispense",
 		},
-		["d3069pnilu3069cd42vd1vpnilvu0"] = {
+		["d3069pnilu3069cd42vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN51",
@@ -113,7 +113,7 @@ local diff = {
 			},
 			["name"] = "Pilot Radio Channel Select Switch - AFT [CH DN]",
 		},
-		["d3071pnilu3071cd42vd1vpnilvu0"] = {
+		["d3071pnilu3071cd42vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN52",
@@ -145,7 +145,7 @@ local diff = {
 			},
 			["name"] = "Pilot Radio Select Switch - 2 [UHF]",
 		},
-		["d3075pnilu3075cd42vd1vpnilvu0"] = {
+		["d3075pnilu3075cd42vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN32",
@@ -153,7 +153,7 @@ local diff = {
 			},
 			["name"] = "Pilot Radio Select Switch - 3 [VHF]",
 		},
-		["d3076pnilu3076cd42vd1vpnilvu0"] = {
+		["d3076pnilu3076cd42vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN33",
@@ -233,21 +233,21 @@ local diff = {
 				},
 			},
 		},
-		["dnilp3003unilcd5vdnilvp-1vunil"] = {
+		["dnilp3003u3003cd5vdnilvp-1vu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN42",
 				},
 			},
-			["name"] = "Engine RPM Trim - DECREASE",
+			["name"] = "Engine RPM Trim: DECREASE <> CENTER",
 		},
-		["dnilp3003unilcd5vdnilvp1vunil"] = {
+		["dnilp3003u3003cd5vdnilvp1vu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN40",
 				},
 			},
-			["name"] = "Engine RPM Trim - INCREASE",
+			["name"] = "Engine RPM Trim: INCREASE <> CENTER",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

@@ -207,23 +207,23 @@ local diff = {
 					["key"] = "JOY_BTN53",
 				},
 			},
-			["name"] = "Pilot Radio Channel Select Switch - AFT [CH DN]",
+			["name"] = "Copilot Radio Channel Select Switch - AFT [CH DN]",
 		},
-		["d3145pnilu3145cd42vd1vpnilvu0"] = {
+		["d3145pnilu3145cd42vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN51",
 				},
 			},
-			["name"] = "Pilot Radio Channel Select Switch - FWD [CH UP]",
+			["name"] = "Copilot Radio Channel Select Switch - FWD [CH UP]",
 		},
-		["d3146pnilu3146cd42vd1vpnilvu0"] = {
+		["d3146pnilu3146cd42vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN52",
 				},
 			},
-			["name"] = "Pilot Radio Channel Select Switch - LEFT [KYBD]",
+			["name"] = "Copilot Radio Channel Select Switch - LEFT [KYBD]",
 		},
 		["d3147pnilu3147cd42vd1vpnilvu0"] = {
 			["added"] = {
@@ -231,7 +231,7 @@ local diff = {
 					["key"] = "JOY_BTN54",
 				},
 			},
-			["name"] = "Pilot Radio Channel Select Switch - RIGHT [FREQ]",
+			["name"] = "Copilot Radio Channel Select Switch - RIGHT [FREQ]",
 		},
 		["d3148pnilu3148cd42vd1vpnilvu0"] = {
 			["added"] = {
