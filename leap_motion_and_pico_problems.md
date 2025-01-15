@@ -1,4 +1,4 @@
-# Leap Motion stuff
+# Leap Motion and Pico problems
 
 - Pico VR apk is needed because the official assistant app isn't available in Argentina's Play Store, and payments are made through it. Can be downloaded with the Pico browser.
 - [OLD, check if still true] If using the Leap Motion with the Fingers app:
