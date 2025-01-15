@@ -1,4 +1,4 @@
-# Performance
+# Configs and stuff to get good performance in VR
 
 - Ensure the settings in Winwing's SimappPro are configured to not to add DCS scripts, and check `Saved Games/DCS/Scripts/export.lua` to make sure the lines they add aren't there (noticeable fps impact).
 - Disable GPU scheduling: Windows settings > Display > Graphics.
