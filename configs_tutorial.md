@@ -31,7 +31,7 @@
                 - Adjustment: 100%
             - Zoom: 1.0x
             - Disable Mask: No
-- Configure DCS with the settigns in the `dcs_settigns_screenshots` folder.
+- Configure DCS with the settings in the `dcs_settings_screenshots` folder.
 - Set some important settings in Nvidia control pannel (global settings):
     - Background Application Max Frame Rate: 90fps
     - Max Frame Rate: 90fps
