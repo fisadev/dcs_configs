@@ -1,8 +1,8 @@
 trim:
 ffmpeg.exe -ss : -to : -i tmp.mp4 -c:a copy OUTPUT.mp4
 
-trim and remove wmr bar:
-ffmpeg.exe -ss : -to : -i tmp.mp4 -filter:v "crop=1920:1030:0:50,scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1" -c:a copy OUTPUT.mp4
+trim and cut 1 eye (half screen) for msfs 2024, then resize for youtube:
+ffmpeg.exe -ss : -to : -i tmp.mp4 -filter:v "crop=960:1080:0:0,scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1" -c:a copy OUTPUT.mp4
 
 trim and remove title and task bars:
 ffmpeg.exe -ss : -to : -i tmp.mp4 -filter:v "crop=1920:990:0:30,scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1" -c:a copy OUTPUT.mp4
