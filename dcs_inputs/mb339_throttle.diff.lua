@@ -78,6 +78,14 @@ local diff = {
 			},
 			["name"] = "Flaps Up",
 		},
+		["d179pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "Communication menu",
+		},
 		["d3256pnilunilcd0vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -86,7 +94,7 @@ local diff = {
 			},
 			["name"] = "Flashlight",
 		},
-		["d3474pnilu3474cdnilvd0.5vpnilvu0"] = {
+		["d3476pnilu3476cdnilvd0.5vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN6",
@@ -94,7 +102,7 @@ local diff = {
 			},
 			["name"] = "COMM1 communication menu (COMM1 PTT)",
 		},
-		["d3475pnilu3475cdnilvd0.5vpnilvu0"] = {
+		["d3477pnilu3477cdnilvd0.5vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN8",
@@ -174,7 +182,7 @@ local diff = {
 				},
 			},
 		},
-		["dnilp3529u3528cdnilvdnilvpnilvunil"] = {
+		["dnilp3535u3534cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN24",
@@ -182,7 +190,7 @@ local diff = {
 			},
 			["name"] = "Airbrake Extend",
 		},
-		["dnilp3530u3528cdnilvdnilvpnilvunil"] = {
+		["dnilp3536u3534cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN22",
