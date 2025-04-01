@@ -30,6 +30,10 @@
                 - Adjustment: 100%
             - Zoom: 1.0x
             - Disable Mask: No
+- Common question: wasn't OpenXR Toolkit abandoned?
+    - First (I've seen this a lot): don't confuse OpenXR Toolkit (an app) with OpenXR (a protocol). OpenXR (protocol) is 100% alive and is the future. OpenXR Toolkit (app) is abandoned, yes.
+    - But the app still works and has many features that other similar apps don't have.
+    - An alternative newer app that replaces it, by the same devs but with less config options: https://github.com/mbucchia/Quad-Views-Foveated 
 - Configure DCS with the settings in the `dcs_settings_screenshots` [folder](https://github.com/fisadev/dcs_configs/tree/main/dcs_settings_screenshots).
 - Set some important settings in Nvidia control pannel (global settings):
     - Background Application Max Frame Rate: 90fps
