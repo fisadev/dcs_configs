@@ -21,12 +21,12 @@ while True:
         for p in psutil.process_iter():
             name = p.name()
 
-            if "DCS.exe" in name or "SR-Server" in name: 
+            if "DCS.exe" in name or "SR-Server" in name:
                 if "DCS.exe" in name:
                     found_dcs = True
                 if "SR-Server" in name:
                     found_srs = True
-                    
+
                 logging.info(
                     "%s %s mem: %sGB %s%% cpu: %s%% thr: %s pro: %s",
                     p.pid,
@@ -44,4 +44,3 @@ while True:
     if not found_srs:
         logging.warning("no SRS process found")
     sleep(10)
-        
