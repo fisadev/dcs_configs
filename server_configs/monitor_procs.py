@@ -14,7 +14,7 @@ logging.basicConfig(
 print("Logging DCS related resources usage to:")
 print(LOG_PATH)
 
-logging.info("Starting process monitor")
+logging.info("starting process monitor")
 
 while True:
     found_dcs = False
