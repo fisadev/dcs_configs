@@ -30,6 +30,10 @@
                 - Adjustment: 100%
             - Zoom: 1.0x
             - Disable Mask: No
+- Common question: wasn't OpenXR Toolkit abandoned?
+    - First (I've seen this a lot): don't confuse OpenXR Toolkit (an app) with OpenXR (a protocol). OpenXR (protocol) is 100% alive and is the future. OpenXR Toolkit (app) is abandoned, yes.
+    - But the app still works and has many features that other similar apps don't have.
+    - An alternative newer app that replaces it, by the same devs but with less config options: https://github.com/mbucchia/Quad-Views-Foveated 
 - Configure DCS with the settings in the `dcs_settings_screenshots` [folder](https://github.com/fisadev/dcs_configs/tree/main/dcs_settings_screenshots).
 - Set some important settings in Nvidia control pannel (global settings):
     - Background Application Max Frame Rate: 90fps
@@ -69,7 +73,7 @@
 ```
 And you should make sure that:
 - The powered ethernet adapter has a high speed USB-C port and connector, and a gigabit Ethernet port. A verified one: https://www.amazon.com/dp/B075FZ43MD/ref=twister_B0D1BZQBCF?th=1
-- The USB-C cable connecting the headset and the adapter is high speed USB 3.0 or better. Beware!! There are plenty of USB-C cables that are USB 2.0, too slow.
+- The USB-C cable connecting the headset and the adapter is high speed USB 3.0 or better. Beware!! There are plenty of USB-C cables that are USB 2.0, too slow. And it must also support high wattage (a Power Delivery rated one is ok).
 - The USB-C cable connecting the headset and the charger supports high wattage (a Power Delivery rated one is ok).
 - Both Ethernet cables (adapter to router and pc to router) are gigabit CAT-5E cables (high speed).
 - The router has gigabit ports (megabit ports are way too slow) and is of decent quality, to be able to handle the constant high speed traffic (some overheat and start throttling down their CPUs). Good examples are the AX55/AX3000 TPLink routers.
