@@ -50,7 +50,7 @@
         - Use virtual audio driver: uncheck
     - On the headset app (under Streaming): 
         - VR Graphics Quality: Ultra
-        - VR Frame Rate: 90 fps
+        - VR Frame Rate: 90 fps, or 72fps if you experience too much "black flashes"
         - VR Bitrate: 400 Mbps
         - Sharpening: 55%
         - Syncrhonous Spacewarp: Disabled
