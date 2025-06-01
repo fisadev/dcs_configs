@@ -9,3 +9,4 @@
     - The `LeapC.dll` mentioned above was replaced with another version.
     - OpenKneeboard is acting up, remove the key in `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\OpenXR\1\ApiLayers\Implicit` that references an OpenKneeboard json (like `C:\Program Files\OpenKneeboard\bin\OpenKneeboard-OpenXR.json` ). Restart, relaunch, read key, restart, relaunch.
     - Maybe there's another runtime in `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\OpenXR\1\AvailableRuntimes`?
+- If OpenKneeboard is running but won't show, maybe it's the order of the OpenXR layers. Moving it to the top might fix it. You can do that with this app: https://github.com/fredemmott/OpenXR-API-Layers-GUI
