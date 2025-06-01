@@ -62,21 +62,21 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d145pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN79",
-				},
-			},
-			["name"] = "Flaps Down",
-		},
-		["d146pnilunilcdnilvdnilvpnilvunil"] = {
+		["d1047pnilu1568cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN77",
 				},
 			},
-			["name"] = "Flaps Up",
+			["name"] = "HOTAS Flaps UP <> T/O Position",
+		},
+		["d1049pnilu1569cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN79",
+				},
+			},
+			["name"] = "HOTAS Flaps T/O <> DOWN Position",
 		},
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -93,6 +93,22 @@ local diff = {
 				},
 			},
 			["name"] = "Flashlight",
+		},
+		["d3461pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN31",
+				},
+			},
+			["name"] = "Throttle - IDLE",
+		},
+		["d3462pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+			["name"] = "Throttle - OFF",
 		},
 		["d3476pnilu3476cdnilvd0.5vpnilvu0"] = {
 			["added"] = {

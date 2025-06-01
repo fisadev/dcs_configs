@@ -135,6 +135,14 @@ local diff = {
 			},
 			["name"] = "Right Engine Ignition",
 		},
+		["d3005pnilu3005cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN89",
+				},
+			},
+			["name"] = "Intercom Mode - Radio Override (Hold)",
+		},
 		["d3005pnilunilcd25vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -158,6 +166,22 @@ local diff = {
 				},
 			},
 			["name"] = "Flaps/Slats Switch - Out&Down",
+		},
+		["d3005pnilunilcd2vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN91",
+				},
+			},
+			["name"] = "Intercom Mode - Cold Mic",
+		},
+		["d3005pnilunilcd2vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN90",
+				},
+			},
+			["name"] = "Intercom Mode - Hot Mic",
 		},
 		["d3006pnilunilcd60vd0vpnilvunil"] = {
 			["added"] = {
@@ -190,6 +214,22 @@ local diff = {
 				},
 			},
 			["name"] = "Left Engine Idle Detent - Off",
+		},
+		["d3010pnilunilcd9vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN88",
+				},
+			},
+			["name"] = "STAB AUG Yaw - Disengage",
+		},
+		["d3010pnilunilcd9vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN86",
+				},
+			},
+			["name"] = "STAB AUG Yaw - Engage",
 		},
 		["d3011pnilunilcd24vd0vpnilvunil"] = {
 			["added"] = {
@@ -238,6 +278,46 @@ local diff = {
 				},
 			},
 			["name"] = "Night Vision Goggles (NVG) - [Toggle]",
+		},
+		["d3026pnilunilcd3vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+			},
+			["name"] = "Frequency Mode - Preset",
+		},
+		["d3026pnilunilcd3vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN7",
+				},
+			},
+			["name"] = "Frequency Mode - Manual",
+		},
+		["d3049pnilu3049cd27vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN72",
+				},
+			},
+			["name"] = "Jettison Button",
+		},
+		["d3071pnilunilcd27vd-0.125vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN69",
+				},
+			},
+			["name"] = "Jettison Selector - [CCW]",
+		},
+		["d3071pnilunilcd27vd0.125vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN71",
+				},
+			},
+			["name"] = "Jettison Selector - [CW]",
 		},
 		["d3141pnilunilcd27vd-1vpnilvunil"] = {
 			["added"] = {

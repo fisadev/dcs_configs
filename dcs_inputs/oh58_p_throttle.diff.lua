@@ -86,6 +86,14 @@ local diff = {
 			},
 			["name"] = "Night Vision Goggles - On/Off",
 		},
+		["d3006pnilu3006cd15vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN72",
+				},
+			},
+			["name"] = "Open/Close Door - OPEN/CLOSE",
+		},
 		["d3007pnilu3007cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -160,6 +168,14 @@ local diff = {
 				},
 			},
 			["name"] = "Pilot Radio Select Switch - 5 [FM2]",
+		},
+		["d3101pnilu3101cd14vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN92",
+				},
+			},
+			["name"] = "Multifunction Keyboard, Acknowledge/Recall Switch: ACKNOWLEDGE <> CENTER",
 		},
 		["d3110pnilu3110cd42vd1vpnilvu0"] = {
 			["added"] = {
