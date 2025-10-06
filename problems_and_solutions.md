@@ -10,3 +10,6 @@
     - OpenKneeboard is acting up, remove the key in `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\OpenXR\1\ApiLayers\Implicit` that references an OpenKneeboard json (like `C:\Program Files\OpenKneeboard\bin\OpenKneeboard-OpenXR.json` ). Restart, relaunch, read key, restart, relaunch.
     - Maybe there's another runtime in `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\OpenXR\1\AvailableRuntimes`?
 - If OpenKneeboard is running but won't show, maybe it's the order of the OpenXR layers. Moving it to the top might fix it. You can do that with this app: https://github.com/fredemmott/OpenXR-API-Layers-GUI
+- Maybe solution to usb devices disconnecting:
+    - In the power plan options in the control panel, edit the power plan, then click on "change advanced power settings", and in the tree, find and disable: USB settings > USB selective suspend setting
+    - In the windows devices manager, find the "Univeral Serial Bus controllers", and for each one go to its properties, Power Management, and disable "Allow the computer to turn off this device to save power"
