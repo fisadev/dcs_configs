@@ -108,7 +108,7 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.2,
+							[1] = 0,
 						},
 						["deadzone"] = 0,
 						["hardwareDetent"] = false,
@@ -116,7 +116,7 @@ local diff = {
 						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
-						["saturationY"] = 1,
+						["saturationY"] = 0.6,
 						["slider"] = false,
 					},
 					["key"] = "JOY_Y",
@@ -129,7 +129,7 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.2,
+							[1] = 0,
 						},
 						["deadzone"] = 0,
 						["hardwareDetent"] = false,
@@ -137,7 +137,7 @@ local diff = {
 						["hardwareDetentMax"] = 0,
 						["invert"] = false,
 						["saturationX"] = 1,
-						["saturationY"] = 1,
+						["saturationY"] = 0.6,
 						["slider"] = false,
 					},
 					["key"] = "JOY_X",
@@ -344,6 +344,9 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN35",
 				},
+				[2] = {
+					["key"] = "JOY_BTN34",
+				},
 			},
 			["name"] = "Throttle Designator Controller - DEPRESS",
 		},
@@ -422,7 +425,7 @@ local diff = {
 		["d3034pnilu3034cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN34",
+					["key"] = "JOY_BTN55",
 				},
 			},
 			["name"] = "RAID/FLIR FOV Select Button",
