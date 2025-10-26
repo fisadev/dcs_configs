@@ -1,0 +1,12 @@
+They're defined in the windows registry under:
+HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\OpenXR\1\ApiLayers\Implicit
+
+All of them are keys of type DWORD 32, and value=0
+The keys:
+
+C:\Program Files\OpenKneeboard\bin\OpenKneeboard-OpenXR.json
+C:\Program Files\OpenXR-Toolkit\XR_APILAYER_MBUCCHIA_toolkit.json
+C:\Program Files\Ultraleap\OpenXR\UltraleapHandTracking.json
+C:\Program Files\Virtual Desktop Streamer\openxr-oculus-compatibility.json
+
+The Ultraleap one breaks some games! If your VR controllers can't interact with the game, that's probably the one breaking it. Just remove that key (can be recreated later on).
