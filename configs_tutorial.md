@@ -3,7 +3,7 @@
 - Disable GPU scheduling: Windows settings > Display > Graphics.
 - Disable Xbox game bar: Windows settings > Gaming.
 - Add folder exceptions in Windows Defender for both DCS install dir and Saved Games folder.
-- Make sure you're using OpenXR with DCS by adding launch option `--force_OpenXR` (either in the official launcher or Steam game properties).
+- Make sure you're using OpenXR with DCS and you are not going through SteamVR, that it's off when running and not the active OpenXR runtime. VirtualDesktop should be the active runtime.
 - Use OpenXR toolkit to improve lots of things:
     1. Install OpenXR Toolkit: https://mbucchia.github.io/OpenXR-Toolkit/ (launch and configure hotkey)
     2. Launch DCS and configure OpenXR Toolkit with these values (listing the important ones only):
@@ -19,7 +19,7 @@
                 - Mode: Quality
                 - Pattern: Balanced
             - Turbo mode: Off
-            - Frame rate throttling: 90
+            - Frame rate throttling: 72 or 90, depending on what you are using
         - Appearance tab:
             - Post Processing: Off
             - World pcale: 100%
@@ -45,14 +45,14 @@
     - On the PC app: 
         - Codec: H.264+ (with Adaptive quantization)
         - OpenXR Runtime: VDXR
-        - Automatically adjust bitrate: check
+        - Automatically adjust bitrate: uncheck!!! the automatic value is slower than what you can achieve
         - Audio Streaming: VR headset only
         - Use virtual audio driver: uncheck
     - On the headset app (under Streaming): 
         - VR Graphics Quality: Ultra
         - VR Frame Rate: 90 fps, or 72fps if you experience too much "black flashes"
-        - VR Bitrate: 400 Mbps
-        - Sharpening: 55%
+        - VR Bitrate: around 80 or 85 Mbps (try values until you get the max value that yields a smooth video)
+        - Sharpening: 75%
         - Syncrhonous Spacewarp: Disabled
         - Video buffering: check
 - If using Winwing devices, ensure the settings in Winwing's SimappPro are configured to not to add DCS scripts, and check `Saved Games/DCS/Scripts/export.lua` to make sure the lines they add aren't there (noticeable fps impact).
