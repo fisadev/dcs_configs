@@ -120,7 +120,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0.2,
 						},
-						["deadzone"] = 0,
+						["deadzone"] = 0.1,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
@@ -173,6 +173,54 @@ local diff = {
 			},
 			["name"] = "Master Caution Button",
 		},
+		["d3001pnilunilcd66vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN88",
+				},
+			},
+			["name"] = "ECM Power Switch - OFF",
+		},
+		["d3001pnilunilcd66vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN87",
+				},
+			},
+			["name"] = "ECM Power Switch - STBY",
+		},
+		["d3001pnilunilcd66vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN86",
+				},
+			},
+			["name"] = "ECM Power Switch - OPR",
+		},
+		["d3002pnilunilcd66vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN91",
+				},
+			},
+			["name"] = "ECM XMIT Switch - 3",
+		},
+		["d3002pnilunilcd66vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN90",
+				},
+			},
+			["name"] = "ECM XMIT Switch - 2",
+		},
+		["d3002pnilunilcd66vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN89",
+				},
+			},
+			["name"] = "ECM XMIT Switch - 1",
+		},
 		["d3003pnilunilcd29vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -205,6 +253,22 @@ local diff = {
 			},
 			["name"] = "MANUAL PITCH Override Switch - OVRD/NORM",
 		},
+		["d3011pnilunilcd2vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN68",
+				},
+			},
+			["name"] = "STORES CONFIG Switch - CAT III",
+		},
+		["d3011pnilunilcd2vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN67",
+				},
+			},
+			["name"] = "STORES CONFIG Switch - CAT I",
+		},
 		["d3014pnilu3014cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -236,6 +300,22 @@ local diff = {
 				},
 			},
 			["name"] = "Countermeasures Management Switch - Right",
+		},
+		["d3021pnilunilcd32vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN69",
+				},
+			},
+			["name"] = "MODE Knob - CCW",
+		},
+		["d3021pnilunilcd32vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN71",
+				},
+			},
+			["name"] = "MODE Knob - CW",
 		},
 		["d3024pnilu3024cd16vd1vpnilvu0"] = {
 			["added"] = {
@@ -309,6 +389,14 @@ local diff = {
 			},
 			["name"] = "ICP DED Increment/Decrement Switch - Decrement",
 		},
+		["d3031pnilu3031cd2vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN79",
+				},
+			},
+			["name"] = "Autopilot PITCH Switch - ATT HOLD",
+		},
 		["d3031pnilunilcd16vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -324,6 +412,22 @@ local diff = {
 				},
 			},
 			["name"] = "SPD BRK Switch - Fwd/RETRACT",
+		},
+		["d3032pnilu3032cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN77",
+				},
+			},
+			["name"] = "Autopilot PITCH Switch - ALT HOLD",
+		},
+		["d3032pnilunilcd2vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN78",
+				},
+			},
+			["name"] = "Autopilot PITCH Switch - A/P OFF",
 		},
 		["d3039pnilu3039cd16vd1vpnilvu0"] = {
 			["added"] = {
