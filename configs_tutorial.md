@@ -51,7 +51,7 @@
     - On the headset app (under Streaming): 
         - VR Graphics Quality: Ultra
         - VR Frame Rate: 90 fps, or 72fps if you experience too much "black flashes"
-        - VR Bitrate: around 80 or 85 Mbps (try values until you get the max value that yields a smooth video)
+        - VR Bitrate: around 300 Mbps (try values until you get the max value that yields a smooth video)
         - Sharpening: 75%
         - Syncrhonous Spacewarp: Disabled
         - Video buffering: check
