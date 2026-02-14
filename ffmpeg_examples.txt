@@ -52,7 +52,8 @@ ffmpeg -i background.mp4 -i superposed.mp4 -filter_complex "[1]scale=iw/3:ih/3 [
 add music and remove original audio:
 ffmpeg -i video.mp4 -i music.mp3 -c:v copy -map 0:v -map 1:a -y -shortest out.mp4
 
-
 add music and mix with original audio:
 ffmpeg -i video1.mp4 -i audio1.mp3 -c:v copy -filter_complex "[0:a][1:a] amix=inputs=2:duration=longest [audio_out]" -map 0:v -map "[audio_out]" -y output.mp4
 
+extract audio:
+ffmpeg -i input_video.mp4 -vn -acodec copy output_audio.m4a
