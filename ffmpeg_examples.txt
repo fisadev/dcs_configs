@@ -13,6 +13,9 @@ ffmpeg.exe -i tmp.mp4 -vf "scale=1920:1080:force_original_aspect_ratio=decrease,
 convert to 60fps:
 ffmpeg -i tmp.mp4 -vf fps=60 OUTPUT.mp4
 
+trim and reduce resolution:
+ffmpeg.exe -ss : -to : -i tmp.mp4 -c:a copy -vf "scale=1500:-1" OUTPUT.mp4
+
 trim and crop:
 ffmpeg.exe -ss : -to : -i tmp.mp4 -filter:v "crop=1106:1080:484:0" -c:a copy OUTPUT.mp4
 el crop es: ancho:alto:xstart:ystart (sí, un engendro), el 0,0 es top left
