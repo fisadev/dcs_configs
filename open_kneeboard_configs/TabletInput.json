@@ -1,0 +1,11 @@
+{
+  "Devices": {
+    "otdipc-vidpid:///256c/0064": {
+      "ID": "otdipc-vidpid:///256c/0064",
+      "Name": "Huion H420X",
+      "Orientation": "RotateCCW270"
+    }
+  },
+  "OTDIPC": true,
+  "WarnIfOTDIPCUnusuable": true
+}

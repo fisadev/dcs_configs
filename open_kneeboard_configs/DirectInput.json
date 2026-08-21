@@ -5,6 +5,11 @@
       "Kind": "GameController",
       "Name": "WINWING Orion Throttle Base II + F15EX HANDLE L + F15EX HANDLE R"
     },
+    "{38643420-cd55-11ef-8001-444553540000}": {
+      "ID": "{38643420-cd55-11ef-8001-444553540000}",
+      "Kind": "GameController",
+      "Name": "WINWING Orion Throttle Base II + F15EX HANDLE L + F15EX HANDLE R"
+    },
     "{565430c0-50dc-11ef-8001-444553540000}": {
       "ID": "{565430c0-50dc-11ef-8001-444553540000}",
       "Kind": "GameController",
@@ -20,8 +25,8 @@
         {
           "Action": "RECENTER_VR",
           "Buttons": [
-            208,
             56,
+            208,
             29,
             42
           ]
@@ -40,29 +45,17 @@
           "Buttons": [
             56,
             29,
-            42,
-            26
+            26,
+            42
           ]
         },
         {
           "Action": "TOGGLE_VISIBILITY",
           "Buttons": [
             56,
-            29,
             37,
+            29,
             42
-          ]
-        },
-        {
-          "Action": "PREVIOUS_PAGE",
-          "Buttons": [
-            26
-          ]
-        },
-        {
-          "Action": "NEXT_PAGE",
-          "Buttons": [
-            27
           ]
         }
       ],

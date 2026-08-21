@@ -1,5 +1,13 @@
 [
   {
+    "ID": "{edaacd7c-c356-411f-9622-69e783b1150e}",
+    "Settings": {
+      "Path": "D:\\flight\\empty.png"
+    },
+    "Title": "empty",
+    "Type": "EndlessNotebook"
+  },
+  {
     "ID": "{1db404b4-6a11-48ae-82f7-8b41f26d66a0}",
     "Title": "Aircraft",
     "Type": "DCSAircraft"
@@ -11,14 +19,6 @@
     },
     "Title": "Generales",
     "Type": "Folder"
-  },
-  {
-    "ID": "{edaacd7c-c356-411f-9622-69e783b1150e}",
-    "Settings": {
-      "Path": "D:\\flight\\empty.png"
-    },
-    "Title": "empty",
-    "Type": "EndlessNotebook"
   },
   {
     "ID": "{a9e1b078-4f86-4f03-ae00-c0db35db31a4}",

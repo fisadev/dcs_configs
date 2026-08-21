@@ -1,0 +1,26 @@
+{
+  "Views": [
+    {
+      "Guid": "{d3954209-98f8-4b96-ae5a-583a891eb12e}",
+      "Name": "Kneeboard 1",
+      "NonVR": {
+        "Constraints": {
+          "HeightPercent": 30,
+          "VerticalAlignment": "Top"
+        },
+        "Enabled": true,
+        "Opacity": 0.6000000238418579
+      },
+      "VR": {
+        "Config": {
+          "Pose": {
+            "EyeY": -0.6499999761581421,
+            "Z": -0.30000001192092896
+          }
+        },
+        "Enabled": true,
+        "Type": "Independent"
+      }
+    }
+  ]
+}

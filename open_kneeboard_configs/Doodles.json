@@ -1,0 +1,10 @@
+{
+  "Eraser": {
+    "MinimumRadius": 98,
+    "Sensitivity": 13
+  },
+  "Pen": {
+    "MinimumRadius": 2,
+    "Sensitivity": 0
+  }
+}

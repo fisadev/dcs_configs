@@ -44,7 +44,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0.2,
 						},
-						["deadzone"] = 0,
+						["deadzone"] = 0.2,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
@@ -65,7 +65,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0.2,
 						},
-						["deadzone"] = 0.03,
+						["deadzone"] = 0.2,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
@@ -443,14 +443,6 @@ local diff = {
 				},
 			},
 			["name"] = "Goggle Gain - Dec",
-		},
-		["dnilpnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN99",
-				},
-			},
-			["name"] = "Toggle Helmet Sun Visor",
 		},
 	},
 }
