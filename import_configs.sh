@@ -12,5 +12,5 @@ cp "/c/Users/fisad/AppData/Local/OpenKneeboard/Settings/Profiles/7d531726-a4fd-4
 cp "/c/Users/fisad/AppData/Local/OpenKneeboard/Settings/Profiles/7d531726-a4fd-4a57-a87c-e404a2375a75/TabletInput.json" /d/flight/dcs_configs/open_kneeboard_configs
 cp "/c/Users/fisad/AppData/Local/OpenKneeboard/Settings/Profiles/7d531726-a4fd-4a57-a87c-e404a2375a75/Doodles.json" /d/flight/dcs_configs/open_kneeboard_configs
 cp "/c/Users/fisad/Documents/JoyToKey/JoyToKey.ini" /d/flight/dcs_configs/joytokey_configs
-cp "/c/Users/fisad/Documents/JoyToKey/Dcs.cfg" /d/flight/dcs_configs/joytokey_configs
+cp "/c/Users/fisad/Documents/JoyToKey/StickMouses.cfg" /d/flight/dcs_configs/joytokey_configs
 cp "/d/recordings/ffmpeg_examples.txt" /d/flight/dcs_configs/ffmpeg_examples.txt
