@@ -1,29 +1,5 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2001cdnil"] = {
-			["name"] = "Flight Control Cyclic Pitch",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Y",
-				},
-			},
-		},
-		["a2002cdnil"] = {
-			["name"] = "Flight Control Cyclic Roll",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_X",
-				},
-			},
-		},
-		["a2003cdnil"] = {
-			["name"] = "Flight Control Yaw (pedals)",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-		},
 		["a2087cdnil"] = {
 			["added"] = {
 				[1] = {
@@ -56,33 +32,9 @@ local diff = {
 			["name"] = "Flight Control Collective",
 			["removed"] = {
 				[1] = {
-					["key"] = "JOY_Z",
+					["key"] = "JOY_RY",
 				},
 			},
-		},
-		["a3003cd21"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
-			["name"] = "Steering Control Knob - AXIS",
-		},
-		["a3118cd20"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_SLIDER1",
-				},
-			},
-			["name"] = "ENG 1 COND Lever - AXIS",
-		},
-		["a3121cd20"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_SLIDER2",
-				},
-			},
-			["name"] = "ENG 2 COND Lever - AXIS",
 		},
 	},
 	["keyDiffs"] = {
@@ -93,86 +45,6 @@ local diff = {
 				},
 			},
 			["name"] = "Communication menu",
-		},
-		["d3075pnilunilcd34vd0.15vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN71",
-				},
-			},
-			["name"] = "LPCAP, TX SELECTOR Switch - 3",
-		},
-		["d3075pnilunilcd34vd0.1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN70",
-				},
-			},
-			["name"] = "LPCAP, TX SELECTOR Switch - 2",
-		},
-		["d3075pnilunilcd34vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN69",
-				},
-			},
-			["name"] = "LPCAP, TX SELECTOR Switch - ICS",
-		},
-		["d3114pnilunilcd60vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN81",
-				},
-			},
-			["name"] = "Command Engineer to Raise Ramp to Next Stage",
-		},
-		["d3114pnilunilcd60vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN82",
-				},
-			},
-			["name"] = "Command Engineer to Lower Ramp to Next Stage",
-		},
-		["d3176pnilu3176cd30vd0.1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN8",
-				},
-			},
-			["name"] = "Cyclic Grip, XMIT/ICS Trigger - depress ICS (HALF)",
-		},
-		["d3176pnilu3176cd30vd1vpnilvu0.9"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-				},
-			},
-			["name"] = "Cyclic Grip, XMIT/ICS Trigger - depress XMIT (FULL)",
-		},
-		["d3183pnilu3183cd30vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN57",
-				},
-			},
-			["name"] = "Cyclic Grip, FLARE/CHAFF Dispensing - depress DOWN ↓ (CHAFF)",
-		},
-		["d3183pnilu3183cd30vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN59",
-				},
-			},
-			["name"] = "Cyclic Grip, FLARE/CHAFF Dispensing - depress UP ↑ (FLARE)",
-		},
-		["d3185pnilu3185cd30vd1vpnilvu0"] = {
-			["name"] = "Cyclic Grip, CD REL Button",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
 		},
 		["d3256pnilunilcd0vd1vpnilvunil"] = {
 			["added"] = {

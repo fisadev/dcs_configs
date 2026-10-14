@@ -1,31 +1,7 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2001cdnil"] = {
-			["name"] = "Pitch",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Y",
-				},
-			},
-		},
-		["a2002cdnil"] = {
-			["name"] = "Roll",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_X",
-				},
-			},
-		},
-		["a2003cdnil"] = {
-			["name"] = "Rudder",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-		},
 		["a2004cdnil"] = {
-			["added"] = {
+			["changed"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
@@ -44,11 +20,6 @@ local diff = {
 				},
 			},
 			["name"] = "Thrust",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
 		},
 		["a3003cd30"] = {
 			["added"] = {
@@ -120,7 +91,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0.2,
 						},
-						["deadzone"] = 0.1,
+						["deadzone"] = 0.2,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
@@ -141,7 +112,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0.2,
 						},
-						["deadzone"] = 0,
+						["deadzone"] = 0.2,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
@@ -336,7 +307,7 @@ local diff = {
 		["d3026pnilu3026cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN33",
+					["key"] = "JOY_BTN29",
 				},
 			},
 			["name"] = "Transmit Switch - IFF OUT",
@@ -344,7 +315,7 @@ local diff = {
 		["d3027pnilu3027cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN29",
+					["key"] = "JOY_BTN33",
 				},
 			},
 			["name"] = "Transmit Switch - IFF IN",
