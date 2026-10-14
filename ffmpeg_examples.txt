@@ -31,8 +31,12 @@ add flag:   -an
 But if you want to then use that video in the concatenator, that won't work (it needs "empty" audio). Add that with:
 ffmpeg -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -i muted_vid.mp4 -c:v copy -c:a aac -shortest OUTPUT.mp4
 
-slow down:
-add flag before -c:a:   -filter:v "setpts=4*PTS"
+speed up / slow down:
+add flag before -c:a:
+speed up 10x:
+-vf "setpts=PTS/10" -af "atempo=10" 
+slow down 10x:
+-vf "setpts=PTS*10" -af "atempo=0.1" 
 
 concat:
 (echo file 'p1.mp4' & echo file 'p2.mp4' )>list.txt
